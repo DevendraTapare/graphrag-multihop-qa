@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "step": "start",
+      "exit_code": 0,
+      "seconds": 66.90600000001723
+    },
+    {
+      "step": "verify-empty",
+      "exit_code": 0,
+      "seconds": 8.202999999979511
+    },
+    {
+      "step": "prepare",
+      "exit_code": 0,
+      "seconds": 115.89100000000326
+    },
+    {
+      "step": "responses",
+      "exit_code": 0,
+      "seconds": 65.79699999999139
+    },
+    {
+      "step": "verify-no-curated-facts",
+      "exit_code": 0,
+      "seconds": 3.9219999999913853
+    },
+    {
+      "step": "stop",
+      "exit_code": 0,
+      "seconds": 10.51600000000326
+    }
+  ],
+  "initial_node_count": 0,
+  "manual_facts": 0,
+  "automatic_facts": 30,
+  "source_documents": 12,
+  "actual_demo_requests": 24,
+  "fresh_named_volume": true,
+  "research_preservation": {
+    "original_files": 324,
+    "changed": []
+  }
+}

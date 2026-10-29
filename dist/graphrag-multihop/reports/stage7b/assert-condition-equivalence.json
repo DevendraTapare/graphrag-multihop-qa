@@ -1,0 +1,149 @@
+{
+  "verified": [
+    {
+      "path": "scripts/audit_stage6_labels.py",
+      "checks": 4,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/benchmark_vector.py",
+      "checks": 2,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/build_aligned.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/build_stage6.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/check_ci_results.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/compare_stage4.py",
+      "checks": 1,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/document_stage6.py",
+      "checks": 1,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/evaluate_stage5.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/evaluate_stage6.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/record_stage4.py",
+      "checks": 4,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/record_stage5.py",
+      "checks": 7,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/record_stage6.py",
+      "checks": 10,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/recovery_stage6.py",
+      "checks": 8,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/replay_stage6.py",
+      "checks": 1,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/stage3_manifest.py",
+      "checks": 1,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/stage4_support.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/stage5_support.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/stage6_benchmark.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/stage6_dataset.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/stage6_support.py",
+      "checks": 2,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_aligned.py",
+      "checks": 2,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_baseline_repeat.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_graph.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_graph_runtime.py",
+      "checks": 8,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_runtime.py",
+      "checks": 1,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_stage5_runtime.py",
+      "checks": 8,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_vector_index.py",
+      "checks": 3,
+      "same_conditions_and_messages": true
+    },
+    {
+      "path": "scripts/verify_vector_runtime.py",
+      "checks": 8,
+      "same_conditions_and_messages": true
+    }
+  ],
+  "total": 104,
+  "research": {
+    "original_files": 324,
+    "changed": []
+  }
+}

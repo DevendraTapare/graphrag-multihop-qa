@@ -1,0 +1,114 @@
+[
+  {
+    "path": "scripts/audit_stage6_labels.py",
+    "asserts_replaced": 4
+  },
+  {
+    "path": "scripts/benchmark_vector.py",
+    "asserts_replaced": 2
+  },
+  {
+    "path": "scripts/build_aligned.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/build_stage6.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/check_ci_results.py",
+    "asserts_replaced": 0
+  },
+  {
+    "path": "scripts/compare_stage4.py",
+    "asserts_replaced": 1
+  },
+  {
+    "path": "scripts/document_stage6.py",
+    "asserts_replaced": 1
+  },
+  {
+    "path": "scripts/evaluate_stage5.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/evaluate_stage6.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/record_stage4.py",
+    "asserts_replaced": 4
+  },
+  {
+    "path": "scripts/record_stage5.py",
+    "asserts_replaced": 7
+  },
+  {
+    "path": "scripts/record_stage6.py",
+    "asserts_replaced": 10
+  },
+  {
+    "path": "scripts/recovery_stage6.py",
+    "asserts_replaced": 8
+  },
+  {
+    "path": "scripts/replay_stage6.py",
+    "asserts_replaced": 1
+  },
+  {
+    "path": "scripts/stage3_manifest.py",
+    "asserts_replaced": 1
+  },
+  {
+    "path": "scripts/stage4_support.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/stage5_support.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/stage6_benchmark.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/stage6_dataset.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/stage6_support.py",
+    "asserts_replaced": 2
+  },
+  {
+    "path": "scripts/verify_aligned.py",
+    "asserts_replaced": 2
+  },
+  {
+    "path": "scripts/verify_baseline_repeat.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/verify_graph.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/verify_graph_runtime.py",
+    "asserts_replaced": 8
+  },
+  {
+    "path": "scripts/verify_runtime.py",
+    "asserts_replaced": 1
+  },
+  {
+    "path": "scripts/verify_stage5_runtime.py",
+    "asserts_replaced": 8
+  },
+  {
+    "path": "scripts/verify_vector_index.py",
+    "asserts_replaced": 3
+  },
+  {
+    "path": "scripts/verify_vector_runtime.py",
+    "asserts_replaced": 8
+  }
+]

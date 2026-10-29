@@ -1,0 +1,13 @@
+{
+  "ruff": "passed",
+  "format": "192 files already formatted",
+  "uv_lock": "77 locked packages verified",
+  "requested_artifacts": "all present",
+  "local_document_links": "passed",
+  "recovered_answers": "same supported answer and citations as pre-outage",
+  "all_three_graph_snapshots": "unchanged",
+  "frozen_runtime": "unchanged",
+  "real_filesystem_checks": 4,
+  "hosted_ci": "UNVERIFIED",
+  "stage7_started": false
+}

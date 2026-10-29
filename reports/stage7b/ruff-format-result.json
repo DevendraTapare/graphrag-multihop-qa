@@ -1,0 +1,5 @@
+{
+  "step": "ruff-format",
+  "exit_code": 0,
+  "seconds": 1.2969999999913853
+}

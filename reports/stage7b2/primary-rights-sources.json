@@ -1,0 +1,91 @@
+[
+  {
+    "name": "osi-mit",
+    "source": "https://opensource.org/license/mit",
+    "bytes": 192831,
+    "sha256": "c7dcbcbd61d80eda069c47114a2eca551a5e9d13126778e344cc520ae6fab68b"
+  },
+  {
+    "name": "neo4j-community",
+    "source": "https://raw.githubusercontent.com/neo4j/neo4j/5.26.32/LICENSE.txt",
+    "bytes": 35151,
+    "sha256": "8e1bb72dd89711d9612ea2749c906e4b17760245f4ffdfcc237219f4df48e440"
+  },
+  {
+    "name": "minilm-model-card",
+    "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/raw/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+    "bytes": 10502,
+    "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+  },
+  {
+    "name": "minilm-model-license",
+    "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/raw/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/LICENSE",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "neo4j-driver",
+    "source": "https://raw.githubusercontent.com/neo4j/neo4j-python-driver/6.4.1/LICENSE.APACHE2.txt",
+    "bytes": 11360,
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "name": "ci-checkout",
+    "source": "https://raw.githubusercontent.com/actions/checkout/3d3c42e5aac5ba805825da76410c181273ba90b1/LICENSE",
+    "bytes": 1097,
+    "sha256": "3e855ffa704114a51628ef8f0bf3aeb41728adf9d9070e263bf58aa5640b0eb5"
+  },
+  {
+    "name": "ci-setup-uv",
+    "source": "https://raw.githubusercontent.com/astral-sh/setup-uv/c771a70e6277c0a99b617c7a806ffedaca235ff9/LICENSE",
+    "bytes": 1083,
+    "sha256": "933c6b13611b145de8fc8016281b2733e4a38c66f431de5bf48ed89b42af164b"
+  },
+  {
+    "name": "uv-mit",
+    "source": "https://raw.githubusercontent.com/astral-sh/uv/0.11.23/LICENSE-MIT",
+    "bytes": 1077,
+    "sha256": "860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c"
+  },
+  {
+    "name": "uv-apache",
+    "source": "https://raw.githubusercontent.com/astral-sh/uv/0.11.23/LICENSE-APACHE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "name": "mermaid",
+    "source": "https://raw.githubusercontent.com/mermaid-js/mermaid/develop/LICENSE",
+    "bytes": 1089,
+    "sha256": "ec9fb67dcb25eccc416ed56e1aab819222c805a2a4bfe4cb19e7556bf2ffde80"
+  },
+  {
+    "name": "docker-desktop-terms",
+    "source": "https://docs.docker.com/subscription/desktop-license/",
+    "bytes": 525713,
+    "sha256": "cb7bdfb8c7f04cb13f23e1c168104b3969d50f6fe57e794bd5ada4fd18ddf3eb"
+  },
+  {
+    "name": "cuda-eula",
+    "source": "https://docs.nvidia.com/cuda/archive/13.0.0/eula/index.html",
+    "bytes": 104490,
+    "sha256": "f8babe932f92aa7a25dd560b22d13c0d30c48b280b918eccc62ddb836142cabe"
+  },
+  {
+    "name": "cudnn-license",
+    "source": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/eula.html",
+    "bytes": 44129,
+    "sha256": "324efdd23eb427b435cb49607487eb03f1984f4586a7cccf97d3f1c44286f064"
+  },
+  {
+    "name": "cuda-toolkit-metadata",
+    "source": "https://pypi.org/pypi/cuda-toolkit/13.0.3.0/json",
+    "bytes": 18861,
+    "sha256": "258e72eb79d3d61c922ab0e09a6c8fc7ef6a316aa92fde6625dafba5206efc1b"
+  },
+  {
+    "name": "nvtx-metadata",
+    "source": "https://pypi.org/pypi/nvidia-nvtx/13.0.85/json",
+    "bytes": 4879,
+    "sha256": "54ef06e51e81898567e66910ced4586a50cf3e963c3340658442a65b5935220a"
+  }
+]

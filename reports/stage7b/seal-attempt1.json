@@ -1,0 +1,5 @@
+{
+  "status": "failed before release refresh",
+  "reason": "Publication link check ran before creating its own referenced publication-checks.json",
+  "research_or_release_mutation": false
+}

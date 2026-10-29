@@ -1,0 +1,39 @@
+# Hosted execution is UNVERIFIED: this repository has no GitHub remote.
+name: GraphRAG checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.11.23"
+      - run: uv python install 3.12
+      - run: uv sync --locked
+      - run: uv run python -m scripts.setup_env
+      - name: Start fictional local database
+        run: docker compose up -d --wait --wait-timeout 180
+      - name: Prepare pinned free local model
+        run: uv run python -m scripts.vector prepare-model
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - name: Unit and real database regressions
+        run: uv run pytest --run-integration -q --junitxml=ci-results.xml
+      - name: Reject skipped or failed security-critical checks
+        run: uv run python -m scripts.check_ci_results ci-results.xml
+      - name: Source-only portfolio demo and evaluation smoke
+        run: |
+          uv run python -m scripts.portfolio prepare --dataset demo
+          uv run python -m scripts.portfolio demo --output .local/demo-results.json
+          uv run python -m scripts.portfolio prepare --dataset smoke
+          uv run python -m scripts.portfolio evaluate --dataset smoke --output .local/smoke-results.json
+      - name: Stop this job's local database
+        if: always()
+        run: docker compose down

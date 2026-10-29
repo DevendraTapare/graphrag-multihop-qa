@@ -1,0 +1,52 @@
+[
+  {
+    "step": "park-research",
+    "exit_code": 0,
+    "seconds": 5.125
+  },
+  {
+    "step": "start",
+    "exit_code": 0,
+    "seconds": 67.39000000001397
+  },
+  {
+    "step": "verify-empty",
+    "exit_code": 0,
+    "seconds": 6.7039999999979045
+  },
+  {
+    "step": "prepare",
+    "exit_code": 0,
+    "seconds": 98.67200000002049
+  },
+  {
+    "step": "responses",
+    "exit_code": 0,
+    "seconds": 58.625
+  },
+  {
+    "step": "verify-facts",
+    "exit_code": 0,
+    "seconds": 2.187000000005355
+  },
+  {
+    "step": "embedding-before",
+    "exit_code": 0,
+    "seconds": 79.03200000000652
+  },
+  {
+    "step": "embedding-after",
+    "exit_code": 0,
+    "seconds": 21.764999999984866
+  },
+  {
+    "step": "stop",
+    "exit_code": 0,
+    "seconds": 7.6710000000020955
+  },
+  {
+    "step": "restore-research",
+    "exit_code": 0,
+    "seconds": 3.7969999999913853
+  }
+]

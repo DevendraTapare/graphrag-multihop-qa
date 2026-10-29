@@ -1,0 +1,386 @@
+{
+  "version": "multihop-vector-v1",
+  "synthetic": true,
+  "documents": [
+    {
+      "id": "s01-source-1",
+      "split": "calibration",
+      "text": "Asha Rao manages Project Boreal."
+    },
+    {
+      "id": "s01-source-2",
+      "split": "calibration",
+      "text": "Project Boreal uses its CobaltDB instance."
+    },
+    {
+      "id": "s01-source-3",
+      "split": "calibration",
+      "text": "The CobaltDB instance for Project Boreal is hosted on AWS."
+    },
+    {
+      "id": "s01-source-4",
+      "split": "calibration",
+      "text": "Project Boreal belongs to Orion Orchard."
+    },
+    {
+      "id": "s01-source-5",
+      "split": "calibration",
+      "text": "Asha Rao works for Orion Orchard."
+    },
+    {
+      "id": "s01-source-6",
+      "split": "calibration",
+      "text": "Asha Rao manages Project Boreal Annex."
+    },
+    {
+      "id": "s01-source-7",
+      "split": "calibration",
+      "text": "Project Boreal Annex uses its Firebird instance."
+    },
+    {
+      "id": "s01-source-8",
+      "split": "calibration",
+      "text": "The Firebird instance for Project Boreal Annex is hosted on Azure."
+    },
+    {
+      "id": "s01-source-9",
+      "split": "calibration",
+      "text": "Project Boreal Annex belongs to Orion Orchard."
+    },
+    {
+      "id": "s01-missing",
+      "split": "calibration",
+      "text": "Missing Owner s01 manages Project Boreal Sandbox.\nThe GhostDB instance for Project Boreal Sandbox is hosted on AWS."
+    },
+    {
+      "id": "s01-distractor",
+      "split": "calibration",
+      "text": "Project Boreal Archive uses its TestStore instance. The TestStore instance for Project Boreal Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s02-source-1",
+      "split": "calibration",
+      "text": "Ben Sato manages Project Saffron."
+    },
+    {
+      "id": "s02-source-2",
+      "split": "calibration",
+      "text": "Project Saffron uses its MariaDB instance."
+    },
+    {
+      "id": "s02-source-3",
+      "split": "calibration",
+      "text": "The MariaDB instance for Project Saffron is hosted on Azure."
+    },
+    {
+      "id": "s02-source-4",
+      "split": "calibration",
+      "text": "Project Saffron belongs to Kestrel Grove."
+    },
+    {
+      "id": "s02-source-5",
+      "split": "calibration",
+      "text": "Ben Sato works for Kestrel Grove."
+    },
+    {
+      "id": "s02-missing",
+      "split": "calibration",
+      "text": "Missing Owner s02 manages Project Saffron Sandbox.\nThe GhostDB instance for Project Saffron Sandbox is hosted on Azure."
+    },
+    {
+      "id": "s02-distractor",
+      "split": "calibration",
+      "text": "Project Saffron Archive uses its TestStore instance. The TestStore instance for Project Saffron Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s03-source-1",
+      "split": "calibration",
+      "text": "Cora Vale manages Project Boreal East."
+    },
+    {
+      "id": "s03-source-2",
+      "split": "calibration",
+      "text": "Project Boreal East uses its Memcached instance."
+    },
+    {
+      "id": "s03-source-3",
+      "split": "calibration",
+      "text": "The Memcached instance for Project Boreal East is hosted on GCP."
+    },
+    {
+      "id": "s03-source-4",
+      "split": "calibration",
+      "text": "Project Boreal East belongs to Mica Harbor."
+    },
+    {
+      "id": "s03-source-5",
+      "split": "calibration",
+      "text": "Cora Vale works for Mica Harbor."
+    },
+    {
+      "id": "s03-missing",
+      "split": "calibration",
+      "text": "Missing Owner s03 manages Project Boreal East Sandbox.\nThe GhostDB instance for Project Boreal East Sandbox is hosted on GCP."
+    },
+    {
+      "id": "s03-distractor",
+      "split": "calibration",
+      "text": "Project Boreal East Archive uses its TestStore instance. The TestStore instance for Project Boreal East Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s04-source-1",
+      "split": "calibration",
+      "text": "Davi Moss manages Project Juniper."
+    },
+    {
+      "id": "s04-source-2",
+      "split": "calibration",
+      "text": "Project Juniper uses its ClickHouse instance."
+    },
+    {
+      "id": "s04-source-3",
+      "split": "calibration",
+      "text": "The ClickHouse instance for Project Juniper is hosted on AWS."
+    },
+    {
+      "id": "s04-source-4",
+      "split": "calibration",
+      "text": "Project Juniper belongs to Sable Meadow."
+    },
+    {
+      "id": "s04-source-5",
+      "split": "calibration",
+      "text": "Davi Moss works for Sable Meadow."
+    },
+    {
+      "id": "s04-missing",
+      "split": "calibration",
+      "text": "Missing Owner s04 manages Project Juniper Sandbox.\nThe GhostDB instance for Project Juniper Sandbox is hosted on AWS."
+    },
+    {
+      "id": "s04-distractor",
+      "split": "calibration",
+      "text": "Project Juniper Archive uses its TestStore instance. The TestStore instance for Project Juniper Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s05-source-1",
+      "split": "calibration",
+      "text": "Elin Park manages Project Topaz."
+    },
+    {
+      "id": "s05-source-2",
+      "split": "calibration",
+      "text": "Project Topaz uses its Cassandra instance."
+    },
+    {
+      "id": "s05-source-3",
+      "split": "calibration",
+      "text": "The Cassandra instance for Project Topaz is hosted on Azure."
+    },
+    {
+      "id": "s05-source-4",
+      "split": "calibration",
+      "text": "Project Topaz belongs to Copper Nest."
+    },
+    {
+      "id": "s05-source-5",
+      "split": "calibration",
+      "text": "Elin Park works for Copper Nest."
+    },
+    {
+      "id": "s05-missing",
+      "split": "calibration",
+      "text": "Missing Owner s05 manages Project Topaz Sandbox.\nThe GhostDB instance for Project Topaz Sandbox is hosted on Azure."
+    },
+    {
+      "id": "s05-distractor",
+      "split": "calibration",
+      "text": "Project Topaz Archive uses its TestStore instance. The TestStore instance for Project Topaz Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s06-source-1",
+      "split": "calibration",
+      "text": "Femi Lake manages Project Willow."
+    },
+    {
+      "id": "s06-source-2",
+      "split": "calibration",
+      "text": "Project Willow uses its SQLite instance."
+    },
+    {
+      "id": "s06-source-3",
+      "split": "calibration",
+      "text": "The SQLite instance for Project Willow is hosted on GCP."
+    },
+    {
+      "id": "s06-source-4",
+      "split": "calibration",
+      "text": "Project Willow belongs to Lantern Vale."
+    },
+    {
+      "id": "s06-source-5",
+      "split": "calibration",
+      "text": "Femi Lake works for Lantern Vale."
+    },
+    {
+      "id": "s06-missing",
+      "split": "calibration",
+      "text": "Missing Owner s06 manages Project Willow Sandbox.\nThe GhostDB instance for Project Willow Sandbox is hosted on GCP."
+    },
+    {
+      "id": "s06-distractor",
+      "split": "calibration",
+      "text": "Project Willow Archive uses its TestStore instance. The TestStore instance for Project Willow Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s07-source-1",
+      "split": "held_out",
+      "text": "Rhea Sen is employed by Pebble Arc.\nProject Cedar Bridge is managed by Rhea Sen."
+    },
+    {
+      "id": "s07-source-2",
+      "split": "held_out",
+      "text": "Project Cedar Bridge is owned by Pebble Arc.\nProject Cedar Bridge utilizes its OceanBase instance."
+    },
+    {
+      "id": "s07-source-3",
+      "split": "held_out",
+      "text": "The OceanBase instance for Project Cedar Bridge runs on GCP."
+    },
+    {
+      "id": "s07-missing",
+      "split": "held_out",
+      "text": "Missing Owner s07 manages Project Cedar Bridge Sandbox.\nThe GhostDB instance for Project Cedar Bridge Sandbox is hosted on GCP."
+    },
+    {
+      "id": "s07-distractor",
+      "split": "held_out",
+      "text": "Project Cedar Bridge Archive uses its TestStore instance. The TestStore instance for Project Cedar Bridge Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s08-source-1",
+      "split": "held_out",
+      "text": "Tomas Bell is employed by Silver Loom.\nProject Indigo is managed by Tomas Bell."
+    },
+    {
+      "id": "s08-source-2",
+      "split": "held_out",
+      "text": "Project Indigo is owned by Silver Loom.\nProject Indigo utilizes its ScyllaDB instance."
+    },
+    {
+      "id": "s08-source-3",
+      "split": "held_out",
+      "text": "The ScyllaDB instance for Project Indigo runs on AWS."
+    },
+    {
+      "id": "s08-missing",
+      "split": "held_out",
+      "text": "Missing Owner s08 manages Project Indigo Sandbox.\nThe GhostDB instance for Project Indigo Sandbox is hosted on AWS."
+    },
+    {
+      "id": "s08-distractor",
+      "split": "held_out",
+      "text": "Project Indigo Archive uses its TestStore instance. The TestStore instance for Project Indigo Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s09-source-1",
+      "split": "held_out",
+      "text": "Uma Frost is employed by Amber Quay.\nProject Cedar Bridge West is managed by Uma Frost."
+    },
+    {
+      "id": "s09-source-2",
+      "split": "held_out",
+      "text": "Project Cedar Bridge West is owned by Amber Quay.\nProject Cedar Bridge West utilizes its ArangoDB instance."
+    },
+    {
+      "id": "s09-source-3",
+      "split": "held_out",
+      "text": "The ArangoDB instance for Project Cedar Bridge West runs on Azure."
+    },
+    {
+      "id": "s09-missing",
+      "split": "held_out",
+      "text": "Missing Owner s09 manages Project Cedar Bridge West Sandbox.\nThe GhostDB instance for Project Cedar Bridge West Sandbox is hosted on Azure."
+    },
+    {
+      "id": "s09-distractor",
+      "split": "held_out",
+      "text": "Project Cedar Bridge West Archive uses its TestStore instance. The TestStore instance for Project Cedar Bridge West Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s10-source-1",
+      "split": "held_out",
+      "text": "Vik Arden is employed by Birch Canvas.\nProject Marigold is managed by Vik Arden."
+    },
+    {
+      "id": "s10-source-2",
+      "split": "held_out",
+      "text": "Project Marigold is owned by Birch Canvas.\nProject Marigold utilizes its RocksDB instance."
+    },
+    {
+      "id": "s10-source-3",
+      "split": "held_out",
+      "text": "The RocksDB instance for Project Marigold runs on GCP."
+    },
+    {
+      "id": "s10-missing",
+      "split": "held_out",
+      "text": "Missing Owner s10 manages Project Marigold Sandbox.\nThe GhostDB instance for Project Marigold Sandbox is hosted on GCP."
+    },
+    {
+      "id": "s10-distractor",
+      "split": "held_out",
+      "text": "Project Marigold Archive uses its TestStore instance. The TestStore instance for Project Marigold Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s11-source-1",
+      "split": "held_out",
+      "text": "Jordan Vale (North employee 021) is employed by Aster Bay.\nProject Quartz is managed by Jordan Vale (North employee 021)."
+    },
+    {
+      "id": "s11-source-2",
+      "split": "held_out",
+      "text": "Project Quartz is owned by Aster Bay.\nProject Quartz utilizes its HBase instance."
+    },
+    {
+      "id": "s11-source-3",
+      "split": "held_out",
+      "text": "The HBase instance for Project Quartz runs on AWS."
+    },
+    {
+      "id": "s11-missing",
+      "split": "held_out",
+      "text": "Missing Owner s11 manages Project Quartz Sandbox.\nThe GhostDB instance for Project Quartz Sandbox is hosted on AWS."
+    },
+    {
+      "id": "s11-distractor",
+      "split": "held_out",
+      "text": "Project Quartz Archive uses its TestStore instance. The TestStore instance for Project Quartz Archive is hosted on LocalRack. This archive is a different project."
+    },
+    {
+      "id": "s12-source-1",
+      "split": "held_out",
+      "text": "Jordan Vale (South employee 022) is employed by Elm Crest.\nProject Quartz South is managed by Jordan Vale (South employee 022)."
+    },
+    {
+      "id": "s12-source-2",
+      "split": "held_out",
+      "text": "Project Quartz South is owned by Elm Crest.\nProject Quartz South utilizes its TiDB instance."
+    },
+    {
+      "id": "s12-source-3",
+      "split": "held_out",
+      "text": "The TiDB instance for Project Quartz South runs on Azure."
+    },
+    {
+      "id": "s12-missing",
+      "split": "held_out",
+      "text": "Missing Owner s12 manages Project Quartz South Sandbox.\nThe GhostDB instance for Project Quartz South Sandbox is hosted on Azure."
+    },
+    {
+      "id": "s12-distractor",
+      "split": "held_out",
+      "text": "Project Quartz South Archive uses its TestStore instance. The TestStore instance for Project Quartz South Archive is hosted on LocalRack. This archive is a different project."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "original_files": 324,
+    "changed": []
+  },
+  "databases": {
+    "main": {
+      "expected_sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+      "actual_sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+      "unchanged": true
+    },
+    "stage5": {
+      "expected_sha256": "1ae350c885144b61ecedeea545113624f3b9397e16e374dcc6fdd1e8da27e573",
+      "actual_sha256": "1ae350c885144b61ecedeea545113624f3b9397e16e374dcc6fdd1e8da27e573",
+      "unchanged": true
+    },
+    "stage6": {
+      "expected_sha256": "d3394bc2b57e7745cbd79995b5fd50a8f3907b4ad7e628141a81778086163f90",
+      "actual_sha256": "d3394bc2b57e7745cbd79995b5fd50a8f3907b4ad7e628141a81778086163f90",
+      "unchanged": true
+    }
+  },
+  "containers_restored": true,
+  "original_evidence_files": 324,
+  "snapshot_scope": "Historical GraphNode/edge/source/run/vector contents; excludes volatile claim/lock markers and vector publication-control nodes as in original contracts"
+}

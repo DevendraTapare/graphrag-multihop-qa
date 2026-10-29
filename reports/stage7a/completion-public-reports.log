@@ -1,0 +1,2 @@
+warning: `VIRTUAL_ENV=.venv` does not match the project environment path `C:\Users\Devendra\.cache\graphrag-stage7a-release-20261029` and will be ignored; use `--active` to target the active environment instead
+429 tests passed: 300 unit and 129 real Neo4j integration; zero final failures, errors or skips. Full-suite wall time: 1389.92 seconds.

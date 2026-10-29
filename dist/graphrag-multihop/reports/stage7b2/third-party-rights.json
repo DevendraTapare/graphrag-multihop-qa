@@ -1,0 +1,2494 @@
+{
+  "as_of": "2026-10-29",
+  "scope": "Current source-only clean release",
+  "input_files": 348,
+  "file_types_at_review": {
+    ".example": 1,
+    "<none>": 5,
+    ".toml": 2,
+    ".yaml": 1,
+    ".json": 117,
+    ".md": 68,
+    ".lock": 1,
+    ".py": 144,
+    ".cypher": 4,
+    ".yml": 1,
+    ".txt": 2,
+    ".csv": 4
+  },
+  "registry_packages": 79,
+  "installed_packages": 60,
+  "packages": [
+    {
+      "asset": "annotated-doc",
+      "version": "0.0.5",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/annotated-doc/0.0.5/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/annotated-doc/0.0.5/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "annotated_doc-0.0.5.dist-info/licenses/LICENSE",
+          "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "asset": "annotated-types",
+      "version": "0.8.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/annotated-types/0.8.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/annotated-types/0.8.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "annotated_types-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+          "bytes": 1083
+        }
+      ]
+    },
+    {
+      "asset": "anyio",
+      "version": "4.15.1",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/anyio/4.15.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/anyio/4.15.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "anyio-4.15.1.dist-info/licenses/LICENSE",
+          "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+          "bytes": 1081
+        }
+      ]
+    },
+    {
+      "asset": "certifi",
+      "version": "2026.10.23",
+      "license": "MPL-2.0",
+      "source": "https://pypi.org/pypi/certifi/2026.10.23/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/certifi/2026.10.23/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "certifi-2026.10.23.dist-info/licenses/LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "bytes": 989
+        }
+      ]
+    },
+    {
+      "asset": "click",
+      "version": "8.5.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/click/8.5.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/click/8.5.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "click-8.5.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+          "bytes": 1475
+        }
+      ]
+    },
+    {
+      "asset": "cloudpickle",
+      "version": "3.1.2",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/cloudpickle/3.1.2/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/cloudpickle/3.1.2/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "cloudpickle-3.1.2.dist-info/licenses/LICENSE",
+          "sha256": "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5",
+          "bytes": 1754
+        }
+      ]
+    },
+    {
+      "asset": "colorama",
+      "version": "0.4.6",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/colorama/0.4.6/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/colorama/0.4.6/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+          "bytes": 1491
+        }
+      ]
+    },
+    {
+      "asset": "cuda-bindings",
+      "version": "13.4.4",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/cuda-bindings/13.4.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/cuda-bindings/13.4.4/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "cuda-pathfinder",
+      "version": "1.8.4",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/cuda-pathfinder/1.8.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/cuda-pathfinder/1.8.4/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "cuda-toolkit",
+      "version": "13.0.3.0",
+      "license": "Not declared in reviewed package metadata; exact wheel terms unverified",
+      "source": "https://pypi.org/pypi/cuda-toolkit/13.0.3.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "Exact binary redistribution terms require further verification before bundling. The dependency is external and separable from this MIT source package.",
+      "future_binary_terms_unresolved": true,
+      "exact_wheel_evidence": {
+        "name": "cuda-toolkit",
+        "version": "13.0.3.0",
+        "source": "https://files.pythonhosted.org/packages/d1/c7/a79086a62c98befcdb8349656c6f114e2db3b8b2422f6e25c97a7f2a9a3c/cuda_toolkit-13.0.3.0-py2.py3-none-any.whl",
+        "published_wheel_sha256": "d693caaa261214ddd7dbb60d68e71cbed884e68c2be7509778f3051da0b91c3f",
+        "wheel_size": 2512,
+        "license_only_bytes_transferred": 295,
+        "full_wheel_downloaded_or_executed": false,
+        "notices": [],
+        "wheel_metadata_matches_lock": true
+      },
+      "license_source": "https://pypi.org/pypi/cuda-toolkit/13.0.3.0/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "defusedxml",
+      "version": "0.7.1",
+      "license": "PSF license version 2 (metadata uses PSFL)",
+      "source": "https://pypi.org/pypi/defusedxml/0.7.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/defusedxml/0.7.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "defusedxml-0.7.1.dist-info/LICENSE",
+          "sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+          "bytes": 2409
+        }
+      ]
+    },
+    {
+      "asset": "fastapi",
+      "version": "0.162.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/fastapi/0.162.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/fastapi/0.162.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "fastapi-0.162.0.dist-info/licenses/LICENSE",
+          "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "asset": "filelock",
+      "version": "4.2.4",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/filelock/4.2.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/filelock/4.2.4/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "filelock-4.2.4.dist-info/licenses/LICENSE",
+          "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "asset": "fsspec",
+      "version": "2026.9.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/fsspec/2026.9.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/fsspec/2026.9.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "fsspec-2026.9.0.dist-info/licenses/LICENSE",
+          "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+          "bytes": 1513
+        }
+      ]
+    },
+    {
+      "asset": "h11",
+      "version": "0.16.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/h11/0.16.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/h11/0.16.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "h11-0.16.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+          "bytes": 1124
+        }
+      ]
+    },
+    {
+      "asset": "hf-xet",
+      "version": "1.7.1",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/hf-xet/1.7.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/hf-xet/1.7.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "hf_xet-1.7.1.dist-info/licenses/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+          "bytes": 11558
+        }
+      ]
+    },
+    {
+      "asset": "httpcore",
+      "version": "1.0.9",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/httpcore/1.0.9/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/httpcore/1.0.9/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+          "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+          "bytes": 1518
+        }
+      ]
+    },
+    {
+      "asset": "httpx",
+      "version": "0.28.1",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/httpx/0.28.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/httpx/0.28.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "httpx-0.28.1.dist-info/licenses/LICENSE.md",
+          "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+          "bytes": 1508
+        }
+      ]
+    },
+    {
+      "asset": "huggingface-hub",
+      "version": "1.33.0",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/huggingface-hub/1.33.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/huggingface-hub/1.33.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "huggingface_hub-1.33.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ]
+    },
+    {
+      "asset": "idna",
+      "version": "3.20",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/idna/3.20/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/idna/3.20/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "idna-3.20.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+          "bytes": 1541
+        }
+      ]
+    },
+    {
+      "asset": "iniconfig",
+      "version": "2.3.1",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/iniconfig/2.3.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/iniconfig/2.3.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "iniconfig-2.3.1.dist-info/licenses/LICENSE",
+          "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+          "bytes": 1098
+        }
+      ]
+    },
+    {
+      "asset": "jinja2",
+      "version": "3.1.6",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/jinja2/3.1.6/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/jinja2/3.1.6/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+          "bytes": 1475
+        }
+      ]
+    },
+    {
+      "asset": "joblib",
+      "version": "1.6.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/joblib/1.6.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/joblib/1.6.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "joblib-1.6.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a",
+          "bytes": 1527
+        }
+      ]
+    },
+    {
+      "asset": "markdown-it-py",
+      "version": "4.2.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/markdown-it-py/4.2.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/markdown-it-py/4.2.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "markdown_it_py-4.2.0.dist-info/licenses/LICENSE",
+          "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+          "bytes": 1078
+        },
+        {
+          "path": "markdown_it_py-4.2.0.dist-info/licenses/LICENSE.markdown-it",
+          "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+          "bytes": 1073
+        }
+      ]
+    },
+    {
+      "asset": "markupsafe",
+      "version": "3.0.4",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/markupsafe/3.0.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/markupsafe/3.0.4/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+          "bytes": 1503
+        }
+      ]
+    },
+    {
+      "asset": "mdurl",
+      "version": "0.1.2",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/mdurl/0.1.2/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/mdurl/0.1.2/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "mdurl-0.1.2.dist-info/LICENSE",
+          "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+          "bytes": 2338
+        }
+      ]
+    },
+    {
+      "asset": "mpmath",
+      "version": "1.3.0",
+      "license": "BSD",
+      "source": "https://pypi.org/pypi/mpmath/1.3.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/mpmath/1.3.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "mpmath-1.3.0.dist-info/LICENSE",
+          "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+          "bytes": 1537
+        }
+      ]
+    },
+    {
+      "asset": "narwhals",
+      "version": "2.28.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/narwhals/2.28.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/narwhals/2.28.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "narwhals-2.28.0.dist-info/licenses/LICENSE.md",
+          "sha256": "811445f30147b8f0c9d444c9025fd528f9532c54b7b83f6e2368473dc91cfdf0",
+          "bytes": 1082
+        }
+      ]
+    },
+    {
+      "asset": "neo4j",
+      "version": "6.4.1",
+      "license": "Apache-2.0 AND Python-2.0",
+      "source": "https://pypi.org/pypi/neo4j/6.4.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/neo4j/6.4.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "neo4j-6.4.1.dist-info/licenses/LICENSE.APACHE2.txt",
+          "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+          "bytes": 11360
+        },
+        {
+          "path": "neo4j-6.4.1.dist-info/licenses/LICENSE.PYTHON.txt",
+          "sha256": "446c521e1564fd762c7c519ef2e771b3d67c78a32d3c7adf4ddf4501eed11610",
+          "bytes": 2762
+        },
+        {
+          "path": "neo4j-6.4.1.dist-info/licenses/LICENSE.txt",
+          "sha256": "b5af49080affa3f5cbf3ff6ba560f59f3fbc3a00544cc270ab216a5e0e114f5b",
+          "bytes": 423
+        },
+        {
+          "path": "neo4j-6.4.1.dist-info/licenses/NOTICE.txt",
+          "sha256": "8330e453a9d045a51366d2b8822f96e8e4f3ed5305276b004c3062ffbccdcf00",
+          "bytes": 160
+        }
+      ]
+    },
+    {
+      "asset": "networkx",
+      "version": "3.7",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/networkx/3.7/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/networkx/3.7/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "networkx-3.7.dist-info/licenses/LICENSE.txt",
+          "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e",
+          "bytes": 1763
+        }
+      ]
+    },
+    {
+      "asset": "numpy",
+      "version": "2.5.4",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "source": "https://pypi.org/pypi/numpy/2.5.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/numpy/2.5.4/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
+          "bytes": 45831
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+          "bytes": 1039
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+          "bytes": 704
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+          "bytes": 21155
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
+          "bytes": 1441
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+          "bytes": 1542
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+          "bytes": 1573
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+          "bytes": 1523
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+          "bytes": 2314
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+          "bytes": 1616
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+          "bytes": 3582
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+          "bytes": 2805
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+          "bytes": 2986
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+          "bytes": 1176
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+          "bytes": 1540
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+          "bytes": 1253
+        },
+        {
+          "path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
+          "bytes": 340
+        }
+      ]
+    },
+    {
+      "asset": "nvidia-cublas",
+      "version": "13.1.1.3",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cublas/13.1.1.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cublas/13.1.1.3/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cuda-cupti",
+      "version": "13.0.85",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cuda-cupti/13.0.85/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cuda-cupti/13.0.85/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cuda-nvrtc",
+      "version": "13.0.88",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cuda-nvrtc/13.0.88/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cuda-nvrtc/13.0.88/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cuda-runtime",
+      "version": "13.0.96",
+      "license": "NVIDIA CUDA Software License Agreement and supplement (inspected wheel)",
+      "source": "https://pypi.org/pypi/nvidia-cuda-runtime/13.0.96/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; exact PyPI wheel license members inspected with bounded HTTP ranges, CRC checked",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": {
+        "name": "nvidia-cuda-runtime",
+        "version": "13.0.96",
+        "source": "https://files.pythonhosted.org/packages/2e/24/d1558f3b68b1d26e706813b1d10aa1d785e4698c425af8db8edc3dced472/nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "published_wheel_sha256": "7f82250d7782aa23b6cfe765ecc7db554bd3c2870c43f3d1821f1d18aebf0548",
+        "wheel_size": 2243632,
+        "license_only_bytes_transferred": 22874,
+        "full_wheel_downloaded_or_executed": false,
+        "notices": [
+          {
+            "member": "nvidia_cuda_runtime-13.0.96.dist-info/licenses/License.txt",
+            "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd",
+            "bytes": 59262,
+            "crc_verified_by_zipfile": true
+          }
+        ],
+        "wheel_metadata_matches_lock": true
+      },
+      "license_source": "https://pypi.org/pypi/nvidia-cuda-runtime/13.0.96/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cudnn-cu13",
+      "version": "9.24.0.43",
+      "license": "NVIDIA SDK License Agreement and cuDNN supplement (inspected wheel)",
+      "source": "https://pypi.org/pypi/nvidia-cudnn-cu13/9.24.0.43/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; exact PyPI wheel license members inspected with bounded HTTP ranges, CRC checked",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. The inspected cuDNN supplement limits application development to systems with NVIDIA GPUs. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": {
+        "name": "nvidia-cudnn-cu13",
+        "version": "9.24.0.43",
+        "source": "https://files.pythonhosted.org/packages/5c/ba/791cffd048fe5b044e620df55267e3e95c0e6e07d50b41e377c03dfc910f/nvidia_cudnn_cu13-9.24.0.43-py3-none-manylinux_2_27_x86_64.whl",
+        "published_wheel_sha256": "71f181cd810e90f9b6023b01186fe82d13d65f0ec098581ee201d39fad769e4b",
+        "wheel_size": 553099438,
+        "license_only_bytes_transferred": 9642,
+        "full_wheel_downloaded_or_executed": false,
+        "notices": [
+          {
+            "member": "nvidia_cudnn_cu13-9.24.0.43.dist-info/licenses/License.txt",
+            "sha256": "49cf79bdb35734b52fe6203013b3bd759f81e998cd32aa2c65c51db9a88c61d2",
+            "bytes": 18174,
+            "crc_verified_by_zipfile": true
+          }
+        ],
+        "wheel_metadata_matches_lock": true
+      },
+      "license_source": "https://pypi.org/pypi/nvidia-cudnn-cu13/9.24.0.43/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cufft",
+      "version": "12.0.0.61",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cufft/12.0.0.61/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cufft/12.0.0.61/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cufile",
+      "version": "1.15.1.6",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cufile/1.15.1.6/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cufile/1.15.1.6/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-curand",
+      "version": "10.4.0.35",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-curand/10.4.0.35/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-curand/10.4.0.35/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cusolver",
+      "version": "12.0.4.66",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cusolver/12.0.4.66/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cusolver/12.0.4.66/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cusparse",
+      "version": "12.6.3.3",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-cusparse/12.6.3.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cusparse/12.6.3.3/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-cusparselt-cu13",
+      "version": "0.8.1",
+      "license": "NVIDIA Proprietary Software",
+      "source": "https://pypi.org/pypi/nvidia-cusparselt-cu13/0.8.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-cusparselt-cu13/0.8.1/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-nccl-cu13",
+      "version": "2.30.7",
+      "license": "BSD-3-Clause main notice; additional NVTX component reference",
+      "source": "https://pypi.org/pypi/nvidia-nccl-cu13/2.30.7/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; exact PyPI wheel license members inspected with bounded HTTP ranges, CRC checked",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": {
+        "name": "nvidia-nccl-cu13",
+        "version": "2.30.7",
+        "source": "https://files.pythonhosted.org/packages/3f/34/c500f90c7ae641b8e0f98965b36b8a7ac79cc8b296e8d251fe3eb592ee54/nvidia_nccl_cu13-2.30.7-py3-none-manylinux_2_18_x86_64.whl",
+        "published_wheel_sha256": "cefa7fdb9710efd0f39c5f1be1d61ff6fc9a996c451265bd7fbdcf9455ed4b50",
+        "wheel_size": 215965170,
+        "license_only_bytes_transferred": 7314,
+        "full_wheel_downloaded_or_executed": false,
+        "notices": [
+          {
+            "member": "nvidia_nccl_cu13-2.30.7.dist-info/licenses/License.txt",
+            "sha256": "0f0174a6b4e0b33ac26375bf729533075b32f4c51a5b6802a3d742d7dcdc9a76",
+            "bytes": 1895,
+            "crc_verified_by_zipfile": true
+          }
+        ],
+        "wheel_metadata_matches_lock": true
+      },
+      "license_source": "https://pypi.org/pypi/nvidia-nccl-cu13/2.30.7/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-nvjitlink",
+      "version": "13.4.92",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "source": "https://pypi.org/pypi/nvidia-nvjitlink/13.4.92/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/nvidia-nvjitlink/13.4.92/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-nvshmem-cu13",
+      "version": "3.4.5",
+      "license": "NVIDIA CUDA Software License Agreement and supplement (inspected wheel)",
+      "source": "https://pypi.org/pypi/nvidia-nvshmem-cu13/3.4.5/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; exact PyPI wheel license members inspected with bounded HTTP ranges, CRC checked",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": {
+        "name": "nvidia-nvshmem-cu13",
+        "version": "3.4.5",
+        "source": "https://files.pythonhosted.org/packages/3c/35/a9bf80a609e74e3b000fef598933235c908fcefcef9026042b8e6dfde2a9/nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "published_wheel_sha256": "290f0a2ee94c9f3687a02502f3b9299a9f9fe826e6d0287ee18482e78d495b80",
+        "wheel_size": 60412546,
+        "license_only_bytes_transferred": 20588,
+        "full_wheel_downloaded_or_executed": false,
+        "notices": [
+          {
+            "member": "nvidia_nvshmem_cu13-3.4.5.dist-info/licenses/License.txt",
+            "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd",
+            "bytes": 59262,
+            "crc_verified_by_zipfile": true
+          }
+        ],
+        "wheel_metadata_matches_lock": true
+      },
+      "license_source": "https://pypi.org/pypi/nvidia-nvshmem-cu13/3.4.5/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "nvidia-nvtx",
+      "version": "13.0.85",
+      "license": "Apache-2.0 WITH LLVM-exception (inspected wheel; metadata classifier conflicts)",
+      "source": "https://pypi.org/pypi/nvidia-nvtx/13.0.85/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; exact PyPI wheel license members inspected with bounded HTTP ranges, CRC checked",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package. Review the exact vendor conditions before installation/use on other platforms or any bundled redistribution.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": {
+        "name": "nvidia-nvtx",
+        "version": "13.0.85",
+        "source": "https://files.pythonhosted.org/packages/c2/f3/d86c845465a2723ad7e1e5c36dcd75ddb82898b3f53be47ebd429fb2fa5d/nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl",
+        "published_wheel_sha256": "4936d1d6780fbe68db454f5e72a42ff64d1fd6397df9f363ae786930fd5c1cd4",
+        "wheel_size": 148047,
+        "license_only_bytes_transferred": 8300,
+        "full_wheel_downloaded_or_executed": false,
+        "notices": [
+          {
+            "member": "nvidia_nvtx-13.0.85.dist-info/licenses/License.txt",
+            "sha256": "9e45e856bedccee9f67254082ca11851d954de2fed7448c4bed19ad9aab99a91",
+            "bytes": 12262,
+            "crc_verified_by_zipfile": true
+          }
+        ],
+        "wheel_metadata_matches_lock": true
+      },
+      "license_source": "https://pypi.org/pypi/nvidia-nvtx/13.0.85/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "opentelemetry-api",
+      "version": "1.45.1",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/opentelemetry-api/1.45.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/opentelemetry-api/1.45.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "opentelemetry_api-1.45.1.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ]
+    },
+    {
+      "asset": "packaging",
+      "version": "26.3",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "source": "https://pypi.org/pypi/packaging/26.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/packaging/26.3/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "bytes": 197
+        },
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174
+        },
+        {
+          "path": "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "bytes": 1344
+        }
+      ]
+    },
+    {
+      "asset": "pluggy",
+      "version": "1.7.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pluggy/1.7.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pluggy/1.7.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pluggy-1.7.0.dist-info/licenses/LICENSE",
+          "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+          "bytes": 1110
+        }
+      ]
+    },
+    {
+      "asset": "psutil",
+      "version": "7.2.2",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/psutil/7.2.2/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/psutil/7.2.2/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "psutil-7.2.2.dist-info/LICENSE",
+          "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+          "bytes": 1577
+        }
+      ]
+    },
+    {
+      "asset": "pydantic",
+      "version": "2.14.1",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pydantic/2.14.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pydantic/2.14.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pydantic-2.14.1.dist-info/licenses/LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+          "bytes": 1129
+        }
+      ]
+    },
+    {
+      "asset": "pydantic-core",
+      "version": "2.50.1",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pydantic-core/2.50.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pydantic-core/2.50.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pydantic_core-2.50.1.dist-info/licenses/LICENSE",
+          "sha256": "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4",
+          "bytes": 1101
+        }
+      ]
+    },
+    {
+      "asset": "pydantic-settings",
+      "version": "2.16.1",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pydantic-settings/2.16.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pydantic-settings/2.16.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pydantic_settings-2.16.1.dist-info/licenses/LICENSE",
+          "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+          "bytes": 1103
+        }
+      ]
+    },
+    {
+      "asset": "pygments",
+      "version": "2.21.0",
+      "license": "BSD-2-Clause",
+      "source": "https://pypi.org/pypi/pygments/2.21.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pygments/2.21.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pygments-2.21.0.dist-info/licenses/AUTHORS",
+          "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+          "bytes": 11048
+        },
+        {
+          "path": "pygments-2.21.0.dist-info/licenses/LICENSE",
+          "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+          "bytes": 1331
+        }
+      ]
+    },
+    {
+      "asset": "pytest",
+      "version": "9.2.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pytest/9.2.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pytest/9.2.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pytest-9.2.0.dist-info/licenses/LICENSE",
+          "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+          "bytes": 1091
+        }
+      ]
+    },
+    {
+      "asset": "python-dotenv",
+      "version": "1.2.4",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/python-dotenv/1.2.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/python-dotenv/1.2.4/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+          "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+          "bytes": 1556
+        }
+      ]
+    },
+    {
+      "asset": "pytz",
+      "version": "2026.5",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pytz/2026.5/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pytz/2026.5/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pytz-2026.5.dist-info/LICENSE.txt",
+          "sha256": "be8b1a37ebe26c592a90f6c0eb33103a7f383ce2f4d7498c0af9a526990a07b8",
+          "bytes": 1088
+        }
+      ]
+    },
+    {
+      "asset": "pyyaml",
+      "version": "6.0.3",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/pyyaml/6.0.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/pyyaml/6.0.3/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "pyyaml-6.0.3.dist-info/licenses/LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+          "bytes": 1101
+        }
+      ]
+    },
+    {
+      "asset": "regex",
+      "version": "2026.9.29",
+      "license": "Apache-2.0 AND CNRI-Python",
+      "source": "https://pypi.org/pypi/regex/2026.9.29/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/regex/2026.9.29/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "regex-2026.9.29.dist-info/licenses/LICENSE.txt",
+          "sha256": "3d220c06594b826bbabf110312f60f385f99e57e529fa4b9e536f79091f8b4c7",
+          "bytes": 11792
+        }
+      ]
+    },
+    {
+      "asset": "rich",
+      "version": "15.0.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/rich/15.0.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/rich/15.0.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "rich-15.0.0.dist-info/licenses/LICENSE",
+          "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+          "bytes": 1056
+        }
+      ]
+    },
+    {
+      "asset": "ruff",
+      "version": "0.17.3",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/ruff/0.17.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/ruff/0.17.3/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "ruff-0.17.3.dist-info/licenses/LICENSE",
+          "sha256": "2597d854122b77ddc71971564ca2350a37608575ce324adc5650a2b2051c8f18",
+          "bytes": 20731
+        }
+      ]
+    },
+    {
+      "asset": "safetensors",
+      "version": "0.8.0",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/safetensors/0.8.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/safetensors/0.8.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "safetensors-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+          "bytes": 11558
+        }
+      ]
+    },
+    {
+      "asset": "scikit-learn",
+      "version": "1.9.1",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/scikit-learn/1.9.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/scikit-learn/1.9.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "scikit_learn-1.9.1.dist-info/licenses/COPYING",
+          "sha256": "014b1b1ad74cf00997f7081a1635c3c203cd70c08f39c13d9a39347fcd464979",
+          "bytes": 2629
+        }
+      ]
+    },
+    {
+      "asset": "scipy",
+      "version": "1.18.1",
+      "license": "BSD-3-Clause (project; bundled components retain separate notices)",
+      "source": "https://pypi.org/pypi/scipy/1.18.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; main installed artifact license inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/scipy/1.18.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "scipy-1.18.1.dist-info/LICENSE.txt",
+          "sha256": "f0f5c56b298ec9795df1199edc328a987242716d14a1bde6813112e22dc15f99",
+          "bytes": 45881
+        }
+      ]
+    },
+    {
+      "asset": "sentence-transformers",
+      "version": "5.7.0",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/sentence-transformers/5.7.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/sentence-transformers/5.7.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "sentence_transformers-5.7.0.dist-info/licenses/LICENSE",
+          "sha256": "624b030fd62b8b989dd502d5bb6322cbc0dbb524ab9c9708f32efe33d7275735",
+          "bytes": 11338
+        },
+        {
+          "path": "sentence_transformers-5.7.0.dist-info/licenses/NOTICE.txt",
+          "sha256": "95f2f1af3516527c6d19d2ba6e0bec05140a6a360fcebb56dc48debae3253867",
+          "bytes": 330
+        }
+      ]
+    },
+    {
+      "asset": "setuptools",
+      "version": "84.2.1",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/setuptools/84.2.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/setuptools/84.2.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "setuptools-84.2.1.dist-info/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "bytes": 1023
+        },
+        {
+          "path": "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+          "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+          "bytes": 7634
+        },
+        {
+          "path": "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "bytes": 1023
+        },
+        {
+          "path": "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+          "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+          "bytes": 10278
+        },
+        {
+          "path": "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "bytes": 1023
+        },
+        {
+          "path": "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+          "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+          "bytes": 1076
+        },
+        {
+          "path": "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+          "bytes": 1076
+        },
+        {
+          "path": "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+          "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+          "bytes": 1053
+        },
+        {
+          "path": "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "bytes": 197
+        },
+        {
+          "path": "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174
+        },
+        {
+          "path": "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "bytes": 1344
+        },
+        {
+          "path": "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "bytes": 1089
+        },
+        {
+          "path": "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+          "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+          "bytes": 1072
+        },
+        {
+          "path": "setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+          "bytes": 1107
+        },
+        {
+          "path": "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+          "bytes": 1076
+        }
+      ]
+    },
+    {
+      "asset": "shellingham",
+      "version": "1.5.4",
+      "license": "ISC License",
+      "source": "https://pypi.org/pypi/shellingham/1.5.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/shellingham/1.5.4/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "shellingham-1.5.4.dist-info/LICENSE",
+          "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "bytes": 751
+        }
+      ]
+    },
+    {
+      "asset": "starlette",
+      "version": "1.10.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/starlette/1.10.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/starlette/1.10.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "starlette-1.10.0.dist-info/licenses/LICENSE.md",
+          "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+          "bytes": 1518
+        }
+      ]
+    },
+    {
+      "asset": "sympy",
+      "version": "1.14.0",
+      "license": "BSD",
+      "source": "https://pypi.org/pypi/sympy/1.14.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/sympy/1.14.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "sympy-1.14.0.dist-info/licenses/AUTHORS",
+          "sha256": "82b1038521b0696c63c90b31ed4a0a2c9c4c16871c648b157b07ca44b6f18f8d",
+          "bytes": 55779
+        },
+        {
+          "path": "sympy-1.14.0.dist-info/licenses/LICENSE",
+          "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286",
+          "bytes": 7885
+        }
+      ]
+    },
+    {
+      "asset": "threadpoolctl",
+      "version": "3.7.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/threadpoolctl/3.7.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/threadpoolctl/3.7.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "threadpoolctl-3.7.0.dist-info/licenses/LICENSE",
+          "sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b",
+          "bytes": 1507
+        }
+      ]
+    },
+    {
+      "asset": "tokenizers",
+      "version": "0.23.3",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/pypi/tokenizers/0.23.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata; exact upstream v0.23.3 LICENSE inspected",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://github.com/huggingface/tokenizers/blob/v0.23.3/LICENSE",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "torch",
+      "version": "2.14.1",
+      "license": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+      "source": "https://pypi.org/pypi/torch/2.14.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/torch/2.14.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "torch-2.14.1.dist-info/licenses/LICENSE",
+          "sha256": "0fc92425d130d9c87a5eb7427082e3afdbff6ef169bc678e15abba4c2d37c934",
+          "bytes": 3548
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/FP16/LICENSE",
+          "sha256": "68349589306bdfa3631ac7f84633956bf21b6a448ed5e43383ea75a8a5f54e4c",
+          "bytes": 1168
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/FXdiv/LICENSE",
+          "sha256": "9e7b48284b1aef91999d1967d093711bab8f3bbbaf31e0670ab7a3af077c0a2b",
+          "bytes": 1127
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/NNPACK/LICENSE",
+          "sha256": "a4dadeb3d59219de6cdf5cb6bf920760103eed9ae5af2e71b0e8462645397b66",
+          "bytes": 1376
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/NVTX/LICENSE.txt",
+          "sha256": "c3b19baa37cf18bac07b65700824acadcfa617316f02af10d3852ed20f4f6ab8",
+          "bytes": 12706
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/NVTX/docs/LICENSE.txt",
+          "sha256": "c3b19baa37cf18bac07b65700824acadcfa617316f02af10d3852ed20f4f6ab8",
+          "bytes": 12706
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/NVTX/python/LICENSE.txt",
+          "sha256": "c3b19baa37cf18bac07b65700824acadcfa617316f02af10d3852ed20f4f6ab8",
+          "bytes": 12706
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/NVTX/rust/LICENSE",
+          "sha256": "4baebe905073b57ce85f6a0aeb242cac589181f6574c0dc87993c25d9bcf4775",
+          "bytes": 12671
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/NVTX/tools/docs/github-markdown-css/license",
+          "sha256": "fcf1a18be2e25ba82acf2c59821b030d8ee764e4e201db6ef3c51900d385515f",
+          "bytes": 1126
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/VulkanMemoryAllocator/LICENSE.txt",
+          "sha256": "e5fc8b0b0357a75d63649c8f2552576aaa6941c361a013710bb53afc64d3a8aa",
+          "bytes": 1118
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/XNNPACK/LICENSE",
+          "sha256": "4805a18e3c617424da5b7f6d8b9fde3df2fb6a5e26a6b6663a6cdb66db664d8c",
+          "bytes": 1591
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f",
+          "bytes": 1754
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06",
+          "bytes": 340
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/aiter/LICENSE",
+          "sha256": "844e3a38ca6f748e10eb63f07eb343ddca3b5a0a6bb40b0f621fcc54ea03deb3",
+          "bytes": 1121
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/benchmark/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f",
+          "bytes": 1754
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06",
+          "bytes": 340
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/cpp-httplib/LICENSE",
+          "sha256": "bb546eae5924d8ee842e0e567e6d533c5824bdebccf605f99a5b3429034e6697",
+          "bytes": 1097
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/cpuinfo/LICENSE",
+          "sha256": "8477bdd6a4d9f5178e5dfda1e32239c7b09c9d6da3804ae3e5c1a80210c0dd21",
+          "bytes": 1451
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/cpuinfo/deps/clog/LICENSE",
+          "sha256": "8c29231fd0034d4b1caaae8c0a63bce71f95cd8c4b0494c8588930b75c3d2155",
+          "bytes": 1410
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/cudnn_frontend/LICENSE.txt",
+          "sha256": "b6fe452605fe29245f0cbafa724b42df94a5e170bedb9d45bc9cfaa4883ad907",
+          "bytes": 1169
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/cutlass/LICENSE.txt",
+          "sha256": "10e174914fb737aec2d32762bd2e45861acb5ebf1656bee6cf575a6019a08cf0",
+          "bytes": 1895
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/cutlass/python/LICENSE.txt",
+          "sha256": "932c16f6c4f0187eda3af18df07300f8807eda85ca974bf46c5ed11fd91e5c2f",
+          "bytes": 1574
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/LICENSE",
+          "sha256": "5d5d5b022ecf828c796a64ad7afcfd62971bf58a52b71668cd48137ca02824c5",
+          "bytes": 1565
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f",
+          "bytes": 1754
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06",
+          "bytes": 340
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cpuinfo/LICENSE",
+          "sha256": "8477bdd6a4d9f5178e5dfda1e32239c7b09c9d6da3804ae3e5c1a80210c0dd21",
+          "bytes": 1451
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cpuinfo/deps/clog/LICENSE",
+          "sha256": "8c29231fd0034d4b1caaae8c0a63bce71f95cd8c4b0494c8588930b75c3d2155",
+          "bytes": 1410
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cutlass/LICENSE.txt",
+          "sha256": "3288ff56f62ade1ef032bd860b6d92482f83f1d3073ad5125b87228b9c11e0a8",
+          "bytes": 1888
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cutlass/python/LICENSE.txt",
+          "sha256": "6b9e8b964c2a90f7743107a23bccec9ebc6f5a47d4a8fa3d986aa6f51f86da68",
+          "bytes": 1574
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/hipify_torch/LICENSE.txt",
+          "sha256": "e63d8a0f5ab5cc02d848c6ef51b7bea58644a07223aa0acdb905260a1031b2e6",
+          "bytes": 1133
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/docs/src/general/License.rst",
+          "sha256": "4f8f489489bc1ac9608b13243e6dbeb28070cefd6da94de0784cc919afbf10f6",
+          "bytes": 155
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/experimental/hstu/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add",
+          "bytes": 1587
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/src/quantize_ops/mx/LICENSE",
+          "sha256": "9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b",
+          "bytes": 1162
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/test/quantize/mx/LICENSE",
+          "sha256": "9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b",
+          "bytes": 1162
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add",
+          "bytes": 1587
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f",
+          "bytes": 1754
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06",
+          "bytes": 340
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/cutlass/LICENSE.txt",
+          "sha256": "3288ff56f62ade1ef032bd860b6d92482f83f1d3073ad5125b87228b9c11e0a8",
+          "bytes": 1888
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/cutlass/python/LICENSE.txt",
+          "sha256": "6b9e8b964c2a90f7743107a23bccec9ebc6f5a47d4a8fa3d986aa6f51f86da68",
+          "bytes": 1574
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/flash_attn/cute/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add",
+          "bytes": 1587
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f",
+          "bytes": 1754
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06",
+          "bytes": 340
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flash-attention/third_party/aiter/LICENSE",
+          "sha256": "844e3a38ca6f748e10eb63f07eb343ddca3b5a0a6bb40b0f621fcc54ea03deb3",
+          "bytes": 1121
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flatbuffers/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flatbuffers/dart/LICENSE",
+          "sha256": "35cf0c0dca02767d12b9a8c12ae1b6a1c08045f220df4a52b0e01563a568fe6b",
+          "bytes": 11542
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/flatbuffers/swift/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/fmt/LICENSE",
+          "sha256": "e53b24254a17f6acdaf967557c287dca7e920b22cc6290f6a84d57c34d942a6e",
+          "bytes": 1114
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/gemmlowp/gemmlowp/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/gloo/LICENSE",
+          "sha256": "6247f690b423835966eba51cad47b4c7d6a72ca226733dd1c473e4624fe6bb23",
+          "bytes": 1555
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/ideep/LICENSE",
+          "sha256": "e1b43a11adfb7a5bd52089243a273ab85f0a695d0437bb34a418969501392573",
+          "bytes": 1081
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/ideep/mkl-dnn/LICENSE",
+          "sha256": "b1dd911e534a75dd4dfd8dbc11a3193bd177c8390e7fcf462f98d2c8c235e112",
+          "bytes": 11814
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/gtest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/opencl/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/kineto/LICENSE",
+          "sha256": "97729794764240cc12e0e22fe31b0cea824741c601bd09bd91b832e285e1f8c5",
+          "bytes": 1642
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/kineto/libkineto/third_party/dynolog_headers/LICENSE",
+          "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+          "bytes": 1107
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/kineto/libkineto/third_party/fmt/LICENSE",
+          "sha256": "25b5db04aa6070c12ac518b91cbd0a59725c050ecb091456e6ebc3d3eeb369cf",
+          "bytes": 1458
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/kineto/libkineto/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/llvm-openmp/LICENSE.txt",
+          "sha256": "eb3eab74fe9245818659556acf23e81b8c8a24915a4a244a23804f3fcdf1fd9c",
+          "bytes": 17315
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mimalloc/LICENSE",
+          "sha256": "82ade5d7d9b029044b5fbbc326207fc47c2d44ee4dd71e8a559c36d728217de9",
+          "bytes": 1096
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/miniz-3.0.2/LICENSE",
+          "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+          "bytes": 1184
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/LICENSE",
+          "sha256": "322bba2f33f594948052de342fd7d5bd26892e2a92ba75fbb5a433eff0b229c7",
+          "bytes": 1563
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/external/composable_kernel/LICENSE",
+          "sha256": "99ec4452f4047b6c53016a502bf94451eb317eff5aab5f63cebc16f94020d64f",
+          "bytes": 1754
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/external/composable_kernel/docs/license.rst",
+          "sha256": "81c3c62d810d7277f0583179df2a28a997b013f389f97778e9e7480114e0ca06",
+          "bytes": 340
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/external/cutlass/LICENSE.txt",
+          "sha256": "3288ff56f62ade1ef032bd860b6d92482f83f1d3073ad5125b87228b9c11e0a8",
+          "bytes": 1888
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/external/cutlass/python/LICENSE.txt",
+          "sha256": "6b9e8b964c2a90f7743107a23bccec9ebc6f5a47d4a8fa3d986aa6f51f86da68",
+          "bytes": 1574
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/external/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/external/hipify_torch/LICENSE.txt",
+          "sha256": "e63d8a0f5ab5cc02d848c6ef51b7bea58644a07223aa0acdb905260a1031b2e6",
+          "bytes": 1133
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/mslk/mslk/attention/flash_attn/LICENSE",
+          "sha256": "c364d38c8ee8070159ad68f56a8bab4917b8d020548da33a01e036505c8e4add",
+          "bytes": 1587
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/onnx/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/onnx/third_party/pybind11/LICENSE",
+          "sha256": "5494773a5dcf654c0c3c844fbb11cfc4f898ea0ea44cf467f29e5c99097da6e7",
+          "bytes": 1713
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/perfetto/LICENSE",
+          "sha256": "6bef87f6b4eda6c3cf0f42f780967e192df6412e4933f0ffb106638629aa3364",
+          "bytes": 15275
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/LICENSE",
+          "sha256": "f4df8b2457697851385d9ebb93267832c1dfa24e0e61881952f6b0c452663dc9",
+          "bytes": 1764
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/benchmark/LICENSE",
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+          "bytes": 11560
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/googlemock/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/googlemock/scripts/generator/LICENSE",
+          "sha256": "e438ef741bf3660b5c54f4452d7c0b387c8557207cc3e9cda499e461a94df2b2",
+          "bytes": 11589
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/utf8_range/LICENSE",
+          "sha256": "2317ba964cb26897602b47271a156b2c9ee140d923fa25e8f2229f20d6f3a819",
+          "bytes": 1086
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/psimd/LICENSE",
+          "sha256": "6bc97741b2f00a1d0a2f8e9be4c8af7ff837f968fe8e494864caf57026cfdbcb",
+          "bytes": 1173
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/pthreadpool/LICENSE",
+          "sha256": "2aae36e3c88f88b5e8afff5ca8d05480745ba7ad7e8d62867293c604efc0ce46",
+          "bytes": 1404
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/pybind11/LICENSE",
+          "sha256": "5494773a5dcf654c0c3c844fbb11cfc4f898ea0ea44cf467f29e5c99097da6e7",
+          "bytes": 1713
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/python-peachpy/LICENSE.rst",
+          "sha256": "b74018ea5fe273c10868dec1c5b832865fa4cf5bc44715a004d172e0a49a3f23",
+          "bytes": 1458
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/sleef/LICENSE.txt",
+          "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e",
+          "bytes": 1361
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/LICENSE.txt",
+          "sha256": "a51531fad20e44cae492c601bc0997d961c17a74f25f9473ff62eb70e108277d",
+          "bytes": 1565
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googlemock/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googlemock/scripts/generator/LICENSE",
+          "sha256": "e438ef741bf3660b5c54f4452d7c0b387c8557207cc3e9cda499e461a94df2b2",
+          "bytes": 11589
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googletest/LICENSE",
+          "sha256": "46c35a3c9ac8ef63c16ca69b5cf0166df9fcdb789e318175c92a219de517b8e7",
+          "bytes": 1503
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/libnop/LICENSE",
+          "sha256": "abd3ed80490d1d168f12f6ced5a558398640e6d375382c7b85d290689a222822",
+          "bytes": 590
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/libuv/LICENSE",
+          "sha256": "7aab26dd7e0e6661accc1fd9fc19410e01b466aa0ac36ea668b2013152a8ca23",
+          "bytes": 1098
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/pybind11/LICENSE",
+          "sha256": "15619fd6ee80e905a159b8139f7791f5ae1dce142d5101d099404cc5cf1007ba",
+          "bytes": 1705
+        },
+        {
+          "path": "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/pybind11/tools/clang/LICENSE.TXT",
+          "sha256": "dcd8a8d43f2dc19ba6f879f3a7e96f59e66ecb195099f700dfdcfb50641c10c9",
+          "bytes": 2812
+        }
+      ]
+    },
+    {
+      "asset": "tqdm",
+      "version": "4.70.1",
+      "license": "MPL-2.0 AND MIT",
+      "source": "https://pypi.org/pypi/tqdm/4.70.1/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/tqdm/4.70.1/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "tqdm-4.70.1.dist-info/licenses/LICENCE",
+          "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+          "bytes": 1985
+        }
+      ]
+    },
+    {
+      "asset": "transformers",
+      "version": "5.17.0",
+      "license": "Apache 2.0 License",
+      "source": "https://pypi.org/pypi/transformers/5.17.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/transformers/5.17.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "transformers-5.17.0.dist-info/licenses/LICENSE",
+          "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+          "bytes": 11418
+        }
+      ]
+    },
+    {
+      "asset": "triton",
+      "version": "3.8.0",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/triton/3.8.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": false,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/triton/3.8.0/json",
+      "reviewed_artifact_notice_files": []
+    },
+    {
+      "asset": "typer",
+      "version": "0.27.3",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/typer/0.27.3/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/typer/0.27.3/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "typer-0.27.3.dist-info/licenses/LICENSE",
+          "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "asset": "typing-extensions",
+      "version": "4.16.0",
+      "license": "PSF-2.0",
+      "source": "https://pypi.org/pypi/typing-extensions/4.16.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/typing-extensions/4.16.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "bytes": 13936
+        }
+      ]
+    },
+    {
+      "asset": "typing-inspection",
+      "version": "0.4.4",
+      "license": "MIT",
+      "source": "https://pypi.org/pypi/typing-inspection/0.4.4/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/typing-inspection/0.4.4/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+          "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+          "bytes": 1090
+        }
+      ]
+    },
+    {
+      "asset": "uvicorn",
+      "version": "0.54.0",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/pypi/uvicorn/0.54.0/json",
+      "verification_basis": "Publisher's exact-version PyPI metadata",
+      "redistributed": false,
+      "scope": "Installation reference in uv.lock; no package source or wheel bundled",
+      "installed_on_verification_host": true,
+      "required_notices": "Preserve upstream copyright, license and applicable component/NOTICE files; see license family guidance",
+      "known_restrictions": "Keep upstream terms and notices when installing; this project's MIT does not relicense this package.",
+      "action_required": "No package code/binary is bundled. Before any future redistribution, inspect the exact wheel's LICENSE/NOTICE and satisfy its terms.",
+      "future_binary_terms_unresolved": false,
+      "exact_wheel_evidence": null,
+      "license_source": "https://pypi.org/pypi/uvicorn/0.54.0/json",
+      "reviewed_artifact_notice_files": [
+        {
+          "path": "uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+          "bytes": 1526
+        }
+      ]
+    }
+  ],
+  "included_rights_blockers": [],
+  "first_party_basis": "Project-controlled source and fictional fixture generation history plus explicit owner authority/approval; not an independent proof of ownership of every line",
+  "copied_third_party_code_identified": [],
+  "external_benchmark_data_identified": [],
+  "bundled_models_tokenizers_images_or_dependencies": [],
+  "included_third_party_notices": [
+    "reports/stage7a/dependency_metadata.json",
+    "reports/stage7b/dependency-metadata.json"
+  ],
+  "notice_disposition": "Existing upstream license/copyright metadata and excerpts remain unchanged under their original terms",
+  "model_license_basis": "Pinned MiniLM model card declares apache-2.0; standalone LICENSE URL returned 404. Model/tokenizer files are not bundled.",
+  "future_binary_questions": [
+    "cuda-toolkit"
+  ]
+}

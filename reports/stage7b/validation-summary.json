@@ -1,0 +1,186 @@
+{
+  "total": 436,
+  "unit": 307,
+  "integration": 129,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "original_test_ids_preserved": 429,
+  "new_cases": 7,
+  "steps": [
+    {
+      "step": "lint",
+      "exit_code": 0,
+      "seconds": 0.3909999999741558
+    },
+    {
+      "step": "format",
+      "exit_code": 0,
+      "seconds": 0.23499999998603016
+    },
+    {
+      "step": "lock-check",
+      "exit_code": 0,
+      "seconds": 0.07899999999790452
+    },
+    {
+      "step": "units",
+      "exit_code": 0,
+      "seconds": 10.125
+    },
+    {
+      "step": "park-research",
+      "exit_code": 0,
+      "seconds": 13.937000000005355
+    },
+    {
+      "step": "start-db",
+      "exit_code": 0,
+      "seconds": 78.48500000001513
+    },
+    {
+      "step": "bolt-ready",
+      "exit_code": 0,
+      "seconds": 13.014999999984866
+    },
+    {
+      "step": "full-tests",
+      "exit_code": 0,
+      "seconds": 1442.3120000000054
+    },
+    {
+      "step": "reject-skips",
+      "exit_code": 0,
+      "seconds": 0.3129999999946449
+    },
+    {
+      "step": "prepare-demo",
+      "exit_code": 0,
+      "seconds": 53.578000000008615
+    },
+    {
+      "step": "run-demo",
+      "exit_code": 0,
+      "seconds": 56.57799999997951
+    },
+    {
+      "step": "prepare-smoke",
+      "exit_code": 0,
+      "seconds": 59.734000000025844
+    },
+    {
+      "step": "run-smoke",
+      "exit_code": 0,
+      "seconds": 35.812000000005355
+    },
+    {
+      "step": "stop-db",
+      "exit_code": 0,
+      "seconds": 10.15600000001723
+    },
+    {
+      "step": "restore-research",
+      "exit_code": 0,
+      "seconds": 3.765999999974156
+    }
+  ],
+  "fresh_steps": [
+    {
+      "step": "park-research",
+      "exit_code": 0,
+      "seconds": 5.125
+    },
+    {
+      "step": "start",
+      "exit_code": 0,
+      "seconds": 67.39000000001397
+    },
+    {
+      "step": "verify-empty",
+      "exit_code": 0,
+      "seconds": 6.7039999999979045
+    },
+    {
+      "step": "prepare",
+      "exit_code": 0,
+      "seconds": 98.67200000002049
+    },
+    {
+      "step": "responses",
+      "exit_code": 0,
+      "seconds": 58.625
+    },
+    {
+      "step": "verify-facts",
+      "exit_code": 0,
+      "seconds": 2.187000000005355
+    },
+    {
+      "step": "embedding-before",
+      "exit_code": 0,
+      "seconds": 79.03200000000652
+    },
+    {
+      "step": "embedding-after",
+      "exit_code": 0,
+      "seconds": 21.764999999984866
+    },
+    {
+      "step": "stop",
+      "exit_code": 0,
+      "seconds": 7.6710000000020955
+    },
+    {
+      "step": "restore-research",
+      "exit_code": 0,
+      "seconds": 3.7969999999913853
+    }
+  ],
+  "demo_requests_per_run": 24,
+  "demo_runs": 2,
+  "fresh_initial_nodes": 0,
+  "automatic_facts": 30,
+  "manual_facts": 0,
+  "smoke_requests": 27,
+  "smoke": {
+    "hybrid_graph_vector": {
+      "positive_questions": 6,
+      "positive_correct": 4,
+      "negative_questions": 3,
+      "negative_correct": 3,
+      "unsupported_answers": 0
+    },
+    "graph_only": {
+      "positive_questions": 6,
+      "positive_correct": 4,
+      "negative_questions": 3,
+      "negative_correct": 3,
+      "unsupported_answers": 0
+    },
+    "vector_only": {
+      "positive_questions": 6,
+      "positive_correct": 0,
+      "negative_questions": 3,
+      "negative_correct": 3,
+      "unsupported_answers": 0
+    }
+  },
+  "bandit_final": 12,
+  "audit_distributions": 60,
+  "audit_findings": 0,
+  "historical_benchmarks_overwritten": false,
+  "initial_failures": {
+    "early_invocation": "pytest cache path error; no tests collected",
+    "first_units": {
+      "passed": 303,
+      "failed": 4
+    },
+    "final_unit_preflight": {
+      "passed": 307,
+      "failed": 0
+    }
+  },
+  "platform": "Windows; Python 3.12.13; cached trusted model and image",
+  "hosted_ci": "UNVERIFIED",
+  "publication": "CONDITIONAL GO; trusted local portfolio only"
+}

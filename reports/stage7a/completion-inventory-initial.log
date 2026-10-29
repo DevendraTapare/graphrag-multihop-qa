@@ -1,0 +1,32 @@
+warning: `VIRTUAL_ENV=.venv` does not match the project environment path `C:\Users\Devendra\.cache\graphrag-stage7a-release-20261029` and will be ignored; use `--active` to target the active environment instead
+{
+  "files": 325,
+  "bytes": 24723546,
+  "mib": 23.578210830688477,
+  "inventory_entries": 323,
+  "checksum_entries": 324,
+  "checksum_failures": 0,
+  "top_level_files": {
+    ".env.example": 1,
+    ".gitattributes": 1,
+    ".github": 1,
+    ".gitignore": 1,
+    ".gitleaks.toml": 1,
+    ".python-version": 1,
+    "app": 61,
+    "compose.yaml": 1,
+    "data": 18,
+    "docs": 50,
+    "FILE_INVENTORY.json": 1,
+    "infra": 1,
+    "migrations": 4,
+    "PUBLICATION.json": 1,
+    "pyproject.toml": 1,
+    "README.md": 1,
+    "reports": 96,
+    "scripts": 52,
+    "SHA256SUMS": 1,
+    "tests": 30,
+    "uv.lock": 1
+  }
+}

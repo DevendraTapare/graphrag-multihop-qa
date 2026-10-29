@@ -1,0 +1,4076 @@
+{
+  "scope": "Original-domain verification only; never added to 122-question scores",
+  "cache": "Neo4j running; audit and first examples warm caches before workloads",
+  "current_fact_provenance_audit": {
+    "facts_checked": 68,
+    "failures": 0,
+    "source_kinds": {
+      "automatic": 38,
+      "curated": 30
+    },
+    "citation_correctness": 1,
+    "citations": [
+      {
+        "fact_id": "auto-fact:049ee2088ff1848a8f0744e482e6938e36cb3b20",
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "quote": "Project Atlas belongs to Lumen Orchard.",
+        "start": 53,
+        "end": 92,
+        "source_kind": "automatic",
+        "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:080d79642e9bff3448766f8a3f64b6fb6bd4a0b2",
+        "document_id": "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+        "chunk_id": "autochunk:76f2159b3212674da40de2bba8fabd427d0f1ea3",
+        "quote": "Project Echo belongs to Tidal Lantern.",
+        "start": 57,
+        "end": 95,
+        "source_kind": "automatic",
+        "source_id": "source:70b95bdf68248eb7a3570558112468c33c54a611",
+        "content_hash": "47fea7b6011dacf460371ff8df1a237f48a0ef9ed1039ff383080a9f00318a6c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:0f3061caf66ecb639575b76f08c44dbc4d4c8f87",
+        "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+        "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+        "quote": "Priya (Cedar employee 003) leads Project Atlas East.",
+        "start": 82,
+        "end": 134,
+        "source_kind": "automatic",
+        "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+        "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "Priya manages Project Atlas.",
+        "start": 0,
+        "end": 28,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:1b297d9b82c5f80dfd956d6e4937cd37cf78f164",
+        "document_id": "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+        "chunk_id": "autochunk:5e80776c45e4224259e94dfdaef4b38724b7c50d",
+        "quote": "The Redis instance for Project Beacon is hosted on AWS.",
+        "start": 0,
+        "end": 55,
+        "source_kind": "automatic",
+        "source_id": "source:0b7b37fea1a5e4bb2ca866ecc450b9c7804c6111",
+        "content_hash": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:220c97d756b73b03760a45e5540099d5fdf6e720",
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+        "start": 0,
+        "end": 48,
+        "source_kind": "automatic",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 0,
+        "end": 59,
+        "source_kind": "automatic",
+        "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:2a934d04ac640741bbf2589cc80f96ee154afc72",
+        "document_id": "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+        "chunk_id": "autochunk:76f2159b3212674da40de2bba8fabd427d0f1ea3",
+        "quote": "Noor manages Project Echo.",
+        "start": 0,
+        "end": 26,
+        "source_kind": "automatic",
+        "source_id": "source:70b95bdf68248eb7a3570558112468c33c54a611",
+        "content_hash": "47fea7b6011dacf460371ff8df1a237f48a0ef9ed1039ff383080a9f00318a6c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:3c81b01ec28cc8342e63b6d56225691a38dab0d1",
+        "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+        "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+        "quote": "Project Beacon uses its Redis instance.",
+        "start": 0,
+        "end": 39,
+        "source_kind": "automatic",
+        "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+        "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "automatic",
+        "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:50230323f4a94d2955474f93d18a1ece4126c797",
+        "document_id": "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+        "chunk_id": "autochunk:f985cebdfd68b4600edf30d527901917de13d4b6",
+        "quote": "Project Beacon belongs to Lumen Orchard.",
+        "start": 57,
+        "end": 97,
+        "source_kind": "automatic",
+        "source_id": "source:c409bda5000167c515e95510649000969347a0ef",
+        "content_hash": "23b9bc7a8c7f109f2a649b1edbddd1d57b799c8948e925ea7bc51d185b597def",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:5f2ae84c38be1e8a1167e078df136c4b59347b3c",
+        "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+        "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+        "quote": "Priya works for Lumen Orchard.",
+        "start": 46,
+        "end": 76,
+        "source_kind": "automatic",
+        "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:5f85bd6878ab08822537aca73fc37af3a043ff23",
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "quote": "Project Atlas East uses its own PostgreSQL instance.",
+        "start": 120,
+        "end": 172,
+        "source_kind": "automatic",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:71a4a3fdd3e06a6abfa90ac0629a86f4f01b83e8",
+        "document_id": "autodoc:4d59e5a9016f7f4964e2b1bf51a8447cf0ebf969",
+        "chunk_id": "autochunk:cc0de4071610f48a4dda65ec3e16fbfc28f65921",
+        "quote": "The Kafka instance for Project Delta is hosted on AWS.",
+        "start": 39,
+        "end": 93,
+        "source_kind": "automatic",
+        "source_id": "source:67cdd30cc04ee103122370be4a50dc2fa1f06b6f",
+        "content_hash": "2ca2ae39caa5d844878dbbf1c54a56e541a3db08e5600fd3be9f42421bf086b2",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:77fd5508296975410ccd3da999ed84dc7607b9e6",
+        "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+        "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+        "quote": "Lee Chen (Tidal employee 001) works for Tidal Lantern.",
+        "start": 53,
+        "end": 107,
+        "source_kind": "automatic",
+        "source_id": "source:610ab68bbfceae176039d9f0a476693d9e0b6abd",
+        "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:7dbc46d744ba3cc2106312f615da1e0200ef01c1",
+        "document_id": "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+        "chunk_id": "autochunk:f985cebdfd68b4600edf30d527901917de13d4b6",
+        "quote": "Sam manages Project Beacon.",
+        "start": 0,
+        "end": 27,
+        "source_kind": "automatic",
+        "source_id": "source:c409bda5000167c515e95510649000969347a0ef",
+        "content_hash": "23b9bc7a8c7f109f2a649b1edbddd1d57b799c8948e925ea7bc51d185b597def",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:89832f8a6037b0af627f7bdc8189581bf250f812",
+        "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+        "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+        "quote": "The PostgreSQL instance for Project Atlas East is hosted on Microsoft Azure.",
+        "start": 184,
+        "end": 260,
+        "source_kind": "automatic",
+        "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+        "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:9342700ffb40d2bc0765a5febc8f70dfb380a9ae",
+        "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+        "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+        "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+        "start": 53,
+        "end": 104,
+        "source_kind": "automatic",
+        "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+        "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:99dd39aebed80e2d9507e9a24dc08eb5f968f000",
+        "document_id": "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+        "chunk_id": "autochunk:f985cebdfd68b4600edf30d527901917de13d4b6",
+        "quote": "Sam works for Lumen Orchard.",
+        "start": 28,
+        "end": 56,
+        "source_kind": "automatic",
+        "source_id": "source:c409bda5000167c515e95510649000969347a0ef",
+        "content_hash": "23b9bc7a8c7f109f2a649b1edbddd1d57b799c8948e925ea7bc51d185b597def",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:a1582ddc08964cd5146a6d5d966eb692d12ce78d",
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "quote": "Project Atlas East belongs to Cedar Kite.",
+        "start": 78,
+        "end": 119,
+        "source_kind": "automatic",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+        "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+        "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+        "quote": "Priya manages Project Atlas at Lumen Orchard.",
+        "start": 0,
+        "end": 45,
+        "source_kind": "automatic",
+        "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:aacbbbed11ae1263c1a7996f5c060532b9a8ee39",
+        "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+        "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+        "quote": "Atlas East utilizes its own PostgreSQL instance.",
+        "start": 135,
+        "end": 183,
+        "source_kind": "automatic",
+        "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+        "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:aeaa5030f419679babd33d619d9366f994ded62b",
+        "document_id": "autodoc:63cdc110be53958bd81d24aae38f5662c744ad3c",
+        "chunk_id": "autochunk:8dcad212bca674ee318d81fd15e246dd84ef10c0",
+        "quote": "Project Echo uses its DuckDB instance.",
+        "start": 0,
+        "end": 38,
+        "source_kind": "automatic",
+        "source_id": "source:a4cee2029c7d8bf0ffe7e099c204805e736cea86",
+        "content_hash": "5eb75542f0952b5fc1ba5350aa45b54b9cba2d43c5832251d878d5b20d8d398b",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:af7548905f6e7cfc829c6502f4c7963458531a72",
+        "document_id": "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+        "chunk_id": "autochunk:76f2159b3212674da40de2bba8fabd427d0f1ea3",
+        "quote": "Noor works for Tidal Lantern.",
+        "start": 27,
+        "end": 56,
+        "source_kind": "automatic",
+        "source_id": "source:70b95bdf68248eb7a3570558112468c33c54a611",
+        "content_hash": "47fea7b6011dacf460371ff8df1a237f48a0ef9ed1039ff383080a9f00318a6c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:b1b00fcc52efe7e43cf53650864c911aedc19040",
+        "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+        "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+        "quote": "Project Comet belongs to Cedar Kite.",
+        "start": 105,
+        "end": 141,
+        "source_kind": "automatic",
+        "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+        "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:b6178269183c2cf406256c41c5662bcc7a16993c",
+        "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+        "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+        "quote": "Priya (Cedar employee 003) works for Cedar Kite.",
+        "start": 33,
+        "end": 81,
+        "source_kind": "automatic",
+        "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+        "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "Atlas uses PostgreSQL.",
+        "start": 29,
+        "end": 51,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:c67e889cde12ce008fac5fee6ad034c0200257d8",
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "quote": "Morgan works for Cedar Kite.",
+        "start": 49,
+        "end": 77,
+        "source_kind": "automatic",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:dd7ee04da50ab0ba377319f19201e61f89856855",
+        "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+        "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+        "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+        "start": 40,
+        "end": 95,
+        "source_kind": "automatic",
+        "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+        "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:e3fee5a80eada8de7aa73bbd1e692c79bb0cf3dd",
+        "document_id": "autodoc:2c73702ceb76279d5899aece9bde41392a38977e",
+        "chunk_id": "autochunk:e804eaf8a9a0f0f392b9dce7d2fdc872d6092ba9",
+        "quote": "Project Comet uses its Neo4j instance.",
+        "start": 0,
+        "end": 38,
+        "source_kind": "automatic",
+        "source_id": "source:734d8fce29f801f6f807b73db4e26e6265b0dd92",
+        "content_hash": "0483d395321be8c9104d5974e1e4ab8a99712fe48b3a6b00d6483cdfec50919f",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:e7445afa47855edd9e83281f9347830b4346ef2b",
+        "document_id": "autodoc:63cdc110be53958bd81d24aae38f5662c744ad3c",
+        "chunk_id": "autochunk:8dcad212bca674ee318d81fd15e246dd84ef10c0",
+        "quote": "The DuckDB instance for Project Echo is hosted on GCP.",
+        "start": 39,
+        "end": 93,
+        "source_kind": "automatic",
+        "source_id": "source:a4cee2029c7d8bf0ffe7e099c204805e736cea86",
+        "content_hash": "5eb75542f0952b5fc1ba5350aa45b54b9cba2d43c5832251d878d5b20d8d398b",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:e7dc79fc17a36eaa62f773869a9c6edf1d7ba26e",
+        "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+        "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+        "quote": "Project Delta belongs to Tidal Lantern.",
+        "start": 108,
+        "end": 147,
+        "source_kind": "automatic",
+        "source_id": "source:610ab68bbfceae176039d9f0a476693d9e0b6abd",
+        "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:ec667db87d4d677a067b663463652e58c025a249",
+        "document_id": "autodoc:4d59e5a9016f7f4964e2b1bf51a8447cf0ebf969",
+        "chunk_id": "autochunk:cc0de4071610f48a4dda65ec3e16fbfc28f65921",
+        "quote": "Project Delta uses its Kafka instance.",
+        "start": 0,
+        "end": 38,
+        "source_kind": "automatic",
+        "source_id": "source:67cdd30cc04ee103122370be4a50dc2fa1f06b6f",
+        "content_hash": "2ca2ae39caa5d844878dbbf1c54a56e541a3db08e5600fd3be9f42421bf086b2",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:f0e6fa9dd32db3646f24ee784e3cc6565fcdd73f",
+        "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+        "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+        "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "automatic",
+        "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+        "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:f1c340d84052ef5c7ca71342a642078cd55efbb0",
+        "document_id": "autodoc:2c73702ceb76279d5899aece9bde41392a38977e",
+        "chunk_id": "autochunk:e804eaf8a9a0f0f392b9dce7d2fdc872d6092ba9",
+        "quote": "The Neo4j instance for Project Comet is hosted on Azure.",
+        "start": 39,
+        "end": 95,
+        "source_kind": "automatic",
+        "source_id": "source:734d8fce29f801f6f807b73db4e26e6265b0dd92",
+        "content_hash": "0483d395321be8c9104d5974e1e4ab8a99712fe48b3a6b00d6483cdfec50919f",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:f4d63650e3354ceb834f575003779fb1df744150",
+        "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+        "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+        "quote": "Lee Chen (Tidal employee 001) manages Project Delta.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "automatic",
+        "source_id": "source:610ab68bbfceae176039d9f0a476693d9e0b6abd",
+        "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:f9d2d40aa121dc9872c9d21bdb939944f9f3d38b",
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+        "start": 173,
+        "end": 239,
+        "source_kind": "automatic",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 52,
+        "end": 111,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "fact:001",
+        "document_id": "doc:01",
+        "chunk_id": "chunk:01",
+        "quote": "Priya manages Project Atlas at Lumen Orchard.",
+        "start": 0,
+        "end": 45,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:002",
+        "document_id": "doc:01",
+        "chunk_id": "chunk:01",
+        "quote": "Priya works for Lumen Orchard.",
+        "start": 46,
+        "end": 76,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:003",
+        "document_id": "doc:02",
+        "chunk_id": "chunk:02",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:004",
+        "document_id": "doc:02",
+        "chunk_id": "chunk:02",
+        "quote": "Project Atlas belongs to Lumen Orchard.",
+        "start": 53,
+        "end": 92,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:005",
+        "document_id": "doc:03",
+        "chunk_id": "chunk:03",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 0,
+        "end": 59,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:006",
+        "document_id": "doc:04",
+        "chunk_id": "chunk:04",
+        "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+        "start": 0,
+        "end": 48,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:007",
+        "document_id": "doc:04",
+        "chunk_id": "chunk:04",
+        "quote": "Morgan works for Cedar Kite.",
+        "start": 49,
+        "end": 77,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:008",
+        "document_id": "doc:04",
+        "chunk_id": "chunk:04",
+        "quote": "Project Atlas East belongs to Cedar Kite.",
+        "start": 78,
+        "end": 119,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:009",
+        "document_id": "doc:04",
+        "chunk_id": "chunk:04",
+        "quote": "Project Atlas East uses its own PostgreSQL instance.",
+        "start": 120,
+        "end": 172,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:010",
+        "document_id": "doc:04",
+        "chunk_id": "chunk:04",
+        "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+        "start": 173,
+        "end": 239,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:011",
+        "document_id": "doc:05",
+        "chunk_id": "chunk:05",
+        "quote": "Sam manages Project Beacon.",
+        "start": 0,
+        "end": 27,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "23b9bc7a8c7f109f2a649b1edbddd1d57b799c8948e925ea7bc51d185b597def",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:012",
+        "document_id": "doc:05",
+        "chunk_id": "chunk:05",
+        "quote": "Sam works for Lumen Orchard.",
+        "start": 28,
+        "end": 56,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "23b9bc7a8c7f109f2a649b1edbddd1d57b799c8948e925ea7bc51d185b597def",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:013",
+        "document_id": "doc:05",
+        "chunk_id": "chunk:05",
+        "quote": "Project Beacon belongs to Lumen Orchard.",
+        "start": 57,
+        "end": 97,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "23b9bc7a8c7f109f2a649b1edbddd1d57b799c8948e925ea7bc51d185b597def",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:014",
+        "document_id": "doc:06",
+        "chunk_id": "chunk:06",
+        "quote": "Project Beacon uses its Redis instance.",
+        "start": 0,
+        "end": 39,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:015",
+        "document_id": "doc:06",
+        "chunk_id": "chunk:06",
+        "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+        "start": 40,
+        "end": 95,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:016",
+        "document_id": "doc:07",
+        "chunk_id": "chunk:07",
+        "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:017",
+        "document_id": "doc:07",
+        "chunk_id": "chunk:07",
+        "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+        "start": 53,
+        "end": 104,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:018",
+        "document_id": "doc:07",
+        "chunk_id": "chunk:07",
+        "quote": "Project Comet belongs to Cedar Kite.",
+        "start": 105,
+        "end": 141,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:019",
+        "document_id": "doc:08",
+        "chunk_id": "chunk:08",
+        "quote": "Project Comet uses its Neo4j instance.",
+        "start": 0,
+        "end": 38,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "0483d395321be8c9104d5974e1e4ab8a99712fe48b3a6b00d6483cdfec50919f",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:020",
+        "document_id": "doc:08",
+        "chunk_id": "chunk:08",
+        "quote": "The Neo4j instance for Project Comet is hosted on Azure.",
+        "start": 39,
+        "end": 95,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "0483d395321be8c9104d5974e1e4ab8a99712fe48b3a6b00d6483cdfec50919f",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:021",
+        "document_id": "doc:09",
+        "chunk_id": "chunk:09",
+        "quote": "Lee Chen (Tidal employee 001) manages Project Delta.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:022",
+        "document_id": "doc:09",
+        "chunk_id": "chunk:09",
+        "quote": "Lee Chen (Tidal employee 001) works for Tidal Lantern.",
+        "start": 53,
+        "end": 107,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:023",
+        "document_id": "doc:09",
+        "chunk_id": "chunk:09",
+        "quote": "Project Delta belongs to Tidal Lantern.",
+        "start": 108,
+        "end": 147,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:024",
+        "document_id": "doc:10",
+        "chunk_id": "chunk:10",
+        "quote": "Project Delta uses its Kafka instance.",
+        "start": 0,
+        "end": 38,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "2ca2ae39caa5d844878dbbf1c54a56e541a3db08e5600fd3be9f42421bf086b2",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:025",
+        "document_id": "doc:10",
+        "chunk_id": "chunk:10",
+        "quote": "The Kafka instance for Project Delta is hosted on AWS.",
+        "start": 39,
+        "end": 93,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "2ca2ae39caa5d844878dbbf1c54a56e541a3db08e5600fd3be9f42421bf086b2",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:026",
+        "document_id": "doc:11",
+        "chunk_id": "chunk:11",
+        "quote": "Noor manages Project Echo.",
+        "start": 0,
+        "end": 26,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "47fea7b6011dacf460371ff8df1a237f48a0ef9ed1039ff383080a9f00318a6c",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:027",
+        "document_id": "doc:11",
+        "chunk_id": "chunk:11",
+        "quote": "Noor works for Tidal Lantern.",
+        "start": 27,
+        "end": 56,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "47fea7b6011dacf460371ff8df1a237f48a0ef9ed1039ff383080a9f00318a6c",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:028",
+        "document_id": "doc:11",
+        "chunk_id": "chunk:11",
+        "quote": "Project Echo belongs to Tidal Lantern.",
+        "start": 57,
+        "end": 95,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "47fea7b6011dacf460371ff8df1a237f48a0ef9ed1039ff383080a9f00318a6c",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:029",
+        "document_id": "doc:12",
+        "chunk_id": "chunk:12",
+        "quote": "Project Echo uses its DuckDB instance.",
+        "start": 0,
+        "end": 38,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "5eb75542f0952b5fc1ba5350aa45b54b9cba2d43c5832251d878d5b20d8d398b",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:030",
+        "document_id": "doc:12",
+        "chunk_id": "chunk:12",
+        "quote": "The DuckDB instance for Project Echo is hosted on GCP.",
+        "start": 39,
+        "end": 93,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "5eb75542f0952b5fc1ba5350aa45b54b9cba2d43c5832251d878d5b20d8d398b",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      }
+    ],
+    "attribution": "Curated and automatic copies of identical original documents are distinct assertions, not independent original sources."
+  },
+  "examples": [
+    {
+      "question": "Which project does Morgan manage?",
+      "expected": "Atlas East",
+      "response": {
+        "answer": "Atlas East",
+        "answers": [
+          {
+            "id": "project:atlas-east",
+            "name": "Atlas East",
+            "entity_type": "Project",
+            "scope": "cedar"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "474eceeed24d45d5ae740e0a760595ae",
+        "plan": {
+          "mention": "Morgan",
+          "start_type": "Person",
+          "steps": [
+            {
+              "relation": "MANAGES",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Project",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "person_project",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "person:morgan",
+          "candidate_ids": [
+            "person:morgan"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 1,
+        "reasoning_path": [
+          {
+            "source": {
+              "id": "person:morgan",
+              "name": "Morgan",
+              "entity_type": "Person",
+              "scope": "cedar_employee_001"
+            },
+            "relation": "MANAGES",
+            "target": {
+              "id": "project:atlas-east",
+              "name": "Atlas East",
+              "entity_type": "Project",
+              "scope": "cedar"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "person:morgan",
+            "stored_target_id": "project:atlas-east",
+            "supports": [
+              {
+                "fact_id": "auto-fact:220c97d756b73b03760a45e5540099d5fdf6e720",
+                "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+                "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+                "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+                "start": 0,
+                "end": 48,
+                "source_kind": "automatic",
+                "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+                "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:006",
+                "document_id": "doc:04",
+                "chunk_id": "chunk:04",
+                "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+                "start": 0,
+                "end": 48,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "person:morgan",
+                "name": "Morgan",
+                "entity_type": "Person",
+                "scope": "cedar_employee_001"
+              },
+              {
+                "id": "project:atlas-east",
+                "name": "Atlas East",
+                "entity_type": "Project",
+                "scope": "cedar"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "person:morgan",
+                  "name": "Morgan",
+                  "entity_type": "Person",
+                  "scope": "cedar_employee_001"
+                },
+                "relation": "MANAGES",
+                "target": {
+                  "id": "project:atlas-east",
+                  "name": "Atlas East",
+                  "entity_type": "Project",
+                  "scope": "cedar"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "person:morgan",
+                "stored_target_id": "project:atlas-east",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:220c97d756b73b03760a45e5540099d5fdf6e720",
+                    "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+                    "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+                    "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+                    "start": 0,
+                    "end": 48,
+                    "source_kind": "automatic",
+                    "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+                    "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:006",
+                    "document_id": "doc:04",
+                    "chunk_id": "chunk:04",
+                    "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+                    "start": 0,
+                    "end": 48,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 1
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:220c97d756b73b03760a45e5540099d5fdf6e720",
+            "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+            "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+            "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+            "start": 0,
+            "end": 48,
+            "source_kind": "automatic",
+            "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:006",
+            "document_id": "doc:04",
+            "chunk_id": "chunk:04",
+            "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+            "start": 0,
+            "end": 48,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+            "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+            "start": 0,
+            "end": 239,
+            "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:04",
+            "chunk_id": "chunk:04",
+            "start": 0,
+            "end": 239,
+            "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 2,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 2,
+          "edges_checked": 2,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 1
+        },
+        "latency_ms": {
+          "parsing": 0.8196000126190484,
+          "entity_linking": 0.01990000600926578,
+          "traversal": 57.5519000121858,
+          "provenance": 50.39679998299107,
+          "selection": 0.07159999222494662,
+          "revalidation": 61.04899998172186,
+          "generation": 0.010100018698722124,
+          "end_to_end": 169.96940001263283
+        }
+      }
+    },
+    {
+      "question": "Which database does Project Atlas use?",
+      "expected": "PostgreSQL",
+      "response": {
+        "answer": "PostgreSQL",
+        "answers": [
+          {
+            "id": "tech:postgres-atlas",
+            "name": "PostgreSQL",
+            "entity_type": "Technology",
+            "scope": "atlas_deployment"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "a424356b1e364bd9baa1ea7cd5ff875d",
+        "plan": {
+          "mention": "Atlas",
+          "start_type": "Project",
+          "steps": [
+            {
+              "relation": "USES",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Technology",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "technology",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "project:atlas",
+          "candidate_ids": [
+            "project:atlas"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 1,
+        "reasoning_path": [
+          {
+            "source": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "relation": "USES",
+            "target": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "project:atlas",
+            "stored_target_id": "tech:postgres-atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+                "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+                "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "automatic",
+                "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Atlas uses PostgreSQL.",
+                "start": 29,
+                "end": 51,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:003",
+                "document_id": "doc:02",
+                "chunk_id": "chunk:02",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "project:atlas",
+                "name": "Atlas",
+                "entity_type": "Project",
+                "scope": "lumen"
+              },
+              {
+                "id": "tech:postgres-atlas",
+                "name": "PostgreSQL",
+                "entity_type": "Technology",
+                "scope": "atlas_deployment"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:atlas",
+                  "name": "Atlas",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:postgres-atlas",
+                  "name": "PostgreSQL",
+                  "entity_type": "Technology",
+                  "scope": "atlas_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:atlas",
+                "stored_target_id": "tech:postgres-atlas",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+                    "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+                    "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+                    "quote": "Project Atlas uses its PostgreSQL database instance.",
+                    "start": 0,
+                    "end": 52,
+                    "source_kind": "automatic",
+                    "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+                    "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+                    "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                    "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                    "quote": "Atlas uses PostgreSQL.",
+                    "start": 29,
+                    "end": 51,
+                    "source_kind": "automatic",
+                    "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                    "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:003",
+                    "document_id": "doc:02",
+                    "chunk_id": "chunk:02",
+                    "quote": "Project Atlas uses its PostgreSQL database instance.",
+                    "start": 0,
+                    "end": 52,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 1
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+            "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+            "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "automatic",
+            "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Atlas uses PostgreSQL.",
+            "start": 29,
+            "end": 51,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:003",
+            "document_id": "doc:02",
+            "chunk_id": "chunk:02",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "start": 0,
+            "end": 112,
+            "text": "Priya manages Project Atlas.\nAtlas uses PostgreSQL.\nThe PostgreSQL instance for Project Atlas is hosted on AWS.\n",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+            "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+            "start": 0,
+            "end": 92,
+            "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:02",
+            "chunk_id": "chunk:02",
+            "start": 0,
+            "end": 92,
+            "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 3,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 3,
+          "edges_checked": 3,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 1
+        },
+        "latency_ms": {
+          "parsing": 4.411900008562952,
+          "entity_linking": 0.026299996534362435,
+          "traversal": 1561.5125000185799,
+          "provenance": 51.05259999982081,
+          "selection": 0.07139999070204794,
+          "revalidation": 57.84330001915805,
+          "generation": 0.009599985787644982,
+          "end_to_end": 1674.9770999886096
+        }
+      }
+    },
+    {
+      "question": "Which cloud platform hosts the database used by the project managed by Priya (Lumen employee 001)?",
+      "expected": "AWS",
+      "response": {
+        "answer": "AWS",
+        "answers": [
+          {
+            "id": "platform:aws",
+            "name": "AWS",
+            "entity_type": "Platform",
+            "scope": "cloud_vendor"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "c8dae4fa8c224d64994820be5b24dc57",
+        "plan": {
+          "mention": "Priya (Lumen employee 001)",
+          "start_type": "Person",
+          "steps": [
+            {
+              "relation": "MANAGES",
+              "direction": "outgoing"
+            },
+            {
+              "relation": "USES",
+              "direction": "outgoing"
+            },
+            {
+              "relation": "HOSTED_ON",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Platform",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "person_platform",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "person:priya",
+          "candidate_ids": [
+            "person:priya"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 3,
+        "reasoning_path": [
+          {
+            "source": {
+              "id": "person:priya",
+              "name": "Priya",
+              "entity_type": "Person",
+              "scope": "lumen_employee_001"
+            },
+            "relation": "MANAGES",
+            "target": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "person:priya",
+            "stored_target_id": "project:atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Priya manages Project Atlas.",
+                "start": 0,
+                "end": 28,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+                "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+                "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+                "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                "start": 0,
+                "end": 45,
+                "source_kind": "automatic",
+                "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+                "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:001",
+                "document_id": "doc:01",
+                "chunk_id": "chunk:01",
+                "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                "start": 0,
+                "end": 45,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "relation": "USES",
+            "target": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "project:atlas",
+            "stored_target_id": "tech:postgres-atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+                "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+                "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "automatic",
+                "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Atlas uses PostgreSQL.",
+                "start": 29,
+                "end": 51,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:003",
+                "document_id": "doc:02",
+                "chunk_id": "chunk:02",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "relation": "HOSTED_ON",
+            "target": {
+              "id": "platform:aws",
+              "name": "AWS",
+              "entity_type": "Platform",
+              "scope": "cloud_vendor"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "tech:postgres-atlas",
+            "stored_target_id": "platform:aws",
+            "supports": [
+              {
+                "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+                "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+                "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 0,
+                "end": 59,
+                "source_kind": "automatic",
+                "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+                "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 52,
+                "end": 111,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:005",
+                "document_id": "doc:03",
+                "chunk_id": "chunk:03",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 0,
+                "end": 59,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "person:priya",
+                "name": "Priya",
+                "entity_type": "Person",
+                "scope": "lumen_employee_001"
+              },
+              {
+                "id": "project:atlas",
+                "name": "Atlas",
+                "entity_type": "Project",
+                "scope": "lumen"
+              },
+              {
+                "id": "tech:postgres-atlas",
+                "name": "PostgreSQL",
+                "entity_type": "Technology",
+                "scope": "atlas_deployment"
+              },
+              {
+                "id": "platform:aws",
+                "name": "AWS",
+                "entity_type": "Platform",
+                "scope": "cloud_vendor"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "person:priya",
+                  "name": "Priya",
+                  "entity_type": "Person",
+                  "scope": "lumen_employee_001"
+                },
+                "relation": "MANAGES",
+                "target": {
+                  "id": "project:atlas",
+                  "name": "Atlas",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "person:priya",
+                "stored_target_id": "project:atlas",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+                    "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                    "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                    "quote": "Priya manages Project Atlas.",
+                    "start": 0,
+                    "end": 28,
+                    "source_kind": "automatic",
+                    "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                    "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+                    "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+                    "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+                    "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                    "start": 0,
+                    "end": 45,
+                    "source_kind": "automatic",
+                    "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+                    "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:001",
+                    "document_id": "doc:01",
+                    "chunk_id": "chunk:01",
+                    "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                    "start": 0,
+                    "end": 45,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "project:atlas",
+                  "name": "Atlas",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:postgres-atlas",
+                  "name": "PostgreSQL",
+                  "entity_type": "Technology",
+                  "scope": "atlas_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:atlas",
+                "stored_target_id": "tech:postgres-atlas",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+                    "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+                    "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+                    "quote": "Project Atlas uses its PostgreSQL database instance.",
+                    "start": 0,
+                    "end": 52,
+                    "source_kind": "automatic",
+                    "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+                    "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+                    "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                    "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                    "quote": "Atlas uses PostgreSQL.",
+                    "start": 29,
+                    "end": 51,
+                    "source_kind": "automatic",
+                    "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                    "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:003",
+                    "document_id": "doc:02",
+                    "chunk_id": "chunk:02",
+                    "quote": "Project Atlas uses its PostgreSQL database instance.",
+                    "start": 0,
+                    "end": 52,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "tech:postgres-atlas",
+                  "name": "PostgreSQL",
+                  "entity_type": "Technology",
+                  "scope": "atlas_deployment"
+                },
+                "relation": "HOSTED_ON",
+                "target": {
+                  "id": "platform:aws",
+                  "name": "AWS",
+                  "entity_type": "Platform",
+                  "scope": "cloud_vendor"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "tech:postgres-atlas",
+                "stored_target_id": "platform:aws",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+                    "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+                    "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+                    "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                    "start": 0,
+                    "end": 59,
+                    "source_kind": "automatic",
+                    "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+                    "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+                    "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                    "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                    "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                    "start": 52,
+                    "end": 111,
+                    "source_kind": "automatic",
+                    "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                    "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:005",
+                    "document_id": "doc:03",
+                    "chunk_id": "chunk:03",
+                    "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                    "start": 0,
+                    "end": 59,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 3
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Priya manages Project Atlas.",
+            "start": 0,
+            "end": 28,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+            "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+            "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 0,
+            "end": 59,
+            "source_kind": "automatic",
+            "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+            "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+            "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "automatic",
+            "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+            "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+            "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+            "quote": "Priya manages Project Atlas at Lumen Orchard.",
+            "start": 0,
+            "end": 45,
+            "source_kind": "automatic",
+            "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Atlas uses PostgreSQL.",
+            "start": 29,
+            "end": 51,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 52,
+            "end": 111,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:001",
+            "document_id": "doc:01",
+            "chunk_id": "chunk:01",
+            "quote": "Priya manages Project Atlas at Lumen Orchard.",
+            "start": 0,
+            "end": 45,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          },
+          {
+            "fact_id": "fact:003",
+            "document_id": "doc:02",
+            "chunk_id": "chunk:02",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          },
+          {
+            "fact_id": "fact:005",
+            "document_id": "doc:03",
+            "chunk_id": "chunk:03",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 0,
+            "end": 59,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "start": 0,
+            "end": 112,
+            "text": "Priya manages Project Atlas.\nAtlas uses PostgreSQL.\nThe PostgreSQL instance for Project Atlas is hosted on AWS.\n",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+            "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+            "start": 0,
+            "end": 76,
+            "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard.",
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+            "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+            "start": 0,
+            "end": 92,
+            "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+            "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+            "start": 0,
+            "end": 59,
+            "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:01",
+            "chunk_id": "chunk:01",
+            "start": 0,
+            "end": 76,
+            "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard.",
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "source_kind": "curated"
+          },
+          {
+            "document_id": "doc:02",
+            "chunk_id": "chunk:02",
+            "start": 0,
+            "end": 92,
+            "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "source_kind": "curated"
+          },
+          {
+            "document_id": "doc:03",
+            "chunk_id": "chunk:03",
+            "start": 0,
+            "end": 59,
+            "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 39,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 27,
+          "edges_checked": 9,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 1
+        },
+        "latency_ms": {
+          "parsing": 6.347599992295727,
+          "entity_linking": 0.022499996703118086,
+          "traversal": 230.87739999755286,
+          "provenance": 67.23529999726452,
+          "selection": 0.2607000060379505,
+          "revalidation": 315.0168000138365,
+          "generation": 0.008399976650252938,
+          "end_to_end": 619.8174999735784
+        }
+      }
+    },
+    {
+      "question": "Which organization employs the manager of Project Comet?",
+      "expected": "Cedar Kite",
+      "response": {
+        "answer": "Cedar Kite",
+        "answers": [
+          {
+            "id": "org:cedar",
+            "name": "Cedar Kite",
+            "entity_type": "Organization",
+            "scope": "fictional_registry"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "17a3a333361d449dba8418bf6341e221",
+        "plan": {
+          "mention": "Comet",
+          "start_type": "Project",
+          "steps": [
+            {
+              "relation": "MANAGES",
+              "direction": "incoming"
+            },
+            {
+              "relation": "WORKS_FOR",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Organization",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "manager_employer",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "project:comet",
+          "candidate_ids": [
+            "project:comet"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 2,
+        "reasoning_path": [
+          {
+            "source": {
+              "id": "project:comet",
+              "name": "Comet",
+              "entity_type": "Project",
+              "scope": "cedar"
+            },
+            "relation": "MANAGES",
+            "target": {
+              "id": "person:lee-north",
+              "name": "Lee Chen",
+              "entity_type": "Person",
+              "scope": "cedar_employee_002"
+            },
+            "direction": "incoming",
+            "stored_source_id": "person:lee-north",
+            "stored_target_id": "project:comet",
+            "supports": [
+              {
+                "fact_id": "auto-fact:f0e6fa9dd32db3646f24ee784e3cc6565fcdd73f",
+                "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+                "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+                "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "automatic",
+                "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+                "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:016",
+                "document_id": "doc:07",
+                "chunk_id": "chunk:07",
+                "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "person:lee-north",
+              "name": "Lee Chen",
+              "entity_type": "Person",
+              "scope": "cedar_employee_002"
+            },
+            "relation": "WORKS_FOR",
+            "target": {
+              "id": "org:cedar",
+              "name": "Cedar Kite",
+              "entity_type": "Organization",
+              "scope": "fictional_registry"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "person:lee-north",
+            "stored_target_id": "org:cedar",
+            "supports": [
+              {
+                "fact_id": "auto-fact:9342700ffb40d2bc0765a5febc8f70dfb380a9ae",
+                "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+                "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+                "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+                "start": 53,
+                "end": 104,
+                "source_kind": "automatic",
+                "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+                "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:017",
+                "document_id": "doc:07",
+                "chunk_id": "chunk:07",
+                "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+                "start": 53,
+                "end": 104,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "project:comet",
+                "name": "Comet",
+                "entity_type": "Project",
+                "scope": "cedar"
+              },
+              {
+                "id": "person:lee-north",
+                "name": "Lee Chen",
+                "entity_type": "Person",
+                "scope": "cedar_employee_002"
+              },
+              {
+                "id": "org:cedar",
+                "name": "Cedar Kite",
+                "entity_type": "Organization",
+                "scope": "fictional_registry"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:comet",
+                  "name": "Comet",
+                  "entity_type": "Project",
+                  "scope": "cedar"
+                },
+                "relation": "MANAGES",
+                "target": {
+                  "id": "person:lee-north",
+                  "name": "Lee Chen",
+                  "entity_type": "Person",
+                  "scope": "cedar_employee_002"
+                },
+                "direction": "incoming",
+                "stored_source_id": "person:lee-north",
+                "stored_target_id": "project:comet",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:f0e6fa9dd32db3646f24ee784e3cc6565fcdd73f",
+                    "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+                    "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+                    "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+                    "start": 0,
+                    "end": 52,
+                    "source_kind": "automatic",
+                    "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+                    "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:016",
+                    "document_id": "doc:07",
+                    "chunk_id": "chunk:07",
+                    "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+                    "start": 0,
+                    "end": 52,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "person:lee-north",
+                  "name": "Lee Chen",
+                  "entity_type": "Person",
+                  "scope": "cedar_employee_002"
+                },
+                "relation": "WORKS_FOR",
+                "target": {
+                  "id": "org:cedar",
+                  "name": "Cedar Kite",
+                  "entity_type": "Organization",
+                  "scope": "fictional_registry"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "person:lee-north",
+                "stored_target_id": "org:cedar",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:9342700ffb40d2bc0765a5febc8f70dfb380a9ae",
+                    "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+                    "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+                    "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+                    "start": 53,
+                    "end": 104,
+                    "source_kind": "automatic",
+                    "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+                    "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:017",
+                    "document_id": "doc:07",
+                    "chunk_id": "chunk:07",
+                    "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+                    "start": 53,
+                    "end": 104,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 2
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:9342700ffb40d2bc0765a5febc8f70dfb380a9ae",
+            "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+            "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+            "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+            "start": 53,
+            "end": 104,
+            "source_kind": "automatic",
+            "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+            "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:f0e6fa9dd32db3646f24ee784e3cc6565fcdd73f",
+            "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+            "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+            "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "automatic",
+            "source_id": "source:821b062d3c466ad591073eae62e21853ec38b126",
+            "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:016",
+            "document_id": "doc:07",
+            "chunk_id": "chunk:07",
+            "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          },
+          {
+            "fact_id": "fact:017",
+            "document_id": "doc:07",
+            "chunk_id": "chunk:07",
+            "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+            "start": 53,
+            "end": 104,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+            "chunk_id": "autochunk:5043b8a60a285282d04f134ca2991bbb7b2a906a",
+            "start": 0,
+            "end": 141,
+            "text": "Lee Chen (Cedar employee 002) manages Project Comet. Lee Chen (Cedar employee 002) works for Cedar Kite. Project Comet belongs to Cedar Kite.",
+            "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:07",
+            "chunk_id": "chunk:07",
+            "start": 0,
+            "end": 141,
+            "text": "Lee Chen (Cedar employee 002) manages Project Comet. Lee Chen (Cedar employee 002) works for Cedar Kite. Project Comet belongs to Cedar Kite.",
+            "content_hash": "83e7c9ab531a47d8eb179c99bd29ca5fdde4d32abae033c2f4e9726f3f9c5f9b",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 6,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 4,
+          "edges_checked": 4,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 1
+        },
+        "latency_ms": {
+          "parsing": 0.045400025555863976,
+          "entity_linking": 0.020100007532164454,
+          "traversal": 3581.709000020055,
+          "provenance": 43.80019998643547,
+          "selection": 0.09919999865815043,
+          "revalidation": 71.54639999498613,
+          "generation": 0.006599992047995329,
+          "end_to_end": 3697.2681999905035
+        }
+      }
+    },
+    {
+      "question": "Which organization owns Project Delta?",
+      "expected": "Tidal Lantern",
+      "response": {
+        "answer": "Tidal Lantern",
+        "answers": [
+          {
+            "id": "org:tidal",
+            "name": "Tidal Lantern",
+            "entity_type": "Organization",
+            "scope": "fictional_registry"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "3ed036b8c2cb4cfba31d4944278d5f38",
+        "plan": {
+          "mention": "Delta",
+          "start_type": "Project",
+          "steps": [
+            {
+              "relation": "BELONGS_TO",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Organization",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "project_owner",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "project:delta",
+          "candidate_ids": [
+            "project:delta"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 1,
+        "reasoning_path": [
+          {
+            "source": {
+              "id": "project:delta",
+              "name": "Delta",
+              "entity_type": "Project",
+              "scope": "tidal"
+            },
+            "relation": "BELONGS_TO",
+            "target": {
+              "id": "org:tidal",
+              "name": "Tidal Lantern",
+              "entity_type": "Organization",
+              "scope": "fictional_registry"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "project:delta",
+            "stored_target_id": "org:tidal",
+            "supports": [
+              {
+                "fact_id": "auto-fact:e7dc79fc17a36eaa62f773869a9c6edf1d7ba26e",
+                "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+                "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+                "quote": "Project Delta belongs to Tidal Lantern.",
+                "start": 108,
+                "end": 147,
+                "source_kind": "automatic",
+                "source_id": "source:610ab68bbfceae176039d9f0a476693d9e0b6abd",
+                "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:023",
+                "document_id": "doc:09",
+                "chunk_id": "chunk:09",
+                "quote": "Project Delta belongs to Tidal Lantern.",
+                "start": 108,
+                "end": 147,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "project:delta",
+                "name": "Delta",
+                "entity_type": "Project",
+                "scope": "tidal"
+              },
+              {
+                "id": "org:tidal",
+                "name": "Tidal Lantern",
+                "entity_type": "Organization",
+                "scope": "fictional_registry"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:delta",
+                  "name": "Delta",
+                  "entity_type": "Project",
+                  "scope": "tidal"
+                },
+                "relation": "BELONGS_TO",
+                "target": {
+                  "id": "org:tidal",
+                  "name": "Tidal Lantern",
+                  "entity_type": "Organization",
+                  "scope": "fictional_registry"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:delta",
+                "stored_target_id": "org:tidal",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:e7dc79fc17a36eaa62f773869a9c6edf1d7ba26e",
+                    "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+                    "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+                    "quote": "Project Delta belongs to Tidal Lantern.",
+                    "start": 108,
+                    "end": 147,
+                    "source_kind": "automatic",
+                    "source_id": "source:610ab68bbfceae176039d9f0a476693d9e0b6abd",
+                    "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:023",
+                    "document_id": "doc:09",
+                    "chunk_id": "chunk:09",
+                    "quote": "Project Delta belongs to Tidal Lantern.",
+                    "start": 108,
+                    "end": 147,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 1
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:e7dc79fc17a36eaa62f773869a9c6edf1d7ba26e",
+            "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+            "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+            "quote": "Project Delta belongs to Tidal Lantern.",
+            "start": 108,
+            "end": 147,
+            "source_kind": "automatic",
+            "source_id": "source:610ab68bbfceae176039d9f0a476693d9e0b6abd",
+            "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:023",
+            "document_id": "doc:09",
+            "chunk_id": "chunk:09",
+            "quote": "Project Delta belongs to Tidal Lantern.",
+            "start": 108,
+            "end": 147,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+            "chunk_id": "autochunk:03e9ab90b42757f69bd6e4e18722dc09279eaf92",
+            "start": 0,
+            "end": 147,
+            "text": "Lee Chen (Tidal employee 001) manages Project Delta. Lee Chen (Tidal employee 001) works for Tidal Lantern. Project Delta belongs to Tidal Lantern.",
+            "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:09",
+            "chunk_id": "chunk:09",
+            "start": 0,
+            "end": 147,
+            "text": "Lee Chen (Tidal employee 001) manages Project Delta. Lee Chen (Tidal employee 001) works for Tidal Lantern. Project Delta belongs to Tidal Lantern.",
+            "content_hash": "4b504bf2d15da02d0e572983a60663982b12627a7d761a93eb2ef58094600d0e",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 2,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 2,
+          "edges_checked": 2,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 1
+        },
+        "latency_ms": {
+          "parsing": 0.05639999289996922,
+          "entity_linking": 0.015099998563528061,
+          "traversal": 1026.3725999975577,
+          "provenance": 71.29359999089502,
+          "selection": 0.05959998816251755,
+          "revalidation": 52.41649999516085,
+          "generation": 0.005999987479299307,
+          "end_to_end": 1150.2564999973401
+        }
+      }
+    },
+    {
+      "question": "Which cloud platform hosts the database used by Project Atlas East?",
+      "expected": "Azure",
+      "response": {
+        "answer": "Azure",
+        "answers": [
+          {
+            "id": "platform:azure",
+            "name": "Azure",
+            "entity_type": "Platform",
+            "scope": "cloud_vendor"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "022acffdaa0e474c94961e63d379cd56",
+        "plan": {
+          "mention": "Atlas East",
+          "start_type": "Project",
+          "steps": [
+            {
+              "relation": "USES",
+              "direction": "outgoing"
+            },
+            {
+              "relation": "HOSTED_ON",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Platform",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "project_platform",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "project:atlas-east",
+          "candidate_ids": [
+            "project:atlas-east"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 2,
+        "reasoning_path": [
+          {
+            "source": {
+              "id": "project:atlas-east",
+              "name": "Atlas East",
+              "entity_type": "Project",
+              "scope": "cedar"
+            },
+            "relation": "USES",
+            "target": {
+              "id": "tech:postgres-east",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas-east_deployment"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "project:atlas-east",
+            "stored_target_id": "tech:postgres-east",
+            "supports": [
+              {
+                "fact_id": "auto-fact:5f85bd6878ab08822537aca73fc37af3a043ff23",
+                "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+                "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+                "quote": "Project Atlas East uses its own PostgreSQL instance.",
+                "start": 120,
+                "end": 172,
+                "source_kind": "automatic",
+                "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+                "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:aacbbbed11ae1263c1a7996f5c060532b9a8ee39",
+                "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+                "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+                "quote": "Atlas East utilizes its own PostgreSQL instance.",
+                "start": 135,
+                "end": 183,
+                "source_kind": "automatic",
+                "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+                "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:009",
+                "document_id": "doc:04",
+                "chunk_id": "chunk:04",
+                "quote": "Project Atlas East uses its own PostgreSQL instance.",
+                "start": 120,
+                "end": 172,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "tech:postgres-east",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas-east_deployment"
+            },
+            "relation": "HOSTED_ON",
+            "target": {
+              "id": "platform:azure",
+              "name": "Azure",
+              "entity_type": "Platform",
+              "scope": "cloud_vendor"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "tech:postgres-east",
+            "stored_target_id": "platform:azure",
+            "supports": [
+              {
+                "fact_id": "auto-fact:89832f8a6037b0af627f7bdc8189581bf250f812",
+                "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+                "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+                "quote": "The PostgreSQL instance for Project Atlas East is hosted on Microsoft Azure.",
+                "start": 184,
+                "end": 260,
+                "source_kind": "automatic",
+                "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+                "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:f9d2d40aa121dc9872c9d21bdb939944f9f3d38b",
+                "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+                "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+                "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+                "start": 173,
+                "end": 239,
+                "source_kind": "automatic",
+                "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+                "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:010",
+                "document_id": "doc:04",
+                "chunk_id": "chunk:04",
+                "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+                "start": 173,
+                "end": 239,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "project:atlas-east",
+                "name": "Atlas East",
+                "entity_type": "Project",
+                "scope": "cedar"
+              },
+              {
+                "id": "tech:postgres-east",
+                "name": "PostgreSQL",
+                "entity_type": "Technology",
+                "scope": "atlas-east_deployment"
+              },
+              {
+                "id": "platform:azure",
+                "name": "Azure",
+                "entity_type": "Platform",
+                "scope": "cloud_vendor"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:atlas-east",
+                  "name": "Atlas East",
+                  "entity_type": "Project",
+                  "scope": "cedar"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:postgres-east",
+                  "name": "PostgreSQL",
+                  "entity_type": "Technology",
+                  "scope": "atlas-east_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:atlas-east",
+                "stored_target_id": "tech:postgres-east",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:5f85bd6878ab08822537aca73fc37af3a043ff23",
+                    "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+                    "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+                    "quote": "Project Atlas East uses its own PostgreSQL instance.",
+                    "start": 120,
+                    "end": 172,
+                    "source_kind": "automatic",
+                    "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+                    "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "auto-fact:aacbbbed11ae1263c1a7996f5c060532b9a8ee39",
+                    "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+                    "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+                    "quote": "Atlas East utilizes its own PostgreSQL instance.",
+                    "start": 135,
+                    "end": 183,
+                    "source_kind": "automatic",
+                    "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+                    "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:009",
+                    "document_id": "doc:04",
+                    "chunk_id": "chunk:04",
+                    "quote": "Project Atlas East uses its own PostgreSQL instance.",
+                    "start": 120,
+                    "end": 172,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "tech:postgres-east",
+                  "name": "PostgreSQL",
+                  "entity_type": "Technology",
+                  "scope": "atlas-east_deployment"
+                },
+                "relation": "HOSTED_ON",
+                "target": {
+                  "id": "platform:azure",
+                  "name": "Azure",
+                  "entity_type": "Platform",
+                  "scope": "cloud_vendor"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "tech:postgres-east",
+                "stored_target_id": "platform:azure",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:89832f8a6037b0af627f7bdc8189581bf250f812",
+                    "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+                    "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+                    "quote": "The PostgreSQL instance for Project Atlas East is hosted on Microsoft Azure.",
+                    "start": 184,
+                    "end": 260,
+                    "source_kind": "automatic",
+                    "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+                    "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "auto-fact:f9d2d40aa121dc9872c9d21bdb939944f9f3d38b",
+                    "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+                    "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+                    "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+                    "start": 173,
+                    "end": 239,
+                    "source_kind": "automatic",
+                    "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+                    "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:010",
+                    "document_id": "doc:04",
+                    "chunk_id": "chunk:04",
+                    "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+                    "start": 173,
+                    "end": 239,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 2
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:5f85bd6878ab08822537aca73fc37af3a043ff23",
+            "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+            "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+            "quote": "Project Atlas East uses its own PostgreSQL instance.",
+            "start": 120,
+            "end": 172,
+            "source_kind": "automatic",
+            "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:89832f8a6037b0af627f7bdc8189581bf250f812",
+            "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+            "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+            "quote": "The PostgreSQL instance for Project Atlas East is hosted on Microsoft Azure.",
+            "start": 184,
+            "end": 260,
+            "source_kind": "automatic",
+            "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+            "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:aacbbbed11ae1263c1a7996f5c060532b9a8ee39",
+            "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+            "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+            "quote": "Atlas East utilizes its own PostgreSQL instance.",
+            "start": 135,
+            "end": 183,
+            "source_kind": "automatic",
+            "source_id": "source:017abca7fd614b411a41c183da34d54815d1ec89",
+            "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:f9d2d40aa121dc9872c9d21bdb939944f9f3d38b",
+            "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+            "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+            "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+            "start": 173,
+            "end": 239,
+            "source_kind": "automatic",
+            "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:009",
+            "document_id": "doc:04",
+            "chunk_id": "chunk:04",
+            "quote": "Project Atlas East uses its own PostgreSQL instance.",
+            "start": 120,
+            "end": 172,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          },
+          {
+            "fact_id": "fact:010",
+            "document_id": "doc:04",
+            "chunk_id": "chunk:04",
+            "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+            "start": 173,
+            "end": 239,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+            "chunk_id": "autochunk:987eee63ace6f242cd21eb088de23c46b3d57f58",
+            "start": 0,
+            "end": 261,
+            "text": "# Fictional Cedar staffing note\n\nPriya (Cedar employee 003) works for Cedar Kite.\nPriya (Cedar employee 003) leads Project Atlas East.\nAtlas East utilizes its own PostgreSQL instance.\nThe PostgreSQL instance for Project Atlas East is hosted on Microsoft Azure.\n",
+            "content_hash": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+            "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+            "start": 0,
+            "end": 239,
+            "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:04",
+            "chunk_id": "chunk:04",
+            "start": 0,
+            "end": 239,
+            "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+            "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 12,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 9,
+          "edges_checked": 6,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 1
+        },
+        "latency_ms": {
+          "parsing": 0.0701999815646559,
+          "entity_linking": 0.014899997040629387,
+          "traversal": 1090.1013000111561,
+          "provenance": 75.34059998579323,
+          "selection": 0.11819999781437218,
+          "revalidation": 216.01299999747425,
+          "generation": 0.007599999662488699,
+          "end_to_end": 1381.705800013151
+        }
+      }
+    },
+    {
+      "question": "Which cloud platform hosts the database used by Project Beacon?",
+      "expected": null,
+      "response": {
+        "answer": null,
+        "answers": [],
+        "abstained": true,
+        "reason": "conflicting_answers",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "65fa6e87183b4a3997b4957ac7979acd",
+        "plan": {
+          "mention": "Beacon",
+          "start_type": "Project",
+          "steps": [
+            {
+              "relation": "USES",
+              "direction": "outgoing"
+            },
+            {
+              "relation": "HOSTED_ON",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Platform",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "project_platform",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "project:beacon",
+          "candidate_ids": [
+            "project:beacon"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 2,
+        "reasoning_path": [],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "project:beacon",
+                "name": "Beacon",
+                "entity_type": "Project",
+                "scope": "lumen"
+              },
+              {
+                "id": "tech:redis",
+                "name": "Redis",
+                "entity_type": "Technology",
+                "scope": "beacon_deployment"
+              },
+              {
+                "id": "platform:aws",
+                "name": "AWS",
+                "entity_type": "Platform",
+                "scope": "cloud_vendor"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:beacon",
+                  "name": "Beacon",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:beacon",
+                "stored_target_id": "tech:redis",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:3c81b01ec28cc8342e63b6d56225691a38dab0d1",
+                    "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+                    "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "automatic",
+                    "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:014",
+                    "document_id": "doc:06",
+                    "chunk_id": "chunk:06",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "relation": "HOSTED_ON",
+                "target": {
+                  "id": "platform:aws",
+                  "name": "AWS",
+                  "entity_type": "Platform",
+                  "scope": "cloud_vendor"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "tech:redis",
+                "stored_target_id": "platform:aws",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:1b297d9b82c5f80dfd956d6e4937cd37cf78f164",
+                    "document_id": "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+                    "chunk_id": "autochunk:5e80776c45e4224259e94dfdaef4b38724b7c50d",
+                    "quote": "The Redis instance for Project Beacon is hosted on AWS.",
+                    "start": 0,
+                    "end": 55,
+                    "source_kind": "automatic",
+                    "source_id": "source:0b7b37fea1a5e4bb2ca866ecc450b9c7804c6111",
+                    "content_hash": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 2
+          },
+          {
+            "nodes": [
+              {
+                "id": "project:beacon",
+                "name": "Beacon",
+                "entity_type": "Project",
+                "scope": "lumen"
+              },
+              {
+                "id": "tech:redis",
+                "name": "Redis",
+                "entity_type": "Technology",
+                "scope": "beacon_deployment"
+              },
+              {
+                "id": "platform:gcp",
+                "name": "GCP",
+                "entity_type": "Platform",
+                "scope": "cloud_vendor"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:beacon",
+                  "name": "Beacon",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:beacon",
+                "stored_target_id": "tech:redis",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:3c81b01ec28cc8342e63b6d56225691a38dab0d1",
+                    "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+                    "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "automatic",
+                    "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:014",
+                    "document_id": "doc:06",
+                    "chunk_id": "chunk:06",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "relation": "HOSTED_ON",
+                "target": {
+                  "id": "platform:gcp",
+                  "name": "GCP",
+                  "entity_type": "Platform",
+                  "scope": "cloud_vendor"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "tech:redis",
+                "stored_target_id": "platform:gcp",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:dd7ee04da50ab0ba377319f19201e61f89856855",
+                    "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+                    "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+                    "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+                    "start": 40,
+                    "end": 95,
+                    "source_kind": "automatic",
+                    "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:015",
+                    "document_id": "doc:06",
+                    "chunk_id": "chunk:06",
+                    "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+                    "start": 40,
+                    "end": 95,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 2
+          }
+        ],
+        "citations": [],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+            "chunk_id": "autochunk:5e80776c45e4224259e94dfdaef4b38724b7c50d",
+            "start": 0,
+            "end": 56,
+            "text": "The Redis instance for Project Beacon is hosted on AWS.\n",
+            "content_hash": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+            "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+            "start": 0,
+            "end": 95,
+            "text": "Project Beacon uses its Redis instance. The Redis instance for Project Beacon is hosted on GCP.",
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:06",
+            "chunk_id": "chunk:06",
+            "start": 0,
+            "end": 95,
+            "text": "Project Beacon uses its Redis instance. The Redis instance for Project Beacon is hosted on GCP.",
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 8,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 6,
+          "edges_checked": 5,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 2
+        },
+        "latency_ms": {
+          "parsing": 0.0678999931551516,
+          "entity_linking": 0.014299992471933365,
+          "traversal": 60.01089999335818,
+          "provenance": 30.303999985335395,
+          "selection": 0.39569998625665903,
+          "revalidation": 74.0673000109382,
+          "generation": 0.0,
+          "end_to_end": 164.8978999874089
+        }
+      }
+    },
+    {
+      "question": "Which cloud platforms host the database used by Project Beacon?",
+      "expected": "AWS; GCP",
+      "response": {
+        "answer": "AWS; GCP",
+        "answers": [
+          {
+            "id": "platform:aws",
+            "name": "AWS",
+            "entity_type": "Platform",
+            "scope": "cloud_vendor"
+          },
+          {
+            "id": "platform:gcp",
+            "name": "GCP",
+            "entity_type": "Platform",
+            "scope": "cloud_vendor"
+          }
+        ],
+        "abstained": false,
+        "reason": "supported",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "96458288c8ef4e329c475e9ee39453f4",
+        "plan": {
+          "mention": "Beacon",
+          "start_type": "Project",
+          "steps": [
+            {
+              "relation": "USES",
+              "direction": "outgoing"
+            },
+            {
+              "relation": "HOSTED_ON",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Platform",
+          "contexts": [],
+          "multiple": true,
+          "rule_id": "project_platform",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "project:beacon",
+          "candidate_ids": [
+            "project:beacon"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 2,
+        "reasoning_path": [],
+        "reasoning_paths": [
+          {
+            "nodes": [
+              {
+                "id": "project:beacon",
+                "name": "Beacon",
+                "entity_type": "Project",
+                "scope": "lumen"
+              },
+              {
+                "id": "tech:redis",
+                "name": "Redis",
+                "entity_type": "Technology",
+                "scope": "beacon_deployment"
+              },
+              {
+                "id": "platform:aws",
+                "name": "AWS",
+                "entity_type": "Platform",
+                "scope": "cloud_vendor"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:beacon",
+                  "name": "Beacon",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:beacon",
+                "stored_target_id": "tech:redis",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:3c81b01ec28cc8342e63b6d56225691a38dab0d1",
+                    "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+                    "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "automatic",
+                    "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:014",
+                    "document_id": "doc:06",
+                    "chunk_id": "chunk:06",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "relation": "HOSTED_ON",
+                "target": {
+                  "id": "platform:aws",
+                  "name": "AWS",
+                  "entity_type": "Platform",
+                  "scope": "cloud_vendor"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "tech:redis",
+                "stored_target_id": "platform:aws",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:1b297d9b82c5f80dfd956d6e4937cd37cf78f164",
+                    "document_id": "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+                    "chunk_id": "autochunk:5e80776c45e4224259e94dfdaef4b38724b7c50d",
+                    "quote": "The Redis instance for Project Beacon is hosted on AWS.",
+                    "start": 0,
+                    "end": 55,
+                    "source_kind": "automatic",
+                    "source_id": "source:0b7b37fea1a5e4bb2ca866ecc450b9c7804c6111",
+                    "content_hash": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 2
+          },
+          {
+            "nodes": [
+              {
+                "id": "project:beacon",
+                "name": "Beacon",
+                "entity_type": "Project",
+                "scope": "lumen"
+              },
+              {
+                "id": "tech:redis",
+                "name": "Redis",
+                "entity_type": "Technology",
+                "scope": "beacon_deployment"
+              },
+              {
+                "id": "platform:gcp",
+                "name": "GCP",
+                "entity_type": "Platform",
+                "scope": "cloud_vendor"
+              }
+            ],
+            "steps": [
+              {
+                "source": {
+                  "id": "project:beacon",
+                  "name": "Beacon",
+                  "entity_type": "Project",
+                  "scope": "lumen"
+                },
+                "relation": "USES",
+                "target": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "project:beacon",
+                "stored_target_id": "tech:redis",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:3c81b01ec28cc8342e63b6d56225691a38dab0d1",
+                    "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+                    "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "automatic",
+                    "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:014",
+                    "document_id": "doc:06",
+                    "chunk_id": "chunk:06",
+                    "quote": "Project Beacon uses its Redis instance.",
+                    "start": 0,
+                    "end": 39,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              },
+              {
+                "source": {
+                  "id": "tech:redis",
+                  "name": "Redis",
+                  "entity_type": "Technology",
+                  "scope": "beacon_deployment"
+                },
+                "relation": "HOSTED_ON",
+                "target": {
+                  "id": "platform:gcp",
+                  "name": "GCP",
+                  "entity_type": "Platform",
+                  "scope": "cloud_vendor"
+                },
+                "direction": "outgoing",
+                "stored_source_id": "tech:redis",
+                "stored_target_id": "platform:gcp",
+                "supports": [
+                  {
+                    "fact_id": "auto-fact:dd7ee04da50ab0ba377319f19201e61f89856855",
+                    "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+                    "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+                    "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+                    "start": 40,
+                    "end": 95,
+                    "source_kind": "automatic",
+                    "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                    "extraction_method": "deterministic_rules"
+                  },
+                  {
+                    "fact_id": "fact:015",
+                    "document_id": "doc:06",
+                    "chunk_id": "chunk:06",
+                    "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+                    "start": 40,
+                    "end": 95,
+                    "source_kind": "curated",
+                    "source_id": null,
+                    "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+                    "processing_version": null,
+                    "extraction_method": "manual_fixture"
+                  }
+                ]
+              }
+            ],
+            "hop_count": 2
+          }
+        ],
+        "citations": [
+          {
+            "fact_id": "auto-fact:1b297d9b82c5f80dfd956d6e4937cd37cf78f164",
+            "document_id": "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+            "chunk_id": "autochunk:5e80776c45e4224259e94dfdaef4b38724b7c50d",
+            "quote": "The Redis instance for Project Beacon is hosted on AWS.",
+            "start": 0,
+            "end": 55,
+            "source_kind": "automatic",
+            "source_id": "source:0b7b37fea1a5e4bb2ca866ecc450b9c7804c6111",
+            "content_hash": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:3c81b01ec28cc8342e63b6d56225691a38dab0d1",
+            "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+            "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+            "quote": "Project Beacon uses its Redis instance.",
+            "start": 0,
+            "end": 39,
+            "source_kind": "automatic",
+            "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:dd7ee04da50ab0ba377319f19201e61f89856855",
+            "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+            "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+            "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+            "start": 40,
+            "end": 95,
+            "source_kind": "automatic",
+            "source_id": "source:049cf3e51539b9299d43e7c0535bc34be3e20956",
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:014",
+            "document_id": "doc:06",
+            "chunk_id": "chunk:06",
+            "quote": "Project Beacon uses its Redis instance.",
+            "start": 0,
+            "end": 39,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          },
+          {
+            "fact_id": "fact:015",
+            "document_id": "doc:06",
+            "chunk_id": "chunk:06",
+            "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+            "start": 40,
+            "end": 95,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ],
+        "evidence_chunks": [
+          {
+            "document_id": "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+            "chunk_id": "autochunk:5e80776c45e4224259e94dfdaef4b38724b7c50d",
+            "start": 0,
+            "end": 56,
+            "text": "The Redis instance for Project Beacon is hosted on AWS.\n",
+            "content_hash": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+            "chunk_id": "autochunk:0724274cc6bf010c14e848dce25e2aa3c04c793d",
+            "start": 0,
+            "end": 95,
+            "text": "Project Beacon uses its Redis instance. The Redis instance for Project Beacon is hosted on GCP.",
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "source_kind": "automatic"
+          },
+          {
+            "document_id": "doc:06",
+            "chunk_id": "chunk:06",
+            "start": 0,
+            "end": 95,
+            "text": "Project Beacon uses its Redis instance. The Redis instance for Project Beacon is hosted on GCP.",
+            "content_hash": "b570cf948f625e225df8853081e440345e00a857720124bfd4eb8ebcc8ca5ca7",
+            "source_kind": "curated"
+          }
+        ],
+        "candidate_path_count": 8,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 6,
+          "edges_checked": 5,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 2
+        },
+        "latency_ms": {
+          "parsing": 0.06830002530477941,
+          "entity_linking": 0.015099998563528061,
+          "traversal": 60.62560001737438,
+          "provenance": 68.18709999788553,
+          "selection": 0.36410000757314265,
+          "revalidation": 84.8919999843929,
+          "generation": 0.007700000423938036,
+          "end_to_end": 214.1989000083413
+        }
+      }
+    },
+    {
+      "question": "Which project does Priya manage?",
+      "expected": null,
+      "response": {
+        "answer": null,
+        "answers": [],
+        "abstained": true,
+        "reason": "entity_ambiguous",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "aff6b5659f2a488eaa27c6e0298d852b",
+        "plan": {
+          "mention": "Priya",
+          "start_type": "Person",
+          "steps": [
+            {
+              "relation": "MANAGES",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Project",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "person_project",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "ambiguous",
+          "canonical_id": null,
+          "candidate_ids": [
+            "person:priya",
+            "person:priya-cedar"
+          ],
+          "reason": "multiple_canonical_identities"
+        },
+        "hop_count": 1,
+        "reasoning_path": [],
+        "reasoning_paths": [],
+        "citations": [],
+        "evidence_chunks": [],
+        "candidate_path_count": 0,
+        "paths_discarded": 0,
+        "diagnostics": {},
+        "latency_ms": {
+          "parsing": 0.046299974201247096,
+          "entity_linking": 0.015300000086426735,
+          "traversal": 0.0,
+          "provenance": 0.0,
+          "selection": 0.0,
+          "revalidation": 0.0,
+          "generation": 0.0,
+          "end_to_end": 0.076299998909235
+        }
+      }
+    },
+    {
+      "question": "Which project does Lee Chen manage?",
+      "expected": null,
+      "response": {
+        "answer": null,
+        "answers": [],
+        "abstained": true,
+        "reason": "entity_ambiguous",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "ff48e9e17dd7449884e26f1204190f8e",
+        "plan": {
+          "mention": "Lee Chen",
+          "start_type": "Person",
+          "steps": [
+            {
+              "relation": "MANAGES",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Project",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "person_project",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "ambiguous",
+          "canonical_id": null,
+          "candidate_ids": [
+            "person:lee-north",
+            "person:lee-south"
+          ],
+          "reason": "multiple_canonical_identities"
+        },
+        "hop_count": 1,
+        "reasoning_path": [],
+        "reasoning_paths": [],
+        "citations": [],
+        "evidence_chunks": [],
+        "candidate_path_count": 0,
+        "paths_discarded": 0,
+        "diagnostics": {},
+        "latency_ms": {
+          "parsing": 0.02819998189806938,
+          "entity_linking": 0.00999998883344233,
+          "traversal": 0.0,
+          "provenance": 0.0,
+          "selection": 0.0,
+          "revalidation": 0.0,
+          "generation": 0.0,
+          "end_to_end": 0.04909999552182853
+        }
+      }
+    },
+    {
+      "question": "Which organization employs Ivo?",
+      "expected": null,
+      "response": {
+        "answer": null,
+        "answers": [],
+        "abstained": true,
+        "reason": "no_complete_path",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "e577398cfe774879bfcf19cddc22ca54",
+        "plan": {
+          "mention": "Ivo",
+          "start_type": "Person",
+          "steps": [
+            {
+              "relation": "WORKS_FOR",
+              "direction": "outgoing"
+            }
+          ],
+          "answer_type": "Organization",
+          "contexts": [],
+          "multiple": false,
+          "rule_id": "employment",
+          "parsing_status": "supported"
+        },
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "person:ivo",
+          "candidate_ids": [
+            "person:ivo"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "hop_count": 1,
+        "reasoning_path": [],
+        "reasoning_paths": [],
+        "citations": [],
+        "evidence_chunks": [],
+        "candidate_path_count": 0,
+        "paths_discarded": 0,
+        "diagnostics": {
+          "complete_candidates": 0,
+          "edges_checked": 0,
+          "provenance_rejections": 0,
+          "validated_complete_paths": 0
+        },
+        "latency_ms": {
+          "parsing": 0.029799994081258774,
+          "entity_linking": 0.008400005754083395,
+          "traversal": 969.6495999814942,
+          "provenance": 0.0047000066842883825,
+          "selection": 0.005600013537332416,
+          "revalidation": 0.0,
+          "generation": 0.0,
+          "end_to_end": 972.597100015264
+        }
+      }
+    },
+    {
+      "question": "MATCH (n) DETACH DELETE n",
+      "expected": null,
+      "response": {
+        "answer": null,
+        "answers": [],
+        "abstained": true,
+        "reason": "unsupported_question_grammar",
+        "retrieval_mode": "graph_multi_hop",
+        "generator": "deterministic_graph_v1",
+        "request_id": "5bf672381dc846bc85882fac7345291a",
+        "plan": null,
+        "resolution": null,
+        "hop_count": 0,
+        "reasoning_path": [],
+        "reasoning_paths": [],
+        "citations": [],
+        "evidence_chunks": [],
+        "candidate_path_count": 0,
+        "paths_discarded": 0,
+        "diagnostics": {},
+        "latency_ms": {
+          "parsing": 0.5185999907553196,
+          "entity_linking": 0.0,
+          "traversal": 0.0,
+          "provenance": 0.0,
+          "selection": 0.0,
+          "revalidation": 0.0,
+          "generation": 0.0,
+          "end_to_end": 0.5382999952416867
+        }
+      }
+    }
+  ],
+  "warm_active_workloads": {
+    "1": {
+      "requests": 35,
+      "repetitions_per_question": 5,
+      "wall_seconds": 7.180867100018077,
+      "phase_latency_ms": {
+        "parsing": {
+          "p50": 0.05800000508315861,
+          "p95": 0.08237999863922595
+        },
+        "entity_linking": {
+          "p50": 0.014499993994832039,
+          "p95": 0.017929991008713834
+        },
+        "traversal": {
+          "p50": 37.437799997860566,
+          "p95": 217.1466300002065
+        },
+        "provenance": {
+          "p50": 40.46730001573451,
+          "p95": 72.9663200152572
+        },
+        "selection": {
+          "p50": 0.10430000838823617,
+          "p95": 0.34219999506603926
+        },
+        "revalidation": {
+          "p50": 74.99320001807064,
+          "p95": 225.55883000604783
+        },
+        "generation": {
+          "p50": 0.006999995093792677,
+          "p95": 0.012410027557052662
+        },
+        "end_to_end": {
+          "p50": 181.58330000005662,
+          "p95": 509.71916000416957
+        }
+      },
+      "candidate_paths": 360,
+      "paths_discarded": 0,
+      "stable_answers_paths_citations": true
+    },
+    "4": {
+      "requests": 35,
+      "repetitions_per_question": 5,
+      "wall_seconds": 5.068239500018535,
+      "phase_latency_ms": {
+        "parsing": {
+          "p50": 0.06719998782500625,
+          "p95": 0.08677999430801717
+        },
+        "entity_linking": {
+          "p50": 0.01479999627918005,
+          "p95": 0.019420002354308963
+        },
+        "traversal": {
+          "p50": 151.32840001024306,
+          "p95": 338.30278001551045
+        },
+        "provenance": {
+          "p50": 98.555500007933,
+          "p95": 176.44977000309154
+        },
+        "selection": {
+          "p50": 0.10380000458098948,
+          "p95": 0.22294999216683206
+        },
+        "revalidation": {
+          "p50": 270.1600000145845,
+          "p95": 537.3405399965121
+        },
+        "generation": {
+          "p50": 0.00790000194683671,
+          "p95": 0.01145999995060265
+        },
+        "end_to_end": {
+          "p50": 557.6696000061929,
+          "p95": 1022.86601998494
+        }
+      },
+      "candidate_paths": 360,
+      "paths_discarded": 0,
+      "stable_answers_paths_citations": true
+    }
+  },
+  "graph_snapshot_before": {
+    "sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+    "unchanged": true,
+    "counts": {
+      "nodes": 254,
+      "edges": 622,
+      "sources": 93,
+      "runs": 110,
+      "vectors": 92
+    }
+  },
+  "graph_snapshot_after": {
+    "sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+    "unchanged": true,
+    "counts": {
+      "nodes": 254,
+      "edges": 622,
+      "sources": 93,
+      "runs": 110,
+      "vectors": 92
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "smoke",
+  "source_documents": 27,
+  "accepted_facts": 33,
+  "index": {
+    "build_id": "vector-build:b98c89c4f6f7f17c656e7d44ee90e978c6ebff6e",
+    "documents": 27,
+    "chunks": 27,
+    "status": "ready",
+    "cached": false,
+    "indexing_ms": 32381.187499995576
+  },
+  "repeat_index_cached": true,
+  "provenance": {
+    "facts_checked": 33,
+    "failures": 0
+  },
+  "source_only": true
+}

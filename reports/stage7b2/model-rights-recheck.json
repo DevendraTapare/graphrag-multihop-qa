@@ -1,0 +1,9 @@
+{
+  "source": "https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "returned_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "card_license": "apache-2.0",
+  "license_notice_files": [],
+  "file_count": 30,
+  "model_artifacts_downloaded": false
+}

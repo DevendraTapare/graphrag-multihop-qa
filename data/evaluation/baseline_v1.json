@@ -1,0 +1,3728 @@
+{
+  "version": "multihop-vector-v1",
+  "synthetic": true,
+  "facts": [
+    {
+      "id": "s01-fact-1",
+      "document_id": "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6",
+      "source_id": "source:60fb3dd5d32d9ba18734aff3dca2ce118f262ebe",
+      "start": 0,
+      "end": 32,
+      "quote": "Asha Rao manages Project Boreal.",
+      "predicate": "MANAGES",
+      "subject": "Asha Rao",
+      "object": "Boreal"
+    },
+    {
+      "id": "s01-fact-2",
+      "document_id": "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+      "source_id": "source:85ba7fd3c894ecd3fc56eecfee12fc33582c9038",
+      "start": 0,
+      "end": 42,
+      "quote": "Project Boreal uses its CobaltDB instance.",
+      "predicate": "USES",
+      "subject": "Boreal",
+      "object": "CobaltDB@Boreal"
+    },
+    {
+      "id": "s01-fact-3",
+      "document_id": "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+      "source_id": "source:0e38433cdfb77cd13bbdf0e8bcd740643d4c623e",
+      "start": 0,
+      "end": 58,
+      "quote": "The CobaltDB instance for Project Boreal is hosted on AWS.",
+      "predicate": "HOSTED_ON",
+      "subject": "CobaltDB@Boreal",
+      "object": "AWS"
+    },
+    {
+      "id": "s01-fact-4",
+      "document_id": "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+      "source_id": "source:b1c2b89e0b36e4317337b072723ca5e1f9077668",
+      "start": 0,
+      "end": 40,
+      "quote": "Project Boreal belongs to Orion Orchard.",
+      "predicate": "BELONGS_TO",
+      "subject": "Boreal",
+      "object": "Orion Orchard"
+    },
+    {
+      "id": "s01-fact-5",
+      "document_id": "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f",
+      "source_id": "source:45d37d8493e69fb20ae9f4c71e7c14b4f1525237",
+      "start": 0,
+      "end": 33,
+      "quote": "Asha Rao works for Orion Orchard.",
+      "predicate": "WORKS_FOR",
+      "subject": "Asha Rao",
+      "object": "Orion Orchard"
+    },
+    {
+      "id": "s01-fact-6",
+      "document_id": "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+      "source_id": "source:2b93c60d3286713aebc123ab3f0af901b6188ea8",
+      "start": 0,
+      "end": 38,
+      "quote": "Asha Rao manages Project Boreal Annex.",
+      "predicate": "MANAGES",
+      "subject": "Asha Rao",
+      "object": "Boreal Annex"
+    },
+    {
+      "id": "s01-fact-7",
+      "document_id": "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+      "source_id": "source:d9bf7a2d89f76da899b8cd9126c98f579561f86c",
+      "start": 0,
+      "end": 48,
+      "quote": "Project Boreal Annex uses its Firebird instance.",
+      "predicate": "USES",
+      "subject": "Boreal Annex",
+      "object": "Firebird@Boreal Annex"
+    },
+    {
+      "id": "s01-fact-8",
+      "document_id": "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+      "source_id": "source:b5b1d61ed93f3480c34cb558e29651a57c09acd1",
+      "start": 0,
+      "end": 66,
+      "quote": "The Firebird instance for Project Boreal Annex is hosted on Azure.",
+      "predicate": "HOSTED_ON",
+      "subject": "Firebird@Boreal Annex",
+      "object": "Azure"
+    },
+    {
+      "id": "s01-fact-9",
+      "document_id": "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+      "source_id": "source:00124a2317963e718dbd6073567f83f3720752c1",
+      "start": 0,
+      "end": 46,
+      "quote": "Project Boreal Annex belongs to Orion Orchard.",
+      "predicate": "BELONGS_TO",
+      "subject": "Boreal Annex",
+      "object": "Orion Orchard"
+    },
+    {
+      "id": "s02-fact-1",
+      "document_id": "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+      "source_id": "source:5b3a53ed4eec8a897a4152fdbfb39b207ae1790e",
+      "start": 0,
+      "end": 33,
+      "quote": "Ben Sato manages Project Saffron.",
+      "predicate": "MANAGES",
+      "subject": "Ben Sato",
+      "object": "Saffron"
+    },
+    {
+      "id": "s02-fact-2",
+      "document_id": "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+      "source_id": "source:31af2a3b2368273e71269b542da5fd48700528e2",
+      "start": 0,
+      "end": 42,
+      "quote": "Project Saffron uses its MariaDB instance.",
+      "predicate": "USES",
+      "subject": "Saffron",
+      "object": "MariaDB@Saffron"
+    },
+    {
+      "id": "s02-fact-3",
+      "document_id": "autodoc:451c291414b9394db934faf0582602158d7b4d25",
+      "source_id": "source:0d81482538283ba539ae369d23325107c039a503",
+      "start": 0,
+      "end": 60,
+      "quote": "The MariaDB instance for Project Saffron is hosted on Azure.",
+      "predicate": "HOSTED_ON",
+      "subject": "MariaDB@Saffron",
+      "object": "Azure"
+    },
+    {
+      "id": "s02-fact-4",
+      "document_id": "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+      "source_id": "source:e1ed40935b635ba88cf8a5045d2db510f4ecf7f3",
+      "start": 0,
+      "end": 41,
+      "quote": "Project Saffron belongs to Kestrel Grove.",
+      "predicate": "BELONGS_TO",
+      "subject": "Saffron",
+      "object": "Kestrel Grove"
+    },
+    {
+      "id": "s02-fact-5",
+      "document_id": "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241",
+      "source_id": "source:6111224f5cedf91c716f3f6f637ce776fdf0538d",
+      "start": 0,
+      "end": 33,
+      "quote": "Ben Sato works for Kestrel Grove.",
+      "predicate": "WORKS_FOR",
+      "subject": "Ben Sato",
+      "object": "Kestrel Grove"
+    },
+    {
+      "id": "s03-fact-1",
+      "document_id": "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+      "source_id": "source:8fa2d6752a643f04e5390e32be8b42c766220ba5",
+      "start": 0,
+      "end": 38,
+      "quote": "Cora Vale manages Project Boreal East.",
+      "predicate": "MANAGES",
+      "subject": "Cora Vale",
+      "object": "Boreal East"
+    },
+    {
+      "id": "s03-fact-2",
+      "document_id": "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+      "source_id": "source:cb31e7532cf7f850abb4786175e42d0a8f7b9f8d",
+      "start": 0,
+      "end": 48,
+      "quote": "Project Boreal East uses its Memcached instance.",
+      "predicate": "USES",
+      "subject": "Boreal East",
+      "object": "Memcached@Boreal East"
+    },
+    {
+      "id": "s03-fact-3",
+      "document_id": "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015",
+      "source_id": "source:bbaa9546adfbe8606d1ef62120eb11ec0168c474",
+      "start": 0,
+      "end": 64,
+      "quote": "The Memcached instance for Project Boreal East is hosted on GCP.",
+      "predicate": "HOSTED_ON",
+      "subject": "Memcached@Boreal East",
+      "object": "GCP"
+    },
+    {
+      "id": "s03-fact-4",
+      "document_id": "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89",
+      "source_id": "source:67426f10c716a2182f3779acb6f1da1be4ae1059",
+      "start": 0,
+      "end": 43,
+      "quote": "Project Boreal East belongs to Mica Harbor.",
+      "predicate": "BELONGS_TO",
+      "subject": "Boreal East",
+      "object": "Mica Harbor"
+    },
+    {
+      "id": "s03-fact-5",
+      "document_id": "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a",
+      "source_id": "source:62df1c9f448459d350e38eca39c54142646bf340",
+      "start": 0,
+      "end": 32,
+      "quote": "Cora Vale works for Mica Harbor.",
+      "predicate": "WORKS_FOR",
+      "subject": "Cora Vale",
+      "object": "Mica Harbor"
+    },
+    {
+      "id": "s04-fact-1",
+      "document_id": "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+      "source_id": "source:b9f28fdc297fdd6108ed992d08418eb4c8e6256f",
+      "start": 0,
+      "end": 34,
+      "quote": "Davi Moss manages Project Juniper.",
+      "predicate": "MANAGES",
+      "subject": "Davi Moss",
+      "object": "Juniper"
+    },
+    {
+      "id": "s04-fact-2",
+      "document_id": "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+      "source_id": "source:3a1d9dfd892fe30cc58ec526dc472ce7a47a4fea",
+      "start": 0,
+      "end": 45,
+      "quote": "Project Juniper uses its ClickHouse instance.",
+      "predicate": "USES",
+      "subject": "Juniper",
+      "object": "ClickHouse@Juniper"
+    },
+    {
+      "id": "s04-fact-3",
+      "document_id": "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+      "source_id": "source:3b1ea66bcfe015886e300331f3b1871d94d76b06",
+      "start": 0,
+      "end": 61,
+      "quote": "The ClickHouse instance for Project Juniper is hosted on AWS.",
+      "predicate": "HOSTED_ON",
+      "subject": "ClickHouse@Juniper",
+      "object": "AWS"
+    },
+    {
+      "id": "s04-fact-4",
+      "document_id": "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f",
+      "source_id": "source:0e5862b4a6c295860418715716e5dcc384282e99",
+      "start": 0,
+      "end": 40,
+      "quote": "Project Juniper belongs to Sable Meadow.",
+      "predicate": "BELONGS_TO",
+      "subject": "Juniper",
+      "object": "Sable Meadow"
+    },
+    {
+      "id": "s04-fact-5",
+      "document_id": "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8",
+      "source_id": "source:c4feaf426e0ac58b420da5bd13caab7313be0b25",
+      "start": 0,
+      "end": 33,
+      "quote": "Davi Moss works for Sable Meadow.",
+      "predicate": "WORKS_FOR",
+      "subject": "Davi Moss",
+      "object": "Sable Meadow"
+    },
+    {
+      "id": "s05-fact-1",
+      "document_id": "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+      "source_id": "source:12833ff50035f0e30e6485512d8c4c0c2442b472",
+      "start": 0,
+      "end": 32,
+      "quote": "Elin Park manages Project Topaz.",
+      "predicate": "MANAGES",
+      "subject": "Elin Park",
+      "object": "Topaz"
+    },
+    {
+      "id": "s05-fact-2",
+      "document_id": "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5",
+      "source_id": "source:c8c451311b1eba3b28cfee888713a982a38fc53e",
+      "start": 0,
+      "end": 42,
+      "quote": "Project Topaz uses its Cassandra instance.",
+      "predicate": "USES",
+      "subject": "Topaz",
+      "object": "Cassandra@Topaz"
+    },
+    {
+      "id": "s05-fact-3",
+      "document_id": "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+      "source_id": "source:e59a8b3ee720b0dca7cb9a48fd3e481a327e8d26",
+      "start": 0,
+      "end": 60,
+      "quote": "The Cassandra instance for Project Topaz is hosted on Azure.",
+      "predicate": "HOSTED_ON",
+      "subject": "Cassandra@Topaz",
+      "object": "Azure"
+    },
+    {
+      "id": "s05-fact-4",
+      "document_id": "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb",
+      "source_id": "source:2a5741e5f52205b5f9f3a48787cd36f5eb65d63f",
+      "start": 0,
+      "end": 37,
+      "quote": "Project Topaz belongs to Copper Nest.",
+      "predicate": "BELONGS_TO",
+      "subject": "Topaz",
+      "object": "Copper Nest"
+    },
+    {
+      "id": "s05-fact-5",
+      "document_id": "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c",
+      "source_id": "source:b2a095db9e34af38aa94ce23451a556f793efc4d",
+      "start": 0,
+      "end": 32,
+      "quote": "Elin Park works for Copper Nest.",
+      "predicate": "WORKS_FOR",
+      "subject": "Elin Park",
+      "object": "Copper Nest"
+    },
+    {
+      "id": "s06-fact-1",
+      "document_id": "autodoc:f39d6f4f1d743a889da3732f54634c390742232b",
+      "source_id": "source:6d2442dd7265a19de36c14a8fdc1acfbfaacf346",
+      "start": 0,
+      "end": 33,
+      "quote": "Femi Lake manages Project Willow.",
+      "predicate": "MANAGES",
+      "subject": "Femi Lake",
+      "object": "Willow"
+    },
+    {
+      "id": "s06-fact-2",
+      "document_id": "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+      "source_id": "source:f003d2e4a371b7360f21a28bf96fb0ca22f071a1",
+      "start": 0,
+      "end": 40,
+      "quote": "Project Willow uses its SQLite instance.",
+      "predicate": "USES",
+      "subject": "Willow",
+      "object": "SQLite@Willow"
+    },
+    {
+      "id": "s06-fact-3",
+      "document_id": "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+      "source_id": "source:c252642ac17ba826bf8315d6a63f2207ef11ccff",
+      "start": 0,
+      "end": 56,
+      "quote": "The SQLite instance for Project Willow is hosted on GCP.",
+      "predicate": "HOSTED_ON",
+      "subject": "SQLite@Willow",
+      "object": "GCP"
+    },
+    {
+      "id": "s06-fact-4",
+      "document_id": "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+      "source_id": "source:d4c71a80c201997972a6608385b32b5edfe8bfe8",
+      "start": 0,
+      "end": 39,
+      "quote": "Project Willow belongs to Lantern Vale.",
+      "predicate": "BELONGS_TO",
+      "subject": "Willow",
+      "object": "Lantern Vale"
+    },
+    {
+      "id": "s06-fact-5",
+      "document_id": "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe",
+      "source_id": "source:195f61809c9237427f48dbc5d4c913e50e3a9a73",
+      "start": 0,
+      "end": 33,
+      "quote": "Femi Lake works for Lantern Vale.",
+      "predicate": "WORKS_FOR",
+      "subject": "Femi Lake",
+      "object": "Lantern Vale"
+    },
+    {
+      "id": "s07-fact-5",
+      "document_id": "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "source_id": "source:97f89cffc54008d76fc862959303be7c5064173e",
+      "start": 0,
+      "end": 35,
+      "quote": "Rhea Sen is employed by Pebble Arc.",
+      "predicate": "WORKS_FOR",
+      "subject": "Rhea Sen",
+      "object": "Pebble Arc"
+    },
+    {
+      "id": "s07-fact-1",
+      "document_id": "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "source_id": "source:97f89cffc54008d76fc862959303be7c5064173e",
+      "start": 36,
+      "end": 80,
+      "quote": "Project Cedar Bridge is managed by Rhea Sen.",
+      "predicate": "MANAGES",
+      "subject": "Rhea Sen",
+      "object": "Cedar Bridge"
+    },
+    {
+      "id": "s07-fact-4",
+      "document_id": "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "source_id": "source:55a83f0665521da22e0172e6940038c903a598d5",
+      "start": 0,
+      "end": 44,
+      "quote": "Project Cedar Bridge is owned by Pebble Arc.",
+      "predicate": "BELONGS_TO",
+      "subject": "Cedar Bridge",
+      "object": "Pebble Arc"
+    },
+    {
+      "id": "s07-fact-2",
+      "document_id": "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "source_id": "source:55a83f0665521da22e0172e6940038c903a598d5",
+      "start": 45,
+      "end": 98,
+      "quote": "Project Cedar Bridge utilizes its OceanBase instance.",
+      "predicate": "USES",
+      "subject": "Cedar Bridge",
+      "object": "OceanBase@Cedar Bridge"
+    },
+    {
+      "id": "s07-fact-3",
+      "document_id": "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+      "source_id": "source:7ac732239fd1ee57dd704655ef3cbc7214084aec",
+      "start": 0,
+      "end": 60,
+      "quote": "The OceanBase instance for Project Cedar Bridge runs on GCP.",
+      "predicate": "HOSTED_ON",
+      "subject": "OceanBase@Cedar Bridge",
+      "object": "GCP"
+    },
+    {
+      "id": "s08-fact-5",
+      "document_id": "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "source_id": "source:ccb371d7f3f9599d15f6e4ad81b025cc22c04581",
+      "start": 0,
+      "end": 38,
+      "quote": "Tomas Bell is employed by Silver Loom.",
+      "predicate": "WORKS_FOR",
+      "subject": "Tomas Bell",
+      "object": "Silver Loom"
+    },
+    {
+      "id": "s08-fact-1",
+      "document_id": "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "source_id": "source:ccb371d7f3f9599d15f6e4ad81b025cc22c04581",
+      "start": 39,
+      "end": 79,
+      "quote": "Project Indigo is managed by Tomas Bell.",
+      "predicate": "MANAGES",
+      "subject": "Tomas Bell",
+      "object": "Indigo"
+    },
+    {
+      "id": "s08-fact-4",
+      "document_id": "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "source_id": "source:c4ef60eda34a282c89a344eb338b60821b0b83ab",
+      "start": 0,
+      "end": 39,
+      "quote": "Project Indigo is owned by Silver Loom.",
+      "predicate": "BELONGS_TO",
+      "subject": "Indigo",
+      "object": "Silver Loom"
+    },
+    {
+      "id": "s08-fact-2",
+      "document_id": "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "source_id": "source:c4ef60eda34a282c89a344eb338b60821b0b83ab",
+      "start": 40,
+      "end": 86,
+      "quote": "Project Indigo utilizes its ScyllaDB instance.",
+      "predicate": "USES",
+      "subject": "Indigo",
+      "object": "ScyllaDB@Indigo"
+    },
+    {
+      "id": "s08-fact-3",
+      "document_id": "autodoc:5482f3067102f69dc81789505196475278338a4d",
+      "source_id": "source:3c2d861ad45c31c4a23ded54f96df9492e91c798",
+      "start": 0,
+      "end": 53,
+      "quote": "The ScyllaDB instance for Project Indigo runs on AWS.",
+      "predicate": "HOSTED_ON",
+      "subject": "ScyllaDB@Indigo",
+      "object": "AWS"
+    },
+    {
+      "id": "s09-fact-5",
+      "document_id": "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "source_id": "source:cdcb0d3eef0d690fc417d08e020bc983feb0d811",
+      "start": 0,
+      "end": 36,
+      "quote": "Uma Frost is employed by Amber Quay.",
+      "predicate": "WORKS_FOR",
+      "subject": "Uma Frost",
+      "object": "Amber Quay"
+    },
+    {
+      "id": "s09-fact-1",
+      "document_id": "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "source_id": "source:cdcb0d3eef0d690fc417d08e020bc983feb0d811",
+      "start": 37,
+      "end": 87,
+      "quote": "Project Cedar Bridge West is managed by Uma Frost.",
+      "predicate": "MANAGES",
+      "subject": "Uma Frost",
+      "object": "Cedar Bridge West"
+    },
+    {
+      "id": "s09-fact-4",
+      "document_id": "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "source_id": "source:6ee201dfff79bad1586186728fcf4b0a3aa44d2a",
+      "start": 0,
+      "end": 49,
+      "quote": "Project Cedar Bridge West is owned by Amber Quay.",
+      "predicate": "BELONGS_TO",
+      "subject": "Cedar Bridge West",
+      "object": "Amber Quay"
+    },
+    {
+      "id": "s09-fact-2",
+      "document_id": "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "source_id": "source:6ee201dfff79bad1586186728fcf4b0a3aa44d2a",
+      "start": 50,
+      "end": 107,
+      "quote": "Project Cedar Bridge West utilizes its ArangoDB instance.",
+      "predicate": "USES",
+      "subject": "Cedar Bridge West",
+      "object": "ArangoDB@Cedar Bridge West"
+    },
+    {
+      "id": "s09-fact-3",
+      "document_id": "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+      "source_id": "source:0cb533d20f4333fec7644aba6a529d3bf7d43602",
+      "start": 0,
+      "end": 66,
+      "quote": "The ArangoDB instance for Project Cedar Bridge West runs on Azure.",
+      "predicate": "HOSTED_ON",
+      "subject": "ArangoDB@Cedar Bridge West",
+      "object": "Azure"
+    },
+    {
+      "id": "s10-fact-5",
+      "document_id": "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "source_id": "source:a208cdcd1c0c4dc8fbc63755a97dd74aac1ea7f6",
+      "start": 0,
+      "end": 38,
+      "quote": "Vik Arden is employed by Birch Canvas.",
+      "predicate": "WORKS_FOR",
+      "subject": "Vik Arden",
+      "object": "Birch Canvas"
+    },
+    {
+      "id": "s10-fact-1",
+      "document_id": "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "source_id": "source:a208cdcd1c0c4dc8fbc63755a97dd74aac1ea7f6",
+      "start": 39,
+      "end": 80,
+      "quote": "Project Marigold is managed by Vik Arden.",
+      "predicate": "MANAGES",
+      "subject": "Vik Arden",
+      "object": "Marigold"
+    },
+    {
+      "id": "s10-fact-4",
+      "document_id": "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "source_id": "source:4e5dd5dfe786da039b650cbe4d9f904620ff0cd2",
+      "start": 0,
+      "end": 42,
+      "quote": "Project Marigold is owned by Birch Canvas.",
+      "predicate": "BELONGS_TO",
+      "subject": "Marigold",
+      "object": "Birch Canvas"
+    },
+    {
+      "id": "s10-fact-2",
+      "document_id": "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "source_id": "source:4e5dd5dfe786da039b650cbe4d9f904620ff0cd2",
+      "start": 43,
+      "end": 90,
+      "quote": "Project Marigold utilizes its RocksDB instance.",
+      "predicate": "USES",
+      "subject": "Marigold",
+      "object": "RocksDB@Marigold"
+    },
+    {
+      "id": "s10-fact-3",
+      "document_id": "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+      "source_id": "source:ea2cf985c2242000160a02ef0d5fa804dac43237",
+      "start": 0,
+      "end": 54,
+      "quote": "The RocksDB instance for Project Marigold runs on GCP.",
+      "predicate": "HOSTED_ON",
+      "subject": "RocksDB@Marigold",
+      "object": "GCP"
+    },
+    {
+      "id": "s11-fact-5",
+      "document_id": "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "source_id": "source:4aeafeb0738f78fb70edd67bf61440bca551ddfa",
+      "start": 0,
+      "end": 58,
+      "quote": "Jordan Vale (North employee 021) is employed by Aster Bay.",
+      "predicate": "WORKS_FOR",
+      "subject": "Jordan Vale (North employee 021)",
+      "object": "Aster Bay"
+    },
+    {
+      "id": "s11-fact-1",
+      "document_id": "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "source_id": "source:4aeafeb0738f78fb70edd67bf61440bca551ddfa",
+      "start": 59,
+      "end": 121,
+      "quote": "Project Quartz is managed by Jordan Vale (North employee 021).",
+      "predicate": "MANAGES",
+      "subject": "Jordan Vale (North employee 021)",
+      "object": "Quartz"
+    },
+    {
+      "id": "s11-fact-4",
+      "document_id": "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "source_id": "source:8a26dd0ea40ddbd08414adb3b4c075068363362b",
+      "start": 0,
+      "end": 37,
+      "quote": "Project Quartz is owned by Aster Bay.",
+      "predicate": "BELONGS_TO",
+      "subject": "Quartz",
+      "object": "Aster Bay"
+    },
+    {
+      "id": "s11-fact-2",
+      "document_id": "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "source_id": "source:8a26dd0ea40ddbd08414adb3b4c075068363362b",
+      "start": 38,
+      "end": 81,
+      "quote": "Project Quartz utilizes its HBase instance.",
+      "predicate": "USES",
+      "subject": "Quartz",
+      "object": "HBase@Quartz"
+    },
+    {
+      "id": "s11-fact-3",
+      "document_id": "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+      "source_id": "source:0115471715ad8de791cea44084451e39555ae43f",
+      "start": 0,
+      "end": 50,
+      "quote": "The HBase instance for Project Quartz runs on AWS.",
+      "predicate": "HOSTED_ON",
+      "subject": "HBase@Quartz",
+      "object": "AWS"
+    },
+    {
+      "id": "s12-fact-5",
+      "document_id": "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287",
+      "source_id": "source:58727d1ba19e46fa40646d7ff0fd4d3c23159764",
+      "start": 0,
+      "end": 58,
+      "quote": "Jordan Vale (South employee 022) is employed by Elm Crest.",
+      "predicate": "WORKS_FOR",
+      "subject": "Jordan Vale (South employee 022)",
+      "object": "Elm Crest"
+    },
+    {
+      "id": "s12-fact-1",
+      "document_id": "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287",
+      "source_id": "source:58727d1ba19e46fa40646d7ff0fd4d3c23159764",
+      "start": 59,
+      "end": 127,
+      "quote": "Project Quartz South is managed by Jordan Vale (South employee 022).",
+      "predicate": "MANAGES",
+      "subject": "Jordan Vale (South employee 022)",
+      "object": "Quartz South"
+    },
+    {
+      "id": "s12-fact-4",
+      "document_id": "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "source_id": "source:ef05c9354453bffbc71dfcf7efac95cc66aafe96",
+      "start": 0,
+      "end": 43,
+      "quote": "Project Quartz South is owned by Elm Crest.",
+      "predicate": "BELONGS_TO",
+      "subject": "Quartz South",
+      "object": "Elm Crest"
+    },
+    {
+      "id": "s12-fact-2",
+      "document_id": "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "source_id": "source:ef05c9354453bffbc71dfcf7efac95cc66aafe96",
+      "start": 44,
+      "end": 92,
+      "quote": "Project Quartz South utilizes its TiDB instance.",
+      "predicate": "USES",
+      "subject": "Quartz South",
+      "object": "TiDB@Quartz South"
+    },
+    {
+      "id": "s12-fact-3",
+      "document_id": "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+      "source_id": "source:5f07de109368685e4d9a726359420bda0bf3137f",
+      "start": 0,
+      "end": 57,
+      "quote": "The TiDB instance for Project Quartz South runs on Azure.",
+      "predicate": "HOSTED_ON",
+      "subject": "TiDB@Quartz South",
+      "object": "Azure"
+    }
+  ],
+  "questions": [
+    {
+      "id": "s01-q01",
+      "split": "calibration",
+      "question": "Which project does Asha Rao manage?",
+      "answerable": true,
+      "expected_answer": "Boreal; Boreal Annex",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+        "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-1",
+        "s01-fact-6"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-1"
+        ],
+        [
+          "s01-fact-6"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q02",
+      "split": "calibration",
+      "question": "Which organization employs Asha Rao?",
+      "answerable": true,
+      "expected_answer": "Orion Orchard",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q03",
+      "split": "calibration",
+      "question": "Which database does Project Boreal use?",
+      "answerable": true,
+      "expected_answer": "CobaltDB",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q04",
+      "split": "calibration",
+      "question": "Which database does the project managed by Asha Rao use?",
+      "answerable": true,
+      "expected_answer": "CobaltDB; Firebird",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+        "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+        "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+        "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-1",
+        "s01-fact-2",
+        "s01-fact-6",
+        "s01-fact-7"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-1",
+          "s01-fact-2"
+        ],
+        [
+          "s01-fact-6",
+          "s01-fact-7"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q05",
+      "split": "calibration",
+      "question": "Which organization owns the project managed by Asha Rao?",
+      "answerable": true,
+      "expected_answer": "Orion Orchard",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+        "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+        "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+        "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-1",
+        "s01-fact-4",
+        "s01-fact-6",
+        "s01-fact-9"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-1",
+          "s01-fact-4"
+        ],
+        [
+          "s01-fact-6",
+          "s01-fact-9"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q06",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Boreal?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+        "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-2",
+        "s01-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-2",
+          "s01-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q07",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by the project managed by Asha Rao?",
+      "answerable": true,
+      "expected_answer": "AWS; Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+        "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+        "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+        "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+        "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+        "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-1",
+        "s01-fact-2",
+        "s01-fact-3",
+        "s01-fact-6",
+        "s01-fact-7",
+        "s01-fact-8"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-1",
+          "s01-fact-2",
+          "s01-fact-3"
+        ],
+        [
+          "s01-fact-6",
+          "s01-fact-7",
+          "s01-fact-8"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-q08",
+      "split": "calibration",
+      "question": "What platform hosts the technology used by the project managed by Asha Rao?",
+      "answerable": true,
+      "expected_answer": "AWS; Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+        "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+        "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+        "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+        "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+        "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6"
+      ],
+      "supporting_fact_ids": [
+        "s01-fact-1",
+        "s01-fact-2",
+        "s01-fact-3",
+        "s01-fact-6",
+        "s01-fact-7",
+        "s01-fact-8"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s01-fact-1",
+          "s01-fact-2",
+          "s01-fact-3"
+        ],
+        [
+          "s01-fact-6",
+          "s01-fact-7",
+          "s01-fact-8"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "multi_intermediate"
+      ]
+    },
+    {
+      "id": "s01-u1",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Boreal Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s01-u2",
+      "split": "calibration",
+      "question": "Which organization employs Unlisted Visitor s01?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s02-q01",
+      "split": "calibration",
+      "question": "Which project does Ben Sato manage?",
+      "answerable": true,
+      "expected_answer": "Saffron",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:3c49a205612d2fb976c39973d73f8367da2053df"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q02",
+      "split": "calibration",
+      "question": "Which organization employs Ben Sato?",
+      "answerable": true,
+      "expected_answer": "Kestrel Grove",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q03",
+      "split": "calibration",
+      "question": "Which database does Project Saffron use?",
+      "answerable": true,
+      "expected_answer": "MariaDB",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q04",
+      "split": "calibration",
+      "question": "Which database does the project managed by Ben Sato use?",
+      "answerable": true,
+      "expected_answer": "MariaDB",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+        "autodoc:3c49a205612d2fb976c39973d73f8367da2053df"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-1",
+        "s02-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-1",
+          "s02-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q05",
+      "split": "calibration",
+      "question": "Which organization owns the project managed by Ben Sato?",
+      "answerable": true,
+      "expected_answer": "Kestrel Grove",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+        "autodoc:3c49a205612d2fb976c39973d73f8367da2053df"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-1",
+        "s02-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-1",
+          "s02-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q06",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Saffron?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+        "autodoc:451c291414b9394db934faf0582602158d7b4d25"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-2",
+        "s02-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-2",
+          "s02-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q07",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by the project managed by Ben Sato?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+        "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+        "autodoc:451c291414b9394db934faf0582602158d7b4d25"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-1",
+        "s02-fact-2",
+        "s02-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-1",
+          "s02-fact-2",
+          "s02-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-q08",
+      "split": "calibration",
+      "question": "What platform hosts the technology used by the project managed by Ben Sato?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+        "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+        "autodoc:451c291414b9394db934faf0582602158d7b4d25"
+      ],
+      "supporting_fact_ids": [
+        "s02-fact-1",
+        "s02-fact-2",
+        "s02-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s02-fact-1",
+          "s02-fact-2",
+          "s02-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s02-u1",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Saffron Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s02-u2",
+      "split": "calibration",
+      "question": "Which organization employs Unlisted Visitor s02?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s03-q01",
+      "split": "calibration",
+      "question": "Which project does Cora Vale manage?",
+      "answerable": true,
+      "expected_answer": "Boreal East",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q02",
+      "split": "calibration",
+      "question": "Which organization employs Cora Vale?",
+      "answerable": true,
+      "expected_answer": "Mica Harbor",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q03",
+      "split": "calibration",
+      "question": "Which database does Project Boreal East use?",
+      "answerable": true,
+      "expected_answer": "Memcached",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q04",
+      "split": "calibration",
+      "question": "Which database does the project managed by Cora Vale use?",
+      "answerable": true,
+      "expected_answer": "Memcached",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+        "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-1",
+        "s03-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-1",
+          "s03-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q05",
+      "split": "calibration",
+      "question": "Which organization owns the project managed by Cora Vale?",
+      "answerable": true,
+      "expected_answer": "Mica Harbor",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+        "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-1",
+        "s03-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-1",
+          "s03-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q06",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Boreal East?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+        "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-2",
+        "s03-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-2",
+          "s03-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q07",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by the project managed by Cora Vale?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+        "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+        "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-1",
+        "s03-fact-2",
+        "s03-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-1",
+          "s03-fact-2",
+          "s03-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-q08",
+      "split": "calibration",
+      "question": "What platform hosts the technology used by the project managed by Cora Vale?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+        "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+        "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015"
+      ],
+      "supporting_fact_ids": [
+        "s03-fact-1",
+        "s03-fact-2",
+        "s03-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s03-fact-1",
+          "s03-fact-2",
+          "s03-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s03-u1",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Boreal East Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s03-u2",
+      "split": "calibration",
+      "question": "Which organization employs Unlisted Visitor s03?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s04-q01",
+      "split": "calibration",
+      "question": "Which project does Davi Moss manage?",
+      "answerable": true,
+      "expected_answer": "Juniper",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q02",
+      "split": "calibration",
+      "question": "Which organization employs Davi Moss?",
+      "answerable": true,
+      "expected_answer": "Sable Meadow",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q03",
+      "split": "calibration",
+      "question": "Which database does Project Juniper use?",
+      "answerable": true,
+      "expected_answer": "ClickHouse",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q04",
+      "split": "calibration",
+      "question": "Which database does the project managed by Davi Moss use?",
+      "answerable": true,
+      "expected_answer": "ClickHouse",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+        "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-1",
+        "s04-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-1",
+          "s04-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q05",
+      "split": "calibration",
+      "question": "Which organization owns the project managed by Davi Moss?",
+      "answerable": true,
+      "expected_answer": "Sable Meadow",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+        "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-1",
+        "s04-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-1",
+          "s04-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q06",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Juniper?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+        "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-2",
+        "s04-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-2",
+          "s04-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q07",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by the project managed by Davi Moss?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+        "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+        "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-1",
+        "s04-fact-2",
+        "s04-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-1",
+          "s04-fact-2",
+          "s04-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-q08",
+      "split": "calibration",
+      "question": "What platform hosts the technology used by the project managed by Davi Moss?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+        "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+        "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617"
+      ],
+      "supporting_fact_ids": [
+        "s04-fact-1",
+        "s04-fact-2",
+        "s04-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s04-fact-1",
+          "s04-fact-2",
+          "s04-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s04-u1",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Juniper Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s04-u2",
+      "split": "calibration",
+      "question": "Which organization employs Unlisted Visitor s04?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s05-q01",
+      "split": "calibration",
+      "question": "Which project does Elin Park manage?",
+      "answerable": true,
+      "expected_answer": "Topaz",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q02",
+      "split": "calibration",
+      "question": "Which organization employs Elin Park?",
+      "answerable": true,
+      "expected_answer": "Copper Nest",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q03",
+      "split": "calibration",
+      "question": "Which database does Project Topaz use?",
+      "answerable": true,
+      "expected_answer": "Cassandra",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q04",
+      "split": "calibration",
+      "question": "Which database does the project managed by Elin Park use?",
+      "answerable": true,
+      "expected_answer": "Cassandra",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+        "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-1",
+        "s05-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-1",
+          "s05-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q05",
+      "split": "calibration",
+      "question": "Which organization owns the project managed by Elin Park?",
+      "answerable": true,
+      "expected_answer": "Copper Nest",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+        "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-1",
+        "s05-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-1",
+          "s05-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q06",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Topaz?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+        "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-2",
+        "s05-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-2",
+          "s05-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q07",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by the project managed by Elin Park?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+        "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+        "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-1",
+        "s05-fact-2",
+        "s05-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-1",
+          "s05-fact-2",
+          "s05-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-q08",
+      "split": "calibration",
+      "question": "What platform hosts the technology used by the project managed by Elin Park?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+        "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+        "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5"
+      ],
+      "supporting_fact_ids": [
+        "s05-fact-1",
+        "s05-fact-2",
+        "s05-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s05-fact-1",
+          "s05-fact-2",
+          "s05-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s05-u1",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Topaz Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s05-u2",
+      "split": "calibration",
+      "question": "Which organization employs Unlisted Visitor s05?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s06-q01",
+      "split": "calibration",
+      "question": "Which project does Femi Lake manage?",
+      "answerable": true,
+      "expected_answer": "Willow",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f39d6f4f1d743a889da3732f54634c390742232b"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q02",
+      "split": "calibration",
+      "question": "Which organization employs Femi Lake?",
+      "answerable": true,
+      "expected_answer": "Lantern Vale",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q03",
+      "split": "calibration",
+      "question": "Which database does Project Willow use?",
+      "answerable": true,
+      "expected_answer": "SQLite",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q04",
+      "split": "calibration",
+      "question": "Which database does the project managed by Femi Lake use?",
+      "answerable": true,
+      "expected_answer": "SQLite",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+        "autodoc:f39d6f4f1d743a889da3732f54634c390742232b"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-1",
+        "s06-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-1",
+          "s06-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q05",
+      "split": "calibration",
+      "question": "Which organization owns the project managed by Femi Lake?",
+      "answerable": true,
+      "expected_answer": "Lantern Vale",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+        "autodoc:f39d6f4f1d743a889da3732f54634c390742232b"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-1",
+        "s06-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-1",
+          "s06-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q06",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Willow?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+        "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-2",
+        "s06-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-2",
+          "s06-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q07",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by the project managed by Femi Lake?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+        "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+        "autodoc:f39d6f4f1d743a889da3732f54634c390742232b"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-1",
+        "s06-fact-2",
+        "s06-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-1",
+          "s06-fact-2",
+          "s06-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-q08",
+      "split": "calibration",
+      "question": "What platform hosts the technology used by the project managed by Femi Lake?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+        "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+        "autodoc:f39d6f4f1d743a889da3732f54634c390742232b"
+      ],
+      "supporting_fact_ids": [
+        "s06-fact-1",
+        "s06-fact-2",
+        "s06-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s06-fact-1",
+          "s06-fact-2",
+          "s06-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s06-u1",
+      "split": "calibration",
+      "question": "Which cloud platform hosts the database used by Project Willow Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s06-u2",
+      "split": "calibration",
+      "question": "Which organization employs Unlisted Visitor s06?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s07-q01",
+      "split": "held_out",
+      "question": "Which project is led by Rhea Sen?",
+      "answerable": true,
+      "expected_answer": "Cedar Bridge",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q02",
+      "split": "held_out",
+      "question": "Who employs Rhea Sen?",
+      "answerable": true,
+      "expected_answer": "Pebble Arc",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q03",
+      "split": "held_out",
+      "question": "What technology is used by Project Cedar Bridge?",
+      "answerable": true,
+      "expected_answer": "OceanBase",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q04",
+      "split": "held_out",
+      "question": "Name the technology used by the project under Rhea Sen's management?",
+      "answerable": true,
+      "expected_answer": "OceanBase",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+        "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-1",
+        "s07-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-1",
+          "s07-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q05",
+      "split": "held_out",
+      "question": "Who owns the project under Rhea Sen's management?",
+      "answerable": true,
+      "expected_answer": "Pebble Arc",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+        "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-1",
+        "s07-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-1",
+          "s07-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q06",
+      "split": "held_out",
+      "question": "Where is the technology used by Project Cedar Bridge hosted?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+        "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-2",
+        "s07-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-2",
+          "s07-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q07",
+      "split": "held_out",
+      "question": "What platform hosts the technology used by the project led by Rhea Sen?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+        "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+        "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-1",
+        "s07-fact-2",
+        "s07-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-1",
+          "s07-fact-2",
+          "s07-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-q08",
+      "split": "held_out",
+      "question": "Where is the technology of the project under Rhea Sen's management hosted?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+        "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+        "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe"
+      ],
+      "supporting_fact_ids": [
+        "s07-fact-1",
+        "s07-fact-2",
+        "s07-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s07-fact-1",
+          "s07-fact-2",
+          "s07-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s07-u1",
+      "split": "held_out",
+      "question": "Which cloud platform hosts the database used by Project Cedar Bridge Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s07-u2",
+      "split": "held_out",
+      "question": "Which organization employs Unlisted Visitor s07?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s08-q01",
+      "split": "held_out",
+      "question": "Which project is led by Tomas Bell?",
+      "answerable": true,
+      "expected_answer": "Indigo",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q02",
+      "split": "held_out",
+      "question": "Who employs Tomas Bell?",
+      "answerable": true,
+      "expected_answer": "Silver Loom",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q03",
+      "split": "held_out",
+      "question": "What technology is used by Project Indigo?",
+      "answerable": true,
+      "expected_answer": "ScyllaDB",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q04",
+      "split": "held_out",
+      "question": "Name the technology used by the project under Tomas Bell's management?",
+      "answerable": true,
+      "expected_answer": "ScyllaDB",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+        "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-1",
+        "s08-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-1",
+          "s08-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q05",
+      "split": "held_out",
+      "question": "Who owns the project under Tomas Bell's management?",
+      "answerable": true,
+      "expected_answer": "Silver Loom",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+        "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-1",
+        "s08-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-1",
+          "s08-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q06",
+      "split": "held_out",
+      "question": "Where is the technology used by Project Indigo hosted?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:5482f3067102f69dc81789505196475278338a4d",
+        "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-2",
+        "s08-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-2",
+          "s08-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q07",
+      "split": "held_out",
+      "question": "What platform hosts the technology used by the project led by Tomas Bell?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:5482f3067102f69dc81789505196475278338a4d",
+        "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+        "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-1",
+        "s08-fact-2",
+        "s08-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-1",
+          "s08-fact-2",
+          "s08-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-q08",
+      "split": "held_out",
+      "question": "Where is the technology of the project under Tomas Bell's management hosted?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:5482f3067102f69dc81789505196475278338a4d",
+        "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+        "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c"
+      ],
+      "supporting_fact_ids": [
+        "s08-fact-1",
+        "s08-fact-2",
+        "s08-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s08-fact-1",
+          "s08-fact-2",
+          "s08-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s08-u1",
+      "split": "held_out",
+      "question": "Which cloud platform hosts the database used by Project Indigo Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s08-u2",
+      "split": "held_out",
+      "question": "Which organization employs Unlisted Visitor s08?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s09-q01",
+      "split": "held_out",
+      "question": "Which project is led by Uma Frost?",
+      "answerable": true,
+      "expected_answer": "Cedar Bridge West",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q02",
+      "split": "held_out",
+      "question": "Who employs Uma Frost?",
+      "answerable": true,
+      "expected_answer": "Amber Quay",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q03",
+      "split": "held_out",
+      "question": "What technology is used by Project Cedar Bridge West?",
+      "answerable": true,
+      "expected_answer": "ArangoDB",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q04",
+      "split": "held_out",
+      "question": "Name the technology used by the project under Uma Frost's management?",
+      "answerable": true,
+      "expected_answer": "ArangoDB",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+        "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-1",
+        "s09-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-1",
+          "s09-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q05",
+      "split": "held_out",
+      "question": "Who owns the project under Uma Frost's management?",
+      "answerable": true,
+      "expected_answer": "Amber Quay",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+        "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-1",
+        "s09-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-1",
+          "s09-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q06",
+      "split": "held_out",
+      "question": "Where is the technology used by Project Cedar Bridge West hosted?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+        "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-2",
+        "s09-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-2",
+          "s09-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q07",
+      "split": "held_out",
+      "question": "What platform hosts the technology used by the project led by Uma Frost?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+        "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+        "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-1",
+        "s09-fact-2",
+        "s09-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-1",
+          "s09-fact-2",
+          "s09-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-q08",
+      "split": "held_out",
+      "question": "Where is the technology of the project under Uma Frost's management hosted?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+        "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+        "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4"
+      ],
+      "supporting_fact_ids": [
+        "s09-fact-1",
+        "s09-fact-2",
+        "s09-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s09-fact-1",
+          "s09-fact-2",
+          "s09-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s09-u1",
+      "split": "held_out",
+      "question": "Which cloud platform hosts the database used by Project Cedar Bridge West Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s09-u2",
+      "split": "held_out",
+      "question": "Which organization employs Unlisted Visitor s09?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s10-q01",
+      "split": "held_out",
+      "question": "Which project is led by Vik Arden?",
+      "answerable": true,
+      "expected_answer": "Marigold",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f3743388e6078b19696899f6ac12dc40c829704e"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q02",
+      "split": "held_out",
+      "question": "Who employs Vik Arden?",
+      "answerable": true,
+      "expected_answer": "Birch Canvas",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:f3743388e6078b19696899f6ac12dc40c829704e"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q03",
+      "split": "held_out",
+      "question": "What technology is used by Project Marigold?",
+      "answerable": true,
+      "expected_answer": "RocksDB",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q04",
+      "split": "held_out",
+      "question": "Name the technology used by the project under Vik Arden's management?",
+      "answerable": true,
+      "expected_answer": "RocksDB",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+        "autodoc:f3743388e6078b19696899f6ac12dc40c829704e"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-1",
+        "s10-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-1",
+          "s10-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q05",
+      "split": "held_out",
+      "question": "Who owns the project under Vik Arden's management?",
+      "answerable": true,
+      "expected_answer": "Birch Canvas",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+        "autodoc:f3743388e6078b19696899f6ac12dc40c829704e"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-1",
+        "s10-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-1",
+          "s10-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q06",
+      "split": "held_out",
+      "question": "Where is the technology used by Project Marigold hosted?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+        "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-2",
+        "s10-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-2",
+          "s10-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q07",
+      "split": "held_out",
+      "question": "What platform hosts the technology used by the project led by Vik Arden?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+        "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+        "autodoc:f3743388e6078b19696899f6ac12dc40c829704e"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-1",
+        "s10-fact-2",
+        "s10-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-1",
+          "s10-fact-2",
+          "s10-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-q08",
+      "split": "held_out",
+      "question": "Where is the technology of the project under Vik Arden's management hosted?",
+      "answerable": true,
+      "expected_answer": "GCP",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+        "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+        "autodoc:f3743388e6078b19696899f6ac12dc40c829704e"
+      ],
+      "supporting_fact_ids": [
+        "s10-fact-1",
+        "s10-fact-2",
+        "s10-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s10-fact-1",
+          "s10-fact-2",
+          "s10-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s10-u1",
+      "split": "held_out",
+      "question": "Which cloud platform hosts the database used by Project Marigold Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s10-u2",
+      "split": "held_out",
+      "question": "Which organization employs Unlisted Visitor s10?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s11-q01",
+      "split": "held_out",
+      "question": "Which project is led by Jordan Vale (North employee 021)?",
+      "answerable": true,
+      "expected_answer": "Quartz",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q02",
+      "split": "held_out",
+      "question": "Who employs Jordan Vale (North employee 021)?",
+      "answerable": true,
+      "expected_answer": "Aster Bay",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q03",
+      "split": "held_out",
+      "question": "What technology is used by Project Quartz?",
+      "answerable": true,
+      "expected_answer": "HBase",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q04",
+      "split": "held_out",
+      "question": "Name the technology used by the project under Jordan Vale (North employee 021)'s management?",
+      "answerable": true,
+      "expected_answer": "HBase",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+        "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-1",
+        "s11-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-1",
+          "s11-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q05",
+      "split": "held_out",
+      "question": "Who owns the project under Jordan Vale (North employee 021)'s management?",
+      "answerable": true,
+      "expected_answer": "Aster Bay",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+        "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-1",
+        "s11-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-1",
+          "s11-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q06",
+      "split": "held_out",
+      "question": "Where is the technology used by Project Quartz hosted?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+        "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-2",
+        "s11-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-2",
+          "s11-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q07",
+      "split": "held_out",
+      "question": "What platform hosts the technology used by the project led by Jordan Vale (North employee 021)?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+        "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+        "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-1",
+        "s11-fact-2",
+        "s11-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-1",
+          "s11-fact-2",
+          "s11-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-q08",
+      "split": "held_out",
+      "question": "Where is the technology of the project under Jordan Vale (North employee 021)'s management hosted?",
+      "answerable": true,
+      "expected_answer": "AWS",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+        "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+        "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4"
+      ],
+      "supporting_fact_ids": [
+        "s11-fact-1",
+        "s11-fact-2",
+        "s11-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s11-fact-1",
+          "s11-fact-2",
+          "s11-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s11-u1",
+      "split": "held_out",
+      "question": "Which cloud platform hosts the database used by Project Quartz Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s11-u2",
+      "split": "held_out",
+      "question": "Which organization employs Unlisted Visitor s11?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "s12-q01",
+      "split": "held_out",
+      "question": "Which project is led by Jordan Vale (South employee 022)?",
+      "answerable": true,
+      "expected_answer": "Quartz South",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-1"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-1"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q02",
+      "split": "held_out",
+      "question": "Who employs Jordan Vale (South employee 022)?",
+      "answerable": true,
+      "expected_answer": "Elm Crest",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-5"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-5"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q03",
+      "split": "held_out",
+      "question": "What technology is used by Project Quartz South?",
+      "answerable": true,
+      "expected_answer": "TiDB",
+      "hops": 1,
+      "required_document_ids": [
+        "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q04",
+      "split": "held_out",
+      "question": "Name the technology used by the project under Jordan Vale (South employee 022)'s management?",
+      "answerable": true,
+      "expected_answer": "TiDB",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+        "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-1",
+        "s12-fact-2"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-1",
+          "s12-fact-2"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q05",
+      "split": "held_out",
+      "question": "Who owns the project under Jordan Vale (South employee 022)'s management?",
+      "answerable": true,
+      "expected_answer": "Elm Crest",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+        "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-1",
+        "s12-fact-4"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-1",
+          "s12-fact-4"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q06",
+      "split": "held_out",
+      "question": "Where is the technology used by Project Quartz South hosted?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 2,
+      "required_document_ids": [
+        "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+        "autodoc:6687d38874d1584d548504e16f6dd65901dece1d"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-2",
+        "s12-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-2",
+          "s12-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q07",
+      "split": "held_out",
+      "question": "What platform hosts the technology used by the project led by Jordan Vale (South employee 022)?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+        "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+        "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-1",
+        "s12-fact-2",
+        "s12-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-1",
+          "s12-fact-2",
+          "s12-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "direct",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-q08",
+      "split": "held_out",
+      "question": "Where is the technology of the project under Jordan Vale (South employee 022)'s management hosted?",
+      "answerable": true,
+      "expected_answer": "Azure",
+      "hops": 3,
+      "required_document_ids": [
+        "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+        "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+        "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+      ],
+      "supporting_fact_ids": [
+        "s12-fact-1",
+        "s12-fact-2",
+        "s12-fact-3"
+      ],
+      "expected_evidence_chains": [
+        [
+          "s12-fact-1",
+          "s12-fact-2",
+          "s12-fact-3"
+        ]
+      ],
+      "tags": [
+        "synthetic",
+        "paraphrase",
+        "single_intermediate"
+      ]
+    },
+    {
+      "id": "s12-u1",
+      "split": "held_out",
+      "question": "Which cloud platform hosts the database used by Project Quartz South Sandbox?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "missing_intermediate",
+      "tags": [
+        "synthetic",
+        "missing_intermediate"
+      ]
+    },
+    {
+      "id": "s12-u2",
+      "split": "held_out",
+      "question": "Which organization employs Unlisted Visitor s12?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "no_employment_evidence",
+      "tags": [
+        "synthetic",
+        "no_employment_evidence"
+      ]
+    },
+    {
+      "id": "calibration-ambiguous",
+      "split": "calibration",
+      "question": "Which project does Lee Chen manage?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "ambiguous_person",
+      "tags": [
+        "synthetic",
+        "entity_disambiguation"
+      ]
+    },
+    {
+      "id": "held_out-ambiguous",
+      "split": "held_out",
+      "question": "Which project does Jordan Vale manage?",
+      "answerable": false,
+      "expected_answer": null,
+      "hops": 0,
+      "required_document_ids": [],
+      "supporting_fact_ids": [],
+      "expected_evidence_chains": [],
+      "reason": "ambiguous_person",
+      "tags": [
+        "synthetic",
+        "entity_disambiguation"
+      ]
+    }
+  ],
+  "disclosure": "Scenarios and question surfaces differ by split. Shared abstract relation grammar is intentional. Both splits were authored/inspected during development; held_out is a descriptive split, not a blind generalization estimate."
+}

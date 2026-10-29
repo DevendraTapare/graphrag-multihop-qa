@@ -1,0 +1,4359 @@
+{
+  "version": "source-discovery-v1",
+  "entries": [
+    {
+      "entity": {
+        "id": "discovered:00f3b8090566e31494cc924d37eb9cf2d17ce778",
+        "label": "Person",
+        "name": "Neris QuillMZ",
+        "scope": "employer:discovered:0b380279c8b099d69d2b6e14ce05f5309ef51227"
+      },
+      "aliases": [
+        "Neris QuillMZ"
+      ],
+      "organization_ids": [
+        "discovered:0b380279c8b099d69d2b6e14ce05f5309ef51227"
+      ],
+      "project_ids": [
+        "discovered:1f1a86948d78f3f18d69c6b7186f38802572ce40",
+        "discovered:e3b9715364ee6ffe41d477dfdb4c967d93054ba7"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:01855a65f40ddf95a37c5155676868192da6a9e0",
+        "label": "Technology",
+        "name": "LucentDBAF",
+        "scope": "deployment:discovered:da84a5d7f18f7921efbedaef3640ecd40cd617d4"
+      },
+      "aliases": [
+        "LucentDBAF",
+        "LucentDBAF (VesperAF instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:da84a5d7f18f7921efbedaef3640ecd40cd617d4"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:0369b888fdef651a34de4437abeaeee97b605b65",
+        "label": "Platform",
+        "name": "CumulusGD",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusGD"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:04109416b9b46d7b5ead498afd87cc3d56ef1f32",
+        "label": "Project",
+        "name": "DecoyKL",
+        "scope": "owner:discovered:fac26e5410177b42c273c505fc110ef6f48759e6"
+      },
+      "aliases": [
+        "DecoyKL",
+        "Project DecoyKL"
+      ],
+      "organization_ids": [
+        "discovered:fac26e5410177b42c273c505fc110ef6f48759e6"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:04f0906532cb0eb71e6d612a5c77896345b5b077",
+        "label": "Organization",
+        "name": "SableAF Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableAF Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:04fc3ecf30b0ca4f04aa5343c6f5740f0a1c536c",
+        "label": "Technology",
+        "name": "ShardDBFS",
+        "scope": "deployment:discovered:7fd3790f9fda26d119de43ce80360d9dddfa7b21"
+      },
+      "aliases": [
+        "ShardDBFS",
+        "ShardDBFS (DecoyFS instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:7fd3790f9fda26d119de43ce80360d9dddfa7b21"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:05fb7a8686b97b8478c3e267f1cab0af1e8abba0",
+        "label": "Project",
+        "name": "VesperDJ",
+        "scope": "owner:discovered:80d857f45df614ff125d073843707d829ce83cd3"
+      },
+      "aliases": [
+        "Project VesperDJ",
+        "VesperDJ"
+      ],
+      "organization_ids": [
+        "discovered:80d857f45df614ff125d073843707d829ce83cd3"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:072d2b65e9518e0590cf167e98b3aaeb348a7759",
+        "label": "Person",
+        "name": "Neris QuillBX",
+        "scope": "employer:discovered:e796461be099db2f0a0cf0c94fa9c730fa03f9b2"
+      },
+      "aliases": [
+        "Neris QuillBX"
+      ],
+      "organization_ids": [
+        "discovered:e796461be099db2f0a0cf0c94fa9c730fa03f9b2"
+      ],
+      "project_ids": [
+        "discovered:5dc3d77eff7bf97095e66cf3b2c6e4b569151ac0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:0958c3900826dc23540b546f20cc24745b6096be",
+        "label": "Person",
+        "name": "Elian WrenCH (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenCH",
+        "Elian WrenCH (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:1f68520f21d64c692a0973d6d2c2c3d17abd97e1"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:098b1a0e2b391e4e5eea21c4c921a903d2e1af5a",
+        "label": "Platform",
+        "name": "CumulusFS",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusFS"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0a5c1ec6aae7261236510487a46da0c85100b3cb",
+        "label": "Organization",
+        "name": "MarinerOR Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerOR Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0af7a3fec3d6772ebae17e1d07ab781239426208",
+        "label": "Platform",
+        "name": "NimbusSP",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusSP"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0b380279c8b099d69d2b6e14ce05f5309ef51227",
+        "label": "Organization",
+        "name": "MarinerMZ Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerMZ Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0baa81a8715a388b8ad62886fe0dc410b5f4e5bc",
+        "label": "Technology",
+        "name": "LucentDBLF",
+        "scope": "deployment:discovered:313530f9618d0edba2f230088b6b287527e11cc3"
+      },
+      "aliases": [
+        "LucentDBLF",
+        "LucentDBLF (VesperLF instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:313530f9618d0edba2f230088b6b287527e11cc3"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:0bc2a542e447da03a9a95a07d4a943620ef46998",
+        "label": "Person",
+        "name": "Elian WrenIX (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenIX",
+        "Elian WrenIX (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:c9822c6020250420a322fb58bba20e86148ab43f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0ca5ef1be41ad9037f2301d5fdfd5683d29d62cb",
+        "label": "Organization",
+        "name": "SableHR Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableHR Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0d2af971163be3d7f504fb9b506f3ce67ab7346e",
+        "label": "Person",
+        "name": "Elian WrenMZ (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenMZ",
+        "Elian WrenMZ (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:0b380279c8b099d69d2b6e14ce05f5309ef51227"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0f36a4c4cff4729539f2fbf2f2bcf348ab726fb9",
+        "label": "Person",
+        "name": "Neris QuillLFson",
+        "scope": "employer:discovered:3dbcc0bb176edbc454e21417dedfbb9ddc2bfa04"
+      },
+      "aliases": [
+        "Neris QuillLFson"
+      ],
+      "organization_ids": [
+        "discovered:3dbcc0bb176edbc454e21417dedfbb9ddc2bfa04"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:103082e8f05cd213eb921611a5ba8cb20fbf4612",
+        "label": "Organization",
+        "name": "SableEU Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableEU Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1053aea4efad6017666d1ffefc477de4bdbd15b1",
+        "label": "Person",
+        "name": "Neris QuillVFson",
+        "scope": "employer:discovered:841cc8d43380f196794fbe82f8d8ffa47a0b95c7"
+      },
+      "aliases": [
+        "Neris QuillVFson"
+      ],
+      "organization_ids": [
+        "discovered:841cc8d43380f196794fbe82f8d8ffa47a0b95c7"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:12afd32379dbb611cf626d2d80fe9fce6bda55da",
+        "label": "Platform",
+        "name": "CumulusLF",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusLF"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:12d23a68286382690c17c66b2eee955d348aee86",
+        "label": "Platform",
+        "name": "NimbusVF",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusVF"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:130d3bb1757a4c86e575e9091f68a2a8215227d5",
+        "label": "Person",
+        "name": "Neris QuillKL",
+        "scope": "employer:discovered:46b671653dfaee72edeb1224e64e0b1e7f166a05"
+      },
+      "aliases": [
+        "Neris QuillKL"
+      ],
+      "organization_ids": [
+        "discovered:46b671653dfaee72edeb1224e64e0b1e7f166a05"
+      ],
+      "project_ids": [
+        "discovered:be0780ea0d9ac9b002c5b6e05cb868a9e544f271"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:15367112f7f60819e52fe0ebe1f243f24768e267",
+        "label": "Platform",
+        "name": "NimbusIX",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusIX"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:15bf4ad8dc963e1691e9e52485904c7df3b449ba",
+        "label": "Person",
+        "name": "Neris QuillIX",
+        "scope": "employer:discovered:c9822c6020250420a322fb58bba20e86148ab43f"
+      },
+      "aliases": [
+        "Neris QuillIX"
+      ],
+      "organization_ids": [
+        "discovered:c9822c6020250420a322fb58bba20e86148ab43f"
+      ],
+      "project_ids": [
+        "discovered:f59ad997d80594cdb36e949e1e4a97b464f3b87d"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:17b28ead260fc15c8624bd7d58adcacb075f71a4",
+        "label": "Person",
+        "name": "Elian WrenUA (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenUA",
+        "Elian WrenUA (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:c5d0a029a10f1e3c29a3697f863500680b1aab63"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:17f20634354e7e3d69d0a082f9d8755bea444fd4",
+        "label": "Technology",
+        "name": "LucentDBUA",
+        "scope": "deployment:discovered:b571627ca576079fbcd7513946ae872b9e3fbb39"
+      },
+      "aliases": [
+        "LucentDBUA",
+        "LucentDBUA (VesperUA instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:b571627ca576079fbcd7513946ae872b9e3fbb39"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:19d5f9e316bf89ccac77d64ca72f1a3d55987289",
+        "label": "Technology",
+        "name": "LucentDBQA",
+        "scope": "deployment:discovered:b40083e72395938d4a1750f00ae699a90358c7e4"
+      },
+      "aliases": [
+        "LucentDBQA",
+        "LucentDBQA (VesperQA instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:b40083e72395938d4a1750f00ae699a90358c7e4"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1a70aee51366c07454708167dfd83d44b3776984",
+        "label": "Project",
+        "name": "DecoySP",
+        "scope": "owner:discovered:c74464561a9d9b6173f07975bbe4c54beaa06581"
+      },
+      "aliases": [
+        "DecoySP",
+        "Project DecoySP"
+      ],
+      "organization_ids": [
+        "discovered:c74464561a9d9b6173f07975bbe4c54beaa06581"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1aada862d7bcd62289f1b2c8b469f456c8a70453",
+        "label": "Project",
+        "name": "VesperVF",
+        "scope": "owner:discovered:65ae2d799dfce859dacde432ab762fd5e6727274"
+      },
+      "aliases": [
+        "Project VesperVF",
+        "VesperVF"
+      ],
+      "organization_ids": [
+        "discovered:65ae2d799dfce859dacde432ab762fd5e6727274"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1c638a80627c0fbe98b0062d5af735622a26b639",
+        "label": "Technology",
+        "name": "ShardDBHR",
+        "scope": "deployment:discovered:c6c6ad55b722fbdaa8ebcfba845ec358aca219b9"
+      },
+      "aliases": [
+        "ShardDBHR",
+        "ShardDBHR (DecoyHR instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:c6c6ad55b722fbdaa8ebcfba845ec358aca219b9"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1f1a86948d78f3f18d69c6b7186f38802572ce40",
+        "label": "Project",
+        "name": "VesperMZ",
+        "scope": "owner:discovered:0b380279c8b099d69d2b6e14ce05f5309ef51227"
+      },
+      "aliases": [
+        "Project VesperMZ",
+        "VesperMZ"
+      ],
+      "organization_ids": [
+        "discovered:0b380279c8b099d69d2b6e14ce05f5309ef51227"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1f56695b055507bc4f418b51c10b25bc85b825bd",
+        "label": "Technology",
+        "name": "ShardDBIX",
+        "scope": "deployment:discovered:3a23ecb47c61bd447f5ebb786feef3069d16fc23"
+      },
+      "aliases": [
+        "ShardDBIX",
+        "ShardDBIX (DecoyIX instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3a23ecb47c61bd447f5ebb786feef3069d16fc23"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1f68520f21d64c692a0973d6d2c2c3d17abd97e1",
+        "label": "Organization",
+        "name": "MarinerCH Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerCH Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1f8e3d33e4b9308db14e8abdba59a646a2b2b902",
+        "label": "Project",
+        "name": "DecoyBX",
+        "scope": "owner:discovered:c21c0432043565865b48f1640b3f3e1ec1c90f58"
+      },
+      "aliases": [
+        "DecoyBX",
+        "Project DecoyBX"
+      ],
+      "organization_ids": [
+        "discovered:c21c0432043565865b48f1640b3f3e1ec1c90f58"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1facdcc75dc84d5f8b1e7bb1b416796f6d76f050",
+        "label": "Organization",
+        "name": "SableCH Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableCH Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:20320b4e939888687f31a76615f5509840e34351",
+        "label": "Project",
+        "name": "DecoyEU",
+        "scope": "owner:discovered:103082e8f05cd213eb921611a5ba8cb20fbf4612"
+      },
+      "aliases": [
+        "DecoyEU",
+        "Project DecoyEU"
+      ],
+      "organization_ids": [
+        "discovered:103082e8f05cd213eb921611a5ba8cb20fbf4612"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:204cdf324e61ee79235438088eb29d5c150ecd46",
+        "label": "Project",
+        "name": "DecoyTB",
+        "scope": "owner:discovered:799981da827e0254edf432631b206222e335932a"
+      },
+      "aliases": [
+        "DecoyTB",
+        "Project DecoyTB"
+      ],
+      "organization_ids": [
+        "discovered:799981da827e0254edf432631b206222e335932a"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:20ed19adca608e34047e70dbbfd9e36bdbca60c1",
+        "label": "Person",
+        "name": "Neris QuillJPson",
+        "scope": "employer:discovered:cff6dc1003e6be70cc27165f4190a132fcb7e4af"
+      },
+      "aliases": [
+        "Neris QuillJPson"
+      ],
+      "organization_ids": [
+        "discovered:cff6dc1003e6be70cc27165f4190a132fcb7e4af"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:228702c75f006749620ccf9251b7da5971ec5818",
+        "label": "Person",
+        "name": "Neris QuillBXson",
+        "scope": "employer:discovered:c21c0432043565865b48f1640b3f3e1ec1c90f58"
+      },
+      "aliases": [
+        "Neris QuillBXson"
+      ],
+      "organization_ids": [
+        "discovered:c21c0432043565865b48f1640b3f3e1ec1c90f58"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:22934d1d3b9de7ad4b0a66f21e414007e6757bd1",
+        "label": "Person",
+        "name": "Neris QuillFSson",
+        "scope": "employer:discovered:ebc5066d24d157df9da758f1db48e2ce1009f546"
+      },
+      "aliases": [
+        "Neris QuillFSson"
+      ],
+      "organization_ids": [
+        "discovered:ebc5066d24d157df9da758f1db48e2ce1009f546"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:232b5ed0b57468369bcaea39d4c405c2cbccfa1f",
+        "label": "Person",
+        "name": "Neris QuillEUson",
+        "scope": "employer:discovered:103082e8f05cd213eb921611a5ba8cb20fbf4612"
+      },
+      "aliases": [
+        "Neris QuillEUson"
+      ],
+      "organization_ids": [
+        "discovered:103082e8f05cd213eb921611a5ba8cb20fbf4612"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:240ea1ade76cae363d2f20a9314c33636f27efa1",
+        "label": "Project",
+        "name": "VesperRU",
+        "scope": "owner:discovered:51f4a49a94dc1c2c965edf1a475fd4bfb6e86a68"
+      },
+      "aliases": [
+        "Project VesperRU",
+        "VesperRU"
+      ],
+      "organization_ids": [
+        "discovered:51f4a49a94dc1c2c965edf1a475fd4bfb6e86a68"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:290ba70b41b380acaef7eee5d5f907601fc9d660",
+        "label": "Technology",
+        "name": "LucentDBGD",
+        "scope": "deployment:discovered:6553dea1bacbdc929ebf05ca605cabf29446d818"
+      },
+      "aliases": [
+        "LucentDBGD",
+        "LucentDBGD (VesperGD instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:6553dea1bacbdc929ebf05ca605cabf29446d818"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2930bbbcf7b0d60c9595be96916735e2034729e3",
+        "label": "Platform",
+        "name": "NimbusJP",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusJP"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:29af60b90c70f068b0dc90fdc4b80d0ef212ff63",
+        "label": "Person",
+        "name": "Neris QuillFS",
+        "scope": "employer:discovered:dbd09e13844067919d001237cce01a2159341b0f"
+      },
+      "aliases": [
+        "Neris QuillFS"
+      ],
+      "organization_ids": [
+        "discovered:dbd09e13844067919d001237cce01a2159341b0f"
+      ],
+      "project_ids": [
+        "discovered:35072b9aa91ed59ad05daf990fe36510943a14f2"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2a340c063069d2e657bdc163ea6971cfa428bfbd",
+        "label": "Person",
+        "name": "Neris QuillUAson",
+        "scope": "employer:discovered:c5d0a029a10f1e3c29a3697f863500680b1aab63"
+      },
+      "aliases": [
+        "Neris QuillUAson"
+      ],
+      "organization_ids": [
+        "discovered:c5d0a029a10f1e3c29a3697f863500680b1aab63"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:2c3e9156a7b7e3646b0ad0af57f121b4c88d4724",
+        "label": "Technology",
+        "name": "LucentDBPM",
+        "scope": "deployment:discovered:3667ed1a86425a0faf00572b5f201b73f19353c9"
+      },
+      "aliases": [
+        "LucentDBPM",
+        "LucentDBPM (VesperPM instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3667ed1a86425a0faf00572b5f201b73f19353c9"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2cf247c0ff79f8d6579cddbc79a1516057e63a96",
+        "label": "Technology",
+        "name": "ShardDBOR",
+        "scope": "deployment:discovered:e06f092706d1ca7d2255e837bcdfac536d7a2cbd"
+      },
+      "aliases": [
+        "ShardDBOR",
+        "ShardDBOR (DecoyOR instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:e06f092706d1ca7d2255e837bcdfac536d7a2cbd"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2dc230a9e664d87017826d64b1ce63040f6d05bb",
+        "label": "Technology",
+        "name": "ShardDBCH",
+        "scope": "deployment:discovered:ba11710a3520bb84997fba91310258bf6162f681"
+      },
+      "aliases": [
+        "ShardDBCH",
+        "ShardDBCH (DecoyCH instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:ba11710a3520bb84997fba91310258bf6162f681"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2f5f61633655989101a2391706dd0438b59a1df5",
+        "label": "Project",
+        "name": "VesperTB",
+        "scope": "owner:discovered:5f67145cb4263a12ab527f781b760ab229e8cf90"
+      },
+      "aliases": [
+        "Project VesperTB",
+        "VesperTB"
+      ],
+      "organization_ids": [
+        "discovered:5f67145cb4263a12ab527f781b760ab229e8cf90"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:30743659999fd7c97bce9ff4f5fbc094e688f4ab",
+        "label": "Technology",
+        "name": "ShardDBLF",
+        "scope": "deployment:discovered:3d2fcf2b570562c5cea35dd9cfd8356c4ea260ab"
+      },
+      "aliases": [
+        "ShardDBLF",
+        "ShardDBLF (DecoyLF instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3d2fcf2b570562c5cea35dd9cfd8356c4ea260ab"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:308126ccbad048fbab73ea3e6a43775ffd8cfda1",
+        "label": "Project",
+        "name": "DecoyGD",
+        "scope": "owner:discovered:aec9b2b931b5bff0bbff27ecc04f38860fefc369"
+      },
+      "aliases": [
+        "DecoyGD",
+        "Project DecoyGD"
+      ],
+      "organization_ids": [
+        "discovered:aec9b2b931b5bff0bbff27ecc04f38860fefc369"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:313530f9618d0edba2f230088b6b287527e11cc3",
+        "label": "Project",
+        "name": "VesperLF",
+        "scope": "owner:discovered:a05ec548c4eb304ae302f90f984f5b3d9d7fdc12"
+      },
+      "aliases": [
+        "Project VesperLF",
+        "VesperLF"
+      ],
+      "organization_ids": [
+        "discovered:a05ec548c4eb304ae302f90f984f5b3d9d7fdc12"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:33f7bf6f8d4744a2f0591ca8f17662b414ce9928",
+        "label": "Person",
+        "name": "Neris QuillCH",
+        "scope": "employer:discovered:1f68520f21d64c692a0973d6d2c2c3d17abd97e1"
+      },
+      "aliases": [
+        "Neris QuillCH"
+      ],
+      "organization_ids": [
+        "discovered:1f68520f21d64c692a0973d6d2c2c3d17abd97e1"
+      ],
+      "project_ids": [
+        "discovered:7c81d37701eb5bc71649aaea37c617ed221446cc",
+        "discovered:a62a1abffaf2c0b18361d8798797c744f57db83e"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:34048407bf6abc125c4470d73394e57784b48aeb",
+        "label": "Person",
+        "name": "Elian WrenAF (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenAF",
+        "Elian WrenAF (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:dac894e5db3bff54857b7ed584f43928b1a4aaf6"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:35072b9aa91ed59ad05daf990fe36510943a14f2",
+        "label": "Project",
+        "name": "VesperFS",
+        "scope": "owner:discovered:dbd09e13844067919d001237cce01a2159341b0f"
+      },
+      "aliases": [
+        "Project VesperFS",
+        "VesperFS"
+      ],
+      "organization_ids": [
+        "discovered:dbd09e13844067919d001237cce01a2159341b0f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3667ed1a86425a0faf00572b5f201b73f19353c9",
+        "label": "Project",
+        "name": "VesperPM",
+        "scope": "owner:discovered:6ab0c4b92b9d2919897abc47eb864e91f94759a5"
+      },
+      "aliases": [
+        "Project VesperPM",
+        "VesperPM"
+      ],
+      "organization_ids": [
+        "discovered:6ab0c4b92b9d2919897abc47eb864e91f94759a5"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:367243f627b14620b3a5b52391c1ecfbc08b09d2",
+        "label": "Project",
+        "name": "VesperHR",
+        "scope": "owner:discovered:8c35a18e71ea6228167e107890828f502ed0cc18"
+      },
+      "aliases": [
+        "Project VesperHR",
+        "VesperHR"
+      ],
+      "organization_ids": [
+        "discovered:8c35a18e71ea6228167e107890828f502ed0cc18"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3a23ecb47c61bd447f5ebb786feef3069d16fc23",
+        "label": "Project",
+        "name": "DecoyIX",
+        "scope": "owner:discovered:492de09895e08f16c7a2a6b02f13c15ef72a5519"
+      },
+      "aliases": [
+        "DecoyIX",
+        "Project DecoyIX"
+      ],
+      "organization_ids": [
+        "discovered:492de09895e08f16c7a2a6b02f13c15ef72a5519"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3a8e8cad2112b2164f92023c6d72c0a48cd72f21",
+        "label": "Person",
+        "name": "Elian WrenRU (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenRU",
+        "Elian WrenRU (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:bb1fa765f38a8e785eef2a616ec4db7789b92294"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3acdfafffee50e4afc64b65ce9a6a7306bc52e76",
+        "label": "Person",
+        "name": "Elian WrenEU (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenEU",
+        "Elian WrenEU (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:103082e8f05cd213eb921611a5ba8cb20fbf4612"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3d2fcf2b570562c5cea35dd9cfd8356c4ea260ab",
+        "label": "Project",
+        "name": "DecoyLF",
+        "scope": "owner:discovered:3dbcc0bb176edbc454e21417dedfbb9ddc2bfa04"
+      },
+      "aliases": [
+        "DecoyLF",
+        "Project DecoyLF"
+      ],
+      "organization_ids": [
+        "discovered:3dbcc0bb176edbc454e21417dedfbb9ddc2bfa04"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3d948146d2e98465c1b72701e7de6616a2910e4c",
+        "label": "Project",
+        "name": "DecoyVF",
+        "scope": "owner:discovered:841cc8d43380f196794fbe82f8d8ffa47a0b95c7"
+      },
+      "aliases": [
+        "DecoyVF",
+        "Project DecoyVF"
+      ],
+      "organization_ids": [
+        "discovered:841cc8d43380f196794fbe82f8d8ffa47a0b95c7"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3d9656fa4e6029e3709320f63c110d7db917d927",
+        "label": "Person",
+        "name": "Neris QuillCHson",
+        "scope": "employer:discovered:1facdcc75dc84d5f8b1e7bb1b416796f6d76f050"
+      },
+      "aliases": [
+        "Neris QuillCHson"
+      ],
+      "organization_ids": [
+        "discovered:1facdcc75dc84d5f8b1e7bb1b416796f6d76f050"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3dbcc0bb176edbc454e21417dedfbb9ddc2bfa04",
+        "label": "Organization",
+        "name": "SableLF Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableLF Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3eea75a430cee2a8aefe2e257ad4589f5e5329a3",
+        "label": "Person",
+        "name": "Neris QuillPM",
+        "scope": "employer:discovered:6ab0c4b92b9d2919897abc47eb864e91f94759a5"
+      },
+      "aliases": [
+        "Neris QuillPM"
+      ],
+      "organization_ids": [
+        "discovered:6ab0c4b92b9d2919897abc47eb864e91f94759a5"
+      ],
+      "project_ids": [
+        "discovered:3667ed1a86425a0faf00572b5f201b73f19353c9"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:3f7b0eb175a122455ae1848a6858bb65ed732c34",
+        "label": "Person",
+        "name": "Neris QuillUA",
+        "scope": "employer:discovered:c9d6a6c4fbc2b0799870b11cec2430da413609ff"
+      },
+      "aliases": [
+        "Neris QuillUA"
+      ],
+      "organization_ids": [
+        "discovered:c9d6a6c4fbc2b0799870b11cec2430da413609ff"
+      ],
+      "project_ids": [
+        "discovered:b571627ca576079fbcd7513946ae872b9e3fbb39"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:42e438e3f513d3d2e6d56210c3ba3059c6ca75f6",
+        "label": "Technology",
+        "name": "LucentDBRU",
+        "scope": "deployment:discovered:240ea1ade76cae363d2f20a9314c33636f27efa1"
+      },
+      "aliases": [
+        "LucentDBRU",
+        "LucentDBRU (VesperRU instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:240ea1ade76cae363d2f20a9314c33636f27efa1"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:46b671653dfaee72edeb1224e64e0b1e7f166a05",
+        "label": "Organization",
+        "name": "MarinerKL Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerKL Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:492de09895e08f16c7a2a6b02f13c15ef72a5519",
+        "label": "Organization",
+        "name": "SableIX Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableIX Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:498f422341edf09c5bfcc808cdd309bb31c7dc35",
+        "label": "Person",
+        "name": "Elian WrenOR (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenOR",
+        "Elian WrenOR (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:ce4ffc7a510ca00adcef536c971aeb1279271530"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:49db2499ae5170cc41829463eb421607f9ad629b",
+        "label": "Project",
+        "name": "DecoyMZ",
+        "scope": "owner:discovered:a9ecbc0bfe8573ffc14e49f3f29f89ca36679883"
+      },
+      "aliases": [
+        "DecoyMZ",
+        "Project DecoyMZ"
+      ],
+      "organization_ids": [
+        "discovered:a9ecbc0bfe8573ffc14e49f3f29f89ca36679883"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4c20507d6b0e4ffe57719f7768d627b693fcc4d6",
+        "label": "Technology",
+        "name": "ShardDBSP",
+        "scope": "deployment:discovered:1a70aee51366c07454708167dfd83d44b3776984"
+      },
+      "aliases": [
+        "ShardDBSP",
+        "ShardDBSP (DecoySP instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:1a70aee51366c07454708167dfd83d44b3776984"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:4ec2bfd26b06e291c69aef22038a14c46cb9d6ed",
+        "label": "Person",
+        "name": "Elian WrenHR (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenHR",
+        "Elian WrenHR (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:8c35a18e71ea6228167e107890828f502ed0cc18"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4f167c00356f43317edbb51e258b658a70fb6042",
+        "label": "Project",
+        "name": "DecoyPM",
+        "scope": "owner:discovered:5ecc9a8176874f2590e93b75a85d5063e2ccb820"
+      },
+      "aliases": [
+        "DecoyPM",
+        "Project DecoyPM"
+      ],
+      "organization_ids": [
+        "discovered:5ecc9a8176874f2590e93b75a85d5063e2ccb820"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4fcc13cdab21ba239ef23e77301e2cf20e0bd1d2",
+        "label": "Person",
+        "name": "Neris QuillEU",
+        "scope": "employer:discovered:eeba3ae026bd350a844dc02e847c4db87743e536"
+      },
+      "aliases": [
+        "Neris QuillEU"
+      ],
+      "organization_ids": [
+        "discovered:eeba3ae026bd350a844dc02e847c4db87743e536"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:51f4a49a94dc1c2c965edf1a475fd4bfb6e86a68",
+        "label": "Organization",
+        "name": "MarinerRU Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerRU Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:54b71859290a7718fedb2d9f31da38aed440abd6",
+        "label": "Person",
+        "name": "Neris QuillDJ",
+        "scope": "employer:discovered:80d857f45df614ff125d073843707d829ce83cd3"
+      },
+      "aliases": [
+        "Neris QuillDJ"
+      ],
+      "organization_ids": [
+        "discovered:80d857f45df614ff125d073843707d829ce83cd3"
+      ],
+      "project_ids": [
+        "discovered:05fb7a8686b97b8478c3e267f1cab0af1e8abba0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:54e00eb14e086ce44467f6cc96a9f0f4874f8aff",
+        "label": "Person",
+        "name": "Neris QuillDJson",
+        "scope": "employer:discovered:d69da2d6f95d1aa00af4215d5a02c30c68ee73ee"
+      },
+      "aliases": [
+        "Neris QuillDJson"
+      ],
+      "organization_ids": [
+        "discovered:d69da2d6f95d1aa00af4215d5a02c30c68ee73ee"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:550ab288d2a4815eb80cbb1cbd5c2549e710f03d",
+        "label": "Platform",
+        "name": "NimbusOR",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusOR"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:561897180f49043a8227c4fbff99e94511b0dd34",
+        "label": "Person",
+        "name": "Neris QuillQAson",
+        "scope": "employer:discovered:98123c73a45271101c8f4a116b7f5cb3776d01c7"
+      },
+      "aliases": [
+        "Neris QuillQAson"
+      ],
+      "organization_ids": [
+        "discovered:98123c73a45271101c8f4a116b7f5cb3776d01c7"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:5686b6b6314aa11ec7e957059fe448dc87348bc5",
+        "label": "Person",
+        "name": "Elian WrenMZ (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenMZ",
+        "Elian WrenMZ (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:a9ecbc0bfe8573ffc14e49f3f29f89ca36679883"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:56caee34762851dbd258cef3461e849d759e9406",
+        "label": "Organization",
+        "name": "MarinerQA Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerQA Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:57217db333f1fa76fb7503fd41683dd40e958e36",
+        "label": "Person",
+        "name": "Elian WrenSP (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenSP",
+        "Elian WrenSP (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:c74464561a9d9b6173f07975bbe4c54beaa06581"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:572c76ec78c212e4b20e5d7967654c25d5c1f34b",
+        "label": "Platform",
+        "name": "NimbusQA",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusQA"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:58fb2b338e1d71ed9cb2977bac881ca958e871d5",
+        "label": "Person",
+        "name": "Neris QuillAF",
+        "scope": "employer:discovered:dac894e5db3bff54857b7ed584f43928b1a4aaf6"
+      },
+      "aliases": [
+        "Neris QuillAF"
+      ],
+      "organization_ids": [
+        "discovered:dac894e5db3bff54857b7ed584f43928b1a4aaf6"
+      ],
+      "project_ids": [
+        "discovered:da84a5d7f18f7921efbedaef3640ecd40cd617d4"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:597e385f0cef1932104291e6a124f3e7a41d9505",
+        "label": "Technology",
+        "name": "GlintDBHR",
+        "scope": "deployment:discovered:a0f3240bf87a21d4ef269a62cc44cf6984bb78d3"
+      },
+      "aliases": [
+        "GlintDBHR",
+        "GlintDBHR (VesperHR Annex instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:a0f3240bf87a21d4ef269a62cc44cf6984bb78d3"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:5d01965a675552be455c32b9e3a51a02b8341a6f",
+        "label": "Person",
+        "name": "Elian WrenFS (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenFS",
+        "Elian WrenFS (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:dbd09e13844067919d001237cce01a2159341b0f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:5dc3d77eff7bf97095e66cf3b2c6e4b569151ac0",
+        "label": "Project",
+        "name": "VesperBX",
+        "scope": "owner:discovered:e796461be099db2f0a0cf0c94fa9c730fa03f9b2"
+      },
+      "aliases": [
+        "Project VesperBX",
+        "VesperBX"
+      ],
+      "organization_ids": [
+        "discovered:e796461be099db2f0a0cf0c94fa9c730fa03f9b2"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:5ec34295ba2f62c51b46af3753094e0582762804",
+        "label": "Platform",
+        "name": "NimbusKL",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusKL"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:5ecc9a8176874f2590e93b75a85d5063e2ccb820",
+        "label": "Organization",
+        "name": "SablePM Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SablePM Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:5f67145cb4263a12ab527f781b760ab229e8cf90",
+        "label": "Organization",
+        "name": "MarinerTB Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerTB Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:606fb44c0491f2a7bc8ebd4d30b9ba59ee511e5f",
+        "label": "Technology",
+        "name": "LucentDBFS",
+        "scope": "deployment:discovered:35072b9aa91ed59ad05daf990fe36510943a14f2"
+      },
+      "aliases": [
+        "LucentDBFS",
+        "LucentDBFS (VesperFS instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:35072b9aa91ed59ad05daf990fe36510943a14f2"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:6076a46e32e4ef5aa2aaf2177f699388061487ba",
+        "label": "Project",
+        "name": "DecoyUA",
+        "scope": "owner:discovered:c5d0a029a10f1e3c29a3697f863500680b1aab63"
+      },
+      "aliases": [
+        "DecoyUA",
+        "Project DecoyUA"
+      ],
+      "organization_ids": [
+        "discovered:c5d0a029a10f1e3c29a3697f863500680b1aab63"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6098766155669ab997e4562748dc21ae6f3363b4",
+        "label": "Person",
+        "name": "Neris QuillNC",
+        "scope": "employer:discovered:fb7c88e0bd9d3d5746f40cd7157df1f6b0ca1dee"
+      },
+      "aliases": [
+        "Neris QuillNC"
+      ],
+      "organization_ids": [
+        "discovered:fb7c88e0bd9d3d5746f40cd7157df1f6b0ca1dee"
+      ],
+      "project_ids": [
+        "discovered:de356745855de164dee23d96d54fb9d6321ea2bd"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:616af7348841b0786897642520a0d8b44ab576cc",
+        "label": "Person",
+        "name": "Elian WrenPM (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenPM",
+        "Elian WrenPM (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:6ab0c4b92b9d2919897abc47eb864e91f94759a5"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:644a8b14e88008c9d455894e4449ae5dc919e564",
+        "label": "Person",
+        "name": "Elian WrenPM (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenPM",
+        "Elian WrenPM (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:5ecc9a8176874f2590e93b75a85d5063e2ccb820"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:64b8b3a1b5baa3708a01e7c898a7b7e22b9dab7b",
+        "label": "Person",
+        "name": "Elian WrenLF (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenLF",
+        "Elian WrenLF (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:a05ec548c4eb304ae302f90f984f5b3d9d7fdc12"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6553dea1bacbdc929ebf05ca605cabf29446d818",
+        "label": "Project",
+        "name": "VesperGD",
+        "scope": "owner:discovered:9c3770e1c7a9d6460718e2305dbf19afce1c428f"
+      },
+      "aliases": [
+        "Project VesperGD",
+        "VesperGD"
+      ],
+      "organization_ids": [
+        "discovered:9c3770e1c7a9d6460718e2305dbf19afce1c428f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:65ae2d799dfce859dacde432ab762fd5e6727274",
+        "label": "Organization",
+        "name": "MarinerVF Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerVF Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6606b1b5c6c43ea09939710d2db767360827d788",
+        "label": "Technology",
+        "name": "LucentDBDJ",
+        "scope": "deployment:discovered:05fb7a8686b97b8478c3e267f1cab0af1e8abba0"
+      },
+      "aliases": [
+        "LucentDBDJ",
+        "LucentDBDJ (VesperDJ instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:05fb7a8686b97b8478c3e267f1cab0af1e8abba0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:660c9aed3078e5debb4b13020ed9d7d92f283f65",
+        "label": "Person",
+        "name": "Elian WrenSP (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenSP",
+        "Elian WrenSP (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:d83aa6d06b2539893d92d083859f39bce903850f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:662bd0d4c404e63117e45787e11eeb0053a85009",
+        "label": "Person",
+        "name": "Neris QuillORson",
+        "scope": "employer:discovered:ce4ffc7a510ca00adcef536c971aeb1279271530"
+      },
+      "aliases": [
+        "Neris QuillORson"
+      ],
+      "organization_ids": [
+        "discovered:ce4ffc7a510ca00adcef536c971aeb1279271530"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:674aea8502ecbb6afc16e1c27df9aaba9ae252f6",
+        "label": "Person",
+        "name": "Neris QuillGD",
+        "scope": "employer:discovered:9c3770e1c7a9d6460718e2305dbf19afce1c428f"
+      },
+      "aliases": [
+        "Neris QuillGD"
+      ],
+      "organization_ids": [
+        "discovered:9c3770e1c7a9d6460718e2305dbf19afce1c428f"
+      ],
+      "project_ids": [
+        "discovered:6553dea1bacbdc929ebf05ca605cabf29446d818"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:68439afed9914bc30ef924916af82c67934e2606",
+        "label": "Person",
+        "name": "Neris QuillTBson",
+        "scope": "employer:discovered:799981da827e0254edf432631b206222e335932a"
+      },
+      "aliases": [
+        "Neris QuillTBson"
+      ],
+      "organization_ids": [
+        "discovered:799981da827e0254edf432631b206222e335932a"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:68b702066bd1f45b89dd1156f75bb0fe846d2f91",
+        "label": "Platform",
+        "name": "CumulusKL",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusKL"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:68cca349d40be49d029e6823218abd5911d0134b",
+        "label": "Technology",
+        "name": "ShardDBJP",
+        "scope": "deployment:discovered:bbb63ad0bd13ef4969dd73c7c848f03e69f44756"
+      },
+      "aliases": [
+        "ShardDBJP",
+        "ShardDBJP (DecoyJP instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:bbb63ad0bd13ef4969dd73c7c848f03e69f44756"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:68e097c9fc104900e92c53f2479208f4ef15f3ae",
+        "label": "Platform",
+        "name": "CumulusRU",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusRU"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6ab0c4b92b9d2919897abc47eb864e91f94759a5",
+        "label": "Organization",
+        "name": "MarinerPM Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerPM Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6bba8f4b429914766e2977993ccfbc6ecc8a51ee",
+        "label": "Person",
+        "name": "Elian WrenVF (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenVF",
+        "Elian WrenVF (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:841cc8d43380f196794fbe82f8d8ffa47a0b95c7"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6bd6dfe8aadbf883bf2af73cb382f1b1cc9d09f2",
+        "label": "Platform",
+        "name": "NimbusDJ",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusDJ"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:6c261c427cf96252466ac81b4f5b17e89eb0a13a",
+        "label": "Technology",
+        "name": "ShardDBUA",
+        "scope": "deployment:discovered:6076a46e32e4ef5aa2aaf2177f699388061487ba"
+      },
+      "aliases": [
+        "ShardDBUA",
+        "ShardDBUA (DecoyUA instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:6076a46e32e4ef5aa2aaf2177f699388061487ba"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:6c741d1be1ece19bbe32174a13f18eae7b8af63f",
+        "label": "Technology",
+        "name": "ShardDBBX",
+        "scope": "deployment:discovered:1f8e3d33e4b9308db14e8abdba59a646a2b2b902"
+      },
+      "aliases": [
+        "ShardDBBX",
+        "ShardDBBX (DecoyBX instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:1f8e3d33e4b9308db14e8abdba59a646a2b2b902"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:6c7b4c7414bf28e802a1388719ff652c5b2568f6",
+        "label": "Person",
+        "name": "Neris QuillVF",
+        "scope": "employer:discovered:65ae2d799dfce859dacde432ab762fd5e6727274"
+      },
+      "aliases": [
+        "Neris QuillVF"
+      ],
+      "organization_ids": [
+        "discovered:65ae2d799dfce859dacde432ab762fd5e6727274"
+      ],
+      "project_ids": [
+        "discovered:1aada862d7bcd62289f1b2c8b469f456c8a70453"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:6f03166a433c9baaa2abdc3fb68599c6e7b888c3",
+        "label": "Technology",
+        "name": "ShardDBTB",
+        "scope": "deployment:discovered:204cdf324e61ee79235438088eb29d5c150ecd46"
+      },
+      "aliases": [
+        "ShardDBTB",
+        "ShardDBTB (DecoyTB instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:204cdf324e61ee79235438088eb29d5c150ecd46"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:700018b8e778ce6876a0343ab20b0aa2c7f52987",
+        "label": "Platform",
+        "name": "CumulusCH",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusCH"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:704de0c3e1fe9343817d5a951f21ffef4bab1605",
+        "label": "Technology",
+        "name": "LucentDBHR",
+        "scope": "deployment:discovered:367243f627b14620b3a5b52391c1ecfbc08b09d2"
+      },
+      "aliases": [
+        "LucentDBHR",
+        "LucentDBHR (VesperHR instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:367243f627b14620b3a5b52391c1ecfbc08b09d2"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:728a863978d88174aa134cedf828527823330acc",
+        "label": "Person",
+        "name": "Neris QuillRUson",
+        "scope": "employer:discovered:bb1fa765f38a8e785eef2a616ec4db7789b92294"
+      },
+      "aliases": [
+        "Neris QuillRUson"
+      ],
+      "organization_ids": [
+        "discovered:bb1fa765f38a8e785eef2a616ec4db7789b92294"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:74ce0dfaa4bb3b760fc02a6c096e47f2e8db91fe",
+        "label": "Project",
+        "name": "DecoyQA",
+        "scope": "owner:discovered:98123c73a45271101c8f4a116b7f5cb3776d01c7"
+      },
+      "aliases": [
+        "DecoyQA",
+        "Project DecoyQA"
+      ],
+      "organization_ids": [
+        "discovered:98123c73a45271101c8f4a116b7f5cb3776d01c7"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:753f3a12accd6d730e5f47513dd8eab446ae9f9a",
+        "label": "Project",
+        "name": "VesperJP",
+        "scope": "owner:discovered:a87ebc958b4bb7d58bc1412c3ee9911d72383392"
+      },
+      "aliases": [
+        "Project VesperJP",
+        "VesperJP"
+      ],
+      "organization_ids": [
+        "discovered:a87ebc958b4bb7d58bc1412c3ee9911d72383392"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7592e0b86768483baa0a1fbb3800e64d6d9f0812",
+        "label": "Project",
+        "name": "VesperSP",
+        "scope": "owner:discovered:d83aa6d06b2539893d92d083859f39bce903850f"
+      },
+      "aliases": [
+        "Project VesperSP",
+        "VesperSP"
+      ],
+      "organization_ids": [
+        "discovered:d83aa6d06b2539893d92d083859f39bce903850f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:76ce18a2029116b6552b425a022681fbb83a7b4d",
+        "label": "Technology",
+        "name": "LucentDBNC",
+        "scope": "deployment:discovered:de356745855de164dee23d96d54fb9d6321ea2bd"
+      },
+      "aliases": [
+        "LucentDBNC",
+        "LucentDBNC (VesperNC instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:de356745855de164dee23d96d54fb9d6321ea2bd"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:77616c49b31aa994ffca668b7cb64fb00bd6f6f7",
+        "label": "Person",
+        "name": "Elian WrenNC (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenNC",
+        "Elian WrenNC (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:c012e4eca144cdc96bcd66c06f01f6982530ae21"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:799981da827e0254edf432631b206222e335932a",
+        "label": "Organization",
+        "name": "SableTB Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableTB Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7c41965f3533f8d004bb4e29e89ad9b848caa7bf",
+        "label": "Person",
+        "name": "Elian WrenCH (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenCH",
+        "Elian WrenCH (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:1facdcc75dc84d5f8b1e7bb1b416796f6d76f050"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7c68284b6b6780933f61c03cd5867ab4380ce66f",
+        "label": "Platform",
+        "name": "CumulusHR",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusHR"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7c81d37701eb5bc71649aaea37c617ed221446cc",
+        "label": "Project",
+        "name": "VesperCH Annex",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project VesperCH Annex",
+        "VesperCH Annex"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7d46a7a6d3e0a37fbe4465fbcaa3831adb8c64b5",
+        "label": "Project",
+        "name": "DecoyDJ",
+        "scope": "owner:discovered:d69da2d6f95d1aa00af4215d5a02c30c68ee73ee"
+      },
+      "aliases": [
+        "DecoyDJ",
+        "Project DecoyDJ"
+      ],
+      "organization_ids": [
+        "discovered:d69da2d6f95d1aa00af4215d5a02c30c68ee73ee"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7ec545bb2c4d7d8f943ecb6010070052c51d15ee",
+        "label": "Technology",
+        "name": "GlintDBMZ",
+        "scope": "deployment:discovered:e3b9715364ee6ffe41d477dfdb4c967d93054ba7"
+      },
+      "aliases": [
+        "GlintDBMZ",
+        "GlintDBMZ (VesperMZ Annex instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:e3b9715364ee6ffe41d477dfdb4c967d93054ba7"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:7f7f2471ad4999eaabbbce479ce3f3f25652b4f7",
+        "label": "Person",
+        "name": "Neris QuillJP",
+        "scope": "employer:discovered:a87ebc958b4bb7d58bc1412c3ee9911d72383392"
+      },
+      "aliases": [
+        "Neris QuillJP"
+      ],
+      "organization_ids": [
+        "discovered:a87ebc958b4bb7d58bc1412c3ee9911d72383392"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7faaebf2cf92de6a251261ff15955bb9e473a322",
+        "label": "Person",
+        "name": "Elian WrenLF (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenLF",
+        "Elian WrenLF (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:3dbcc0bb176edbc454e21417dedfbb9ddc2bfa04"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7fd3790f9fda26d119de43ce80360d9dddfa7b21",
+        "label": "Project",
+        "name": "DecoyFS",
+        "scope": "owner:discovered:ebc5066d24d157df9da758f1db48e2ce1009f546"
+      },
+      "aliases": [
+        "DecoyFS",
+        "Project DecoyFS"
+      ],
+      "organization_ids": [
+        "discovered:ebc5066d24d157df9da758f1db48e2ce1009f546"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:80d857f45df614ff125d073843707d829ce83cd3",
+        "label": "Organization",
+        "name": "MarinerDJ Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerDJ Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:83726559a4fc1a67336b36d82b6c84ff7f9925fe",
+        "label": "Person",
+        "name": "Elian WrenKL (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenKL",
+        "Elian WrenKL (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:46b671653dfaee72edeb1224e64e0b1e7f166a05"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:841cc8d43380f196794fbe82f8d8ffa47a0b95c7",
+        "label": "Organization",
+        "name": "SableVF Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableVF Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:85585e6e9dde211816b8fd28a6ea69aa976101ad",
+        "label": "Person",
+        "name": "Neris QuillNCson",
+        "scope": "employer:discovered:c012e4eca144cdc96bcd66c06f01f6982530ae21"
+      },
+      "aliases": [
+        "Neris QuillNCson"
+      ],
+      "organization_ids": [
+        "discovered:c012e4eca144cdc96bcd66c06f01f6982530ae21"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:877bba9356e9d9e727a5360f4312e5e6581b95d4",
+        "label": "Platform",
+        "name": "CumulusPM",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusPM"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:8ac1513cb728cb56ab157c31214574538c683d62",
+        "label": "Technology",
+        "name": "ShardDBNC",
+        "scope": "deployment:discovered:a7df035fcd6d0290fdee3134ced7db24acebc3f5"
+      },
+      "aliases": [
+        "ShardDBNC",
+        "ShardDBNC (DecoyNC instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:a7df035fcd6d0290fdee3134ced7db24acebc3f5"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:8b38278f5f58e82ea34869c379d5c571ee529e56",
+        "label": "Project",
+        "name": "DecoyAF",
+        "scope": "owner:discovered:04f0906532cb0eb71e6d612a5c77896345b5b077"
+      },
+      "aliases": [
+        "DecoyAF",
+        "Project DecoyAF"
+      ],
+      "organization_ids": [
+        "discovered:04f0906532cb0eb71e6d612a5c77896345b5b077"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:8c35a18e71ea6228167e107890828f502ed0cc18",
+        "label": "Organization",
+        "name": "MarinerHR Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerHR Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:8cc59bac63d926d18a54a00bd03440e8874d751a",
+        "label": "Platform",
+        "name": "NimbusBX",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusBX"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:8ff62582c7f2f5862b73c1fb0076b405a7d797f2",
+        "label": "Platform",
+        "name": "CumulusAF",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusAF"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:9009301b91a5779e280d0cb2654896256adb9961",
+        "label": "Person",
+        "name": "Neris QuillRU",
+        "scope": "employer:discovered:51f4a49a94dc1c2c965edf1a475fd4bfb6e86a68"
+      },
+      "aliases": [
+        "Neris QuillRU"
+      ],
+      "organization_ids": [
+        "discovered:51f4a49a94dc1c2c965edf1a475fd4bfb6e86a68"
+      ],
+      "project_ids": [
+        "discovered:240ea1ade76cae363d2f20a9314c33636f27efa1",
+        "discovered:b9072746da8a784691bc6190acbef4f627ed03d8"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:91f8d4a60b8635646e812bc8fc0f2aff41a8a692",
+        "label": "Technology",
+        "name": "LucentDBIX",
+        "scope": "deployment:discovered:f59ad997d80594cdb36e949e1e4a97b464f3b87d"
+      },
+      "aliases": [
+        "LucentDBIX",
+        "LucentDBIX (VesperIX instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:f59ad997d80594cdb36e949e1e4a97b464f3b87d"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:9292c8791a0d7c90000af53cd2497072e3fa0265",
+        "label": "Platform",
+        "name": "NimbusRU",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusRU"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:956eb6824052452f5bc2a46c889b1e2331d165c6",
+        "label": "Person",
+        "name": "Elian WrenGD (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenGD",
+        "Elian WrenGD (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:9c3770e1c7a9d6460718e2305dbf19afce1c428f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:9619a4cc586068dea8d142978a570fe5231d714f",
+        "label": "Technology",
+        "name": "ShardDBGD",
+        "scope": "deployment:discovered:308126ccbad048fbab73ea3e6a43775ffd8cfda1"
+      },
+      "aliases": [
+        "ShardDBGD",
+        "ShardDBGD (DecoyGD instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:308126ccbad048fbab73ea3e6a43775ffd8cfda1"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:967593214690fd90a39afc8a3e0b1a1482823913",
+        "label": "Platform",
+        "name": "CumulusVF",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusVF"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:98123c73a45271101c8f4a116b7f5cb3776d01c7",
+        "label": "Organization",
+        "name": "SableQA Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableQA Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:990e0a05710245a1ee9038fabf199da054a7c927",
+        "label": "Technology",
+        "name": "LucentDBCH",
+        "scope": "deployment:discovered:a62a1abffaf2c0b18361d8798797c744f57db83e"
+      },
+      "aliases": [
+        "LucentDBCH",
+        "LucentDBCH (VesperCH instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:a62a1abffaf2c0b18361d8798797c744f57db83e"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:990e4b9e7f85960acf15e91043c6d361d5a56fcf",
+        "label": "Person",
+        "name": "Elian WrenKL (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenKL",
+        "Elian WrenKL (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:fac26e5410177b42c273c505fc110ef6f48759e6"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:9c3770e1c7a9d6460718e2305dbf19afce1c428f",
+        "label": "Organization",
+        "name": "MarinerGD Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerGD Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a05ec548c4eb304ae302f90f984f5b3d9d7fdc12",
+        "label": "Organization",
+        "name": "MarinerLF Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerLF Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a0f3240bf87a21d4ef269a62cc44cf6984bb78d3",
+        "label": "Project",
+        "name": "VesperHR Annex",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project VesperHR Annex",
+        "VesperHR Annex"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a1e5097e37cd8b5f992d29cff3675ae5ddc22212",
+        "label": "Person",
+        "name": "Elian WrenAF (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenAF",
+        "Elian WrenAF (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:04f0906532cb0eb71e6d612a5c77896345b5b077"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a203f18f55c51c1eb355221b04bfdd5747d22b2b",
+        "label": "Person",
+        "name": "Neris QuillKLson",
+        "scope": "employer:discovered:fac26e5410177b42c273c505fc110ef6f48759e6"
+      },
+      "aliases": [
+        "Neris QuillKLson"
+      ],
+      "organization_ids": [
+        "discovered:fac26e5410177b42c273c505fc110ef6f48759e6"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a262775240aeb9e638403866384d73c0d39733d8",
+        "label": "Person",
+        "name": "Elian WrenTB (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenTB",
+        "Elian WrenTB (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:799981da827e0254edf432631b206222e335932a"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a2d3232eab9622130d4257ca7df72d7cb49932e5",
+        "label": "Technology",
+        "name": "ShardDBMZ",
+        "scope": "deployment:discovered:49db2499ae5170cc41829463eb421607f9ad629b"
+      },
+      "aliases": [
+        "ShardDBMZ",
+        "ShardDBMZ (DecoyMZ instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:49db2499ae5170cc41829463eb421607f9ad629b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:a5a63d0ab50c37a9262db42cd0d54f0f3cad2f86",
+        "label": "Technology",
+        "name": "ShardDBKL",
+        "scope": "deployment:discovered:04109416b9b46d7b5ead498afd87cc3d56ef1f32"
+      },
+      "aliases": [
+        "ShardDBKL",
+        "ShardDBKL (DecoyKL instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:04109416b9b46d7b5ead498afd87cc3d56ef1f32"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:a6221806626db4c8cdeb2d1df4e6b534b43617a2",
+        "label": "Person",
+        "name": "Elian WrenBX (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenBX",
+        "Elian WrenBX (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:e796461be099db2f0a0cf0c94fa9c730fa03f9b2"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a62a1abffaf2c0b18361d8798797c744f57db83e",
+        "label": "Project",
+        "name": "VesperCH",
+        "scope": "owner:discovered:1f68520f21d64c692a0973d6d2c2c3d17abd97e1"
+      },
+      "aliases": [
+        "Project VesperCH",
+        "VesperCH"
+      ],
+      "organization_ids": [
+        "discovered:1f68520f21d64c692a0973d6d2c2c3d17abd97e1"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a65e06792742ca0de9b874bd654c46bef943724f",
+        "label": "Platform",
+        "name": "NimbusPM",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusPM"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a7df035fcd6d0290fdee3134ced7db24acebc3f5",
+        "label": "Project",
+        "name": "DecoyNC",
+        "scope": "owner:discovered:c012e4eca144cdc96bcd66c06f01f6982530ae21"
+      },
+      "aliases": [
+        "DecoyNC",
+        "Project DecoyNC"
+      ],
+      "organization_ids": [
+        "discovered:c012e4eca144cdc96bcd66c06f01f6982530ae21"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a87ebc958b4bb7d58bc1412c3ee9911d72383392",
+        "label": "Organization",
+        "name": "MarinerJP Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerJP Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a94100ad6f18b68b193c936ba2e8f9dac2133a80",
+        "label": "Person",
+        "name": "Elian WrenUA (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenUA",
+        "Elian WrenUA (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:c9d6a6c4fbc2b0799870b11cec2430da413609ff"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a9ecbc0bfe8573ffc14e49f3f29f89ca36679883",
+        "label": "Organization",
+        "name": "SableMZ Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableMZ Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ac08fc5670825ab9731d8edbe3d8b29f3eb56c8e",
+        "label": "Platform",
+        "name": "NimbusFS",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusFS"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:aec9b2b931b5bff0bbff27ecc04f38860fefc369",
+        "label": "Organization",
+        "name": "SableGD Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableGD Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b0cdb5ed9da18d1e2e0c7de66fbea499edf55506",
+        "label": "Person",
+        "name": "Elian WrenHR (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenHR",
+        "Elian WrenHR (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:0ca5ef1be41ad9037f2301d5fdfd5683d29d62cb"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b123abf8d7497bf543500cc13f8540fb26cd0552",
+        "label": "Technology",
+        "name": "GlintDBCH",
+        "scope": "deployment:discovered:7c81d37701eb5bc71649aaea37c617ed221446cc"
+      },
+      "aliases": [
+        "GlintDBCH",
+        "GlintDBCH (VesperCH Annex instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:7c81d37701eb5bc71649aaea37c617ed221446cc"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:b173f460c9e23b9a9294412b07de3703aad9f53f",
+        "label": "Platform",
+        "name": "NimbusGD",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusGD"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b23290f24898dd6eb08fd26d172d6c5d852419a4",
+        "label": "Platform",
+        "name": "CumulusUA",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusUA"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b2f841c6bd29dc8b7e658b01b741d9bfb14c227b",
+        "label": "Platform",
+        "name": "NimbusUA",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusUA"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b323fc95f10d5a309620320a0e25b101f5029948",
+        "label": "Person",
+        "name": "Elian WrenBX (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenBX",
+        "Elian WrenBX (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:c21c0432043565865b48f1640b3f3e1ec1c90f58"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b40083e72395938d4a1750f00ae699a90358c7e4",
+        "label": "Project",
+        "name": "VesperQA",
+        "scope": "owner:discovered:56caee34762851dbd258cef3461e849d759e9406"
+      },
+      "aliases": [
+        "Project VesperQA",
+        "VesperQA"
+      ],
+      "organization_ids": [
+        "discovered:56caee34762851dbd258cef3461e849d759e9406"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b42a41d96f401504f7ba86e4318a422e99ceac45",
+        "label": "Person",
+        "name": "Neris QuillQA",
+        "scope": "employer:discovered:56caee34762851dbd258cef3461e849d759e9406"
+      },
+      "aliases": [
+        "Neris QuillQA"
+      ],
+      "organization_ids": [
+        "discovered:56caee34762851dbd258cef3461e849d759e9406"
+      ],
+      "project_ids": [
+        "discovered:b40083e72395938d4a1750f00ae699a90358c7e4"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:b571627ca576079fbcd7513946ae872b9e3fbb39",
+        "label": "Project",
+        "name": "VesperUA",
+        "scope": "owner:discovered:c9d6a6c4fbc2b0799870b11cec2430da413609ff"
+      },
+      "aliases": [
+        "Project VesperUA",
+        "VesperUA"
+      ],
+      "organization_ids": [
+        "discovered:c9d6a6c4fbc2b0799870b11cec2430da413609ff"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b5d341b8cfdc0f628d29141479ab13f8a09fd7b6",
+        "label": "Technology",
+        "name": "ShardDBEU",
+        "scope": "deployment:discovered:20320b4e939888687f31a76615f5509840e34351"
+      },
+      "aliases": [
+        "ShardDBEU",
+        "ShardDBEU (DecoyEU instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:20320b4e939888687f31a76615f5509840e34351"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:b6d55e4a9b45f193e1fd00f39b5d2c7d2b4d2ca3",
+        "label": "Person",
+        "name": "Elian WrenRU (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenRU",
+        "Elian WrenRU (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:51f4a49a94dc1c2c965edf1a475fd4bfb6e86a68"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b715c4be317f50fcc93ab2c05432a49a6733b15f",
+        "label": "Person",
+        "name": "Neris QuillAFson",
+        "scope": "employer:discovered:04f0906532cb0eb71e6d612a5c77896345b5b077"
+      },
+      "aliases": [
+        "Neris QuillAFson"
+      ],
+      "organization_ids": [
+        "discovered:04f0906532cb0eb71e6d612a5c77896345b5b077"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b7f39fcce4e5a1b551d86339ab132ac4a008f0f1",
+        "label": "Platform",
+        "name": "NimbusTB",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusTB"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b80395fa51899f433aa4ecab88ea33c74d5ccb2b",
+        "label": "Technology",
+        "name": "GlintDBRU",
+        "scope": "deployment:discovered:b9072746da8a784691bc6190acbef4f627ed03d8"
+      },
+      "aliases": [
+        "GlintDBRU",
+        "GlintDBRU (VesperRU Annex instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:b9072746da8a784691bc6190acbef4f627ed03d8"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:b9072746da8a784691bc6190acbef4f627ed03d8",
+        "label": "Project",
+        "name": "VesperRU Annex",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project VesperRU Annex",
+        "VesperRU Annex"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b9ecb04d95891ee782e944d1d43895cae154ddae",
+        "label": "Person",
+        "name": "Elian WrenFS (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenFS",
+        "Elian WrenFS (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:ebc5066d24d157df9da758f1db48e2ce1009f546"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ba11710a3520bb84997fba91310258bf6162f681",
+        "label": "Project",
+        "name": "DecoyCH",
+        "scope": "owner:discovered:1facdcc75dc84d5f8b1e7bb1b416796f6d76f050"
+      },
+      "aliases": [
+        "DecoyCH",
+        "Project DecoyCH"
+      ],
+      "organization_ids": [
+        "discovered:1facdcc75dc84d5f8b1e7bb1b416796f6d76f050"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ba515e47094bacf65be55964853f52d0166355db",
+        "label": "Technology",
+        "name": "ShardDBQA",
+        "scope": "deployment:discovered:74ce0dfaa4bb3b760fc02a6c096e47f2e8db91fe"
+      },
+      "aliases": [
+        "ShardDBQA",
+        "ShardDBQA (DecoyQA instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:74ce0dfaa4bb3b760fc02a6c096e47f2e8db91fe"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:bb1fa765f38a8e785eef2a616ec4db7789b92294",
+        "label": "Organization",
+        "name": "SableRU Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableRU Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:bbb63ad0bd13ef4969dd73c7c848f03e69f44756",
+        "label": "Project",
+        "name": "DecoyJP",
+        "scope": "owner:discovered:cff6dc1003e6be70cc27165f4190a132fcb7e4af"
+      },
+      "aliases": [
+        "DecoyJP",
+        "Project DecoyJP"
+      ],
+      "organization_ids": [
+        "discovered:cff6dc1003e6be70cc27165f4190a132fcb7e4af"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:be0780ea0d9ac9b002c5b6e05cb868a9e544f271",
+        "label": "Project",
+        "name": "VesperKL",
+        "scope": "owner:discovered:46b671653dfaee72edeb1224e64e0b1e7f166a05"
+      },
+      "aliases": [
+        "Project VesperKL",
+        "VesperKL"
+      ],
+      "organization_ids": [
+        "discovered:46b671653dfaee72edeb1224e64e0b1e7f166a05"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c012e4eca144cdc96bcd66c06f01f6982530ae21",
+        "label": "Organization",
+        "name": "SableNC Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableNC Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c12a092f308f91259dc816c9f2f4053db6327748",
+        "label": "Person",
+        "name": "Elian WrenIX (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenIX",
+        "Elian WrenIX (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:492de09895e08f16c7a2a6b02f13c15ef72a5519"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c21c0432043565865b48f1640b3f3e1ec1c90f58",
+        "label": "Organization",
+        "name": "SableBX Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableBX Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c2e5b649bd7b572430988eee35e8c7858b6ed417",
+        "label": "Person",
+        "name": "Elian WrenJP (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenJP",
+        "Elian WrenJP (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:cff6dc1003e6be70cc27165f4190a132fcb7e4af"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c45ee40eaf993420090501435fe94aa6e25008c3",
+        "label": "Project",
+        "name": "VesperEU",
+        "scope": "owner:discovered:eeba3ae026bd350a844dc02e847c4db87743e536"
+      },
+      "aliases": [
+        "Project VesperEU",
+        "VesperEU"
+      ],
+      "organization_ids": [
+        "discovered:eeba3ae026bd350a844dc02e847c4db87743e536"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c4627b975000a0a006b0838f0e88237b28f33746",
+        "label": "Person",
+        "name": "Elian WrenJP (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenJP",
+        "Elian WrenJP (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:a87ebc958b4bb7d58bc1412c3ee9911d72383392"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c5d0a029a10f1e3c29a3697f863500680b1aab63",
+        "label": "Organization",
+        "name": "SableUA Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableUA Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c6c6ad55b722fbdaa8ebcfba845ec358aca219b9",
+        "label": "Project",
+        "name": "DecoyHR",
+        "scope": "owner:discovered:0ca5ef1be41ad9037f2301d5fdfd5683d29d62cb"
+      },
+      "aliases": [
+        "DecoyHR",
+        "Project DecoyHR"
+      ],
+      "organization_ids": [
+        "discovered:0ca5ef1be41ad9037f2301d5fdfd5683d29d62cb"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c7005bbaaedd8fe1d3940f3ea5d042ab07627e38",
+        "label": "Platform",
+        "name": "NimbusCH",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusCH"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c74464561a9d9b6173f07975bbe4c54beaa06581",
+        "label": "Organization",
+        "name": "SableSP Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableSP Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c950aca45a54a627fac8f0cf7e5b97567e64e9ae",
+        "label": "Person",
+        "name": "Elian WrenQA (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenQA",
+        "Elian WrenQA (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:98123c73a45271101c8f4a116b7f5cb3776d01c7"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c9822c6020250420a322fb58bba20e86148ab43f",
+        "label": "Organization",
+        "name": "MarinerIX Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerIX Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c9b84dec58c803e84c9bb563316d756c7bd05def",
+        "label": "Person",
+        "name": "Elian WrenGD (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenGD",
+        "Elian WrenGD (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:aec9b2b931b5bff0bbff27ecc04f38860fefc369"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c9d6a6c4fbc2b0799870b11cec2430da413609ff",
+        "label": "Organization",
+        "name": "MarinerUA Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerUA Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:cb438dc1480774146cec1308b579bd9c339cdb7b",
+        "label": "Person",
+        "name": "Elian WrenTB (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenTB",
+        "Elian WrenTB (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:5f67145cb4263a12ab527f781b760ab229e8cf90"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:cb64ff31a616bfea39a7f06d2b8c8d8db04351a0",
+        "label": "Technology",
+        "name": "LucentDBBX",
+        "scope": "deployment:discovered:5dc3d77eff7bf97095e66cf3b2c6e4b569151ac0"
+      },
+      "aliases": [
+        "LucentDBBX",
+        "LucentDBBX (VesperBX instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:5dc3d77eff7bf97095e66cf3b2c6e4b569151ac0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:ccbc96c1ee1f69d5b97b0c16ac1060a1b9347ed0",
+        "label": "Person",
+        "name": "Neris QuillTB",
+        "scope": "employer:discovered:5f67145cb4263a12ab527f781b760ab229e8cf90"
+      },
+      "aliases": [
+        "Neris QuillTB"
+      ],
+      "organization_ids": [
+        "discovered:5f67145cb4263a12ab527f781b760ab229e8cf90"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ce1080ca89bbca394ff19f9a51643619d1ec95d7",
+        "label": "Platform",
+        "name": "CumulusBX",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusBX"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ce4ffc7a510ca00adcef536c971aeb1279271530",
+        "label": "Organization",
+        "name": "SableOR Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableOR Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:cff6dc1003e6be70cc27165f4190a132fcb7e4af",
+        "label": "Organization",
+        "name": "SableJP Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableJP Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d0c2389c13b32c7642c1faa40ee7abfb1e6487f8",
+        "label": "Person",
+        "name": "Neris QuillHRson",
+        "scope": "employer:discovered:0ca5ef1be41ad9037f2301d5fdfd5683d29d62cb"
+      },
+      "aliases": [
+        "Neris QuillHRson"
+      ],
+      "organization_ids": [
+        "discovered:0ca5ef1be41ad9037f2301d5fdfd5683d29d62cb"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d1cd56741b4b25a29b0aa734a72738b9e9c363d9",
+        "label": "Platform",
+        "name": "CumulusQA",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusQA"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d36d6932c08ddf41a6c2386db516250322e32c8e",
+        "label": "Person",
+        "name": "Neris QuillLF",
+        "scope": "employer:discovered:a05ec548c4eb304ae302f90f984f5b3d9d7fdc12"
+      },
+      "aliases": [
+        "Neris QuillLF"
+      ],
+      "organization_ids": [
+        "discovered:a05ec548c4eb304ae302f90f984f5b3d9d7fdc12"
+      ],
+      "project_ids": [
+        "discovered:313530f9618d0edba2f230088b6b287527e11cc3"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:d3ece06c0cc67a77d7b0f38ab71402f0b69be46a",
+        "label": "Technology",
+        "name": "ShardDBVF",
+        "scope": "deployment:discovered:3d948146d2e98465c1b72701e7de6616a2910e4c"
+      },
+      "aliases": [
+        "ShardDBVF",
+        "ShardDBVF (DecoyVF instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3d948146d2e98465c1b72701e7de6616a2910e4c"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:d4f952d4b334290559261047889859caf5307e23",
+        "label": "Technology",
+        "name": "ShardDBPM",
+        "scope": "deployment:discovered:4f167c00356f43317edbb51e258b658a70fb6042"
+      },
+      "aliases": [
+        "ShardDBPM",
+        "ShardDBPM (DecoyPM instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:4f167c00356f43317edbb51e258b658a70fb6042"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:d51dc3249f1886125dc142509725eb3ffb1867cf",
+        "label": "Person",
+        "name": "Elian WrenDJ (Sable employee 802)",
+        "scope": "employee:Sable employee 802"
+      },
+      "aliases": [
+        "Elian WrenDJ",
+        "Elian WrenDJ (Sable employee 802)"
+      ],
+      "organization_ids": [
+        "discovered:d69da2d6f95d1aa00af4215d5a02c30c68ee73ee"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d527cbb2d652465c29c28e616a234878f712d1f7",
+        "label": "Technology",
+        "name": "LucentDBMZ",
+        "scope": "deployment:discovered:1f1a86948d78f3f18d69c6b7186f38802572ce40"
+      },
+      "aliases": [
+        "LucentDBMZ",
+        "LucentDBMZ (VesperMZ instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:1f1a86948d78f3f18d69c6b7186f38802572ce40"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:d53cd8cc69e8d68a23c96773fd97b56b7bbdf280",
+        "label": "Person",
+        "name": "Neris QuillGDson",
+        "scope": "employer:discovered:aec9b2b931b5bff0bbff27ecc04f38860fefc369"
+      },
+      "aliases": [
+        "Neris QuillGDson"
+      ],
+      "organization_ids": [
+        "discovered:aec9b2b931b5bff0bbff27ecc04f38860fefc369"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d57ac95f32dd20e21182df1647c70836f1bf3520",
+        "label": "Person",
+        "name": "Elian WrenQA (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenQA",
+        "Elian WrenQA (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:56caee34762851dbd258cef3461e849d759e9406"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d69da2d6f95d1aa00af4215d5a02c30c68ee73ee",
+        "label": "Organization",
+        "name": "SableDJ Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableDJ Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d83aa6d06b2539893d92d083859f39bce903850f",
+        "label": "Organization",
+        "name": "MarinerSP Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerSP Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d87ba92247ebfde1ae0bbeef80d6e493d243a88e",
+        "label": "Person",
+        "name": "Neris QuillMZson",
+        "scope": "employer:discovered:a9ecbc0bfe8573ffc14e49f3f29f89ca36679883"
+      },
+      "aliases": [
+        "Neris QuillMZson"
+      ],
+      "organization_ids": [
+        "discovered:a9ecbc0bfe8573ffc14e49f3f29f89ca36679883"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:da248a05b0edbc433597990e42f1e43a4df8df45",
+        "label": "Platform",
+        "name": "NimbusHR",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusHR"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:da84a5d7f18f7921efbedaef3640ecd40cd617d4",
+        "label": "Project",
+        "name": "VesperAF",
+        "scope": "owner:discovered:dac894e5db3bff54857b7ed584f43928b1a4aaf6"
+      },
+      "aliases": [
+        "Project VesperAF",
+        "VesperAF"
+      ],
+      "organization_ids": [
+        "discovered:dac894e5db3bff54857b7ed584f43928b1a4aaf6"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:dac894e5db3bff54857b7ed584f43928b1a4aaf6",
+        "label": "Organization",
+        "name": "MarinerAF Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerAF Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:db756b088c686a4da89312a899884e9f0187f994",
+        "label": "Person",
+        "name": "Neris QuillHR",
+        "scope": "employer:discovered:8c35a18e71ea6228167e107890828f502ed0cc18"
+      },
+      "aliases": [
+        "Neris QuillHR"
+      ],
+      "organization_ids": [
+        "discovered:8c35a18e71ea6228167e107890828f502ed0cc18"
+      ],
+      "project_ids": [
+        "discovered:367243f627b14620b3a5b52391c1ecfbc08b09d2",
+        "discovered:a0f3240bf87a21d4ef269a62cc44cf6984bb78d3"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:dbd09e13844067919d001237cce01a2159341b0f",
+        "label": "Organization",
+        "name": "MarinerFS Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerFS Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:dd84a689b446255dd72c299349f29e0ed0beb84d",
+        "label": "Platform",
+        "name": "NimbusLF",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusLF"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:de356745855de164dee23d96d54fb9d6321ea2bd",
+        "label": "Project",
+        "name": "VesperNC",
+        "scope": "owner:discovered:fb7c88e0bd9d3d5746f40cd7157df1f6b0ca1dee"
+      },
+      "aliases": [
+        "Project VesperNC",
+        "VesperNC"
+      ],
+      "organization_ids": [
+        "discovered:fb7c88e0bd9d3d5746f40cd7157df1f6b0ca1dee"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:df6d363a22fbef77d67e99d87678d5f3cfe0b7ee",
+        "label": "Platform",
+        "name": "CumulusMZ",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "CumulusMZ"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:df81064f6bbc945bb79c3b5cf0a5104b6b82dff2",
+        "label": "Person",
+        "name": "Neris QuillSPson",
+        "scope": "employer:discovered:c74464561a9d9b6173f07975bbe4c54beaa06581"
+      },
+      "aliases": [
+        "Neris QuillSPson"
+      ],
+      "organization_ids": [
+        "discovered:c74464561a9d9b6173f07975bbe4c54beaa06581"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:dfa4892a2cf80e50e518feb349b7b76e875fefaf",
+        "label": "Project",
+        "name": "VesperOR",
+        "scope": "owner:discovered:0a5c1ec6aae7261236510487a46da0c85100b3cb"
+      },
+      "aliases": [
+        "Project VesperOR",
+        "VesperOR"
+      ],
+      "organization_ids": [
+        "discovered:0a5c1ec6aae7261236510487a46da0c85100b3cb"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e06f092706d1ca7d2255e837bcdfac536d7a2cbd",
+        "label": "Project",
+        "name": "DecoyOR",
+        "scope": "owner:discovered:ce4ffc7a510ca00adcef536c971aeb1279271530"
+      },
+      "aliases": [
+        "DecoyOR",
+        "Project DecoyOR"
+      ],
+      "organization_ids": [
+        "discovered:ce4ffc7a510ca00adcef536c971aeb1279271530"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e078586c2f44f5ac76d6d2bea82751b1c883cd23",
+        "label": "Person",
+        "name": "Neris QuillPMson",
+        "scope": "employer:discovered:5ecc9a8176874f2590e93b75a85d5063e2ccb820"
+      },
+      "aliases": [
+        "Neris QuillPMson"
+      ],
+      "organization_ids": [
+        "discovered:5ecc9a8176874f2590e93b75a85d5063e2ccb820"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e3448b20c65121c76550606ab49a9aeafc4b1997",
+        "label": "Person",
+        "name": "Elian WrenOR (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenOR",
+        "Elian WrenOR (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:0a5c1ec6aae7261236510487a46da0c85100b3cb"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e3b9715364ee6ffe41d477dfdb4c967d93054ba7",
+        "label": "Project",
+        "name": "VesperMZ Annex",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project VesperMZ Annex",
+        "VesperMZ Annex"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e56c10e90e7edd16ae2f5a69ea57eca1062d6e3e",
+        "label": "Person",
+        "name": "Elian WrenNC (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenNC",
+        "Elian WrenNC (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:fb7c88e0bd9d3d5746f40cd7157df1f6b0ca1dee"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e6d8863fb81cab74e18598211a8eec0af42882f6",
+        "label": "Technology",
+        "name": "ShardDBRU",
+        "scope": "deployment:discovered:fab1bd326d3223c3c7305a55643ef6a84754094a"
+      },
+      "aliases": [
+        "ShardDBRU",
+        "ShardDBRU (DecoyRU instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:fab1bd326d3223c3c7305a55643ef6a84754094a"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:e796461be099db2f0a0cf0c94fa9c730fa03f9b2",
+        "label": "Organization",
+        "name": "MarinerBX Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerBX Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:e7d519b485e28f4bf7bae78f8f9c7f7c857eea1c",
+        "label": "Technology",
+        "name": "ShardDBAF",
+        "scope": "deployment:discovered:8b38278f5f58e82ea34869c379d5c571ee529e56"
+      },
+      "aliases": [
+        "ShardDBAF",
+        "ShardDBAF (DecoyAF instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:8b38278f5f58e82ea34869c379d5c571ee529e56"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:ea232a861b789242b5d2f6064c8dda07cf53c995",
+        "label": "Platform",
+        "name": "NimbusAF",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusAF"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ea83ba15de621b0630cf4ef3d65421bbe0661af2",
+        "label": "Person",
+        "name": "Neris QuillOR",
+        "scope": "employer:discovered:0a5c1ec6aae7261236510487a46da0c85100b3cb"
+      },
+      "aliases": [
+        "Neris QuillOR"
+      ],
+      "organization_ids": [
+        "discovered:0a5c1ec6aae7261236510487a46da0c85100b3cb"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ebc5066d24d157df9da758f1db48e2ce1009f546",
+        "label": "Organization",
+        "name": "SableFS Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableFS Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:ec37c27c74c8390ed13c746229547a8a6c1a66e1",
+        "label": "Technology",
+        "name": "LucentDBVF",
+        "scope": "deployment:discovered:1aada862d7bcd62289f1b2c8b469f456c8a70453"
+      },
+      "aliases": [
+        "LucentDBVF",
+        "LucentDBVF (VesperVF instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:1aada862d7bcd62289f1b2c8b469f456c8a70453"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:ed94377c32de6aabc393414c87cb72ec22161a04",
+        "label": "Person",
+        "name": "Elian WrenEU (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenEU",
+        "Elian WrenEU (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:eeba3ae026bd350a844dc02e847c4db87743e536"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:eeba3ae026bd350a844dc02e847c4db87743e536",
+        "label": "Organization",
+        "name": "MarinerEU Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerEU Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:efa68c573f43db68c3e28c8e559aa0b10ca74d43",
+        "label": "Platform",
+        "name": "NimbusMZ",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusMZ"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:efc2158cf196c7229a3c1bd176f29ee7a1eee8a2",
+        "label": "Person",
+        "name": "Elian WrenDJ (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenDJ",
+        "Elian WrenDJ (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:80d857f45df614ff125d073843707d829ce83cd3"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f05d357f2fc08a12edf7346827c5bf089f87fae3",
+        "label": "Platform",
+        "name": "NimbusEU",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusEU"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f1a06d717d6103ac7624e42e0b1a5f3b9fef81e7",
+        "label": "Person",
+        "name": "Elian WrenVF (Mariner employee 801)",
+        "scope": "employee:Mariner employee 801"
+      },
+      "aliases": [
+        "Elian WrenVF",
+        "Elian WrenVF (Mariner employee 801)"
+      ],
+      "organization_ids": [
+        "discovered:65ae2d799dfce859dacde432ab762fd5e6727274"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f20f0f9cf6c5c33a678c4fd9f5bda1f0ad9db779",
+        "label": "Technology",
+        "name": "LucentDBKL",
+        "scope": "deployment:discovered:be0780ea0d9ac9b002c5b6e05cb868a9e544f271"
+      },
+      "aliases": [
+        "LucentDBKL",
+        "LucentDBKL (VesperKL instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:be0780ea0d9ac9b002c5b6e05cb868a9e544f271"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:f59ad997d80594cdb36e949e1e4a97b464f3b87d",
+        "label": "Project",
+        "name": "VesperIX",
+        "scope": "owner:discovered:c9822c6020250420a322fb58bba20e86148ab43f"
+      },
+      "aliases": [
+        "Project VesperIX",
+        "VesperIX"
+      ],
+      "organization_ids": [
+        "discovered:c9822c6020250420a322fb58bba20e86148ab43f"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f59d908a168ce60f950e6ae23acc753864176406",
+        "label": "Person",
+        "name": "Neris QuillIXson",
+        "scope": "employer:discovered:492de09895e08f16c7a2a6b02f13c15ef72a5519"
+      },
+      "aliases": [
+        "Neris QuillIXson"
+      ],
+      "organization_ids": [
+        "discovered:492de09895e08f16c7a2a6b02f13c15ef72a5519"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f835bd59e2a21305264f6d9840dbd336829a7019",
+        "label": "Technology",
+        "name": "LucentDBSP",
+        "scope": "deployment:discovered:7592e0b86768483baa0a1fbb3800e64d6d9f0812"
+      },
+      "aliases": [
+        "LucentDBSP",
+        "LucentDBSP (VesperSP instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:7592e0b86768483baa0a1fbb3800e64d6d9f0812"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:f868ecddc6de0e642d78bf274c0a1a94abe8ae61",
+        "label": "Person",
+        "name": "Neris QuillSP",
+        "scope": "employer:discovered:d83aa6d06b2539893d92d083859f39bce903850f"
+      },
+      "aliases": [
+        "Neris QuillSP"
+      ],
+      "organization_ids": [
+        "discovered:d83aa6d06b2539893d92d083859f39bce903850f"
+      ],
+      "project_ids": [
+        "discovered:7592e0b86768483baa0a1fbb3800e64d6d9f0812"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:fab1bd326d3223c3c7305a55643ef6a84754094a",
+        "label": "Project",
+        "name": "DecoyRU",
+        "scope": "owner:discovered:bb1fa765f38a8e785eef2a616ec4db7789b92294"
+      },
+      "aliases": [
+        "DecoyRU",
+        "Project DecoyRU"
+      ],
+      "organization_ids": [
+        "discovered:bb1fa765f38a8e785eef2a616ec4db7789b92294"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:fac26e5410177b42c273c505fc110ef6f48759e6",
+        "label": "Organization",
+        "name": "SableKL Foundation",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "SableKL Foundation"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:fb22c538ece9157d6c35a39828be88801abd9322",
+        "label": "Platform",
+        "name": "NimbusNC",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "NimbusNC"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:fb7c88e0bd9d3d5746f40cd7157df1f6b0ca1dee",
+        "label": "Organization",
+        "name": "MarinerNC Cooperative",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "MarinerNC Cooperative"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:fe76af82264946aef683bba8c489d8c3fc96a697",
+        "label": "Technology",
+        "name": "ShardDBDJ",
+        "scope": "deployment:discovered:7d46a7a6d3e0a37fbe4465fbcaa3831adb8c64b5"
+      },
+      "aliases": [
+        "ShardDBDJ",
+        "ShardDBDJ (DecoyDJ instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:7d46a7a6d3e0a37fbe4465fbcaa3831adb8c64b5"
+      ]
+    },
+    {
+      "entity": {
+        "id": "org:cedar",
+        "label": "Organization",
+        "name": "Cedar Kite",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Cedar Kite"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "org:lumen",
+        "label": "Organization",
+        "name": "Lumen Orchard",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Lumen Orchard"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "org:tidal",
+        "label": "Organization",
+        "name": "Tidal Lantern",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Tidal Lantern"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:ivo",
+        "label": "Person",
+        "name": "Ivo",
+        "scope": "directory_only_001"
+      },
+      "aliases": [
+        "Ivo"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:lee-north",
+        "label": "Person",
+        "name": "Lee Chen",
+        "scope": "cedar_employee_002"
+      },
+      "aliases": [
+        "Lee Chen",
+        "Lee",
+        "Lee Chen (Cedar employee 002)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:lee-south",
+        "label": "Person",
+        "name": "Lee Chen",
+        "scope": "tidal_employee_001"
+      },
+      "aliases": [
+        "Lee Chen",
+        "Lee",
+        "Lee Chen (Tidal employee 001)"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:morgan",
+        "label": "Person",
+        "name": "Morgan",
+        "scope": "cedar_employee_001"
+      },
+      "aliases": [
+        "Morgan"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:noor",
+        "label": "Person",
+        "name": "Noor",
+        "scope": "tidal_employee_002"
+      },
+      "aliases": [
+        "Noor"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:priya",
+        "label": "Person",
+        "name": "Priya",
+        "scope": "lumen_employee_001"
+      },
+      "aliases": [
+        "Priya",
+        "Priya (Lumen employee 001)"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:priya-cedar",
+        "label": "Person",
+        "name": "Priya",
+        "scope": "cedar_employee_003"
+      },
+      "aliases": [
+        "Priya",
+        "Priya (Cedar employee 003)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:sam",
+        "label": "Person",
+        "name": "Sam",
+        "scope": "lumen_employee_002"
+      },
+      "aliases": [
+        "Sam"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:una",
+        "label": "Person",
+        "name": "Una",
+        "scope": "directory_only_002"
+      },
+      "aliases": [
+        "Una"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:aws",
+        "label": "Platform",
+        "name": "AWS",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:azure",
+        "label": "Platform",
+        "name": "Azure",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "Azure",
+        "Microsoft Azure"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:gcp",
+        "label": "Platform",
+        "name": "GCP",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "GCP",
+        "Google Cloud"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "project:atlas",
+        "label": "Project",
+        "name": "Atlas",
+        "scope": "lumen"
+      },
+      "aliases": [
+        "Atlas",
+        "Project Atlas"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:atlas-east",
+        "label": "Project",
+        "name": "Atlas East",
+        "scope": "cedar"
+      },
+      "aliases": [
+        "Atlas East",
+        "Project Atlas East"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:beacon",
+        "label": "Project",
+        "name": "Beacon",
+        "scope": "lumen"
+      },
+      "aliases": [
+        "Beacon",
+        "Project Beacon"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:comet",
+        "label": "Project",
+        "name": "Comet",
+        "scope": "cedar"
+      },
+      "aliases": [
+        "Comet",
+        "Project Comet"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:delta",
+        "label": "Project",
+        "name": "Delta",
+        "scope": "tidal"
+      },
+      "aliases": [
+        "Delta",
+        "Project Delta"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:echo",
+        "label": "Project",
+        "name": "Echo",
+        "scope": "tidal"
+      },
+      "aliases": [
+        "Echo",
+        "Project Echo"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:duckdb",
+        "label": "Technology",
+        "name": "DuckDB",
+        "scope": "echo_deployment"
+      },
+      "aliases": [
+        "DuckDB"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:kafka",
+        "label": "Technology",
+        "name": "Kafka",
+        "scope": "delta_deployment"
+      },
+      "aliases": [
+        "Kafka"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:neo4j",
+        "label": "Technology",
+        "name": "Neo4j",
+        "scope": "comet_deployment"
+      },
+      "aliases": [
+        "Neo4j"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:postgres-atlas",
+        "label": "Technology",
+        "name": "PostgreSQL",
+        "scope": "atlas_deployment"
+      },
+      "aliases": [
+        "PostgreSQL",
+        "Postgres",
+        "PostgreSQL (Atlas instance)"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:postgres-east",
+        "label": "Technology",
+        "name": "PostgreSQL",
+        "scope": "atlas-east_deployment"
+      },
+      "aliases": [
+        "PostgreSQL",
+        "Postgres",
+        "PostgreSQL (Atlas East instance)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:redis",
+        "label": "Technology",
+        "name": "Redis",
+        "scope": "beacon_deployment"
+      },
+      "aliases": [
+        "Redis"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    }
+  ]
+}

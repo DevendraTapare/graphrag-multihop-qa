@@ -1,0 +1,96 @@
+Traceback (most recent call last):
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_bolt\_bolt_socket.py", line 166, in _handshake_read
+    response = self.recv(n)
+               ^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 521, in recv
+    return self._wait_for_read(self._socket.recv, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 445, in _wait_for_read
+    return self._wait_for_io(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 486, in _wait_for_io
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_bolt\_bolt_socket.py", line 336, in connect
+    agreed_version = s._handshake(resolved_address, deadline)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_bolt\_bolt_socket.py", line 263, in _handshake
+    response = self._handshake_read(ctx, 4)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_bolt\_bolt_socket.py", line 169, in _handshake_read
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to read four byte Bolt handshake response from server ResolvedIPv4Address(('127.0.0.1', 27689)) (deadline Deadline(timeout=3.0))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\GraphRAG-MultiHop\app\db\neo4j.py", line 37, in execute
+    result = session.run(
+             ^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\work\session.py", line 320, in run
+    self._connect(self._config.default_access_mode)
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\work\session.py", line 125, in _connect
+    super()._connect(
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\work\workspace.py", line 181, in _connect
+    self._connection = self._pool.acquire(**acquire_kwargs_)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_pool.py", line 771, in acquire
+    return self._acquire(
+           ^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_pool.py", line 552, in _acquire
+    return connection_creator()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_pool.py", line 361, in connection_creator
+    connection = self.opener(
+                 ^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_pool.py", line 735, in opener
+    return Bolt.open(
+           ^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_bolt\_base.py", line 340, in open
+    s, protocol_version = BoltSocket.connect(
+                          ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\.venv\Lib\site-packages\neo4j\_sync\io\_bolt\_bolt_socket.py", line 380, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 127.0.0.1:27689 (resolved to ('127.0.0.1:27689',)):
+Failed to read four byte Bolt handshake response from server ResolvedIPv4Address(('127.0.0.1', 27689)) (deadline Deadline(timeout=3.0))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\Projects\GraphRAG-MultiHop\scripts\triage_stage7a.py", line 128, in <module>
+    run(parser.parse_args().pool_size)
+  File "D:\Projects\GraphRAG-MultiHop\scripts\triage_stage7a.py", line 121, in run
+    original.load()
+  File "D:\Projects\GraphRAG-MultiHop\scripts\performance_stage6.py", line 88, in load
+    references = {m: [components.query(m, q) for q in questions] for m in MODES}
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\scripts\stage6_runtime.py", line 74, in query
+    else self.graph.query(question, 3)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\app\aligned\graph.py", line 94, in query
+    raw, overflow = self.repo.capture(plan, resolution.canonical_id, budget)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\app\aligned\integrity.py", line 74, in capture
+    self.verify_publication(budget)
+  File "D:\Projects\GraphRAG-MultiHop\app\aligned\integrity.py", line 16, in verify_publication
+    rows = self.read(
+           ^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\app\graph_rag\repository.py", line 114, in read
+    return self.db.execute(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\scripts\triage_stage7a.py", line 61, in execute
+    return super().execute(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\scripts\performance_stage6.py", line 50, in execute
+    return super().execute(cypher, parameters, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\app\db\neo4j.py", line 43, in execute
+    raise DatabaseUnavailable("Graph database operation failed") from exc
+app.db.neo4j.DatabaseUnavailable: Graph database operation failed

@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Devendra Tapare",
+  "source": "https://opensource.org/license/mit",
+  "complete_permission_and_warranty": true,
+  "utf8": true,
+  "sha256": "e293d052259cae43da41f782af7d1f1b23afa2452fc69f94533edff74cedbc90",
+  "included_rights_blockers": [],
+  "future_external_binary_questions": [
+    "cuda-toolkit",
+    "nvidia-cuda-runtime",
+    "nvidia-cudnn-cu13",
+    "nvidia-nccl-cu13",
+    "nvidia-nvshmem-cu13",
+    "nvidia-nvtx"
+  ]
+}

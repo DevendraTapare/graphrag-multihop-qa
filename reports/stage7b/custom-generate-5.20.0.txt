@@ -1,0 +1,70 @@
+    def load_custom_generate(
+        self,
+        pretrained_model_name_or_path: str | os.PathLike | None = None,
+        trust_remote_code: bool | None = None,
+        **kwargs,
+    ) -> Callable:
+        """
+        Loads and returns a custom generate function, given a model repo.
+
+        Args:
+            pretrained_model_name_or_path (`str` or `os.PathLike`):
+                 Can be either:
+                    - A string, the *model id* of a pretrained model hosted inside a model repo on huggingface.co.
+                    - A path to a *directory* containing model weights saved using
+                      [`~PreTrainedModel.save_pretrained`], e.g., `./my_model_directory/`.
+            trust_remote_code (`bool`, *optional*):
+                Whether or not to allow for custom models defined on the Hub in their own modeling files. This option
+                should only be set to `True` for repositories you trust and in which you have read the code, as it will
+                execute code present on the Hub on your local machine.
+            **kwargs:
+                Additional keyword arguments for remote code loading.
+
+        Raises:
+            OSError: If `pretrained_model_name_or_path` does not contain a `custom_generate` subdirectory.
+
+        Returns:
+            A callable that can be used to generate text.
+        """
+        custom_generate_file = "custom_generate/generate.py"
+        custom_generate_requirements = "custom_generate/requirements.txt"
+
+        # Check for the existence of the file without actually downloading it
+        # (preventing unwanted downloads of files, even if not executed)
+        if not has_file(
+            pretrained_model_name_or_path,
+            custom_generate_file,
+            **kwargs,
+        ):
+            raise OSError(
+                f"`{pretrained_model_name_or_path}` does not contain a `custom_generate` subdirectory with a "
+                "`generate.py` file, can't load the custom generate function."
+            )
+
+        # Loading a custom generate function executes the repository's `custom_generate/generate.py`
+        # (via `get_class_in_module` below), so it is remote code and must be gated by
+        # `trust_remote_code` -- including when it is loaded from a local directory. `from_pretrained`
+        # likewise requires `trust_remote_code` for custom modeling code that lives in a local repo;
+        # treating a local path as trusted here previously let `custom_generate/generate.py` run with
+        # no opt-in.
+        error_message = (
+            f"The repository `{pretrained_model_name_or_path}` contains custom generation code that will override "
+            "the default `generate` method."
+        )
+        resolve_trust_remote_code(
+            trust_remote_code,
+            pretrained_model_name_or_path,
+            has_local_code=False,
+            has_remote_code=True,
+            error_message=error_message,
+        )
+
+        # Load the remote generation module
+        module = get_cached_module_file(pretrained_model_name_or_path, module_file=custom_generate_file, **kwargs)
+
+        # Load the custom generate function
+        check_python_requirements(
+            pretrained_model_name_or_path, requirements_file=custom_generate_requirements, **kwargs
+        )
+        custom_generate_function = get_class_in_module("generate", module)
+        return custom_generate_function

@@ -1,0 +1,16 @@
+graph_only: 1 users, {'successful_answer': 2}, 0.93s
+graph_only: 5 users, {'successful_answer': 8, 'correct_abstention': 2}, 4.51s
+graph_only: 10 users, {'successful_answer': 16, 'correct_abstention': 4}, 4.76s
+graph_only: 25 users, {'successful_answer': 29, 'correct_abstention': 12, 'error': 9}, 9.19s
+graph_only: 50 users, {'successful_answer': 27, 'correct_abstention': 24, 'error': 49}, 9.00s
+vector_only: 1 users, {'successful_answer': 1, 'false_abstention': 1}, 0.27s
+vector_only: 5 users, {'successful_answer': 3, 'false_abstention': 5, 'correct_abstention': 2}, 2.71s
+vector_only: 10 users, {'successful_answer': 5, 'false_abstention': 11, 'correct_abstention': 4}, 3.11s
+vector_only: 25 users, {'successful_answer': 13, 'false_abstention': 25, 'correct_abstention': 12}, 7.38s
+vector_only: 50 users, {'successful_answer': 25, 'false_abstention': 51, 'correct_abstention': 24}, 13.50s
+hybrid_graph_vector: 1 users, {'successful_answer': 2}, 2.39s
+hybrid_graph_vector: 5 users, {'successful_answer': 8, 'correct_abstention': 2}, 6.60s
+hybrid_graph_vector: 10 users, {'successful_answer': 16, 'correct_abstention': 4}, 11.32s
+hybrid_graph_vector: 25 users, {'successful_answer': 38, 'correct_abstention': 12}, 18.11s
+[#D960]  _: <CONNECTION> error: Failed to read from defunct connection IPv4Address(('127.0.0.1', 27689)) (ResolvedIPv4Address(('127.0.0.1', 27689))): SocketDeadlineExceededError('read timed out')
+hybrid_graph_vector: 50 users, {'successful_answer': 66, 'correct_abstention': 20, 'error': 14}, 36.28s

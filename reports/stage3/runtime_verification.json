@@ -1,0 +1,321 @@
+{
+  "health_connected": 200,
+  "ready_connected": 200,
+  "vector_connected": {
+    "answer": "PostgreSQL",
+    "abstained": false,
+    "reason": "supported",
+    "retrieved_chunks": [
+      {
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+        "source_filename": "fixtures/corporate.json#doc:02",
+        "original_document_id": "doc:02",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "chunk_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:16d967d3090c6bc38f02ef5d42a9d9a735e5e188",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 92,
+        "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+        "sentence_starts": [
+          0,
+          53
+        ],
+        "sentence_ends": [
+          52,
+          92
+        ],
+        "score": 0.896873950958252
+      },
+      {
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "source_filename": "atlas.txt",
+        "original_document_id": null,
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "chunk_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:34c77dffc10a3a2f1e6a46564c8aeecb80a6e7de",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 112,
+        "text": "Priya manages Project Atlas.\nAtlas uses PostgreSQL.\nThe PostgreSQL instance for Project Atlas is hosted on AWS.\n",
+        "sentence_starts": [
+          0,
+          29,
+          52
+        ],
+        "sentence_ends": [
+          28,
+          51,
+          111
+        ],
+        "score": 0.8649284839630127
+      },
+      {
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+        "source_filename": "fixtures/corporate.json#doc:03",
+        "original_document_id": "doc:03",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "chunk_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:b230c6f6af451a50cfae0f38d78147dc5f5f1645",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 59,
+        "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "sentence_starts": [
+          0
+        ],
+        "sentence_ends": [
+          59
+        ],
+        "score": 0.8600404262542725
+      },
+      {
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "source_filename": "fixtures/corporate.json#doc:04",
+        "original_document_id": "doc:04",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "chunk_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:5b1e109e86112e2c60dbd3e9b683e21110a415ef",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 239,
+        "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+        "sentence_starts": [
+          0,
+          49,
+          78,
+          120,
+          173
+        ],
+        "sentence_ends": [
+          48,
+          77,
+          119,
+          172,
+          239
+        ],
+        "score": 0.784576416015625
+      },
+      {
+        "document_id": "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+        "chunk_id": "autochunk:c3edf9eff2b76f27c437dab43454e0dd6e8e0be0",
+        "source_id": "source:0e38433cdfb77cd13bbdf0e8bcd740643d4c623e",
+        "source_filename": "stage3/s01-source-3.txt",
+        "original_document_id": null,
+        "content_hash": "2cd7c466c31ad0268d8d058deb107400bf3ea2c52e9075a2fdfbd492dcfc8641",
+        "chunk_hash": "2cd7c466c31ad0268d8d058deb107400bf3ea2c52e9075a2fdfbd492dcfc8641",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:f26a48225df465e53e03e373a7c40da8dd57d3a2",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 58,
+        "text": "The CobaltDB instance for Project Boreal is hosted on AWS.",
+        "sentence_starts": [
+          0
+        ],
+        "sentence_ends": [
+          58
+        ],
+        "score": 0.7665460109710693
+      }
+    ],
+    "citations": [
+      {
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52
+      }
+    ],
+    "retrieval_mode": "vector_only",
+    "generator": "deterministic_text_v1",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+    "corpus_build": "vector-build:844933f2e03ad5f3ad8f1a7970d01c5bd342faf7",
+    "latency_ms": {
+      "query_embedding": 14882.788700022502,
+      "vector_retrieval": 157.32809997280128,
+      "generation": 2.9537000227719545,
+      "end_to_end": 15043.070500018075
+    }
+  },
+  "concurrent_requests_passed": 6,
+  "invalid_input": 422,
+  "health_outage": 200,
+  "ready_outage": 503,
+  "vector_outage": {
+    "status": 503,
+    "body": {
+      "error": "Graph database unavailable",
+      "request_id": "e61f870315b040fd88b1b2ceb67e0c16"
+    }
+  },
+  "fresh_start_health_outage": 200,
+  "fresh_start_ready_outage": 503,
+  "ready_recovered": 200,
+  "vector_recovered": {
+    "answer": "PostgreSQL",
+    "abstained": false,
+    "reason": "supported",
+    "retrieved_chunks": [
+      {
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+        "source_filename": "fixtures/corporate.json#doc:02",
+        "original_document_id": "doc:02",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "chunk_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:16d967d3090c6bc38f02ef5d42a9d9a735e5e188",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 92,
+        "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+        "sentence_starts": [
+          0,
+          53
+        ],
+        "sentence_ends": [
+          52,
+          92
+        ],
+        "score": 0.896873950958252
+      },
+      {
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "source_filename": "atlas.txt",
+        "original_document_id": null,
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "chunk_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:34c77dffc10a3a2f1e6a46564c8aeecb80a6e7de",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 112,
+        "text": "Priya manages Project Atlas.\nAtlas uses PostgreSQL.\nThe PostgreSQL instance for Project Atlas is hosted on AWS.\n",
+        "sentence_starts": [
+          0,
+          29,
+          52
+        ],
+        "sentence_ends": [
+          28,
+          51,
+          111
+        ],
+        "score": 0.8649284839630127
+      },
+      {
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+        "source_filename": "fixtures/corporate.json#doc:03",
+        "original_document_id": "doc:03",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "chunk_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:b230c6f6af451a50cfae0f38d78147dc5f5f1645",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 59,
+        "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "sentence_starts": [
+          0
+        ],
+        "sentence_ends": [
+          59
+        ],
+        "score": 0.8600404262542725
+      },
+      {
+        "document_id": "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+        "chunk_id": "autochunk:c2fcf499bfaa5150500377349115f0f8e6b5ec23",
+        "source_id": "source:c47d2f395f2521edcc516dbc194b75d0fd159903",
+        "source_filename": "fixtures/corporate.json#doc:04",
+        "original_document_id": "doc:04",
+        "content_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "chunk_hash": "d5a1eadbaadce2eeead9806722644f2b4591cb01aa215b9a539cc00e495b0754",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:5b1e109e86112e2c60dbd3e9b683e21110a415ef",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 239,
+        "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+        "sentence_starts": [
+          0,
+          49,
+          78,
+          120,
+          173
+        ],
+        "sentence_ends": [
+          48,
+          77,
+          119,
+          172,
+          239
+        ],
+        "score": 0.784576416015625
+      },
+      {
+        "document_id": "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+        "chunk_id": "autochunk:c3edf9eff2b76f27c437dab43454e0dd6e8e0be0",
+        "source_id": "source:0e38433cdfb77cd13bbdf0e8bcd740643d4c623e",
+        "source_filename": "stage3/s01-source-3.txt",
+        "original_document_id": null,
+        "content_hash": "2cd7c466c31ad0268d8d058deb107400bf3ea2c52e9075a2fdfbd492dcfc8641",
+        "chunk_hash": "2cd7c466c31ad0268d8d058deb107400bf3ea2c52e9075a2fdfbd492dcfc8641",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "ingestion_id": "ingestion:f26a48225df465e53e03e373a7c40da8dd57d3a2",
+        "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+        "start": 0,
+        "end": 58,
+        "text": "The CobaltDB instance for Project Boreal is hosted on AWS.",
+        "sentence_starts": [
+          0
+        ],
+        "sentence_ends": [
+          58
+        ],
+        "score": 0.7665460109710693
+      }
+    ],
+    "citations": [
+      {
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52
+      }
+    ],
+    "retrieval_mode": "vector_only",
+    "generator": "deterministic_text_v1",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+    "corpus_build": "vector-build:844933f2e03ad5f3ad8f1a7970d01c5bd342faf7",
+    "latency_ms": {
+      "query_embedding": 14358.80850002286,
+      "vector_retrieval": 17856.88289999962,
+      "generation": 2.162999997381121,
+      "end_to_end": 32217.85440001986
+    }
+  },
+  "request_id_verified": true
+}

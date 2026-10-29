@@ -1,0 +1,39 @@
+{
+  "files": 348,
+  "bytes": 25640975,
+  "exact_credential_match_paths": [],
+  "credential_values_checked": 5,
+  "forbidden_artifacts": [],
+  "unexpected_binary_paths": [],
+  "workstation_path_files": [],
+  "invalid_json": [],
+  "documentation_local_links": 153,
+  "missing_links": [],
+  "historical_release_reports_checked": 99,
+  "historical_report_changes": [],
+  "core_source_files_checked": 83,
+  "core_source_changes": [],
+  "integration_source_changes": [],
+  "research_preservation": {
+    "original_files": 324,
+    "changed": []
+  },
+  "file_types": {
+    ".example": 1,
+    "<none>": 4,
+    ".yml": 1,
+    ".toml": 2,
+    ".py": 144,
+    ".yaml": 1,
+    ".json": 117,
+    ".txt": 2,
+    ".md": 67,
+    ".cypher": 4,
+    ".csv": 4,
+    ".lock": 1
+  },
+  "checksum_entries": 347,
+  "checksum_failures": 0,
+  "gitleaks_findings": 0,
+  "candidate_matches_release": true
+}

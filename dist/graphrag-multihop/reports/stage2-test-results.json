@@ -1,0 +1,912 @@
+{
+  "command": "uv run pytest --run-integration -q -x --tb=short --junitxml=reports/stage2-all-tests.xml",
+  "passed": 180,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "unit": 141,
+  "integration": 39,
+  "cases": [
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_automatic_ingestion_provenance_and_stage1_preservation",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_repeated_ingestion_is_idempotent",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_distinct_sources_keep_independent_support",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_similar_people_and_deployments_stay_separate",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_ambiguous_and_negative_candidates_are_reviewed",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_incomplete_batches_never_publish_ready",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_missing_persisted_source_chunk_blocks_fact_write",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_failed_ingestion_is_hidden_and_can_be_reprocessed",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_source_changes_hide_old_assertions_and_preserve_other_sources",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_source_changed_during_processing_fails_closed",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_stale_extraction_version_cannot_be_written",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_current_reader_excludes_old_processing_configuration",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_expired_interrupted_claim_can_be_recovered",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_concurrent_same_document_has_one_writer",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_real_managed_transaction_retry_and_commit_replay_are_idempotent",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_potential_conflicts_preserve_both_sources",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_provenance_audit_detects_database_tampering",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_database_outage_is_safe_then_recovery_succeeds",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_empty_document_can_complete_with_zero_facts",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_unreadable_updated_local_source_invalidates_only_its_own_evidence[deleted]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_ingestion",
+      "name": "test_unreadable_updated_local_source_invalidates_only_its_own_evidence[corrupt_encoding]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_connection_success",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_connection_outage",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_migrations_created",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_migrations_idempotent",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_fixture_load_and_counts",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_fixture_load_idempotent",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_full_graph_and_provenance_validation",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_evidence_references_resolve",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_two_hop_path",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_three_hop_path",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_distractor_has_separate_path",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_conflicting_fixture_rejected_atomically",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_validation_detects_tampered_provenance[orphan_evidence]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_validation_detects_tampered_provenance[bad_quote]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_validation_detects_tampered_provenance[missing_edge]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_validation_detects_tampered_provenance[reversed_edge]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_scoped_reset_preserves_unrelated_data_and_refuses_external_edges",
+      "status": "passed"
+    },
+    {
+      "module": "tests.integration.test_neo4j",
+      "name": "test_api_with_real_database",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_liveness_readiness_and_cleanup[True]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_liveness_readiness_and_cleanup[False]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_request_ids[valid-id_123]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_request_ids[bad id]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_request_ids[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_request_ids[]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_safe_errors[exception0-503]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_safe_errors[exception1-500]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_validation_errors_hide_input",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_no_query_api",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_api",
+      "name": "test_redaction",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_environment_config",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_password_validation[short]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_password_validation[replace-with-local-random-secret]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_password_validation[spaces are invalid]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_password_validation[abcdefghijkl/]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_password_validation[abcdefghijkl$]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_uri_validation[https://localhost]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_uri_validation[bolt://user:secret@localhost]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_uri_validation[bolt://]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_uri_validation[bolt://localhost?token=123]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_bounds[neo4j_pool_size-0]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_bounds[neo4j_query_timeout--1]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_config",
+      "name": "test_bounds[api_port-70000]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_database",
+      "name": "test_parameterized_query_and_pool_settings",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_database",
+      "name": "test_safe_driver_error_and_readiness",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_database",
+      "name": "test_driver_closes_session",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_local_loader_preserves_utf8_crlf_and_identity[.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_local_loader_preserves_utf8_crlf_and_identity[.md]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_local_loader_preserves_utf8_crlf_and_identity[.TXT]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[../other.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[https://example.com/a.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[C:/private/a.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[/private/a.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[a.pdf]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[a.py]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[missing.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_loader_rejects_invalid_or_missing_sources[a/../../b.txt]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_encoding_content_and_size[\\xff-invalid_utf8]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_encoding_content_and_size[hello\\x00-invalid_text_content]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_encoding_content_and_size[12345-source_too_large]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_size_limit_empty_file_and_link_guard",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_source_changes_keep_logical_id_and_version_content",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunk_configuration_validation[0-0]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunk_configuration_validation[100-100]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunk_configuration_validation[100-101]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunk_configuration_validation[100--1]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunks_have_exact_offsets_coverage_and_deterministic_ids[]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunks_have_exact_offsets_coverage_and_deterministic_ids[\\U0001f9ea]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunks_have_exact_offsets_coverage_and_deterministic_ids[Line one.\\r\\nCaf\\xe9 uses nothing.\\n]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunks_have_exact_offsets_coverage_and_deterministic_ids[text3]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunks_have_exact_offsets_coverage_and_deterministic_ids[text4]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_chunker_prefers_sentence_boundaries_and_versions",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_documents",
+      "name": "test_fixture_loading_preserves_original_texts",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[document-missing_source_document]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[chunk-missing_source_chunk]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[offset-invalid_evidence_offsets]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[quote-evidence_text_mismatch]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[direction-invalid_relationship_direction]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[version-stale_extraction_version]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[rule-unapproved_relation_pattern]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_candidate_validation_is_independent_of_score[mention-ungrounded_entity_mention]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_invalid_or_stale_sources_fail_closed[text]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_invalid_or_stale_sources_fail_closed[document_hash]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_invalid_or_stale_sources_fail_closed[chunk_hash]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_invalid_or_stale_sources_fail_closed[chunk_version]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_invalid_or_stale_sources_fail_closed[chunk_offset]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_forged_canonical_id_is_rejected",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_quote_containment_does_not_prove_an_assertion",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_extractor_cannot_inject_fake_disambiguation_context",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_provenance",
+      "name": "test_code_example_cannot_supply_context_for_an_ambiguous_fact",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_registry_and_gold_data_are_reproducible",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_all_stage1_facts_can_be_recovered",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a00]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a01]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a02]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a03]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a04]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a05]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a06]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a07]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a08]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[a09]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u00]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u01]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u02]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u03]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u04]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u05]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u06]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u07]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u08]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u09]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u10]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_adversarial_and_ambiguous_cases_accept_no_facts[u11]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_known_aliases_case_and_project_context",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_same_name_people_and_instances_remain_distinct",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_unknown_longer_project_never_resolves_to_known_prefix",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_unknown_longer_untyped_names_are_not_merged[Atlas North uses Redis.-project:atlas]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_unknown_longer_untyped_names_are_not_merged[Priya Kapoor works for Lumen Orchard.-person:priya]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_unknown_longer_untyped_names_are_not_merged[Morgan works for Cedar Kite West.-org:cedar]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_crlf_line_without_terminal_punctuation_is_supported",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_overlap_does_not_duplicate_assertions",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_no_partial_sentence_claim_when_chunk_is_too_small",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_unicode_offsets_remain_original",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_unsupported_entity_label_fails_structured_contract",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_extraction_evaluation_reports_observed_limits",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_extraction_rules",
+      "name": "test_resolution_uses_type_aware_aliases",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixture_safety",
+      "name": "test_reset_guard_precedes_database_access[production-fixture:corporate-v1]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixture_safety",
+      "name": "test_reset_guard_precedes_database_access[test-fixture:corporate-v1]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixture_safety",
+      "name": "test_reset_guard_precedes_database_access[development-None]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixture_safety",
+      "name": "test_reset_guard_precedes_database_access[development-wrong-fixture]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixture_safety",
+      "name": "test_loader_refuses_missing_constraints",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_checked_in_fixture_is_deterministic",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_fixture_has_distractors_and_disconnected_people",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[duplicate_node]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[duplicate_fact]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[missing_evidence]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[wrong_direction]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[invalid_quote]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[bad_offset]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[duplicate_logical_entity]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[invalid_label]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[invalid_relationship]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[confidence]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[extra_field]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[naive_timestamp]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[orphan_document]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[blank_name]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_fixture_rejected[missing_endpoint]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_normalization_does_not_merge_scopes",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_evaluation_evidence_and_hop_coverage",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_evaluations_rejected[citations]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_evaluations_rejected[path]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_evaluations_rejected[answer]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_evaluations_rejected[unknown_fact]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_fixtures",
+      "name": "test_invalid_evaluations_rejected[unanswerable_claim]",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_migrations",
+      "name": "test_migration_order_and_parameterized_tracking",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_migrations",
+      "name": "test_migration_failure_is_reported_without_credentials",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_migrations",
+      "name": "test_checksum_drift_fails",
+      "status": "passed"
+    },
+    {
+      "module": "tests.unit.test_migrations",
+      "name": "test_duplicate_versions_fail",
+      "status": "passed"
+    }
+  ],
+  "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800"
+}

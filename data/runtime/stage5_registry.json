@@ -1,0 +1,2143 @@
+{
+  "version": "source-discovery-v1",
+  "entries": [
+    {
+      "entity": {
+        "id": "discovered:0245251d206295cd4fd94a454d058508592555ab",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:a295d2031a5dd74ccf78c18da879a861dee178c2"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Marigold Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:a295d2031a5dd74ccf78c18da879a861dee178c2"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:0790d5bf5757e88cb317d16b91e506b93691bf64",
+        "label": "Project",
+        "name": "Quartz Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Quartz Sandbox",
+        "Quartz Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:08c366209eea734e7a992d5c9f13ae765d89d1bb",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:3c71105d78f6f73710ca39096a844fe9df99bcb5"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Juniper Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3c71105d78f6f73710ca39096a844fe9df99bcb5"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:09cda248fee32cd5f26bbcf1fa2206fc9af8a3e0",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:c7f0e5b7645c3bdaa05c49a352cc8d63a252a603"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Cedar Bridge Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:c7f0e5b7645c3bdaa05c49a352cc8d63a252a603"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:0a0c76d350f69d3839b6e1ea3f5850664c5eb036",
+        "label": "Person",
+        "name": "Missing Owner s11",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s11"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:0790d5bf5757e88cb317d16b91e506b93691bf64"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:0a4dbc12c92e82cc70a0948a81c74265fda575f3",
+        "label": "Organization",
+        "name": "Aster Bay",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Aster Bay"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:0fcd540534b6fe0872023c35c65a59665d085639",
+        "label": "Project",
+        "name": "Quartz South",
+        "scope": "owner:discovered:4c21dd5c629875048361d7e13801c07c43f1306a"
+      },
+      "aliases": [
+        "Project Quartz South",
+        "Quartz South"
+      ],
+      "organization_ids": [
+        "discovered:4c21dd5c629875048361d7e13801c07c43f1306a"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:121e78a11370323c30a6649c8416e46c30747e0f",
+        "label": "Project",
+        "name": "Saffron Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Saffron Sandbox",
+        "Saffron Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+        "label": "Person",
+        "name": "Femi Lake",
+        "scope": "employer:discovered:2144a8c7df5c897e24941b1c35cebad12b9c8a06"
+      },
+      "aliases": [
+        "Femi Lake"
+      ],
+      "organization_ids": [
+        "discovered:2144a8c7df5c897e24941b1c35cebad12b9c8a06"
+      ],
+      "project_ids": [
+        "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1326aa6935201c4604770ba4e8fca45aac3246ad",
+        "label": "Organization",
+        "name": "Copper Nest",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Copper Nest"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+        "label": "Person",
+        "name": "Ben Sato",
+        "scope": "employer:discovered:14f1b09be8d072b00b4a702fa66d4b07237f1bfe"
+      },
+      "aliases": [
+        "Ben Sato"
+      ],
+      "organization_ids": [
+        "discovered:14f1b09be8d072b00b4a702fa66d4b07237f1bfe"
+      ],
+      "project_ids": [
+        "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1449382a0d6d01d1b731816576ce46ea89c4a8f2",
+        "label": "Person",
+        "name": "Missing Owner s01",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s01"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:a1c60f813f312071e4c2ce26606931001f6790e0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1490c406cdb2c3dd067e356ac30a5c6108e858ca",
+        "label": "Organization",
+        "name": "Amber Quay",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Amber Quay"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:14f1b09be8d072b00b4a702fa66d4b07237f1bfe",
+        "label": "Organization",
+        "name": "Kestrel Grove",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Kestrel Grove"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1577b7a006a5ac1c6fe8363dbbf11d6763ad4223",
+        "label": "Project",
+        "name": "Quartz South Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Quartz South Sandbox",
+        "Quartz South Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:15b99db1b20bd84db03565970e2fdcfc391c6f22",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:b11f92d4224aa47350ee24004b7b8fc1c918ef21"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Willow Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:b11f92d4224aa47350ee24004b7b8fc1c918ef21"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:16c76d3193767f1b1f0f15232e46800204a5b2da",
+        "label": "Project",
+        "name": "Boreal Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Boreal Archive",
+        "Project Boreal Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:1ce36719ee53a9b5ad8a16f4577c4d075d5c5111",
+        "label": "Person",
+        "name": "Missing Owner s03",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s03"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:53533c736b7d84428f10f85f12da2457dc153cac"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:1f955efb703410f690ec738117b9bb38ad2d3a19",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:2af288dc29e52650d91a6d465e434d442f8b3a4a"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Juniper Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:2af288dc29e52650d91a6d465e434d442f8b3a4a"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:20f254a3fdcdad415e59049b2779a2bac9606e50",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:1577b7a006a5ac1c6fe8363dbbf11d6763ad4223"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Quartz South Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:1577b7a006a5ac1c6fe8363dbbf11d6763ad4223"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2144a8c7df5c897e24941b1c35cebad12b9c8a06",
+        "label": "Organization",
+        "name": "Lantern Vale",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Lantern Vale"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:21c34a652c21d2fdce3a8102f4693f7e7f09337a",
+        "label": "Project",
+        "name": "Cedar Bridge West Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Cedar Bridge West Archive",
+        "Project Cedar Bridge West Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+        "label": "Person",
+        "name": "Jordan Vale (South employee 022)",
+        "scope": "employee:South employee 022"
+      },
+      "aliases": [
+        "Jordan Vale",
+        "Jordan Vale (South employee 022)"
+      ],
+      "organization_ids": [
+        "discovered:4c21dd5c629875048361d7e13801c07c43f1306a"
+      ],
+      "project_ids": [
+        "discovered:0fcd540534b6fe0872023c35c65a59665d085639"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+        "label": "Person",
+        "name": "Davi Moss",
+        "scope": "employer:discovered:4cbf058f73fff6fa7f8f956911a52d70a8a7168c"
+      },
+      "aliases": [
+        "Davi Moss"
+      ],
+      "organization_ids": [
+        "discovered:4cbf058f73fff6fa7f8f956911a52d70a8a7168c"
+      ],
+      "project_ids": [
+        "discovered:f423c538136a89b33b2879ae666697446585a90b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:29c2a04bcc10022aa326f0186f05946ff5eff5db",
+        "label": "Technology",
+        "name": "HBase",
+        "scope": "deployment:discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0"
+      },
+      "aliases": [
+        "HBase",
+        "HBase (Quartz instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2af288dc29e52650d91a6d465e434d442f8b3a4a",
+        "label": "Project",
+        "name": "Juniper Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Juniper Archive",
+        "Project Juniper Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:2da5350de0aaa4cf7b29c10e8f38734f0a28623f",
+        "label": "Person",
+        "name": "Missing Owner s06",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s06"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:6c832ba43af0ab7265577e5a7e0d90776cd454a3"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+        "label": "Person",
+        "name": "Elin Park",
+        "scope": "employer:discovered:1326aa6935201c4604770ba4e8fca45aac3246ad"
+      },
+      "aliases": [
+        "Elin Park"
+      ],
+      "organization_ids": [
+        "discovered:1326aa6935201c4604770ba4e8fca45aac3246ad"
+      ],
+      "project_ids": [
+        "discovered:994e0a6b80717981fa8007d895faae47329e58f8"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:2e7583c566f4de617b26318baa6058aa0fbaeb47",
+        "label": "Person",
+        "name": "Missing Owner s02",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s02"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:121e78a11370323c30a6649c8416e46c30747e0f"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:32654d8e53e402ffd83cb62db80acf94fe1e7f36",
+        "label": "Person",
+        "name": "Missing Owner s04",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s04"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3c71105d78f6f73710ca39096a844fe9df99bcb5"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:36ecc7b02ec97fbcc3d45c539e58f8e5fc92e233",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:121e78a11370323c30a6649c8416e46c30747e0f"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Saffron Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:121e78a11370323c30a6649c8416e46c30747e0f"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:36ed46300de45253fe05a680b84ae72dfb4d85ac",
+        "label": "Technology",
+        "name": "ScyllaDB",
+        "scope": "deployment:discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908"
+      },
+      "aliases": [
+        "ScyllaDB",
+        "ScyllaDB (Indigo instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:3864d02811413c9799764010496e030893b2176f",
+        "label": "Person",
+        "name": "Jordan Vale (North employee 021)",
+        "scope": "employee:North employee 021"
+      },
+      "aliases": [
+        "Jordan Vale",
+        "Jordan Vale (North employee 021)"
+      ],
+      "organization_ids": [
+        "discovered:0a4dbc12c92e82cc70a0948a81c74265fda575f3"
+      ],
+      "project_ids": [
+        "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:38d3d3df48b7cbea4a8fda21d77cfd90f0164814",
+        "label": "Project",
+        "name": "Indigo Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Indigo Sandbox",
+        "Project Indigo Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3a389226d1e7393fd3371c3967a8bf28329f3202",
+        "label": "Project",
+        "name": "Quartz Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Quartz Archive",
+        "Quartz Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3c71105d78f6f73710ca39096a844fe9df99bcb5",
+        "label": "Project",
+        "name": "Juniper Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Juniper Sandbox",
+        "Project Juniper Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:3f98c9e5eeffdbc5050c4ec1b6b90025377d5690",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:422ea20936d9184d90021509071c9a6544d7ae36"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Cedar Bridge Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:422ea20936d9184d90021509071c9a6544d7ae36"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:422ea20936d9184d90021509071c9a6544d7ae36",
+        "label": "Project",
+        "name": "Cedar Bridge Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Cedar Bridge Sandbox",
+        "Project Cedar Bridge Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4620da6dc3b86b377d64fc218d00efde3bfda689",
+        "label": "Project",
+        "name": "Indigo Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Indigo Archive",
+        "Project Indigo Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4bfc18ea2ae30d73925b8c05227670c5df5bd8b5",
+        "label": "Person",
+        "name": "Missing Owner s05",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s05"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:f525d67dd1a9f3614a771a9bc301555c3208ed38"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:4c21dd5c629875048361d7e13801c07c43f1306a",
+        "label": "Organization",
+        "name": "Elm Crest",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Elm Crest"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4cbf058f73fff6fa7f8f956911a52d70a8a7168c",
+        "label": "Organization",
+        "name": "Sable Meadow",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Sable Meadow"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4",
+        "label": "Project",
+        "name": "Marigold",
+        "scope": "owner:discovered:62f147335663b4abd4f101f49e0f5a35afcb20dd"
+      },
+      "aliases": [
+        "Marigold",
+        "Project Marigold"
+      ],
+      "organization_ids": [
+        "discovered:62f147335663b4abd4f101f49e0f5a35afcb20dd"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4ee3e6f4f1ab0efac57243839723ede8749990bd",
+        "label": "Technology",
+        "name": "ClickHouse",
+        "scope": "deployment:discovered:f423c538136a89b33b2879ae666697446585a90b"
+      },
+      "aliases": [
+        "ClickHouse",
+        "ClickHouse (Juniper instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:f423c538136a89b33b2879ae666697446585a90b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac",
+        "label": "Project",
+        "name": "Boreal East",
+        "scope": "owner:discovered:cc36590638d85d01f323df97e0fc4e24ccc46696"
+      },
+      "aliases": [
+        "Boreal East",
+        "Project Boreal East"
+      ],
+      "organization_ids": [
+        "discovered:cc36590638d85d01f323df97e0fc4e24ccc46696"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:4f61a5cd49ec2f0c48bf17601c871a4e934da776",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:992800f4eb0bd1da6ac89e3414918f7f1ba21bd1"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Marigold Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:992800f4eb0bd1da6ac89e3414918f7f1ba21bd1"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:5046aa603fcce631d43da1b046c30ffb96b77788",
+        "label": "Technology",
+        "name": "Memcached",
+        "scope": "deployment:discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac"
+      },
+      "aliases": [
+        "Memcached",
+        "Memcached (Boreal East instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:53533c736b7d84428f10f85f12da2457dc153cac",
+        "label": "Project",
+        "name": "Boreal East Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Boreal East Sandbox",
+        "Project Boreal East Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:55ec861fb4256a8a06da9898ce7018e1980f4cc3",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:a1c60f813f312071e4c2ce26606931001f6790e0"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Boreal Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:a1c60f813f312071e4c2ce26606931001f6790e0"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:5c18ce6cf1940976db5405bb05672fa5f298ad21",
+        "label": "Technology",
+        "name": "CobaltDB",
+        "scope": "deployment:discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b"
+      },
+      "aliases": [
+        "CobaltDB",
+        "CobaltDB (Boreal instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b",
+        "label": "Project",
+        "name": "Boreal",
+        "scope": "owner:discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae"
+      },
+      "aliases": [
+        "Boreal",
+        "Project Boreal"
+      ],
+      "organization_ids": [
+        "discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:5e4dbebb06dc911e9aaefa74cfeef3c6ecd02c4f",
+        "label": "Person",
+        "name": "Missing Owner s12",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s12"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:1577b7a006a5ac1c6fe8363dbbf11d6763ad4223"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:606a5701bb2f553279869f631bae2368fb2873c2",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:d51350b45535380b34eaae368e96d131a65c8d7f"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Boreal East Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:d51350b45535380b34eaae368e96d131a65c8d7f"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:60ff350dcab63fdb45070a5bda35649131e52ac7",
+        "label": "Person",
+        "name": "Missing Owner s07",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s07"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:422ea20936d9184d90021509071c9a6544d7ae36"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:62f147335663b4abd4f101f49e0f5a35afcb20dd",
+        "label": "Organization",
+        "name": "Birch Canvas",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Birch Canvas"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+        "label": "Person",
+        "name": "Rhea Sen",
+        "scope": "employer:discovered:7a980e9ed127fd7e760ecbd70ebc7505953a5c58"
+      },
+      "aliases": [
+        "Rhea Sen"
+      ],
+      "organization_ids": [
+        "discovered:7a980e9ed127fd7e760ecbd70ebc7505953a5c58"
+      ],
+      "project_ids": [
+        "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:6c832ba43af0ab7265577e5a7e0d90776cd454a3",
+        "label": "Project",
+        "name": "Willow Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Willow Sandbox",
+        "Willow Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:737d513411361c4f5ab3273e0b7cc96d10e92e43",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:6c832ba43af0ab7265577e5a7e0d90776cd454a3"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Willow Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:6c832ba43af0ab7265577e5a7e0d90776cd454a3"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:750999a4e8f9e993747e61b69fe542d55cab50d3",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:3a389226d1e7393fd3371c3967a8bf28329f3202"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Quartz Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:3a389226d1e7393fd3371c3967a8bf28329f3202"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae",
+        "label": "Organization",
+        "name": "Orion Orchard",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Orion Orchard"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7777a5c57a0c969217dc6c247253a1b1a504854a",
+        "label": "Project",
+        "name": "Saffron Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Saffron Archive",
+        "Saffron Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:77e0715cb6f1d0a9b169effbe2b4177f84fea93b",
+        "label": "Person",
+        "name": "Missing Owner s10",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s10"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:992800f4eb0bd1da6ac89e3414918f7f1ba21bd1"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+        "label": "Person",
+        "name": "Cora Vale",
+        "scope": "employer:discovered:cc36590638d85d01f323df97e0fc4e24ccc46696"
+      },
+      "aliases": [
+        "Cora Vale"
+      ],
+      "organization_ids": [
+        "discovered:cc36590638d85d01f323df97e0fc4e24ccc46696"
+      ],
+      "project_ids": [
+        "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:7a980e9ed127fd7e760ecbd70ebc7505953a5c58",
+        "label": "Organization",
+        "name": "Pebble Arc",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Pebble Arc"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:7b7febe0405a2f8c656e0f2c206d5d07c5ac00fb",
+        "label": "Technology",
+        "name": "Cassandra",
+        "scope": "deployment:discovered:994e0a6b80717981fa8007d895faae47329e58f8"
+      },
+      "aliases": [
+        "Cassandra",
+        "Cassandra (Topaz instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:994e0a6b80717981fa8007d895faae47329e58f8"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:7c44ec54892779e97cbaf27e24f699a2c2721d09",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:7777a5c57a0c969217dc6c247253a1b1a504854a"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Saffron Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:7777a5c57a0c969217dc6c247253a1b1a504854a"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:80a4ef55e5e5672c5f59670c89977463480c9535",
+        "label": "Technology",
+        "name": "RocksDB",
+        "scope": "deployment:discovered:4edab168a8947fdd4c304ea8f8523233a78104f4"
+      },
+      "aliases": [
+        "RocksDB",
+        "RocksDB (Marigold instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:8161fb08872f4131d37a54ff3518239846545e57",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:f525d67dd1a9f3614a771a9bc301555c3208ed38"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Topaz Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:f525d67dd1a9f3614a771a9bc301555c3208ed38"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:89bdf31d83e21c05cda87669f5ed45e755b95bff",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:21c34a652c21d2fdce3a8102f4693f7e7f09337a"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Cedar Bridge West Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:21c34a652c21d2fdce3a8102f4693f7e7f09337a"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:8d923c294c737b2608c5bdcc726e4760aebdbde9",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:16c76d3193767f1b1f0f15232e46800204a5b2da"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Boreal Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:16c76d3193767f1b1f0f15232e46800204a5b2da"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8",
+        "label": "Project",
+        "name": "Cedar Bridge",
+        "scope": "owner:discovered:7a980e9ed127fd7e760ecbd70ebc7505953a5c58"
+      },
+      "aliases": [
+        "Cedar Bridge",
+        "Project Cedar Bridge"
+      ],
+      "organization_ids": [
+        "discovered:7a980e9ed127fd7e760ecbd70ebc7505953a5c58"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:992800f4eb0bd1da6ac89e3414918f7f1ba21bd1",
+        "label": "Project",
+        "name": "Marigold Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Marigold Sandbox",
+        "Project Marigold Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:994e0a6b80717981fa8007d895faae47329e58f8",
+        "label": "Project",
+        "name": "Topaz",
+        "scope": "owner:discovered:1326aa6935201c4604770ba4e8fca45aac3246ad"
+      },
+      "aliases": [
+        "Project Topaz",
+        "Topaz"
+      ],
+      "organization_ids": [
+        "discovered:1326aa6935201c4604770ba4e8fca45aac3246ad"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:9c18fd32888ad22423d25db4b55024a46510de70",
+        "label": "Technology",
+        "name": "MariaDB",
+        "scope": "deployment:discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9"
+      },
+      "aliases": [
+        "MariaDB",
+        "MariaDB (Saffron instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b",
+        "label": "Project",
+        "name": "Cedar Bridge West",
+        "scope": "owner:discovered:1490c406cdb2c3dd067e356ac30a5c6108e858ca"
+      },
+      "aliases": [
+        "Cedar Bridge West",
+        "Project Cedar Bridge West"
+      ],
+      "organization_ids": [
+        "discovered:1490c406cdb2c3dd067e356ac30a5c6108e858ca"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:9c704bfbfbe29bb7b6abdc8067e356c28818ce36",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:53533c736b7d84428f10f85f12da2457dc153cac"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Boreal East Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:53533c736b7d84428f10f85f12da2457dc153cac"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:a1c60f813f312071e4c2ce26606931001f6790e0",
+        "label": "Project",
+        "name": "Boreal Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Boreal Sandbox",
+        "Project Boreal Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a295d2031a5dd74ccf78c18da879a861dee178c2",
+        "label": "Project",
+        "name": "Marigold Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Marigold Archive",
+        "Project Marigold Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:a43c006374bcd6eb8c85a5cc66d23610c40167fd",
+        "label": "Technology",
+        "name": "ArangoDB",
+        "scope": "deployment:discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b"
+      },
+      "aliases": [
+        "ArangoDB",
+        "ArangoDB (Cedar Bridge West instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:afa1890723beb460057b8a9d9334e62d122a1dc6",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:c58492ecefeb6e47d7dec5978c29500cb0078906"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Quartz South Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:c58492ecefeb6e47d7dec5978c29500cb0078906"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:b11f92d4224aa47350ee24004b7b8fc1c918ef21",
+        "label": "Project",
+        "name": "Willow Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Willow Archive",
+        "Willow Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:b6d15c114eb34946f93be4108350ae0ef37559ce",
+        "label": "Project",
+        "name": "Cedar Bridge West Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Cedar Bridge West Sandbox",
+        "Project Cedar Bridge West Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c23c4f9993f5a0907825a5484be45974cecadc3b",
+        "label": "Project",
+        "name": "Topaz Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Topaz Archive",
+        "Topaz Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c44fc3d50e24d8b9870c921b8afc81f819cb0392",
+        "label": "Technology",
+        "name": "TiDB",
+        "scope": "deployment:discovered:0fcd540534b6fe0872023c35c65a59665d085639"
+      },
+      "aliases": [
+        "TiDB",
+        "TiDB (Quartz South instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:0fcd540534b6fe0872023c35c65a59665d085639"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:c58492ecefeb6e47d7dec5978c29500cb0078906",
+        "label": "Project",
+        "name": "Quartz South Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Quartz South Archive",
+        "Quartz South Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c7f0e5b7645c3bdaa05c49a352cc8d63a252a603",
+        "label": "Project",
+        "name": "Cedar Bridge Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Cedar Bridge Archive",
+        "Project Cedar Bridge Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+        "label": "Person",
+        "name": "Tomas Bell",
+        "scope": "employer:discovered:f3b8be084911b75cd002166ad43012d79f21021d"
+      },
+      "aliases": [
+        "Tomas Bell"
+      ],
+      "organization_ids": [
+        "discovered:f3b8be084911b75cd002166ad43012d79f21021d"
+      ],
+      "project_ids": [
+        "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+        "label": "Person",
+        "name": "Uma Frost",
+        "scope": "employer:discovered:1490c406cdb2c3dd067e356ac30a5c6108e858ca"
+      },
+      "aliases": [
+        "Uma Frost"
+      ],
+      "organization_ids": [
+        "discovered:1490c406cdb2c3dd067e356ac30a5c6108e858ca"
+      ],
+      "project_ids": [
+        "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:cc36590638d85d01f323df97e0fc4e24ccc46696",
+        "label": "Organization",
+        "name": "Mica Harbor",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Mica Harbor"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176",
+        "label": "Project",
+        "name": "Willow",
+        "scope": "owner:discovered:2144a8c7df5c897e24941b1c35cebad12b9c8a06"
+      },
+      "aliases": [
+        "Project Willow",
+        "Willow"
+      ],
+      "organization_ids": [
+        "discovered:2144a8c7df5c897e24941b1c35cebad12b9c8a06"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9",
+        "label": "Project",
+        "name": "Saffron",
+        "scope": "owner:discovered:14f1b09be8d072b00b4a702fa66d4b07237f1bfe"
+      },
+      "aliases": [
+        "Project Saffron",
+        "Saffron"
+      ],
+      "organization_ids": [
+        "discovered:14f1b09be8d072b00b4a702fa66d4b07237f1bfe"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:d04365d7395f92db93e7123c597cd5a3625c896f",
+        "label": "Person",
+        "name": "Missing Owner s09",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s09"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:b6d15c114eb34946f93be4108350ae0ef37559ce"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:d2c59a50a29c7798d8a0ec08dd82dd6d204968e6",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:c23c4f9993f5a0907825a5484be45974cecadc3b"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Topaz Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:c23c4f9993f5a0907825a5484be45974cecadc3b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:d51350b45535380b34eaae368e96d131a65c8d7f",
+        "label": "Project",
+        "name": "Boreal East Archive",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Boreal East Archive",
+        "Project Boreal East Archive"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:da05367e618475318394bd7f858ceccdb08b21bd",
+        "label": "Technology",
+        "name": "SQLite",
+        "scope": "deployment:discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176"
+      },
+      "aliases": [
+        "SQLite",
+        "SQLite (Willow instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:da72727272a754c2f6b3daf85c2a54de40494475",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:38d3d3df48b7cbea4a8fda21d77cfd90f0164814"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Indigo Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:38d3d3df48b7cbea4a8fda21d77cfd90f0164814"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:df0d6ec57a619877c0f4ec242068344f33447608",
+        "label": "Person",
+        "name": "Missing Owner s08",
+        "scope": "stage5:full-person-name"
+      },
+      "aliases": [
+        "Missing Owner s08"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:38d3d3df48b7cbea4a8fda21d77cfd90f0164814"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:ec9f32a432bcd582337ceffd5e91c91563064987",
+        "label": "Technology",
+        "name": "TestStore",
+        "scope": "deployment:discovered:4620da6dc3b86b377d64fc218d00efde3bfda689"
+      },
+      "aliases": [
+        "TestStore",
+        "TestStore (Indigo Archive instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:4620da6dc3b86b377d64fc218d00efde3bfda689"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:ecbe72b6d0b4fc213116bc465b041721d8c44a93",
+        "label": "Platform",
+        "name": "LocalRack",
+        "scope": "stage5:platform"
+      },
+      "aliases": [
+        "LocalRack"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+        "label": "Person",
+        "name": "Vik Arden",
+        "scope": "employer:discovered:62f147335663b4abd4f101f49e0f5a35afcb20dd"
+      },
+      "aliases": [
+        "Vik Arden"
+      ],
+      "organization_ids": [
+        "discovered:62f147335663b4abd4f101f49e0f5a35afcb20dd"
+      ],
+      "project_ids": [
+        "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:f240f34959ea1f6c7bf6675215094a1314c9a011",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:0790d5bf5757e88cb317d16b91e506b93691bf64"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Quartz Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:0790d5bf5757e88cb317d16b91e506b93691bf64"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:f2d68415535898b48dbb6ffe699f18066977d52b",
+        "label": "Project",
+        "name": "Boreal Annex",
+        "scope": "owner:discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae"
+      },
+      "aliases": [
+        "Boreal Annex",
+        "Project Boreal Annex"
+      ],
+      "organization_ids": [
+        "discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f380d70c377cb6bb7015e51cd355216cc8c23f11",
+        "label": "Technology",
+        "name": "OceanBase",
+        "scope": "deployment:discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8"
+      },
+      "aliases": [
+        "OceanBase",
+        "OceanBase (Cedar Bridge instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:f3b8be084911b75cd002166ad43012d79f21021d",
+        "label": "Organization",
+        "name": "Silver Loom",
+        "scope": "stage5:organization"
+      },
+      "aliases": [
+        "Silver Loom"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f423c538136a89b33b2879ae666697446585a90b",
+        "label": "Project",
+        "name": "Juniper",
+        "scope": "owner:discovered:4cbf058f73fff6fa7f8f956911a52d70a8a7168c"
+      },
+      "aliases": [
+        "Juniper",
+        "Project Juniper"
+      ],
+      "organization_ids": [
+        "discovered:4cbf058f73fff6fa7f8f956911a52d70a8a7168c"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f525d67dd1a9f3614a771a9bc301555c3208ed38",
+        "label": "Project",
+        "name": "Topaz Sandbox",
+        "scope": "stage5:project"
+      },
+      "aliases": [
+        "Project Topaz Sandbox",
+        "Topaz Sandbox"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:f643c5637b5fea23cfd49cc2139127c778520f2c",
+        "label": "Technology",
+        "name": "GhostDB",
+        "scope": "deployment:discovered:b6d15c114eb34946f93be4108350ae0ef37559ce"
+      },
+      "aliases": [
+        "GhostDB",
+        "GhostDB (Cedar Bridge West Sandbox instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:b6d15c114eb34946f93be4108350ae0ef37559ce"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0",
+        "label": "Project",
+        "name": "Quartz",
+        "scope": "owner:discovered:0a4dbc12c92e82cc70a0948a81c74265fda575f3"
+      },
+      "aliases": [
+        "Project Quartz",
+        "Quartz"
+      ],
+      "organization_ids": [
+        "discovered:0a4dbc12c92e82cc70a0948a81c74265fda575f3"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908",
+        "label": "Project",
+        "name": "Indigo",
+        "scope": "owner:discovered:f3b8be084911b75cd002166ad43012d79f21021d"
+      },
+      "aliases": [
+        "Indigo",
+        "Project Indigo"
+      ],
+      "organization_ids": [
+        "discovered:f3b8be084911b75cd002166ad43012d79f21021d"
+      ],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+        "label": "Person",
+        "name": "Asha Rao",
+        "scope": "employer:discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae"
+      },
+      "aliases": [
+        "Asha Rao"
+      ],
+      "organization_ids": [
+        "discovered:75a26655e8d3894a6d256265a29a9e2ca96ef5ae"
+      ],
+      "project_ids": [
+        "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b",
+        "discovered:f2d68415535898b48dbb6ffe699f18066977d52b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "discovered:ff2ee3a860a7c5bce96418aba3d0ac0f6bba4d57",
+        "label": "Technology",
+        "name": "Firebird",
+        "scope": "deployment:discovered:f2d68415535898b48dbb6ffe699f18066977d52b"
+      },
+      "aliases": [
+        "Firebird",
+        "Firebird (Boreal Annex instance)"
+      ],
+      "organization_ids": [],
+      "project_ids": [
+        "discovered:f2d68415535898b48dbb6ffe699f18066977d52b"
+      ]
+    },
+    {
+      "entity": {
+        "id": "org:cedar",
+        "label": "Organization",
+        "name": "Cedar Kite",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Cedar Kite"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "org:lumen",
+        "label": "Organization",
+        "name": "Lumen Orchard",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Lumen Orchard"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "org:tidal",
+        "label": "Organization",
+        "name": "Tidal Lantern",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Tidal Lantern"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:ivo",
+        "label": "Person",
+        "name": "Ivo",
+        "scope": "directory_only_001"
+      },
+      "aliases": [
+        "Ivo"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:lee-north",
+        "label": "Person",
+        "name": "Lee Chen",
+        "scope": "cedar_employee_002"
+      },
+      "aliases": [
+        "Lee Chen",
+        "Lee",
+        "Lee Chen (Cedar employee 002)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:lee-south",
+        "label": "Person",
+        "name": "Lee Chen",
+        "scope": "tidal_employee_001"
+      },
+      "aliases": [
+        "Lee Chen",
+        "Lee",
+        "Lee Chen (Tidal employee 001)"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:morgan",
+        "label": "Person",
+        "name": "Morgan",
+        "scope": "cedar_employee_001"
+      },
+      "aliases": [
+        "Morgan"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:noor",
+        "label": "Person",
+        "name": "Noor",
+        "scope": "tidal_employee_002"
+      },
+      "aliases": [
+        "Noor"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:priya",
+        "label": "Person",
+        "name": "Priya",
+        "scope": "lumen_employee_001"
+      },
+      "aliases": [
+        "Priya",
+        "Priya (Lumen employee 001)"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:priya-cedar",
+        "label": "Person",
+        "name": "Priya",
+        "scope": "cedar_employee_003"
+      },
+      "aliases": [
+        "Priya",
+        "Priya (Cedar employee 003)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:sam",
+        "label": "Person",
+        "name": "Sam",
+        "scope": "lumen_employee_002"
+      },
+      "aliases": [
+        "Sam"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:una",
+        "label": "Person",
+        "name": "Una",
+        "scope": "directory_only_002"
+      },
+      "aliases": [
+        "Una"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:aws",
+        "label": "Platform",
+        "name": "AWS",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:azure",
+        "label": "Platform",
+        "name": "Azure",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "Azure",
+        "Microsoft Azure"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:gcp",
+        "label": "Platform",
+        "name": "GCP",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "GCP",
+        "Google Cloud"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "project:atlas",
+        "label": "Project",
+        "name": "Atlas",
+        "scope": "lumen"
+      },
+      "aliases": [
+        "Atlas",
+        "Project Atlas"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:atlas-east",
+        "label": "Project",
+        "name": "Atlas East",
+        "scope": "cedar"
+      },
+      "aliases": [
+        "Atlas East",
+        "Project Atlas East"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:beacon",
+        "label": "Project",
+        "name": "Beacon",
+        "scope": "lumen"
+      },
+      "aliases": [
+        "Beacon",
+        "Project Beacon"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:comet",
+        "label": "Project",
+        "name": "Comet",
+        "scope": "cedar"
+      },
+      "aliases": [
+        "Comet",
+        "Project Comet"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:delta",
+        "label": "Project",
+        "name": "Delta",
+        "scope": "tidal"
+      },
+      "aliases": [
+        "Delta",
+        "Project Delta"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:echo",
+        "label": "Project",
+        "name": "Echo",
+        "scope": "tidal"
+      },
+      "aliases": [
+        "Echo",
+        "Project Echo"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:duckdb",
+        "label": "Technology",
+        "name": "DuckDB",
+        "scope": "echo_deployment"
+      },
+      "aliases": [
+        "DuckDB"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:kafka",
+        "label": "Technology",
+        "name": "Kafka",
+        "scope": "delta_deployment"
+      },
+      "aliases": [
+        "Kafka"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:neo4j",
+        "label": "Technology",
+        "name": "Neo4j",
+        "scope": "comet_deployment"
+      },
+      "aliases": [
+        "Neo4j"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:postgres-atlas",
+        "label": "Technology",
+        "name": "PostgreSQL",
+        "scope": "atlas_deployment"
+      },
+      "aliases": [
+        "PostgreSQL",
+        "Postgres",
+        "PostgreSQL (Atlas instance)"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:postgres-east",
+        "label": "Technology",
+        "name": "PostgreSQL",
+        "scope": "atlas-east_deployment"
+      },
+      "aliases": [
+        "PostgreSQL",
+        "Postgres",
+        "PostgreSQL (Atlas East instance)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:redis",
+        "label": "Technology",
+        "name": "Redis",
+        "scope": "beacon_deployment"
+      },
+      "aliases": [
+        "Redis"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    }
+  ]
+}

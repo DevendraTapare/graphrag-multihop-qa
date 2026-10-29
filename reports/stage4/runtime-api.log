@@ -1,0 +1,29 @@
+INFO:     Started server process [9084]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:63255 (Press CTRL+C to quit)
+{"timestamp": "2026-10-28T17:15:56.295981+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=GET", "request_id": "556a809effb244d2bd88463176945f3a"}
+{"timestamp": "2026-10-28T17:15:56.357352+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=GET", "request_id": "dcd3fce6d3a3413b8babbc4bcee61832"}
+{"timestamp": "2026-10-28T17:15:56.700896+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "ce1f2872d35f4cd0b682046fc38a512a"}
+{"timestamp": "2026-10-28T17:15:57.708487+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "bc927b249ce148a581798a3bdc01c858"}
+{"timestamp": "2026-10-28T17:15:57.774806+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "0b1f968c1bc44d6fad681ce5944b61a0"}
+{"timestamp": "2026-10-28T17:15:58.021683+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "544c16dba711426b88c97c6d4525d38f"}
+{"timestamp": "2026-10-28T17:15:58.048201+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "28876222f7bd4151ae1ceac0933c2313"}
+{"timestamp": "2026-10-28T17:15:59.042493+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "993317a19d944041a62969dfb6661f8c"}
+{"timestamp": "2026-10-28T17:15:59.240339+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "c85faf570d4f4f82a2ba5ae468a29325"}
+{"timestamp": "2026-10-28T17:15:59.246582+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "5a1f1ac58e2044fb92130404067df6a9"}
+{"timestamp": "2026-10-28T17:15:59.866533+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "98bdfc9b66a440b98de14230ec0b30ac"}
+{"timestamp": "2026-10-28T17:15:59.869533+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=422 method=POST", "request_id": "20a20785f9c1488aa9e107c4c1c88b78"}
+{"timestamp": "2026-10-28T17:16:07.130914+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=GET", "request_id": "67d9932f65fb4fd7802a2aa8c60cb524"}
+{"timestamp": "2026-10-28T17:16:09.145761+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=503 method=GET", "request_id": "0f7e0f90dfa648879b55ae6e7c92d7c9"}
+{"timestamp": "2026-10-28T17:16:11.181940+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=503 method=POST", "request_id": "5ea77feb11d34f4f804a84b7374b4ff9"}
+INFO:     Started server process [15280]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:63255 (Press CTRL+C to quit)
+{"timestamp": "2026-10-28T17:16:14.013271+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=GET", "request_id": "470002d91d6e48cfa80482f48191d721"}
+{"timestamp": "2026-10-28T17:16:16.130070+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=503 method=GET", "request_id": "fd01be524b46443888049effbbebee8f"}
+{"timestamp": "2026-10-28T17:16:18.162525+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=503 method=POST", "request_id": "1668cfc61659494f9b64525f7d27caa2"}
+{"timestamp": "2026-10-28T17:17:09.402366+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=503 method=GET", "request_id": "9468297570ab4c3cae950cf23256f441"}
+{"timestamp": "2026-10-28T17:17:10.100669+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=GET", "request_id": "04052c0f2cf94c26bc0b8908c8026abb"}
+{"timestamp": "2026-10-28T17:17:27.736504+00:00", "level": "INFO", "logger": "app.main", "message": "Request completed status=200 method=POST", "request_id": "81e4a769bc0248aaa93cc98c49c16a96"}

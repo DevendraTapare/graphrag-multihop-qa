@@ -1,0 +1,5 @@
+{
+  "startup_warning": "A socket read timed out during bounded readiness polling after research databases restarted",
+  "final_snapshot_checks": "All three succeeded and matched preserved hashes",
+  "research_file_changes": 0
+}

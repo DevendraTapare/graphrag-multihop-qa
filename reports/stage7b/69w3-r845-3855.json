@@ -1,0 +1,75 @@
+{
+  "source": "https://api.github.com/advisories/GHSA-69w3-r845-3855",
+  "retrieved": "2026-10-29",
+  "data": {
+    "ghsa_id": "GHSA-69w3-r845-3855",
+    "cve_id": "CVE-2026-1839",
+    "url": "https://api.github.com/advisories/GHSA-69w3-r845-3855",
+    "html_url": "https://github.com/advisories/GHSA-69w3-r845-3855",
+    "summary": "HuggingFace Transformers allows for arbitrary code execution in the `Trainer` class",
+    "description": "A vulnerability in the HuggingFace Transformers library, specifically in the `Trainer` class, allows for arbitrary code execution. The `_load_rng_state()` method in `src/transformers/trainer.py` at line 3059 calls `torch.load()` without the `weights_only=True` parameter. This issue affects all versions of the library supporting `torch>=2.2` when used with PyTorch versions below 2.6, as the `safe_globals()` context manager provides no protection in these versions. An attacker can exploit this vulnerability by supplying a malicious checkpoint file, such as `rng_state.pth`, which can execute arbitrary code when loaded. The issue is resolved in version v5.0.0rc3.",
+    "type": "reviewed",
+    "severity": "medium",
+    "repository_advisory_url": null,
+    "source_code_location": "https://github.com/huggingface/transformers",
+    "identifiers": [
+      {
+        "value": "GHSA-69w3-r845-3855",
+        "type": "GHSA"
+      },
+      {
+        "value": "CVE-2026-1839",
+        "type": "CVE"
+      }
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-1839",
+      "https://github.com/huggingface/transformers/commit/03c8082ba4594c9b8d6fe190ca9bed0e5f8ca396",
+      "https://huntr.com/bounties/3c77bb97-e493-493d-9a88-c57f5c536485",
+      "https://github.com/huggingface/transformers/releases/tag/v5.0.0rc3",
+      "https://github.com/advisories/GHSA-69w3-r845-3855"
+    ],
+    "published_at": "2026-04-07T06:30:28Z",
+    "updated_at": "2026-04-08T00:17:59Z",
+    "github_reviewed_at": "2026-04-08T00:17:56Z",
+    "nvd_published_at": "2026-04-07T06:16:41Z",
+    "withdrawn_at": null,
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "pip",
+          "name": "transformers"
+        },
+        "vulnerable_version_range": "< 5.0.0rc3",
+        "first_patched_version": "5.0.0rc3",
+        "vulnerable_functions": []
+      }
+    ],
+    "cvss_severities": {
+      "cvss_v3": {
+        "vector_string": "CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:H",
+        "score": 6.5
+      },
+      "cvss_v4": {
+        "vector_string": null,
+        "score": 0.0
+      }
+    },
+    "cwes": [
+      {
+        "cwe_id": "CWE-502",
+        "name": "Deserialization of Untrusted Data"
+      }
+    ],
+    "credits": [],
+    "comments": 0,
+    "cvss": {
+      "vector_string": "CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:H",
+      "score": 6.5
+    },
+    "epss": {
+      "percentage": 0.00382,
+      "percentile": 0.31918
+    }
+  }
+}

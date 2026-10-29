@@ -1,0 +1,57 @@
+{
+  "steps": [
+    {
+      "step": "empty-database-demo",
+      "exit_code": 0
+    },
+    {
+      "step": "adapter-guards",
+      "exit_code": 0
+    },
+    {
+      "step": "public-reports",
+      "exit_code": 0
+    },
+    {
+      "step": "inventory-initial",
+      "exit_code": 0
+    },
+    {
+      "step": "lint-final",
+      "exit_code": 0
+    },
+    {
+      "step": "format-final",
+      "exit_code": 0
+    },
+    {
+      "step": "publication-guards",
+      "exit_code": 0
+    },
+    {
+      "step": "inventory-final",
+      "exit_code": 0
+    },
+    {
+      "step": "gitleaks-final",
+      "exit_code": 0
+    },
+    {
+      "step": "bandit-final",
+      "exit_code": 1
+    }
+  ],
+  "status": "COMPLETED",
+  "portfolio_verdict": "CONDITIONAL GO",
+  "hosted_ci": "UNVERIFIED",
+  "license": "NOT SELECTED",
+  "dependencies": "OPEN FINDINGS",
+  "final_package": {
+    "files": 328,
+    "bytes": 24727545,
+    "checksum_entries_verified": 327,
+    "doc_links_checked": 131,
+    "final_unit_tests": 300,
+    "all_data_formats_checked": true
+  }
+}

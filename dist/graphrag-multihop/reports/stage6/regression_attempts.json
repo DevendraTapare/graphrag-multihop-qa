@@ -1,0 +1,26 @@
+{
+  "attempt1": {
+    "junit": "reports/stage6-tests-attempt1.xml",
+    "passed": 422,
+    "failed": 1,
+    "skipped": 0,
+    "duration_seconds": 1073.15,
+    "failed_case": "tests.integration.test_aligned.test_source_discovered_homonyms_remain_distinct_in_database",
+    "cause": "ConnectionAcquisitionTimeoutError during fixture source ingestion; no homonym assertion reached",
+    "connection_timeout_seconds": 3,
+    "environment": "Four containers initially; unused Stage 6 database stopped during this run",
+    "junit_sha256": "45825f5d3510d8008c565309134c77a22599de107b108c26833c54624d2e55e1",
+    "log": "reports/stage6/regression_attempt1.log",
+    "log_sha256": "f157425f582066c47687f09061e3249a544e8875875808b6a7b49485f853356d"
+  },
+  "attempt2": {
+    "status": "passed",
+    "passed": 423,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 1058.691,
+    "junit": "reports/stage6-tests.xml",
+    "junit_sha256": "d830ad50a55b52669748b19b52df92863e9fb1b4eac7cd69c982eec72e27c603",
+    "environment": "Unused Stage 6 database stopped throughout full rerun; same runtime, timeouts, pool size and assertions"
+  }
+}

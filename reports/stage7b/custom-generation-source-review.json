@@ -1,0 +1,56 @@
+[
+  {
+    "version": "5.11.0",
+    "trust_before_download": false,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.11.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.12.0",
+    "trust_before_download": false,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.12.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.13.0",
+    "trust_before_download": false,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.13.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.14.0",
+    "trust_before_download": false,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.14.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.15.0",
+    "trust_before_download": false,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.15.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.16.0",
+    "trust_before_download": false,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.16.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.17.0",
+    "trust_before_download": true,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.17.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.18.0",
+    "trust_before_download": true,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.18.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.19.0",
+    "trust_before_download": true,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.19.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.20.0",
+    "trust_before_download": true,
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/v5.20.0/src/transformers/generation/utils.py"
+  },
+  {
+    "version": "5.21.0",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "step": "lint",
+    "exit_code": 0,
+    "seconds": 1.9219999999913853
+  },
+  {
+    "step": "format",
+    "exit_code": 0,
+    "seconds": 0.360000000015134
+  },
+  {
+    "step": "lock-check",
+    "exit_code": 0,
+    "seconds": 3.4530000000086147
+  },
+  {
+    "step": "units",
+    "exit_code": 1,
+    "seconds": 19.546999999991385
+  }
+]

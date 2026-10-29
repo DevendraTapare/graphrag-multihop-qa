@@ -1,0 +1,5179 @@
+{
+  "before": {
+    "vector_indexed_documents": 92,
+    "graph_ingested_documents": 92,
+    "same_vector_graph_document_versions": true,
+    "vector_document_ids": [
+      "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+      "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+      "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+      "autodoc:0887a090299f9ba20e0fad3853d450dd2b1961db",
+      "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+      "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+      "autodoc:0c7cc6a2da1b82efdc83e2e30c0984e364584a88",
+      "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe",
+      "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+      "autodoc:28b8156813ce7558a9951e24f9622a89bd3b0b22",
+      "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+      "autodoc:2c73702ceb76279d5899aece9bde41392a38977e",
+      "autodoc:2ca9e52c83b5a4dcbb222a39a552d43350d177a4",
+      "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+      "autodoc:308825723962c4075a2edccd6adf997cae28a750",
+      "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+      "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+      "autodoc:362bcf50088c2467cbd5df7eb77ba065d77c691b",
+      "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+      "autodoc:3c51996b0d25f7be46c89209fe2211851e3db4ff",
+      "autodoc:3ce25a74a4c86c37ae36ac62e6002c24f4f0722c",
+      "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+      "autodoc:4225309a4c326f79c85656e62d3dc546d4fc0f8a",
+      "autodoc:451c291414b9394db934faf0582602158d7b4d25",
+      "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+      "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+      "autodoc:4d59e5a9016f7f4964e2b1bf51a8447cf0ebf969",
+      "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "autodoc:4e5f1a44ac284c72013f9334442679da9e510cbd",
+      "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+      "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+      "autodoc:5482f3067102f69dc81789505196475278338a4d",
+      "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+      "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+      "autodoc:60cb357855d32a70e91c5ab90a6dea92c1fe98d2",
+      "autodoc:61c5d29c4796412518f5f6d83681ef2c49fe7e72",
+      "autodoc:63cdc110be53958bd81d24aae38f5662c744ad3c",
+      "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+      "autodoc:6c98e9a29290faa329be2caf3fe4bf15d7040a60",
+      "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+      "autodoc:75f9f0d7bf1fb1f005a712e09e08b14002a8ad43",
+      "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a",
+      "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+      "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8",
+      "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+      "autodoc:84405964bab52d3905df1e3a14a5398905a0c421",
+      "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+      "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+      "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+      "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb",
+      "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+      "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+      "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+      "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+      "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+      "autodoc:abfc2f7226c8173688fe277e96aef60390749654",
+      "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c",
+      "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+      "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5",
+      "autodoc:bff0dcff43075d1a232e2e95f97ba59d827801b7",
+      "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89",
+      "autodoc:cc6f7cb5130cf14100f30d9a1d603c8dfc730069",
+      "autodoc:d1758819204e7aca6f391775cfde81fa8ebfe5dd",
+      "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+      "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f",
+      "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "autodoc:dcd8beb81f4264cca6eaafbb608a0e50fb7e50d6",
+      "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+      "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+      "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+      "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "autodoc:e2747455749cf73f6ddb1aab6f427a7595447a09",
+      "autodoc:e42a63db2ed186a60658059c70943edb52427bb1",
+      "autodoc:e4a8ddc6617ce64697660b7050101472e904e620",
+      "autodoc:e8bfb804c81840c5acb4ef691836b235741cab55",
+      "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+      "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f",
+      "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6",
+      "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "autodoc:f39d6f4f1d743a889da3732f54634c390742232b",
+      "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+      "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015",
+      "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "autodoc:f98c94a28dc5305157d139b028a7e639c7a6a358",
+      "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241",
+      "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+    ],
+    "graph_document_ids": [
+      "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+      "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+      "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+      "autodoc:0887a090299f9ba20e0fad3853d450dd2b1961db",
+      "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+      "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+      "autodoc:0c7cc6a2da1b82efdc83e2e30c0984e364584a88",
+      "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe",
+      "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+      "autodoc:28b8156813ce7558a9951e24f9622a89bd3b0b22",
+      "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+      "autodoc:2c73702ceb76279d5899aece9bde41392a38977e",
+      "autodoc:2ca9e52c83b5a4dcbb222a39a552d43350d177a4",
+      "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+      "autodoc:308825723962c4075a2edccd6adf997cae28a750",
+      "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+      "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+      "autodoc:362bcf50088c2467cbd5df7eb77ba065d77c691b",
+      "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+      "autodoc:3c51996b0d25f7be46c89209fe2211851e3db4ff",
+      "autodoc:3ce25a74a4c86c37ae36ac62e6002c24f4f0722c",
+      "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+      "autodoc:4225309a4c326f79c85656e62d3dc546d4fc0f8a",
+      "autodoc:451c291414b9394db934faf0582602158d7b4d25",
+      "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+      "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+      "autodoc:4d59e5a9016f7f4964e2b1bf51a8447cf0ebf969",
+      "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "autodoc:4e5f1a44ac284c72013f9334442679da9e510cbd",
+      "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+      "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+      "autodoc:5482f3067102f69dc81789505196475278338a4d",
+      "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+      "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+      "autodoc:60cb357855d32a70e91c5ab90a6dea92c1fe98d2",
+      "autodoc:61c5d29c4796412518f5f6d83681ef2c49fe7e72",
+      "autodoc:63cdc110be53958bd81d24aae38f5662c744ad3c",
+      "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+      "autodoc:6c98e9a29290faa329be2caf3fe4bf15d7040a60",
+      "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+      "autodoc:75f9f0d7bf1fb1f005a712e09e08b14002a8ad43",
+      "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a",
+      "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+      "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8",
+      "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+      "autodoc:84405964bab52d3905df1e3a14a5398905a0c421",
+      "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+      "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+      "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+      "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb",
+      "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+      "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+      "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+      "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+      "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+      "autodoc:abfc2f7226c8173688fe277e96aef60390749654",
+      "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c",
+      "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+      "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5",
+      "autodoc:bff0dcff43075d1a232e2e95f97ba59d827801b7",
+      "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89",
+      "autodoc:cc6f7cb5130cf14100f30d9a1d603c8dfc730069",
+      "autodoc:d1758819204e7aca6f391775cfde81fa8ebfe5dd",
+      "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+      "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f",
+      "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "autodoc:dcd8beb81f4264cca6eaafbb608a0e50fb7e50d6",
+      "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+      "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+      "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+      "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "autodoc:e2747455749cf73f6ddb1aab6f427a7595447a09",
+      "autodoc:e42a63db2ed186a60658059c70943edb52427bb1",
+      "autodoc:e4a8ddc6617ce64697660b7050101472e904e620",
+      "autodoc:e8bfb804c81840c5acb4ef691836b235741cab55",
+      "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+      "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f",
+      "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6",
+      "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "autodoc:f39d6f4f1d743a889da3732f54634c390742232b",
+      "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+      "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015",
+      "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "autodoc:f98c94a28dc5305157d139b028a7e639c7a6a358",
+      "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241",
+      "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+    ],
+    "evaluation_documents": 52,
+    "graph_supported_benchmark_facts": 0,
+    "gold_fact_count": 64,
+    "resolvable_benchmark_starts": 0,
+    "unresolved_benchmark_starts": 122,
+    "answerable_unresolved_starts": 96,
+    "documents_without_supported_facts": [
+      "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+      "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+      "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+      "autodoc:0887a090299f9ba20e0fad3853d450dd2b1961db",
+      "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+      "autodoc:0c7cc6a2da1b82efdc83e2e30c0984e364584a88",
+      "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe",
+      "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+      "autodoc:28b8156813ce7558a9951e24f9622a89bd3b0b22",
+      "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+      "autodoc:2ca9e52c83b5a4dcbb222a39a552d43350d177a4",
+      "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+      "autodoc:308825723962c4075a2edccd6adf997cae28a750",
+      "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+      "autodoc:362bcf50088c2467cbd5df7eb77ba065d77c691b",
+      "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+      "autodoc:3c51996b0d25f7be46c89209fe2211851e3db4ff",
+      "autodoc:3ce25a74a4c86c37ae36ac62e6002c24f4f0722c",
+      "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+      "autodoc:4225309a4c326f79c85656e62d3dc546d4fc0f8a",
+      "autodoc:451c291414b9394db934faf0582602158d7b4d25",
+      "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "autodoc:4e5f1a44ac284c72013f9334442679da9e510cbd",
+      "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+      "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+      "autodoc:5482f3067102f69dc81789505196475278338a4d",
+      "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+      "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "autodoc:60cb357855d32a70e91c5ab90a6dea92c1fe98d2",
+      "autodoc:61c5d29c4796412518f5f6d83681ef2c49fe7e72",
+      "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+      "autodoc:6c98e9a29290faa329be2caf3fe4bf15d7040a60",
+      "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+      "autodoc:75f9f0d7bf1fb1f005a712e09e08b14002a8ad43",
+      "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a",
+      "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+      "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8",
+      "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+      "autodoc:84405964bab52d3905df1e3a14a5398905a0c421",
+      "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb",
+      "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+      "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+      "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+      "autodoc:abfc2f7226c8173688fe277e96aef60390749654",
+      "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c",
+      "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+      "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5",
+      "autodoc:bff0dcff43075d1a232e2e95f97ba59d827801b7",
+      "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89",
+      "autodoc:cc6f7cb5130cf14100f30d9a1d603c8dfc730069",
+      "autodoc:d1758819204e7aca6f391775cfde81fa8ebfe5dd",
+      "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+      "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f",
+      "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "autodoc:dcd8beb81f4264cca6eaafbb608a0e50fb7e50d6",
+      "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+      "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+      "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "autodoc:e2747455749cf73f6ddb1aab6f427a7595447a09",
+      "autodoc:e42a63db2ed186a60658059c70943edb52427bb1",
+      "autodoc:e4a8ddc6617ce64697660b7050101472e904e620",
+      "autodoc:e8bfb804c81840c5acb4ef691836b235741cab55",
+      "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+      "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f",
+      "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6",
+      "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "autodoc:f39d6f4f1d743a889da3732f54634c390742232b",
+      "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015",
+      "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "autodoc:f98c94a28dc5305157d139b028a7e639c7a6a358",
+      "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241",
+      "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+    ],
+    "source_references_missing_from_graph": [],
+    "accepted_current_facts": 38,
+    "historical_invalidated_facts": 41,
+    "facts_invalidated_by_content_change": 0,
+    "rejected_candidates": 133,
+    "rejected_relationship_candidates": 2,
+    "rejection_kinds": {
+      "entity": 102,
+      "sentence": 29,
+      "relationship": 2
+    },
+    "rejection_reasons": {
+      "unknown_identity": 100,
+      "unsupported_pattern": 25,
+      "non_asserted_statement": 4,
+      "ambiguous_identity": 4
+    },
+    "questions": [
+      {
+        "id": "s01-q01",
+        "question": "Which project does Asha Rao manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-1",
+          "s01-fact-6"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q02",
+        "question": "Which organization employs Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q03",
+        "question": "Which database does Project Boreal use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q04",
+        "question": "Which database does the project managed by Asha Rao use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-1",
+          "s01-fact-2",
+          "s01-fact-6",
+          "s01-fact-7"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q05",
+        "question": "Which organization owns the project managed by Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-1",
+          "s01-fact-4",
+          "s01-fact-6",
+          "s01-fact-9"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q06",
+        "question": "Which cloud platform hosts the database used by Project Boreal?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-2",
+          "s01-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-1",
+          "s01-fact-2",
+          "s01-fact-3",
+          "s01-fact-6",
+          "s01-fact-7",
+          "s01-fact-8"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q08",
+        "question": "What platform hosts the technology used by the project managed by Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s01-fact-1",
+          "s01-fact-2",
+          "s01-fact-3",
+          "s01-fact-6",
+          "s01-fact-7",
+          "s01-fact-8"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-u1",
+        "question": "Which cloud platform hosts the database used by Project Boreal Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s01-u2",
+        "question": "Which organization employs Unlisted Visitor s01?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s02-q01",
+        "question": "Which project does Ben Sato manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q02",
+        "question": "Which organization employs Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q03",
+        "question": "Which database does Project Saffron use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q04",
+        "question": "Which database does the project managed by Ben Sato use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-1",
+          "s02-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q05",
+        "question": "Which organization owns the project managed by Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-1",
+          "s02-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q06",
+        "question": "Which cloud platform hosts the database used by Project Saffron?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-2",
+          "s02-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-1",
+          "s02-fact-2",
+          "s02-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q08",
+        "question": "What platform hosts the technology used by the project managed by Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s02-fact-1",
+          "s02-fact-2",
+          "s02-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-u1",
+        "question": "Which cloud platform hosts the database used by Project Saffron Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s02-u2",
+        "question": "Which organization employs Unlisted Visitor s02?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s03-q01",
+        "question": "Which project does Cora Vale manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q02",
+        "question": "Which organization employs Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q03",
+        "question": "Which database does Project Boreal East use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q04",
+        "question": "Which database does the project managed by Cora Vale use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-1",
+          "s03-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q05",
+        "question": "Which organization owns the project managed by Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-1",
+          "s03-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q06",
+        "question": "Which cloud platform hosts the database used by Project Boreal East?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-2",
+          "s03-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-1",
+          "s03-fact-2",
+          "s03-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q08",
+        "question": "What platform hosts the technology used by the project managed by Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s03-fact-1",
+          "s03-fact-2",
+          "s03-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-u1",
+        "question": "Which cloud platform hosts the database used by Project Boreal East Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s03-u2",
+        "question": "Which organization employs Unlisted Visitor s03?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s04-q01",
+        "question": "Which project does Davi Moss manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q02",
+        "question": "Which organization employs Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q03",
+        "question": "Which database does Project Juniper use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q04",
+        "question": "Which database does the project managed by Davi Moss use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-1",
+          "s04-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q05",
+        "question": "Which organization owns the project managed by Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-1",
+          "s04-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q06",
+        "question": "Which cloud platform hosts the database used by Project Juniper?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-2",
+          "s04-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-1",
+          "s04-fact-2",
+          "s04-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q08",
+        "question": "What platform hosts the technology used by the project managed by Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s04-fact-1",
+          "s04-fact-2",
+          "s04-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-u1",
+        "question": "Which cloud platform hosts the database used by Project Juniper Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s04-u2",
+        "question": "Which organization employs Unlisted Visitor s04?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s05-q01",
+        "question": "Which project does Elin Park manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q02",
+        "question": "Which organization employs Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q03",
+        "question": "Which database does Project Topaz use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q04",
+        "question": "Which database does the project managed by Elin Park use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-1",
+          "s05-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q05",
+        "question": "Which organization owns the project managed by Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-1",
+          "s05-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q06",
+        "question": "Which cloud platform hosts the database used by Project Topaz?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-2",
+          "s05-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-1",
+          "s05-fact-2",
+          "s05-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q08",
+        "question": "What platform hosts the technology used by the project managed by Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s05-fact-1",
+          "s05-fact-2",
+          "s05-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-u1",
+        "question": "Which cloud platform hosts the database used by Project Topaz Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s05-u2",
+        "question": "Which organization employs Unlisted Visitor s05?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s06-q01",
+        "question": "Which project does Femi Lake manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q02",
+        "question": "Which organization employs Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q03",
+        "question": "Which database does Project Willow use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q04",
+        "question": "Which database does the project managed by Femi Lake use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-1",
+          "s06-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q05",
+        "question": "Which organization owns the project managed by Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-1",
+          "s06-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q06",
+        "question": "Which cloud platform hosts the database used by Project Willow?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-2",
+          "s06-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-1",
+          "s06-fact-2",
+          "s06-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q08",
+        "question": "What platform hosts the technology used by the project managed by Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s06-fact-1",
+          "s06-fact-2",
+          "s06-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-u1",
+        "question": "Which cloud platform hosts the database used by Project Willow Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s06-u2",
+        "question": "Which organization employs Unlisted Visitor s06?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s07-q01",
+        "question": "Which project is led by Rhea Sen?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q02",
+        "question": "Who employs Rhea Sen?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q03",
+        "question": "What technology is used by Project Cedar Bridge?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q04",
+        "question": "Name the technology used by the project under Rhea Sen's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-1",
+          "s07-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q05",
+        "question": "Who owns the project under Rhea Sen's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-1",
+          "s07-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q06",
+        "question": "Where is the technology used by Project Cedar Bridge hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-2",
+          "s07-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q07",
+        "question": "What platform hosts the technology used by the project led by Rhea Sen?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-1",
+          "s07-fact-2",
+          "s07-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q08",
+        "question": "Where is the technology of the project under Rhea Sen's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s07-fact-1",
+          "s07-fact-2",
+          "s07-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-u1",
+        "question": "Which cloud platform hosts the database used by Project Cedar Bridge Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s07-u2",
+        "question": "Which organization employs Unlisted Visitor s07?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s08-q01",
+        "question": "Which project is led by Tomas Bell?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q02",
+        "question": "Who employs Tomas Bell?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q03",
+        "question": "What technology is used by Project Indigo?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q04",
+        "question": "Name the technology used by the project under Tomas Bell's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-1",
+          "s08-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q05",
+        "question": "Who owns the project under Tomas Bell's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-1",
+          "s08-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q06",
+        "question": "Where is the technology used by Project Indigo hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-2",
+          "s08-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q07",
+        "question": "What platform hosts the technology used by the project led by Tomas Bell?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-1",
+          "s08-fact-2",
+          "s08-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q08",
+        "question": "Where is the technology of the project under Tomas Bell's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s08-fact-1",
+          "s08-fact-2",
+          "s08-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-u1",
+        "question": "Which cloud platform hosts the database used by Project Indigo Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s08-u2",
+        "question": "Which organization employs Unlisted Visitor s08?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s09-q01",
+        "question": "Which project is led by Uma Frost?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q02",
+        "question": "Who employs Uma Frost?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q03",
+        "question": "What technology is used by Project Cedar Bridge West?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q04",
+        "question": "Name the technology used by the project under Uma Frost's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-1",
+          "s09-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q05",
+        "question": "Who owns the project under Uma Frost's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-1",
+          "s09-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q06",
+        "question": "Where is the technology used by Project Cedar Bridge West hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-2",
+          "s09-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q07",
+        "question": "What platform hosts the technology used by the project led by Uma Frost?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-1",
+          "s09-fact-2",
+          "s09-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q08",
+        "question": "Where is the technology of the project under Uma Frost's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s09-fact-1",
+          "s09-fact-2",
+          "s09-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-u1",
+        "question": "Which cloud platform hosts the database used by Project Cedar Bridge West Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s09-u2",
+        "question": "Which organization employs Unlisted Visitor s09?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s10-q01",
+        "question": "Which project is led by Vik Arden?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q02",
+        "question": "Who employs Vik Arden?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q03",
+        "question": "What technology is used by Project Marigold?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q04",
+        "question": "Name the technology used by the project under Vik Arden's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-1",
+          "s10-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q05",
+        "question": "Who owns the project under Vik Arden's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-1",
+          "s10-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q06",
+        "question": "Where is the technology used by Project Marigold hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-2",
+          "s10-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q07",
+        "question": "What platform hosts the technology used by the project led by Vik Arden?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-1",
+          "s10-fact-2",
+          "s10-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q08",
+        "question": "Where is the technology of the project under Vik Arden's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s10-fact-1",
+          "s10-fact-2",
+          "s10-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-u1",
+        "question": "Which cloud platform hosts the database used by Project Marigold Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s10-u2",
+        "question": "Which organization employs Unlisted Visitor s10?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s11-q01",
+        "question": "Which project is led by Jordan Vale (North employee 021)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q02",
+        "question": "Who employs Jordan Vale (North employee 021)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q03",
+        "question": "What technology is used by Project Quartz?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q04",
+        "question": "Name the technology used by the project under Jordan Vale (North employee 021)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-1",
+          "s11-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q05",
+        "question": "Who owns the project under Jordan Vale (North employee 021)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-1",
+          "s11-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q06",
+        "question": "Where is the technology used by Project Quartz hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-2",
+          "s11-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q07",
+        "question": "What platform hosts the technology used by the project led by Jordan Vale (North employee 021)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-1",
+          "s11-fact-2",
+          "s11-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q08",
+        "question": "Where is the technology of the project under Jordan Vale (North employee 021)'s management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s11-fact-1",
+          "s11-fact-2",
+          "s11-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-u1",
+        "question": "Which cloud platform hosts the database used by Project Quartz Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s11-u2",
+        "question": "Which organization employs Unlisted Visitor s11?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s12-q01",
+        "question": "Which project is led by Jordan Vale (South employee 022)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-1"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q02",
+        "question": "Who employs Jordan Vale (South employee 022)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-5"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q03",
+        "question": "What technology is used by Project Quartz South?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q04",
+        "question": "Name the technology used by the project under Jordan Vale (South employee 022)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-1",
+          "s12-fact-2"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q05",
+        "question": "Who owns the project under Jordan Vale (South employee 022)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-1",
+          "s12-fact-4"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q06",
+        "question": "Where is the technology used by Project Quartz South hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-2",
+          "s12-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q07",
+        "question": "What platform hosts the technology used by the project led by Jordan Vale (South employee 022)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-1",
+          "s12-fact-2",
+          "s12-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q08",
+        "question": "Where is the technology of the project under Jordan Vale (South employee 022)'s management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [
+          "s12-fact-1",
+          "s12-fact-2",
+          "s12-fact-3"
+        ],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-u1",
+        "question": "Which cloud platform hosts the database used by Project Quartz South Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s12-u2",
+        "question": "Which organization employs Unlisted Visitor s12?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "calibration-ambiguous",
+        "question": "Which project does Lee Chen manage?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "ambiguous",
+          "canonical_id": null,
+          "candidate_ids": [
+            "person:lee-north",
+            "person:lee-south"
+          ],
+          "reason": "multiple_canonical_identities"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "held_out-ambiguous",
+        "question": "Which project does Jordan Vale manage?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      }
+    ]
+  },
+  "split_disclosure": "Scenarios and question surfaces differ by split. Shared abstract relation grammar is intentional. Both splits were authored/inspected during development; held_out is a descriptive split, not a blind generalization estimate.",
+  "after": {
+    "vector_indexed_documents": 92,
+    "graph_ingested_documents": 92,
+    "same_vector_graph_document_versions": true,
+    "vector_document_ids": [
+      "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+      "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+      "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+      "autodoc:0887a090299f9ba20e0fad3853d450dd2b1961db",
+      "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+      "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+      "autodoc:0c7cc6a2da1b82efdc83e2e30c0984e364584a88",
+      "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe",
+      "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+      "autodoc:28b8156813ce7558a9951e24f9622a89bd3b0b22",
+      "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+      "autodoc:2c73702ceb76279d5899aece9bde41392a38977e",
+      "autodoc:2ca9e52c83b5a4dcbb222a39a552d43350d177a4",
+      "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+      "autodoc:308825723962c4075a2edccd6adf997cae28a750",
+      "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+      "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+      "autodoc:362bcf50088c2467cbd5df7eb77ba065d77c691b",
+      "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+      "autodoc:3c51996b0d25f7be46c89209fe2211851e3db4ff",
+      "autodoc:3ce25a74a4c86c37ae36ac62e6002c24f4f0722c",
+      "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+      "autodoc:4225309a4c326f79c85656e62d3dc546d4fc0f8a",
+      "autodoc:451c291414b9394db934faf0582602158d7b4d25",
+      "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+      "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+      "autodoc:4d59e5a9016f7f4964e2b1bf51a8447cf0ebf969",
+      "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "autodoc:4e5f1a44ac284c72013f9334442679da9e510cbd",
+      "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+      "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+      "autodoc:5482f3067102f69dc81789505196475278338a4d",
+      "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+      "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+      "autodoc:60cb357855d32a70e91c5ab90a6dea92c1fe98d2",
+      "autodoc:61c5d29c4796412518f5f6d83681ef2c49fe7e72",
+      "autodoc:63cdc110be53958bd81d24aae38f5662c744ad3c",
+      "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+      "autodoc:6c98e9a29290faa329be2caf3fe4bf15d7040a60",
+      "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+      "autodoc:75f9f0d7bf1fb1f005a712e09e08b14002a8ad43",
+      "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a",
+      "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+      "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8",
+      "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+      "autodoc:84405964bab52d3905df1e3a14a5398905a0c421",
+      "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+      "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+      "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+      "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb",
+      "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+      "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+      "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+      "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+      "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+      "autodoc:abfc2f7226c8173688fe277e96aef60390749654",
+      "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c",
+      "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+      "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5",
+      "autodoc:bff0dcff43075d1a232e2e95f97ba59d827801b7",
+      "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89",
+      "autodoc:cc6f7cb5130cf14100f30d9a1d603c8dfc730069",
+      "autodoc:d1758819204e7aca6f391775cfde81fa8ebfe5dd",
+      "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+      "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f",
+      "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "autodoc:dcd8beb81f4264cca6eaafbb608a0e50fb7e50d6",
+      "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+      "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+      "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+      "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "autodoc:e2747455749cf73f6ddb1aab6f427a7595447a09",
+      "autodoc:e42a63db2ed186a60658059c70943edb52427bb1",
+      "autodoc:e4a8ddc6617ce64697660b7050101472e904e620",
+      "autodoc:e8bfb804c81840c5acb4ef691836b235741cab55",
+      "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+      "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f",
+      "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6",
+      "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "autodoc:f39d6f4f1d743a889da3732f54634c390742232b",
+      "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+      "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015",
+      "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "autodoc:f98c94a28dc5305157d139b028a7e639c7a6a358",
+      "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241",
+      "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+    ],
+    "graph_document_ids": [
+      "autodoc:02bb6ebba84a60fd24abb09ee6fb61043cf951c3",
+      "autodoc:037a965738d6cb2a20c32b840f1ee5db6f54c209",
+      "autodoc:05fec95470c793dc5db418e6f4dd034ce18d8924",
+      "autodoc:0887a090299f9ba20e0fad3853d450dd2b1961db",
+      "autodoc:0b041b0be36ce21013e8ceb2a668aa9286f7b9bc",
+      "autodoc:0b9c21df122a7ad32689dace67907b259f79a119",
+      "autodoc:0c7cc6a2da1b82efdc83e2e30c0984e364584a88",
+      "autodoc:112cdb83cd5fd86cfbc7e85b7e627bbf2c7c2bbe",
+      "autodoc:14bae3f69e996b0cecb0da794c42390ce3a80ab3",
+      "autodoc:28b8156813ce7558a9951e24f9622a89bd3b0b22",
+      "autodoc:28bf05900c09226d15bdea82b4afe4cf15f940b2",
+      "autodoc:2c73702ceb76279d5899aece9bde41392a38977e",
+      "autodoc:2ca9e52c83b5a4dcbb222a39a552d43350d177a4",
+      "autodoc:2dfef22294c0ae846ed616f7142ec32cad51a6f4",
+      "autodoc:308825723962c4075a2edccd6adf997cae28a750",
+      "autodoc:325d497228dccb9d1d6aa17917c2ee10392e45df",
+      "autodoc:345121d86fe02a898fa17b68e2063198e3a1e8e7",
+      "autodoc:362bcf50088c2467cbd5df7eb77ba065d77c691b",
+      "autodoc:3c49a205612d2fb976c39973d73f8367da2053df",
+      "autodoc:3c51996b0d25f7be46c89209fe2211851e3db4ff",
+      "autodoc:3ce25a74a4c86c37ae36ac62e6002c24f4f0722c",
+      "autodoc:3e4fee6c8a4645e18f86e3b3575a72eee296f94e",
+      "autodoc:4225309a4c326f79c85656e62d3dc546d4fc0f8a",
+      "autodoc:451c291414b9394db934faf0582602158d7b4d25",
+      "autodoc:457b7a5d4843ecd36fc09015aec1997322e7eb52",
+      "autodoc:4ad526d43ffa18d17a5c765b864b9cc9d6597940",
+      "autodoc:4d59e5a9016f7f4964e2b1bf51a8447cf0ebf969",
+      "autodoc:4e1c81dfbbd24af73f405e438bba6900d630beaf",
+      "autodoc:4e5f1a44ac284c72013f9334442679da9e510cbd",
+      "autodoc:51de53fc2b82899f271fd829443e862a75c22e9c",
+      "autodoc:52cae547fd3c5cafcfa8477ac2354f8966926a6f",
+      "autodoc:5482f3067102f69dc81789505196475278338a4d",
+      "autodoc:580acd7796adfda5d23d2dd4a110534f2ec5f620",
+      "autodoc:5a161d26554dbfbd53966e12e149f495bd3b5d07",
+      "autodoc:5b9a32be6107dd4c14d3a205718b6afb30e9af17",
+      "autodoc:5d71090d3f2fc65f7154ab28b41c7b6c3ca284f1",
+      "autodoc:60cb357855d32a70e91c5ab90a6dea92c1fe98d2",
+      "autodoc:61c5d29c4796412518f5f6d83681ef2c49fe7e72",
+      "autodoc:63cdc110be53958bd81d24aae38f5662c744ad3c",
+      "autodoc:6687d38874d1584d548504e16f6dd65901dece1d",
+      "autodoc:6c98e9a29290faa329be2caf3fe4bf15d7040a60",
+      "autodoc:7392ceaf942e2405ce265b7d702d38842f99ddaf",
+      "autodoc:75f9f0d7bf1fb1f005a712e09e08b14002a8ad43",
+      "autodoc:7a53cc2cfbee3fafb5be4aa8b74e744175a9d6a8",
+      "autodoc:7c8e65f47f833c451cc6c17f6d2dc574f1181e7a",
+      "autodoc:7fb01d76dc29515d819c27ed5a300bf4e62c5e16",
+      "autodoc:81db1d32252f2ecc4fdaba1335ca2209f16982e8",
+      "autodoc:83e4d4b6eca37f41284bbf052a47f32a1c1dcb72",
+      "autodoc:84405964bab52d3905df1e3a14a5398905a0c421",
+      "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+      "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+      "autodoc:94a3cbd2242aa50618fa484e3874d2e953d7c2bf",
+      "autodoc:94f1aef184ff4f2881434ab414a45cec4a1bfaeb",
+      "autodoc:96885d78d5db15592191d755a9cc0d53f79d1617",
+      "autodoc:999b2cc61b162fcabf67f6b0ca9cded282a0434f",
+      "autodoc:9a617e2496c697ab7fc5b2b09aaa5899eb457154",
+      "autodoc:9abd532d68276ab8bcdefe4d251f9cc2d9a33946",
+      "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+      "autodoc:abfc2f7226c8173688fe277e96aef60390749654",
+      "autodoc:b35981ce4af2fc5c6b03ff0d99e64c66ae79942c",
+      "autodoc:b5b0c05056a229dd6e18781b2cf796fe68e3e964",
+      "autodoc:b6f1c55f33fa43898b3b5ff03988a01a8336ecd1",
+      "autodoc:ba97e94e10f29caf99cd79eb4c62496167a717c5",
+      "autodoc:bff0dcff43075d1a232e2e95f97ba59d827801b7",
+      "autodoc:c902090338e7d0f56a8e649849a28850aaba3a89",
+      "autodoc:cc6f7cb5130cf14100f30d9a1d603c8dfc730069",
+      "autodoc:d1758819204e7aca6f391775cfde81fa8ebfe5dd",
+      "autodoc:d3961531a2ffca8fec3cff304edd4f1df7e6082a",
+      "autodoc:d8e5cc3fbe1e063fd060d9a6e0689cf3cc10e67f",
+      "autodoc:db756eab1e25eb90bbecb2e07a7409ba73eb1bbe",
+      "autodoc:dcd8beb81f4264cca6eaafbb608a0e50fb7e50d6",
+      "autodoc:dd64aec1ec51fb70e6d963051471aec5261aa839",
+      "autodoc:de0b53b18e5b8d595b2766b29d77f2a03bf8a721",
+      "autodoc:dfe2a8090e2b944c83609e05b0323c4b983960b7",
+      "autodoc:e158b2b7765dee372a3a231093bc2ae43c876e38",
+      "autodoc:e25e5ee68d409f2257f616ea5a3e7c5e954053d4",
+      "autodoc:e2747455749cf73f6ddb1aab6f427a7595447a09",
+      "autodoc:e42a63db2ed186a60658059c70943edb52427bb1",
+      "autodoc:e4a8ddc6617ce64697660b7050101472e904e620",
+      "autodoc:e8bfb804c81840c5acb4ef691836b235741cab55",
+      "autodoc:ee2313702cf4c517a3368f114b5e85690c25fcd3",
+      "autodoc:f0864ce749b6ea855e04634700585ba54f086b5f",
+      "autodoc:f23686b54a23934dc1e102faa1fab89849eea77c",
+      "autodoc:f308714ed504b9d7c2f5291e6211f6dc617b64d6",
+      "autodoc:f3743388e6078b19696899f6ac12dc40c829704e",
+      "autodoc:f39d6f4f1d743a889da3732f54634c390742232b",
+      "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+      "autodoc:f4cb959cc1a6b0026cb0877aaf1d882dd5d99015",
+      "autodoc:f727ef693b7ed18d4f5a0492190615e16ab81de4",
+      "autodoc:f98c94a28dc5305157d139b028a7e639c7a6a358",
+      "autodoc:fa5f07f0e49f336f7d329ed027cf5a59eb9e5241",
+      "autodoc:fd17453cf4f74a32b08043ff93c2a3660fe1e287"
+    ],
+    "evaluation_documents": 52,
+    "graph_supported_benchmark_facts": 64,
+    "gold_fact_count": 64,
+    "resolvable_benchmark_starts": 108,
+    "unresolved_benchmark_starts": 14,
+    "answerable_unresolved_starts": 0,
+    "documents_without_supported_facts": [
+      "autodoc:f98c94a28dc5305157d139b028a7e639c7a6a358"
+    ],
+    "source_references_missing_from_graph": [],
+    "accepted_current_facts": 150,
+    "historical_invalidated_facts": 0,
+    "facts_invalidated_by_content_change": 0,
+    "rejected_candidates": 8,
+    "rejected_relationship_candidates": 2,
+    "rejection_kinds": {
+      "sentence": 4,
+      "entity": 2,
+      "relationship": 2
+    },
+    "rejection_reasons": {
+      "non_asserted_statement": 4,
+      "ambiguous_identity": 4
+    },
+    "questions": [
+      {
+        "id": "s01-q01",
+        "question": "Which project does Asha Rao manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+          "candidate_ids": [
+            "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q02",
+        "question": "Which organization employs Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+          "candidate_ids": [
+            "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q03",
+        "question": "Which database does Project Boreal use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b",
+          "candidate_ids": [
+            "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q04",
+        "question": "Which database does the project managed by Asha Rao use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+          "candidate_ids": [
+            "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q05",
+        "question": "Which organization owns the project managed by Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+          "candidate_ids": [
+            "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q06",
+        "question": "Which cloud platform hosts the database used by Project Boreal?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b",
+          "candidate_ids": [
+            "discovered:5cc9ea34e55460ab897d81b1a80fa95107c3a51b"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+          "candidate_ids": [
+            "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-q08",
+        "question": "What platform hosts the technology used by the project managed by Asha Rao?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379",
+          "candidate_ids": [
+            "discovered:feee2e8291eef63fb00adc2e6e559c6b3efc1379"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s01-u1",
+        "question": "Which cloud platform hosts the database used by Project Boreal Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:a1c60f813f312071e4c2ce26606931001f6790e0",
+          "candidate_ids": [
+            "discovered:a1c60f813f312071e4c2ce26606931001f6790e0"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s01-u2",
+        "question": "Which organization employs Unlisted Visitor s01?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s02-q01",
+        "question": "Which project does Ben Sato manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+          "candidate_ids": [
+            "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q02",
+        "question": "Which organization employs Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+          "candidate_ids": [
+            "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q03",
+        "question": "Which database does Project Saffron use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9",
+          "candidate_ids": [
+            "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q04",
+        "question": "Which database does the project managed by Ben Sato use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+          "candidate_ids": [
+            "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q05",
+        "question": "Which organization owns the project managed by Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+          "candidate_ids": [
+            "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q06",
+        "question": "Which cloud platform hosts the database used by Project Saffron?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9",
+          "candidate_ids": [
+            "discovered:cdc6debc3460b8b0be6acf235484a9df2bb400a9"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+          "candidate_ids": [
+            "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-q08",
+        "question": "What platform hosts the technology used by the project managed by Ben Sato?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d",
+          "candidate_ids": [
+            "discovered:140685184b90802dc8031aa63dda5b9a0ace1a8d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s02-u1",
+        "question": "Which cloud platform hosts the database used by Project Saffron Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:121e78a11370323c30a6649c8416e46c30747e0f",
+          "candidate_ids": [
+            "discovered:121e78a11370323c30a6649c8416e46c30747e0f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s02-u2",
+        "question": "Which organization employs Unlisted Visitor s02?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s03-q01",
+        "question": "Which project does Cora Vale manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+          "candidate_ids": [
+            "discovered:7a81b3569d4b35cb4772980cd276660c26504e03"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q02",
+        "question": "Which organization employs Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+          "candidate_ids": [
+            "discovered:7a81b3569d4b35cb4772980cd276660c26504e03"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q03",
+        "question": "Which database does Project Boreal East use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac",
+          "candidate_ids": [
+            "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q04",
+        "question": "Which database does the project managed by Cora Vale use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+          "candidate_ids": [
+            "discovered:7a81b3569d4b35cb4772980cd276660c26504e03"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q05",
+        "question": "Which organization owns the project managed by Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+          "candidate_ids": [
+            "discovered:7a81b3569d4b35cb4772980cd276660c26504e03"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q06",
+        "question": "Which cloud platform hosts the database used by Project Boreal East?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac",
+          "candidate_ids": [
+            "discovered:4f4fac2cd3bf3e20a098ac2246eb1dfefeb6faac"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+          "candidate_ids": [
+            "discovered:7a81b3569d4b35cb4772980cd276660c26504e03"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-q08",
+        "question": "What platform hosts the technology used by the project managed by Cora Vale?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:7a81b3569d4b35cb4772980cd276660c26504e03",
+          "candidate_ids": [
+            "discovered:7a81b3569d4b35cb4772980cd276660c26504e03"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s03-u1",
+        "question": "Which cloud platform hosts the database used by Project Boreal East Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:53533c736b7d84428f10f85f12da2457dc153cac",
+          "candidate_ids": [
+            "discovered:53533c736b7d84428f10f85f12da2457dc153cac"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s03-u2",
+        "question": "Which organization employs Unlisted Visitor s03?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s04-q01",
+        "question": "Which project does Davi Moss manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+          "candidate_ids": [
+            "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q02",
+        "question": "Which organization employs Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+          "candidate_ids": [
+            "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q03",
+        "question": "Which database does Project Juniper use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f423c538136a89b33b2879ae666697446585a90b",
+          "candidate_ids": [
+            "discovered:f423c538136a89b33b2879ae666697446585a90b"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q04",
+        "question": "Which database does the project managed by Davi Moss use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+          "candidate_ids": [
+            "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q05",
+        "question": "Which organization owns the project managed by Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+          "candidate_ids": [
+            "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q06",
+        "question": "Which cloud platform hosts the database used by Project Juniper?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f423c538136a89b33b2879ae666697446585a90b",
+          "candidate_ids": [
+            "discovered:f423c538136a89b33b2879ae666697446585a90b"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+          "candidate_ids": [
+            "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-q08",
+        "question": "What platform hosts the technology used by the project managed by Davi Moss?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d",
+          "candidate_ids": [
+            "discovered:26a5c8472a905bb74d32849cb2bd2f1f9180ed2d"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s04-u1",
+        "question": "Which cloud platform hosts the database used by Project Juniper Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3c71105d78f6f73710ca39096a844fe9df99bcb5",
+          "candidate_ids": [
+            "discovered:3c71105d78f6f73710ca39096a844fe9df99bcb5"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s04-u2",
+        "question": "Which organization employs Unlisted Visitor s04?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s05-q01",
+        "question": "Which project does Elin Park manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+          "candidate_ids": [
+            "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q02",
+        "question": "Which organization employs Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+          "candidate_ids": [
+            "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q03",
+        "question": "Which database does Project Topaz use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:994e0a6b80717981fa8007d895faae47329e58f8",
+          "candidate_ids": [
+            "discovered:994e0a6b80717981fa8007d895faae47329e58f8"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q04",
+        "question": "Which database does the project managed by Elin Park use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+          "candidate_ids": [
+            "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q05",
+        "question": "Which organization owns the project managed by Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+          "candidate_ids": [
+            "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q06",
+        "question": "Which cloud platform hosts the database used by Project Topaz?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:994e0a6b80717981fa8007d895faae47329e58f8",
+          "candidate_ids": [
+            "discovered:994e0a6b80717981fa8007d895faae47329e58f8"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+          "candidate_ids": [
+            "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-q08",
+        "question": "What platform hosts the technology used by the project managed by Elin Park?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068",
+          "candidate_ids": [
+            "discovered:2de82ae57e2cb4de32416f6f17208c14f1156068"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s05-u1",
+        "question": "Which cloud platform hosts the database used by Project Topaz Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f525d67dd1a9f3614a771a9bc301555c3208ed38",
+          "candidate_ids": [
+            "discovered:f525d67dd1a9f3614a771a9bc301555c3208ed38"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s05-u2",
+        "question": "Which organization employs Unlisted Visitor s05?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s06-q01",
+        "question": "Which project does Femi Lake manage?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+          "candidate_ids": [
+            "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q02",
+        "question": "Which organization employs Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+          "candidate_ids": [
+            "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q03",
+        "question": "Which database does Project Willow use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176",
+          "candidate_ids": [
+            "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q04",
+        "question": "Which database does the project managed by Femi Lake use?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+          "candidate_ids": [
+            "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q05",
+        "question": "Which organization owns the project managed by Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+          "candidate_ids": [
+            "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q06",
+        "question": "Which cloud platform hosts the database used by Project Willow?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176",
+          "candidate_ids": [
+            "discovered:cdaf229aa20f1dde7a59e6b03f1cc5b4c8f8e176"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q07",
+        "question": "Which cloud platform hosts the database used by the project managed by Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+          "candidate_ids": [
+            "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-q08",
+        "question": "What platform hosts the technology used by the project managed by Femi Lake?",
+        "split": "calibration",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6",
+          "candidate_ids": [
+            "discovered:12aa32bb84ae4201fb1e0fec08f29af70efd99e6"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s06-u1",
+        "question": "Which cloud platform hosts the database used by Project Willow Sandbox?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:6c832ba43af0ab7265577e5a7e0d90776cd454a3",
+          "candidate_ids": [
+            "discovered:6c832ba43af0ab7265577e5a7e0d90776cd454a3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s06-u2",
+        "question": "Which organization employs Unlisted Visitor s06?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s07-q01",
+        "question": "Which project is led by Rhea Sen?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+          "candidate_ids": [
+            "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q02",
+        "question": "Who employs Rhea Sen?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+          "candidate_ids": [
+            "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q03",
+        "question": "What technology is used by Project Cedar Bridge?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8",
+          "candidate_ids": [
+            "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q04",
+        "question": "Name the technology used by the project under Rhea Sen's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+          "candidate_ids": [
+            "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q05",
+        "question": "Who owns the project under Rhea Sen's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+          "candidate_ids": [
+            "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q06",
+        "question": "Where is the technology used by Project Cedar Bridge hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8",
+          "candidate_ids": [
+            "discovered:8fafae95b2fdd8c20311a162874bfe2aee54faa8"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q07",
+        "question": "What platform hosts the technology used by the project led by Rhea Sen?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+          "candidate_ids": [
+            "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-q08",
+        "question": "Where is the technology of the project under Rhea Sen's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091",
+          "candidate_ids": [
+            "discovered:62fc4ea24240f8f6e9d792fe099bcd02b794e091"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s07-u1",
+        "question": "Which cloud platform hosts the database used by Project Cedar Bridge Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:422ea20936d9184d90021509071c9a6544d7ae36",
+          "candidate_ids": [
+            "discovered:422ea20936d9184d90021509071c9a6544d7ae36"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s07-u2",
+        "question": "Which organization employs Unlisted Visitor s07?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s08-q01",
+        "question": "Which project is led by Tomas Bell?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+          "candidate_ids": [
+            "discovered:c978154888d00d4a598e717f2d096eb83f484b85"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q02",
+        "question": "Who employs Tomas Bell?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+          "candidate_ids": [
+            "discovered:c978154888d00d4a598e717f2d096eb83f484b85"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q03",
+        "question": "What technology is used by Project Indigo?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908",
+          "candidate_ids": [
+            "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q04",
+        "question": "Name the technology used by the project under Tomas Bell's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+          "candidate_ids": [
+            "discovered:c978154888d00d4a598e717f2d096eb83f484b85"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q05",
+        "question": "Who owns the project under Tomas Bell's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+          "candidate_ids": [
+            "discovered:c978154888d00d4a598e717f2d096eb83f484b85"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q06",
+        "question": "Where is the technology used by Project Indigo hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908",
+          "candidate_ids": [
+            "discovered:fd380d54c93274e7f71a47567d09f5ce37a9d908"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q07",
+        "question": "What platform hosts the technology used by the project led by Tomas Bell?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+          "candidate_ids": [
+            "discovered:c978154888d00d4a598e717f2d096eb83f484b85"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-q08",
+        "question": "Where is the technology of the project under Tomas Bell's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:c978154888d00d4a598e717f2d096eb83f484b85",
+          "candidate_ids": [
+            "discovered:c978154888d00d4a598e717f2d096eb83f484b85"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s08-u1",
+        "question": "Which cloud platform hosts the database used by Project Indigo Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:38d3d3df48b7cbea4a8fda21d77cfd90f0164814",
+          "candidate_ids": [
+            "discovered:38d3d3df48b7cbea4a8fda21d77cfd90f0164814"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s08-u2",
+        "question": "Which organization employs Unlisted Visitor s08?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s09-q01",
+        "question": "Which project is led by Uma Frost?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+          "candidate_ids": [
+            "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q02",
+        "question": "Who employs Uma Frost?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+          "candidate_ids": [
+            "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q03",
+        "question": "What technology is used by Project Cedar Bridge West?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b",
+          "candidate_ids": [
+            "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q04",
+        "question": "Name the technology used by the project under Uma Frost's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+          "candidate_ids": [
+            "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q05",
+        "question": "Who owns the project under Uma Frost's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+          "candidate_ids": [
+            "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q06",
+        "question": "Where is the technology used by Project Cedar Bridge West hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b",
+          "candidate_ids": [
+            "discovered:9c2956574f8e26a1d70f939ed33ea524b0b5244b"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q07",
+        "question": "What platform hosts the technology used by the project led by Uma Frost?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+          "candidate_ids": [
+            "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-q08",
+        "question": "Where is the technology of the project under Uma Frost's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2",
+          "candidate_ids": [
+            "discovered:cad7d8e3bd5dcaeb312e4f30730031d9cddb83a2"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s09-u1",
+        "question": "Which cloud platform hosts the database used by Project Cedar Bridge West Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:b6d15c114eb34946f93be4108350ae0ef37559ce",
+          "candidate_ids": [
+            "discovered:b6d15c114eb34946f93be4108350ae0ef37559ce"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s09-u2",
+        "question": "Which organization employs Unlisted Visitor s09?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s10-q01",
+        "question": "Which project is led by Vik Arden?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+          "candidate_ids": [
+            "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q02",
+        "question": "Who employs Vik Arden?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+          "candidate_ids": [
+            "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q03",
+        "question": "What technology is used by Project Marigold?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4",
+          "candidate_ids": [
+            "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q04",
+        "question": "Name the technology used by the project under Vik Arden's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+          "candidate_ids": [
+            "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q05",
+        "question": "Who owns the project under Vik Arden's management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+          "candidate_ids": [
+            "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q06",
+        "question": "Where is the technology used by Project Marigold hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4",
+          "candidate_ids": [
+            "discovered:4edab168a8947fdd4c304ea8f8523233a78104f4"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q07",
+        "question": "What platform hosts the technology used by the project led by Vik Arden?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+          "candidate_ids": [
+            "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-q08",
+        "question": "Where is the technology of the project under Vik Arden's management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3",
+          "candidate_ids": [
+            "discovered:f17d71297cd204632958c5d4db7594f7b9059fa3"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s10-u1",
+        "question": "Which cloud platform hosts the database used by Project Marigold Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:992800f4eb0bd1da6ac89e3414918f7f1ba21bd1",
+          "candidate_ids": [
+            "discovered:992800f4eb0bd1da6ac89e3414918f7f1ba21bd1"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s10-u2",
+        "question": "Which organization employs Unlisted Visitor s10?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s11-q01",
+        "question": "Which project is led by Jordan Vale (North employee 021)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3864d02811413c9799764010496e030893b2176f",
+          "candidate_ids": [
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q02",
+        "question": "Who employs Jordan Vale (North employee 021)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3864d02811413c9799764010496e030893b2176f",
+          "candidate_ids": [
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q03",
+        "question": "What technology is used by Project Quartz?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0",
+          "candidate_ids": [
+            "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q04",
+        "question": "Name the technology used by the project under Jordan Vale (North employee 021)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3864d02811413c9799764010496e030893b2176f",
+          "candidate_ids": [
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q05",
+        "question": "Who owns the project under Jordan Vale (North employee 021)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3864d02811413c9799764010496e030893b2176f",
+          "candidate_ids": [
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q06",
+        "question": "Where is the technology used by Project Quartz hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0",
+          "candidate_ids": [
+            "discovered:fc0b2366d9335594c2f488d3748fc6d9617723c0"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q07",
+        "question": "What platform hosts the technology used by the project led by Jordan Vale (North employee 021)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3864d02811413c9799764010496e030893b2176f",
+          "candidate_ids": [
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-q08",
+        "question": "Where is the technology of the project under Jordan Vale (North employee 021)'s management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:3864d02811413c9799764010496e030893b2176f",
+          "candidate_ids": [
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s11-u1",
+        "question": "Which cloud platform hosts the database used by Project Quartz Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:0790d5bf5757e88cb317d16b91e506b93691bf64",
+          "candidate_ids": [
+            "discovered:0790d5bf5757e88cb317d16b91e506b93691bf64"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s11-u2",
+        "question": "Which organization employs Unlisted Visitor s11?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s12-q01",
+        "question": "Which project is led by Jordan Vale (South employee 022)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q02",
+        "question": "Who employs Jordan Vale (South employee 022)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q03",
+        "question": "What technology is used by Project Quartz South?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 1,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:0fcd540534b6fe0872023c35c65a59665d085639",
+          "candidate_ids": [
+            "discovered:0fcd540534b6fe0872023c35c65a59665d085639"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q04",
+        "question": "Name the technology used by the project under Jordan Vale (South employee 022)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q05",
+        "question": "Who owns the project under Jordan Vale (South employee 022)'s management?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q06",
+        "question": "Where is the technology used by Project Quartz South hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 2,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:0fcd540534b6fe0872023c35c65a59665d085639",
+          "candidate_ids": [
+            "discovered:0fcd540534b6fe0872023c35c65a59665d085639"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q07",
+        "question": "What platform hosts the technology used by the project led by Jordan Vale (South employee 022)?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-q08",
+        "question": "Where is the technology of the project under Jordan Vale (South employee 022)'s management hosted?",
+        "split": "held_out",
+        "answerable": true,
+        "hops": 3,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": false
+      },
+      {
+        "id": "s12-u1",
+        "question": "Which cloud platform hosts the database used by Project Quartz South Sandbox?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "resolved",
+          "canonical_id": "discovered:1577b7a006a5ac1c6fe8363dbbf11d6763ad4223",
+          "candidate_ids": [
+            "discovered:1577b7a006a5ac1c6fe8363dbbf11d6763ad4223"
+          ],
+          "reason": "exact_typed_alias_and_context"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "covered",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "s12-u2",
+        "question": "Which organization employs Unlisted Visitor s12?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "not_found",
+          "canonical_id": null,
+          "candidate_ids": [],
+          "reason": "alias_not_registered"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "calibration-ambiguous",
+        "question": "Which project does Lee Chen manage?",
+        "split": "calibration",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "ambiguous",
+          "canonical_id": null,
+          "candidate_ids": [
+            "person:lee-north",
+            "person:lee-south"
+          ],
+          "reason": "multiple_canonical_identities"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      },
+      {
+        "id": "held_out-ambiguous",
+        "question": "Which project does Jordan Vale manage?",
+        "split": "held_out",
+        "answerable": false,
+        "hops": 0,
+        "resolution": {
+          "status": "ambiguous",
+          "canonical_id": null,
+          "candidate_ids": [
+            "discovered:22ff8ce828d2cdf9a86dd0e0952ff5e0291731ec",
+            "discovered:3864d02811413c9799764010496e030893b2176f"
+          ],
+          "reason": "multiple_canonical_identities"
+        },
+        "missing_fact_ids": [],
+        "missing_source_references": [],
+        "classification": "entity_resolution_gap",
+        "expected_unanswerable": true
+      }
+    ]
+  }
+}

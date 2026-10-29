@@ -1,0 +1,22 @@
+{
+  "trusted_cached_model_only": true,
+  "samples": [
+    {
+      "dimensions": 384,
+      "cosine_similarity": 1.0,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dimensions": 384,
+      "cosine_similarity": 1.0,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dimensions": 384,
+      "cosine_similarity": 1.0,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "embedding_signature_changed": true,
+  "limit": "Three fixed text samples; full integration tests cover model, index and retrieval behavior."
+}

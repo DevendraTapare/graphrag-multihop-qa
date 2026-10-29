@@ -1,0 +1,5 @@
+{
+  "step": "ruff-fix",
+  "exit_code": 1,
+  "seconds": 2.35999999998603
+}

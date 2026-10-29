@@ -1,0 +1,7 @@
+{
+  "transformers": "5.17.0",
+  "trust_before_download": true,
+  "generation_file_sha256": "bb558d8676be95457126c82a32600dad206c13e4fb96b4f5d114f1f2483d7f62",
+  "x_clip_converter_present": false,
+  "function_matches_upstream_5_17_tag": true
+}

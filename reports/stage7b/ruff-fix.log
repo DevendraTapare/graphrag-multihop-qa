@@ -1,0 +1,73 @@
+E501 Line too long (124 > 100)
+  --> scripts\audit_stage6_labels.py:65:101
+   |
+63 |         )
+64 |         doc_split[split].add(d["id"])
+65 |     if not (all((not a & b for i, a in enumerate(doc_split.values()) for j, b in enumerate(doc_split.values()) if i != j))):
+   |                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+66 |         raise AssertionError()
+67 |     save(
+   |
+
+E501 Line too long (101 > 100)
+   --> scripts\recovery_stage6.py:202:101
+    |
+200 |                 result["http_fresh_model_first_after_recovery"] = timed(http_query)
+201 |                 result["http_subsequent_warm"] = [timed(http_query) for _ in range(5)]
+202 |                 if not (all(r['response']['status'] == 200 for r in result['http_subsequent_warm'])):
+    |                                                                                                     ^
+203 |                     raise AssertionError()
+204 |                 save("recovery_results.json", result)
+    |
+
+E501 Line too long (105 > 100)
+  --> scripts\verify_baseline_repeat.py:35:101
+   |
+33 |     if not (first['configuration']['corpus'] == second['configuration']['corpus']):
+34 |         raise AssertionError()
+35 |     if not (first['configuration']['embedding_version'] == second['configuration']['embedding_version']):
+   |                                                                                                     ^^^^^
+36 |         raise AssertionError()
+   |
+
+E501 Line too long (115 > 100)
+  --> scripts\verify_baseline_repeat.py:60:101
+   |
+58 |     print(json.dumps(result, indent=2))
+59 |     if not (equal):
+60 |         raise AssertionError('Repeated real evaluation changed results; investigate before claiming repeatability')
+   |                                                                                                     ^^^^^^^^^^^^^^^
+
+E501 Line too long (104 > 100)
+   --> scripts\verify_stage5_runtime.py:179:101
+    |
+177 |     try:
+178 |         results["aligned_snapshot_sha256"] = snapshot_digest(aligned_snapshot(components.db))
+179 |         if not (results['aligned_snapshot_sha256'] == read('provenance_audit.json')['snapshot_sha256']):
+    |                                                                                                     ^^^^
+180 |             raise AssertionError()
+181 |     finally:
+    |
+
+E501 Line too long (101 > 100)
+  --> scripts\verify_vector_runtime.py:70:101
+   |
+68 |                 results["ready_recovered"] = wait_for_status(client, "/ready", 200)
+69 |                 recovered = client.post("/api/v1/rag/vector/query", json=body)
+70 |                 if not (recovered.status_code == 200 and recovered.json()['answer'] == 'PostgreSQL'):
+   |                                                                                                     ^
+71 |                     raise AssertionError()
+72 |                 results["vector_recovered"] = recovered.json()
+   |
+
+E501 Line too long (103 > 100)
+  --> tests\unit\test_security_gate.py:14:101
+   |
+12 | def test_normal_junit_passes(tmp_path):
+13 |     path = tmp_path / "tests.xml"
+14 |     path.write_text('<testsuite><testcase classname="tests.integration.graph" name="ok"/></testsuite>')
+   |                                                                                                     ^^^
+15 |     check(path)
+   |
+
+Found 21 errors (14 fixed, 7 remaining).

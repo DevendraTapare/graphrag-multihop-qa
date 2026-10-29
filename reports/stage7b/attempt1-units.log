@@ -1,0 +1,129 @@
+........................................................................ [ 23%]
+........................................................................ [ 46%]
+.........................................................F.............. [ 70%]
+...........................................FFF.......................... [ 93%]
+...................                                                      [100%]
+================================== FAILURES ===================================
+_______________ test_exact_typed_aliases_and_unicode_whitespace _______________
+
+    def test_exact_typed_aliases_and_unicode_whitespace():
+        registry = EntityRegistry()
+>       assert registry.candidates(Label.PERSON, " MＯＲＧＡＮ ")[0].entity.id == "person:morgan"
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       IndexError: list index out of range
+
+tests\unit\test_graph_rag.py:96: IndexError
+_____________ test_ci_rejects_incomplete_real_test_runs[skipped] ______________
+
+tmp_path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-174/test_ci_rejects_incomplete_rea0')
+bad = 'skipped'
+
+    @pytest.mark.parametrize("bad", ["skipped", "failure", "error"])
+    def test_ci_rejects_incomplete_real_test_runs(tmp_path, bad):
+        path = tmp_path / "results.xml"
+        path.write_text(
+            f'<testsuite><testcase classname="tests.integration.check" name="security">'
+            f"<{bad}/></testcase></testsuite>"
+        )
+        with pytest.raises(AssertionError):
+>           check(path)
+
+tests\unit\test_stage6.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-174/test_ci_rejects_incomplete_rea0/results.xml')
+
+    def check(path):
+        cases = list(ET.parse(path).getroot().iter("testcase"))
+        if not cases:
+            raise ValueError("No tests executed")
+        if not any("integration" in c.attrib.get("classname", "") for c in cases):
+            raise ValueError("No real integration tests")
+        rejected = [
+            c.attrib["name"]
+            for c in cases
+            if any(c.find(k) is not None for k in ("failure", "error", "skipped"))
+        ]
+        if rejected:
+>           raise ValueError(f"Failed, errored or skipped tests: {rejected}")
+E           ValueError: Failed, errored or skipped tests: ['security']
+
+scripts\check_ci_results.py:20: ValueError
+_____________ test_ci_rejects_incomplete_real_test_runs[failure] ______________
+
+tmp_path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-174/test_ci_rejects_incomplete_rea1')
+bad = 'failure'
+
+    @pytest.mark.parametrize("bad", ["skipped", "failure", "error"])
+    def test_ci_rejects_incomplete_real_test_runs(tmp_path, bad):
+        path = tmp_path / "results.xml"
+        path.write_text(
+            f'<testsuite><testcase classname="tests.integration.check" name="security">'
+            f"<{bad}/></testcase></testsuite>"
+        )
+        with pytest.raises(AssertionError):
+>           check(path)
+
+tests\unit\test_stage6.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-174/test_ci_rejects_incomplete_rea1/results.xml')
+
+    def check(path):
+        cases = list(ET.parse(path).getroot().iter("testcase"))
+        if not cases:
+            raise ValueError("No tests executed")
+        if not any("integration" in c.attrib.get("classname", "") for c in cases):
+            raise ValueError("No real integration tests")
+        rejected = [
+            c.attrib["name"]
+            for c in cases
+            if any(c.find(k) is not None for k in ("failure", "error", "skipped"))
+        ]
+        if rejected:
+>           raise ValueError(f"Failed, errored or skipped tests: {rejected}")
+E           ValueError: Failed, errored or skipped tests: ['security']
+
+scripts\check_ci_results.py:20: ValueError
+______________ test_ci_rejects_incomplete_real_test_runs[error] _______________
+
+tmp_path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-174/test_ci_rejects_incomplete_rea2')
+bad = 'error'
+
+    @pytest.mark.parametrize("bad", ["skipped", "failure", "error"])
+    def test_ci_rejects_incomplete_real_test_runs(tmp_path, bad):
+        path = tmp_path / "results.xml"
+        path.write_text(
+            f'<testsuite><testcase classname="tests.integration.check" name="security">'
+            f"<{bad}/></testcase></testsuite>"
+        )
+        with pytest.raises(AssertionError):
+>           check(path)
+
+tests\unit\test_stage6.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-174/test_ci_rejects_incomplete_rea2/results.xml')
+
+    def check(path):
+        cases = list(ET.parse(path).getroot().iter("testcase"))
+        if not cases:
+            raise ValueError("No tests executed")
+        if not any("integration" in c.attrib.get("classname", "") for c in cases):
+            raise ValueError("No real integration tests")
+        rejected = [
+            c.attrib["name"]
+            for c in cases
+            if any(c.find(k) is not None for k in ("failure", "error", "skipped"))
+        ]
+        if rejected:
+>           raise ValueError(f"Failed, errored or skipped tests: {rejected}")
+E           ValueError: Failed, errored or skipped tests: ['security']
+
+scripts\check_ci_results.py:20: ValueError
+=========================== short test summary info ===========================
+FAILED tests/unit/test_graph_rag.py::test_exact_typed_aliases_and_unicode_whitespace
+FAILED tests/unit/test_stage6.py::test_ci_rejects_incomplete_real_test_runs[skipped]
+FAILED tests/unit/test_stage6.py::test_ci_rejects_incomplete_real_test_runs[failure]
+FAILED tests/unit/test_stage6.py::test_ci_rejects_incomplete_real_test_runs[error]
+4 failed, 303 passed in 16.95s

@@ -1,0 +1,391 @@
+{
+  "gold_facts": 64,
+  "facts_with_matching_graph_assertions": 0,
+  "frozen_registry_entities": 27,
+  "facts": [
+    {
+      "fact_id": "s01-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-6",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-7",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-8",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s01-fact-9",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s02-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s02-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s02-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s02-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s02-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s03-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s03-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s03-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s03-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s03-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s04-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s04-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s04-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s04-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s04-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s05-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s05-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s05-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s05-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s05-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s06-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s06-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s06-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s06-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s06-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s07-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s07-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s07-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s07-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s07-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s08-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s08-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s08-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s08-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s08-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s09-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s09-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s09-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s09-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s09-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s10-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s10-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s10-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s10-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s10-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s11-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s11-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s11-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s11-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s11-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s12-fact-5",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s12-fact-1",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s12-fact-4",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s12-fact-2",
+      "subject_registered": false,
+      "object_registered": false,
+      "matching_assertion_ids": []
+    },
+    {
+      "fact_id": "s12-fact-3",
+      "subject_registered": false,
+      "object_registered": true,
+      "matching_assertion_ids": []
+    }
+  ]
+}

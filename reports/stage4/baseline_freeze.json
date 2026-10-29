@@ -1,0 +1,376 @@
+{
+  "created_at_utc": "2026-10-28T16:30:30.034550+00:00",
+  "dataset_version": "multihop-vector-v1",
+  "baseline_configuration": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+    "dimension": 384,
+    "normalization": "L2",
+    "index": "chunk_minilm_cosine",
+    "similarity": "cosine",
+    "corpus": {
+      "build_id": "vector-build:844933f2e03ad5f3ad8f1a7970d01c5bd342faf7",
+      "documents": 92,
+      "chunks": 92,
+      "status": "ready"
+    },
+    "os": "Windows-11-10.0.22621-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "physical_cores": 1,
+    "logical_cores": 1,
+    "ram_bytes": 14903754752,
+    "python": "3.12.13",
+    "neo4j": [
+      {
+        "versions": [
+          "5.26.32"
+        ],
+        "edition": "community"
+      }
+    ],
+    "concurrency": 1,
+    "torch_threads": 2,
+    "packages": {
+      "sentence-transformers": "5.7.0",
+      "transformers": "4.57.6",
+      "torch": "2.14.1",
+      "neo4j": "6.4.1"
+    }
+  },
+  "baseline_k5": {
+    "overall": {
+      "questions": 122,
+      "document_recall": 0.6822916666666666,
+      "precision": 0.22708333333333336,
+      "required_evidence_coverage": 0.6822916666666666,
+      "complete_chain_coverage": 0.46875,
+      "answer_exact_match": 0.5819672131147541,
+      "abstention_rate": 0.6311475409836066,
+      "citation_correctness": 1.0,
+      "citation_count": 57,
+      "unsupported_answer_count": 0,
+      "latency_ms": {
+        "query_embedding": {
+          "p50": 34.46110000368208,
+          "p95": 76.8519549979828
+        },
+        "vector_retrieval": {
+          "p50": 51.36879999190569,
+          "p95": 138.2774950077873
+        },
+        "end_to_end": {
+          "p50": 87.18190000217874,
+          "p95": 217.91806998662648
+        }
+      }
+    },
+    "0": {
+      "questions": 26,
+      "document_recall": null,
+      "precision": null,
+      "required_evidence_coverage": null,
+      "complete_chain_coverage": null,
+      "answer_exact_match": 1,
+      "abstention_rate": 1,
+      "citation_correctness": null,
+      "citation_count": 0,
+      "unsupported_answer_count": 0,
+      "latency_ms": {
+        "query_embedding": {
+          "p50": 35.46859999187291,
+          "p95": 90.32070000102976
+        },
+        "vector_retrieval": {
+          "p50": 54.377199994632974,
+          "p95": 175.3269500040915
+        },
+        "end_to_end": {
+          "p50": 90.70065000560135,
+          "p95": 226.62272500019753
+        }
+      }
+    },
+    "1": {
+      "questions": 36,
+      "document_recall": 0.9722222222222222,
+      "precision": 0.2,
+      "required_evidence_coverage": 0.9722222222222222,
+      "complete_chain_coverage": 0.9722222222222222,
+      "answer_exact_match": 0.9722222222222222,
+      "abstention_rate": 0.027777777777777776,
+      "citation_correctness": 1.0,
+      "citation_count": 36,
+      "unsupported_answer_count": 0,
+      "latency_ms": {
+        "query_embedding": {
+          "p50": 30.131099993013777,
+          "p95": 69.47764999495121
+        },
+        "vector_retrieval": {
+          "p50": 51.61640000005718,
+          "p95": 136.78302499465644
+        },
+        "end_to_end": {
+          "p50": 83.83894999860786,
+          "p95": 209.60857498721452
+        }
+      }
+    },
+    "2": {
+      "questions": 36,
+      "document_recall": 0.6111111111111112,
+      "precision": 0.2555555555555556,
+      "required_evidence_coverage": 0.6111111111111112,
+      "complete_chain_coverage": 0.25,
+      "answer_exact_match": 0.25,
+      "abstention_rate": 0.75,
+      "citation_correctness": 1.0,
+      "citation_count": 18,
+      "unsupported_answer_count": 0,
+      "latency_ms": {
+        "query_embedding": {
+          "p50": 34.45915000338573,
+          "p95": 59.35372500971425
+        },
+        "vector_retrieval": {
+          "p50": 49.601849997998215,
+          "p95": 85.86165001179324
+        },
+        "end_to_end": {
+          "p50": 87.82864999375306,
+          "p95": 118.58867502451176
+        }
+      }
+    },
+    "3": {
+      "questions": 24,
+      "document_recall": 0.35416666666666663,
+      "precision": 0.225,
+      "required_evidence_coverage": 0.35416666666666663,
+      "complete_chain_coverage": 0.041666666666666664,
+      "answer_exact_match": 0.041666666666666664,
+      "abstention_rate": 0.9583333333333334,
+      "citation_correctness": 1.0,
+      "citation_count": 3,
+      "unsupported_answer_count": 0,
+      "latency_ms": {
+        "query_embedding": {
+          "p50": 37.10560000035912,
+          "p95": 56.023490002553444
+        },
+        "vector_retrieval": {
+          "p50": 51.506349991541356,
+          "p95": 120.1835050072986
+        },
+        "end_to_end": {
+          "p50": 91.30110000842251,
+          "p95": 156.00084000034252
+        }
+      }
+    },
+    "answerable": {
+      "questions": 96,
+      "document_recall": 0.6822916666666666,
+      "precision": 0.22708333333333336,
+      "required_evidence_coverage": 0.6822916666666666,
+      "complete_chain_coverage": 0.46875,
+      "answer_exact_match": 0.46875,
+      "abstention_rate": 0.53125,
+      "citation_correctness": 1.0,
+      "citation_count": 57,
+      "unsupported_answer_count": 0,
+      "latency_ms": {
+        "query_embedding": {
+          "p50": 34.396750008454546,
+          "p95": 65.48545000259764
+        },
+        "vector_retrieval": {
+          "p50": 51.082800011499785,
+          "p95": 124.75362500845222
+        },
+        "end_to_end": {
+          "p50": 86.9527000177186,
+          "p95": 171.28717499872437
+        }
+      }
+    }
+  },
+  "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+  "graph_snapshot_sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+  "graph_snapshot_counts": {
+    "nodes": 254,
+    "edges": 622,
+    "sources": 93,
+    "runs": 110,
+    "vectors": 92
+  },
+  "files": {
+    ".env.example": "5626afa7508bab237a6ca9682335d6757a26cbe6cbfc008e575c4b26dde1aa9c",
+    ".gitignore": "fc584caaaeeea3af1172106e460d98888210f6f50d777141a595f9f2101c1195",
+    ".python-version": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+    "README.md": "9d9a2d7b3aadd71ac5eb7c16a50d359976bc618b33460314699f7241d32f85ba",
+    "app/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/api/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/api/routes.py": "a351cd0fe3ee4f24ab3b7748728c465c821698990c869847ddf9b00adae462fa",
+    "app/api/vector.py": "b78787ff812f69222639844b8381cabb946339da1059c506c6b534b4d0c7426f",
+    "app/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/core/config.py": "ba2ba0305c59b3bf15464da3a73481b60389144711109e5a8b626cf6c4f85d86",
+    "app/core/logging.py": "f82f923d3183f5744d22801ea1954c620b0645eba250ec89d1e15d8aef0134f3",
+    "app/db/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/db/migrations.py": "0be937df30f7a8cb480266b8108a1ba36aafd6fc0287402da8ca32b0ffff61a0",
+    "app/db/neo4j.py": "6aa55cf9674ef30f0503a2844ae4d9360b5630037485dd06a7fc98121bc11dec",
+    "app/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/evaluation/baseline.py": "7a0b5cc2bde44a1d02fc6a284401a7e30746d6e29e85607bd339e6ba0ecea83b",
+    "app/evaluation/extraction.py": "3599102f73d58dc78d8fa0a5f156dcd7495487ac4e9c303b8fb59b6814c5f305",
+    "app/extraction/__init__.py": "61ff568db096910fe27aa035102816feaa93cb3b1ad6e658819232b7788054be",
+    "app/extraction/chunking.py": "3fbd2db43897120164d06c69b18bf18654f936fa3061b306b06f9291f1d10ee8",
+    "app/extraction/documents.py": "3bb86f9c4e3392083cd0e16852fedb08a914bc8329e3055106de83e507cef528",
+    "app/extraction/models.py": "11a0dae8bf8c39aa166b863fc4eb5e5e29aa6b3cd6a2c926713e233d2b861c83",
+    "app/extraction/pipeline.py": "d58d597b0f74059afe4c76a76ccebb038fd23b3a5390b8eca6e8d71e9a34ada9",
+    "app/extraction/provenance.py": "a55477f34c06a5e76f8a0e6c9036841df85d9227a2278527e9f264939d544b86",
+    "app/extraction/registry.py": "7dc40d927c33c6742bdec75319a28014674bc15e78d66732953cf973f1b9b628",
+    "app/extraction/rules.py": "a5620e90c52d104a97c83a10fc429e596fa87736bd9944c20df8cec9fdfa5f88",
+    "app/graph/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/graph/fixtures.py": "f5a5bb9ed455b20304d2779105dc702411eda80931654e53ceef90b8c97d3182",
+    "app/graph/queries.py": "cd457f45b7274c085f86b85166f98477f4210fb1e1745bd4a30e167ba1fe6921",
+    "app/graph/schema.py": "9153a27718f168948ff68ada380edf82c509951aa2447c27ab93e00620e4137d",
+    "app/main.py": "4d2af2086571dc2767cbc6a42198e99cfc3a0c22c0d0e820d06711b92bcceb6c",
+    "app/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/models/fixtures.py": "aee2a44dcdef037ec6107989380125979aa786f2b88571ddecea2831bb9ccd69",
+    "app/repositories/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/repositories/fixture.py": "03504762bd570acc4c5331ab7100a8266f8b03115475a752374ed5d4657cc864",
+    "app/repositories/ingestion.py": "20c181c0270dfe7cff188b8b96be8431b9e202cf607f395f7b5099c65c9697b2",
+    "app/schemas/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/services/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/services/ingestion.py": "c2967b14bddd4f709169587d5950c771bdcd2dafb1273d4150be7023eda7d436",
+    "app/services/ingestion_validation.py": "7ab152802f915fdada3d31fbd693585bb08c035c4afb81800278fdf466c539ae",
+    "app/services/validation.py": "13d6a798b2138bb9a9b67cd20f26facaa7215fb8bdd299bb61334cc3b561bdd0",
+    "app/vector/__init__.py": "a52392f9db27c227a95b0d6269ab162ba4b2f93f0323cdd78c9d98ac1998ef86",
+    "app/vector/answering.py": "ec90fa15a3afe7065467e2118bb1d4409c817a8aa94828cf97fcee9758e17ff8",
+    "app/vector/embedding.py": "babb80f9a2d4602720ff7bbd90b61f9a62e0490efe40f9b92b3ba7c54ebd8eab",
+    "app/vector/indexing.py": "561f23744bfdb901f4ba6a5ee15c16617fa8710af7537d1d341551dada8a8944",
+    "app/vector/models.py": "f2b469570daac196bc89fd9e0ec576851051eadbebe42929094740f4425e6d5a",
+    "app/vector/repository.py": "57cd0e4065289471ca565a7c730a24fe47d8525e0dea7e6beea6dfb8a7a60522",
+    "app/vector/retrieval.py": "1276a57653413cebe8c64924e5df972f286619a24bd357cca602e44c01ce8b45",
+    "compose.yaml": "ccde746fa1118bce4315117cc7ec4325ef8efab6078949fbcdd82e4677a12980",
+    "data/evaluation/baseline_v1.json": "c2d65d9c3e6d34483948c5a6f637daf3dd8cd78047c51b2d43f7d6d499f5e85d",
+    "data/evaluation/extraction.json": "71e8f2075be4886ee5b0e5b771bc72fbe2d8a022d7b59513c6de1e94bf887e18",
+    "data/evaluation/questions.json": "d590ce370e51415b9ff300692a43d3c488ff54acba3cae7f8b0e4181e29eebf8",
+    "data/extraction/entity_registry.json": "8e753f65ccdf8ae4b2a344b33ebeb1b4a729782f04a1e91a6f4192dcf30fba8a",
+    "data/fictional/atlas.txt": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+    "data/fictional/cedar.md": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+    "data/fictional/conflicting-hosting.txt": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+    "data/fictional/review-required.md": "37ad43cc92fc6967ac726e3b227bfea674d7d6d29f0a1ee0ee4d6bb13d6a1e93",
+    "data/fictional/stage3_corpus.json": "741040e8f4b8e6e390b82e3c308730885158a7d095439a66332149642980c593",
+    "data/fixtures/corporate.json": "c2836ccac8943643238682b10b1505fd575ca12e8bb56aa5599f880e4c3e0d31",
+    "docs/ARCHITECTURE.md": "910c50f0d80d0a46e11dd590761fc4abef9a57d220f8511dd31a120dc0688d49",
+    "docs/AUTOMATIC_EXTRACTION.md": "33dc382b79d25c581238bf6c0ef3806eef7d8c85a751fbec31bde0db32c5626f",
+    "docs/BASELINE_EVALUATION.md": "49dc811039435c07ebe34882acb05a441cc63ce961f2e94a7498915a136216eb",
+    "docs/BASELINE_INTEGRITY.md": "a4fa5da02d67a4c48a43b237dea4a37f17823806d709d5bd1911df070ed93982",
+    "docs/DATA_PROVENANCE.md": "5c9340144dc56a0ad4de66ace3d199a382bee05cb32d56ec4276e08b628280fb",
+    "docs/ENTITY_RESOLUTION.md": "86a4c4b16b28268462eacb54d5df03f67fcace4e93870de065f1ee54fea5baea",
+    "docs/EXTRACTION_EVALUATION.md": "14dbf7a753a4dc8fea27dd4a88d84e8e2f74f0cc8d67a42a7fd839ce2d772435",
+    "docs/GRAPH_SCHEMA.md": "6aeb9830b90d6fe9e3cc6dac0a340054fb0e1719af33b2b0649b71ef31223f91",
+    "docs/PROJECT_ROADMAP.md": "893943d6270771e1a1e55382e71b10192a1e8b9c89848e313215a169852d9e52",
+    "docs/PROVENANCE_VALIDATION.md": "a97a514b9d24250c703a709de33103303000fc0f3cafa78c3795d4094014f89f",
+    "docs/STAGE1_REPORT.md": "574566d96a72e5ff5f75751af9bb7c5f38eb1a0d767dab13a75287ffe00f66f4",
+    "docs/STAGE2_PLAN.md": "74c2c8e0488e0c24006a99f07a99d1afa19fe201eba0a45075c936f7cebbeb2d",
+    "docs/STAGE2_REPORT.md": "12837302a715af2dd1952097e60d5c4527af0b87ed0c124e413882d8ad4102d3",
+    "docs/STAGE3_PLAN.md": "48c25d7a7747914ba7416fe4c83281fbb923afa4d22807791120845872c1925f",
+    "docs/STAGE3_REPORT.md": "b78e5a60e73b6e56033ec4150a797cd2885cf7f7071072816607b4576177b15d",
+    "docs/VECTOR_BASELINE_ARCHITECTURE.md": "623bf23f3cf1d117db1b7896512b2a57c54f0eec434d138e085ddd6cf801854c",
+    "docs/VECTOR_INDEXING.md": "1b81d2303d271e4b638debcf40695a415571215b2170195c6b1843c05ccda8a9",
+    "infra/README.md": "f870856ad0b08e02566e99cdf65498a85f747f8b7d5082ae16e0f28b1961eb24",
+    "migrations/001_identity.cypher": "d854ef71ecf96d82880968f21bbb5b5e9604cb3fc68cae1a0c41115c0472037d",
+    "migrations/002_lookup_indexes.cypher": "44daf245c76ce6c87e6a98db66888bbb80fe6813c729e61a2e890ad1b4389512",
+    "migrations/003_ingestion_lifecycle.cypher": "0892ccf63200b6438d10dbd0c807e9587da483842ad66f4ad21b8139bec50826",
+    "migrations/004_chunk_vectors.cypher": "265e9e9a9ede3562a2a6002e191613ed899672a630e769b8252e56213e4d2969",
+    "pyproject.toml": "304a8c87462779e3376b8d2f5045a9e73c574cb5496a2063656e75d6c17fa5ad",
+    "reports/FILE_MANIFEST.md": "dad18448ba9b389524448baf575cfa2535d3bac839ccd7021f4bc60acc2e2cc6",
+    "reports/README.md": "2b36487bec7abed3375cb3d7acfb0400bb6362bff27500585d78da48114549ca",
+    "reports/STAGE2_FILE_MANIFEST.md": "13f29bc4e9514597edac6c40122b33d970d26855249506da07e4a79a9cb9a1ac",
+    "reports/extraction-evaluation.json": "fd69ba929c0fde1863ccd45be394b9a4a55a1ad3836fc7503d4af033a6d85925",
+    "reports/graph-validation.json": "4f4bb0148cf3740b3c3cb68c8599bee816f662d02b58cb82b7578f59d5ebd03c",
+    "reports/runtime-verification.json": "9a689bb205496d4db9aca569ed1ce70fbd72634f42fbbafb43a10e9ab208da59",
+    "reports/stage2-cli-verification.json": "4bf4b0fdf8782355810dcb9ac3936dad5ad3ed176078a90724afb8f5badedd41",
+    "reports/stage2-corpus-verification.json": "679294cdc03ef6f8f250e614de291ac3a4f00a5368b289c45c6aa04f7e31781f",
+    "reports/stage2-runtime-verification.json": "9b8192f4b43db4b57c473d101e51838f5117e09a71583c2b72baaa2330999316",
+    "reports/stage2-test-results.json": "ca6773360201464ca35b2ef55508f493b81d03d171acdbf3b81934a6ef301a31",
+    "reports/stage3/FILE_MANIFEST.md": "848ca0de564d2d9aeac357403da707385f1478e25ad1bd0ef3f0dc667a706b85",
+    "reports/stage3/baseline_metrics.csv": "c3d76d0103571c8689073fbe79a7e6a41096a961d2483f1e42879e7dbc4a0ba6",
+    "reports/stage3/baseline_metrics.json": "90736d2f46830f6cfae6bc94e8d50f34c97a38a62e249991ec5ca0b7856f68a7",
+    "reports/stage3/error_analysis.md": "b326fac48c24744dd805fbf650bda59bd5d50f76916618050512215813a31dce",
+    "reports/stage3/index_verification.json": "2adeb7de65b70a46c0b8a6236e29139593972fb3cb4a4e76132472de568bab4e",
+    "reports/stage3/performance.json": "d9d7c2461bd691ef8461ba0796a05fcd644b74c45f3c0ba5d82a0c8d553055cd",
+    "reports/stage3/reproducibility.json": "1d5b12acf45799acb1fbb5000fee734a85a5e29e36d5c684d2b10df5db59f6f6",
+    "reports/stage3/runtime_verification.json": "fbefd3def178044b8e89b2b982845c62a2554189b95d08a347704161f555d754",
+    "reports/stage3/test_results.json": "3f030530185aa3bae588f3ff1d10d881e3cb6b9839f65eb3ca88239f485e3c1b",
+    "reports/test-results.json": "65b35fe9589715a9a7ca6af60d72c786b58de8db2e71b24ef1c7c51ca2d933ec",
+    "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/benchmark_vector.py": "f28ce7d9facb4f1b125dea73fc2abf7af640651164c672696bd5c1ce57b255a5",
+    "scripts/build_baseline_dataset.py": "4d43441a741c28ce098d79e8cfe731026f7de6d789988b0cfe435ce3ab7df99e",
+    "scripts/build_extraction_evaluation.py": "f631b2e74ed2e560043e70687c110dfe04174c8b3b552709afd80d6b3839ab95",
+    "scripts/build_fixtures.py": "9c922e618a2e53026f9f2c8f8e8c6f547df7017b31bc93b4b15898a716d4fa85",
+    "scripts/build_registry.py": "5f95e168c52a2119ae26622a8ba03a318d089b1e272259f9864a46fe0227e4e6",
+    "scripts/check_missing_model.py": "3f7ea749df6ec12d706c28abb6a0893243025cba20fb25d0bf7bafc1d1ccb408",
+    "scripts/evaluate_baseline.py": "4c8ebdd7a7a44448fd722e80d666c113c68fe83868ef2ba1e63791d7007282e6",
+    "scripts/evaluate_extraction.py": "c0dfa5b2ba67073f6874eab746ad7b9509e5b9967faa6967a9bf42e2d5b4ad31",
+    "scripts/graph.py": "1108fc9b3d154ad071f0fca55e26adce6f36b354f8201e720c7c8ee54bc48ec1",
+    "scripts/ingest.py": "9d6d3ee4580b267882714782afbbb3365528cf1f8329fca829762c71da202b84",
+    "scripts/record_stage3_tests.py": "23ac5cd6598b3515eeeba726d0c8622dd4c2f374cd2dcf9d3268a64997e8ccb7",
+    "scripts/serve.py": "b7a9d1b3958520a3973cb7e74b4c386634b5489c4761651ec279f20a1b3965e1",
+    "scripts/setup_env.py": "8b86c37b5fecb1d25d7bf48f2fcd2bd69cf33c5000f4735a02853ee9a5e435ef",
+    "scripts/stage3_manifest.py": "366569d312dc306afca8a1506cb84320fa9840565a19970c11e3fd0e737a3c89",
+    "scripts/vector.py": "8f1fb3664783f59b732679752a40938eed17211fab6b38fcd107ed511a6e6be0",
+    "scripts/verify_baseline_repeat.py": "8f4c4f91b14f884b6173fe17aacf5c80c80c1929a67e2e8f9067eedde1a95dc0",
+    "scripts/verify_ingestion.py": "80a40da8432abd2fb6f299b451e36ca74230a7ce7cb85177819db0367da0fe8f",
+    "scripts/verify_runtime.py": "458158659c75cc713ccafb77d2e5ebd78ffdd05d7a6f068e0c02274dd14e44d2",
+    "scripts/verify_vector_index.py": "7714373e1d109e6f2c12db00e889b8bcab763e74bae1d26be1ecd9c06f060b73",
+    "scripts/verify_vector_runtime.py": "48736758d3feaa20608d89be169d83826a310397eca556907cd0eefaddf2f891",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/client.py": "af5c0740654fdc85a22bb24d2db6745a2b2f31482ab5e0031f1806812f08f4a4",
+    "tests/conftest.py": "c2e73a4ddf0cfc8a554279cf3bbcb5f47eb07ca8b1ad42e59e27c4fb2a6c01f1",
+    "tests/integration/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/integration/conftest.py": "48dc006c3a6dcf101d0fd41c8e75356d407f43925433f543216f8e4ec8a30abc",
+    "tests/integration/test_ingestion.py": "08e885e5d8ebfd02d5580e4fbbd44ec7e2fcb949810c907ac85c016af85b44e9",
+    "tests/integration/test_neo4j.py": "0abbdd41fc2ff2d4984e472a204725fc83a35c06cd22e26c0222d5e192a8ecee",
+    "tests/integration/test_vector.py": "c06b8bb1888cf99ddddac579c77abdf13e11efb901a3a5ce9618dbe6bceb4a55",
+    "tests/unit/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/unit/test_api.py": "2ee1301e98faac2aece57b85785930e14349ad9f61fcc9a63d8ccc04542f421c",
+    "tests/unit/test_config.py": "be071113db1f3c64ce3f8a48abca10c9e07a0bef3565781847bbc9741de838e5",
+    "tests/unit/test_database.py": "b18dd285a9bf9827e010baeac1b729945371d5bfed916570606f5eda591ab8d0",
+    "tests/unit/test_extraction_documents.py": "34b9bbe0cf834bb51e60156bbd7c63706cc9a231180a028aa4fd5892c69ac4d4",
+    "tests/unit/test_extraction_provenance.py": "e09e1a17fc3b1b838ba06fbfc1a660e2a387bcc767ea92701b5225fe73e1708f",
+    "tests/unit/test_extraction_rules.py": "d922db5a9dfa86d2088a13561ee06ee59d16a584d69c6e82de4a062b7dc839c6",
+    "tests/unit/test_fixture_safety.py": "066de1cbb92fc7785d10bddc4319bcc1de9116880142b354c46f61dc9fa6b19e",
+    "tests/unit/test_fixtures.py": "124d8862de9f0794b07c52dae271b67a11008c607045a252b3c1e36c093125ed",
+    "tests/unit/test_migrations.py": "e3a058d27830db01c0f5d5d93485773bf951db592fcb3dc99a19b351a5c76e5f",
+    "tests/unit/test_vector.py": "6a94f166f473b47de96f0972ce6e16c576d91ca26d25acf71dc7fcdfecb08842",
+    "tests/unit/test_vector_api.py": "2bd79da7077370266d5049d8246510fffa9e24185c5706a3a8d0e3ac3428817b",
+    "uv.lock": "067017a3c749f6820fb323de669fcd2ff121c8ec14dbba7d0dcfbd036b7cc2a5"
+  },
+  "settings": {
+    "app_env": "development",
+    "api_host": "127.0.0.1",
+    "api_port": 8000,
+    "neo4j_uri": "bolt://127.0.0.1:7687",
+    "neo4j_user": "neo4j",
+    "neo4j_database": "neo4j",
+    "neo4j_connection_timeout": 3.0,
+    "neo4j_query_timeout": 5.0,
+    "neo4j_import_timeout": 60.0,
+    "neo4j_pool_size": 10,
+    "neo4j_write_retry_time": 3.0,
+    "ingestion_max_bytes": 65536,
+    "ingestion_chunk_size": 600,
+    "ingestion_chunk_overlap": 80,
+    "ingestion_batch_size": 20,
+    "ingestion_lease_seconds": 300,
+    "embedding_startup_timeout": 180.0,
+    "embedding_inference_timeout": 30.0,
+    "vector_corpus": "fictional-v1",
+    "vector_query_timeout": 20.0
+  },
+  "policy": "Preserve Stage 3 runtime, datasets, registry, extraction, grading and reports; only additive API wiring, bounded graph settings, docs and explicit API-surface regression expectations may change. No graph data or registry expansion from held-out labels."
+}

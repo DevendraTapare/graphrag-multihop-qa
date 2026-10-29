@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-28T18:05:14.393358+00:00",
+  "policy": "Frozen before primary 122-question scoring; no held-out answer tuning",
+  "files": {
+    "app/aligned/__init__.py": "e93ef64dc412048df80c482a20786a912535c893766d2ce07558c05b03bdeb8a",
+    "app/aligned/components.py": "77de181a6a4f96c879ad259163f19e6a6ced0fc886aad39d193e8bb646c7e4fd",
+    "app/aligned/discovery.py": "77c250f2e9422b3e6e32ddf2bccb2b71a4caf3c1818ef2b7050a58feb4b7094d",
+    "app/aligned/graph.py": "9e723bdc3adec9c44c3b0bd6c39fab6921daf3db81a74e7dd784e0b23a48d32d",
+    "app/aligned/hybrid.py": "5042547ab55e5e376618487768f32c33af3d322026bacdfdfd09620b5757e2e9",
+    "app/aligned/interpretation.py": "1bb0177d67d55e879c8870de8cdc9c027a5bd2837babfd0fa00b268159b88d20",
+    "app/aligned/models.py": "da880a16c17fab88ab84cd66a4e7df078db7c9ed397222efbc86fd280759881f",
+    "app/api/hybrid.py": "c01faca72baaf99476c820a0efbc114c8abfe43642ebc6ef6df0954f42abc27f",
+    "app/core/config.py": "b25f77e9ab6a3de8a769ac1bb26addfce2c98b46bb0f7fad2231c82c2260b8f5",
+    "app/main.py": "a946a3f3b7be32b1a28667874fd668398b7faf0bf3de21171052901ac294a1b4",
+    "data/runtime/stage5_corpus.json": "e66a0387de5e8751d807fc7ff613826d67609d1fae5da8cae877e671806062ea",
+    "data/runtime/stage5_registry.json": "2d31b8e845f9d2894cd46817de5fb6d77d3160db3caa561775af89b96f4ec6d5"
+  }
+}

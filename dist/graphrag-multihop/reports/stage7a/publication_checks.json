@@ -1,0 +1,27 @@
+{
+  "actual_credential_matches": 0,
+  "forbidden_artifacts": [],
+  "workstation_paths": [],
+  "local_markdown_links_checked": 131,
+  "missing_local_links": [],
+  "original_research_files_unchanged": 324,
+  "scope": "Clean package; final count and checksums in manifest/inventory",
+  "json_files_parsed": 100,
+  "historical_utf8_bom_json_files": [
+    "reports/graph-validation.json",
+    "reports/stage2-cli-verification.json"
+  ],
+  "toml_and_lockfiles_parsed": 3,
+  "yaml_documents_parsed": 2,
+  "workflow_commands_reviewed": true,
+  "action_versions_use_full_commit_hashes": true,
+  "hosted_ci": "UNVERIFIED",
+  "selected_original_files": 289,
+  "unrecorded_derivation_changes": [],
+  "final_unit_recheck": {
+    "tests": 300,
+    "passed": 300,
+    "failed": 0
+  },
+  "markdown_fragments_checked": 1
+}

@@ -1,0 +1,44 @@
+{
+  "scanner": "Bandit",
+  "scope": "app and scripts in clean publication",
+  "total_findings": 131,
+  "scanner_errors": [],
+  "runtime_app_findings": 0,
+  "groups": [
+    {
+      "rule": "B101",
+      "severity": "LOW",
+      "count": 104
+    },
+    {
+      "rule": "B405",
+      "severity": "LOW",
+      "count": 6
+    },
+    {
+      "rule": "B314",
+      "severity": "MEDIUM",
+      "count": 9
+    },
+    {
+      "rule": "B404",
+      "severity": "LOW",
+      "count": 3
+    },
+    {
+      "rule": "B607",
+      "severity": "LOW",
+      "count": 3
+    },
+    {
+      "rule": "B603",
+      "severity": "LOW",
+      "count": 5
+    },
+    {
+      "rule": "B311",
+      "severity": "LOW",
+      "count": 1
+    }
+  ]
+}

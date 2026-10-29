@@ -1,0 +1,18 @@
+{
+  "health_connected": 200,
+  "ready_connected": 200,
+  "versioned_ready": 200,
+  "health_outage": 200,
+  "ready_outage": 503,
+  "ingestion_outage": "database_unavailable",
+  "health_start_during_outage": 200,
+  "ready_start_during_outage": 503,
+  "ready_recovered": 200,
+  "health_recovered": 200,
+  "ingestion_recovered": {
+    "status": "ready",
+    "facts": 3
+  },
+  "request_id_present": true,
+  "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800"
+}

@@ -1,0 +1,5 @@
+{
+  "unit_tests": 300,
+  "exit_code": 0,
+  "reason": "Final adapter safety and publication config changes; app/data/migrations/integration tests unchanged"
+}

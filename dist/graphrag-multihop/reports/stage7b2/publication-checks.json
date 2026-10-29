@@ -1,0 +1,124 @@
+{
+  "files": 369,
+  "bytes": 26482122,
+  "added": [
+    "LICENSE",
+    "docs/STAGE7B_PRECOMMIT_REPORT.md",
+    "docs/THIRD_PARTY_LICENSES.md",
+    "reports/stage7b2/advisory-status-recheck.json",
+    "reports/stage7b2/bandit.json",
+    "reports/stage7b2/demo-results.json",
+    "reports/stage7b2/installed-versions.json",
+    "reports/stage7b2/license-verification.json",
+    "reports/stage7b2/model-rights-recheck.json",
+    "reports/stage7b2/pip-audit.json",
+    "reports/stage7b2/previous-release.json",
+    "reports/stage7b2/primary-rights-sources.json",
+    "reports/stage7b2/publication-checks.json",
+    "reports/stage7b2/release-changes.json",
+    "reports/stage7b2/research-preservation.json",
+    "reports/stage7b2/security-summary.json",
+    "reports/stage7b2/smoke-results.json",
+    "reports/stage7b2/third-party-rights.json",
+    "reports/stage7b2/validation-summary.json",
+    "reports/stage7b2/verification-tools.json",
+    "reports/stage7b2/wheel-rights-review.json"
+  ],
+  "modified": [
+    "FILE_INVENTORY.json",
+    "PUBLICATION.json",
+    "README.md",
+    "SHA256SUMS",
+    "docs/FINAL_PROJECT_SUMMARY.md",
+    "docs/PUBLICATION_MANIFEST.md",
+    "docs/SECURITY_REVIEW.md",
+    "docs/THIRD_PARTY_NOTICES.md"
+  ],
+  "removed": [],
+  "exact_credential_match_paths": [],
+  "credential_values_checked": 6,
+  "forbidden_artifacts": [],
+  "unexpected_binary_paths": [],
+  "workstation_path_files": [],
+  "invalid_json": [],
+  "documentation_local_links": 187,
+  "documentation_fragments": 1,
+  "missing_links": [],
+  "historical_release_reports_checked": 117,
+  "historical_report_changes": [],
+  "source_test_data_migration_files_checked": 166,
+  "source_changes": [],
+  "required_files": [
+    "pyproject.toml",
+    "uv.lock",
+    "compose.yaml",
+    ".env.example",
+    ".github/workflows/ci.yml",
+    "migrations/001_identity.cypher",
+    "migrations/002_lookup_indexes.cypher",
+    "migrations/003_ingestion_lifecycle.cypher",
+    "migrations/004_chunk_vectors.cypher"
+  ],
+  "missing_required_files": [],
+  "duplicate_groups": [
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "paths": [
+        "app/__init__.py",
+        "app/api/__init__.py",
+        "app/core/__init__.py",
+        "app/db/__init__.py",
+        "app/evaluation/__init__.py",
+        "app/graph/__init__.py",
+        "app/models/__init__.py",
+        "app/repositories/__init__.py",
+        "app/schemas/__init__.py",
+        "app/services/__init__.py",
+        "scripts/__init__.py",
+        "tests/__init__.py",
+        "tests/integration/__init__.py",
+        "tests/unit/__init__.py"
+      ],
+      "reason": "Required empty Python package markers"
+    },
+    {
+      "sha256": "94e2cd5b10a12fd15e5fdae0741d6c61ed748f1b42139a4e2e38a1bf8163d4a6",
+      "paths": [
+        "docs/ARCHITECTURE.md",
+        "docs/PORTFOLIO_ARCHITECTURE.md"
+      ],
+      "reason": "Intentional matching architecture documents retained from baseline"
+    },
+    {
+      "sha256": "ac62ad8d1d8ae919ab5e3f06f68d0f5a760a50057f8535940747835510f0c43f",
+      "paths": [
+        "reports/stage6/recovery_attempt.json",
+        "reports/stage6/recovery_results.json"
+      ],
+      "reason": "Existing historical evidence duplicated in the baseline; preserved intentionally"
+    },
+    {
+      "sha256": "eed2630b1228da138740c6c4082eaf0d0846ff522a345777b8a71e3df1625244",
+      "paths": [
+        "reports/stage7a/research_preservation.json",
+        "reports/stage7b/research-preservation.json",
+        "reports/stage7b2/research-preservation.json"
+      ],
+      "reason": "Repeated preservation evidence with identical historical snapshots; retained as dated stage records"
+    },
+    {
+      "sha256": "6d4e6560845e888d008a65cd37281908080caed83c14ffced0c08389ae6035c0",
+      "paths": [
+        "reports/stage7b/pip-audit.json",
+        "reports/stage7b2/pip-audit.json"
+      ],
+      "reason": "Repeated preservation evidence with identical historical snapshots; retained as dated stage records"
+    }
+  ],
+  "mit_complete_and_exact": true,
+  "temporary_stage7b_candidate_included": false,
+  "research_preservation": {
+    "original_files": 324,
+    "changed": []
+  }
+}

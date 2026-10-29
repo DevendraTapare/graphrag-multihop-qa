@@ -1,0 +1,103 @@
+[
+  {
+    "name": "cuda-toolkit",
+    "version": "13.0.3.0",
+    "source": "https://files.pythonhosted.org/packages/d1/c7/a79086a62c98befcdb8349656c6f114e2db3b8b2422f6e25c97a7f2a9a3c/cuda_toolkit-13.0.3.0-py2.py3-none-any.whl",
+    "published_wheel_sha256": "d693caaa261214ddd7dbb60d68e71cbed884e68c2be7509778f3051da0b91c3f",
+    "wheel_size": 2512,
+    "license_only_bytes_transferred": 295,
+    "full_wheel_downloaded_or_executed": false,
+    "notices": [],
+    "wheel_metadata_matches_lock": true
+  },
+  {
+    "name": "nvidia-cuda-runtime",
+    "version": "13.0.96",
+    "source": "https://files.pythonhosted.org/packages/2e/24/d1558f3b68b1d26e706813b1d10aa1d785e4698c425af8db8edc3dced472/nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "published_wheel_sha256": "7f82250d7782aa23b6cfe765ecc7db554bd3c2870c43f3d1821f1d18aebf0548",
+    "wheel_size": 2243632,
+    "license_only_bytes_transferred": 22874,
+    "full_wheel_downloaded_or_executed": false,
+    "notices": [
+      {
+        "member": "nvidia_cuda_runtime-13.0.96.dist-info/licenses/License.txt",
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd",
+        "bytes": 59262,
+        "crc_verified_by_zipfile": true
+      }
+    ],
+    "wheel_metadata_matches_lock": true
+  },
+  {
+    "name": "nvidia-cudnn-cu13",
+    "version": "9.24.0.43",
+    "source": "https://files.pythonhosted.org/packages/5c/ba/791cffd048fe5b044e620df55267e3e95c0e6e07d50b41e377c03dfc910f/nvidia_cudnn_cu13-9.24.0.43-py3-none-manylinux_2_27_x86_64.whl",
+    "published_wheel_sha256": "71f181cd810e90f9b6023b01186fe82d13d65f0ec098581ee201d39fad769e4b",
+    "wheel_size": 553099438,
+    "license_only_bytes_transferred": 9642,
+    "full_wheel_downloaded_or_executed": false,
+    "notices": [
+      {
+        "member": "nvidia_cudnn_cu13-9.24.0.43.dist-info/licenses/License.txt",
+        "sha256": "49cf79bdb35734b52fe6203013b3bd759f81e998cd32aa2c65c51db9a88c61d2",
+        "bytes": 18174,
+        "crc_verified_by_zipfile": true
+      }
+    ],
+    "wheel_metadata_matches_lock": true
+  },
+  {
+    "name": "nvidia-nccl-cu13",
+    "version": "2.30.7",
+    "source": "https://files.pythonhosted.org/packages/3f/34/c500f90c7ae641b8e0f98965b36b8a7ac79cc8b296e8d251fe3eb592ee54/nvidia_nccl_cu13-2.30.7-py3-none-manylinux_2_18_x86_64.whl",
+    "published_wheel_sha256": "cefa7fdb9710efd0f39c5f1be1d61ff6fc9a996c451265bd7fbdcf9455ed4b50",
+    "wheel_size": 215965170,
+    "license_only_bytes_transferred": 7314,
+    "full_wheel_downloaded_or_executed": false,
+    "notices": [
+      {
+        "member": "nvidia_nccl_cu13-2.30.7.dist-info/licenses/License.txt",
+        "sha256": "0f0174a6b4e0b33ac26375bf729533075b32f4c51a5b6802a3d742d7dcdc9a76",
+        "bytes": 1895,
+        "crc_verified_by_zipfile": true
+      }
+    ],
+    "wheel_metadata_matches_lock": true
+  },
+  {
+    "name": "nvidia-nvshmem-cu13",
+    "version": "3.4.5",
+    "source": "https://files.pythonhosted.org/packages/3c/35/a9bf80a609e74e3b000fef598933235c908fcefcef9026042b8e6dfde2a9/nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "published_wheel_sha256": "290f0a2ee94c9f3687a02502f3b9299a9f9fe826e6d0287ee18482e78d495b80",
+    "wheel_size": 60412546,
+    "license_only_bytes_transferred": 20588,
+    "full_wheel_downloaded_or_executed": false,
+    "notices": [
+      {
+        "member": "nvidia_nvshmem_cu13-3.4.5.dist-info/licenses/License.txt",
+        "sha256": "ad6f5853fba0ca0d159d0f58d49ae49830c2f8c93f7a92648b9ce90adb4c6ccd",
+        "bytes": 59262,
+        "crc_verified_by_zipfile": true
+      }
+    ],
+    "wheel_metadata_matches_lock": true
+  },
+  {
+    "name": "nvidia-nvtx",
+    "version": "13.0.85",
+    "source": "https://files.pythonhosted.org/packages/c2/f3/d86c845465a2723ad7e1e5c36dcd75ddb82898b3f53be47ebd429fb2fa5d/nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl",
+    "published_wheel_sha256": "4936d1d6780fbe68db454f5e72a42ff64d1fd6397df9f363ae786930fd5c1cd4",
+    "wheel_size": 148047,
+    "license_only_bytes_transferred": 8300,
+    "full_wheel_downloaded_or_executed": false,
+    "notices": [
+      {
+        "member": "nvidia_nvtx-13.0.85.dist-info/licenses/License.txt",
+        "sha256": "9e45e856bedccee9f67254082ca11851d954de2fed7448c4bed19ad9aab99a91",
+        "bytes": 12262,
+        "crc_verified_by_zipfile": true
+      }
+    ],
+    "wheel_metadata_matches_lock": true
+  }
+]

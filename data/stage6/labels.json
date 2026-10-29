@@ -1,0 +1,5252 @@
+{
+  "version": "controlled-challenge-v1",
+  "facts": [
+    {
+      "id": "challenge-fact:0:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:f3da1e4adbaf1400fd682cbd7965a65f6893ebf5",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperAF is managed by Neris QuillAF.",
+      "subject": "Neris QuillAF",
+      "object": "VesperAF"
+    },
+    {
+      "id": "challenge-fact:0:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:77821c550a55544743a5a5d7c2b8bd72ad081085",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillAF is employed by MarinerAF Cooperative.",
+      "subject": "Neris QuillAF",
+      "object": "MarinerAF Cooperative"
+    },
+    {
+      "id": "challenge-fact:0:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:023f38b256560f87dd7221fdd87483b724da9508",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperAF is owned by MarinerAF Cooperative.",
+      "subject": "VesperAF",
+      "object": "MarinerAF Cooperative"
+    },
+    {
+      "id": "challenge-fact:0:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:d844948b1bb34af34fd425f5f33bae8bf689f974",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperAF utilizes its LucentDBAF instance.",
+      "subject": "VesperAF",
+      "object": "LucentDBAF"
+    },
+    {
+      "id": "challenge-fact:0:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:5dba5544cc565d33c82d200de30591b58fbab41b",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBAF instance for Project VesperAF runs on CumulusAF.",
+      "subject": "LucentDBAF",
+      "object": "CumulusAF"
+    },
+    {
+      "id": "challenge-fact:0:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:1ff60e59bad9424e4b7a6e349378f250615d75ea",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyAF uses its ShardDBAF instance.",
+      "subject": "DecoyAF",
+      "object": "ShardDBAF"
+    },
+    {
+      "id": "challenge-fact:1:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:dab000383e4a1af1370ce9afa4d23482eb775d2f",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperBX is managed by Neris QuillBX.",
+      "subject": "Neris QuillBX",
+      "object": "VesperBX"
+    },
+    {
+      "id": "challenge-fact:1:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:65b951f298fc18aa6bc8fd81854f2ff8ac9ba25e",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillBX is employed by MarinerBX Cooperative.",
+      "subject": "Neris QuillBX",
+      "object": "MarinerBX Cooperative"
+    },
+    {
+      "id": "challenge-fact:1:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:acb53d3436b677ca8ed6415eade2091e0ebd5333",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperBX is owned by MarinerBX Cooperative.",
+      "subject": "VesperBX",
+      "object": "MarinerBX Cooperative"
+    },
+    {
+      "id": "challenge-fact:1:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:58396ea4a82e0c8cf7dfbd5f29de7ce272fce8b5",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperBX utilizes its LucentDBBX instance.",
+      "subject": "VesperBX",
+      "object": "LucentDBBX"
+    },
+    {
+      "id": "challenge-fact:1:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:4122115002d2b069f8b551bce118581c8ca0440f",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBBX instance for Project VesperBX runs on CumulusBX.",
+      "subject": "LucentDBBX",
+      "object": "CumulusBX"
+    },
+    {
+      "id": "challenge-fact:1:conflict",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:b4c68f800e9a2f11ee545325030328088152de53",
+      "start": 0,
+      "end": 67,
+      "quote": "The LucentDBBX instance for Project VesperBX is hosted on NimbusBX.",
+      "subject": "LucentDBBX",
+      "object": "NimbusBX"
+    },
+    {
+      "id": "challenge-fact:1:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:bef9bdcfca4f10b5b1505ec9175300697f35af05",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyBX uses its ShardDBBX instance.",
+      "subject": "DecoyBX",
+      "object": "ShardDBBX"
+    },
+    {
+      "id": "challenge-fact:2:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:a461ae39650c5bf9ccbb6837e0e088a137802e3f",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperCH is managed by Neris QuillCH.",
+      "subject": "Neris QuillCH",
+      "object": "VesperCH"
+    },
+    {
+      "id": "challenge-fact:2:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:40a5795d911b334c1c8f61ea9e518e9bf4bb49cf",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillCH is employed by MarinerCH Cooperative.",
+      "subject": "Neris QuillCH",
+      "object": "MarinerCH Cooperative"
+    },
+    {
+      "id": "challenge-fact:2:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:b9e109d5f711a0e604430035e60b313245ec8e3a",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperCH is owned by MarinerCH Cooperative.",
+      "subject": "VesperCH",
+      "object": "MarinerCH Cooperative"
+    },
+    {
+      "id": "challenge-fact:2:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:e48bf6215288bb0cdb1d947d81bc6a0acaffb1a0",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperCH utilizes its LucentDBCH instance.",
+      "subject": "VesperCH",
+      "object": "LucentDBCH"
+    },
+    {
+      "id": "challenge-fact:2:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:e4e018543b06e094f964b753003efc9e270e495c",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBCH instance for Project VesperCH runs on CumulusCH.",
+      "subject": "LucentDBCH",
+      "object": "CumulusCH"
+    },
+    {
+      "id": "challenge-fact:2:branch",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:1acf32fee6c2408b26dd4d6d19ebe449105622c9",
+      "start": 0,
+      "end": 43,
+      "quote": "Neris QuillCH leads Project VesperCH Annex.",
+      "subject": "Neris QuillCH",
+      "object": "VesperCH Annex"
+    },
+    {
+      "id": "challenge-fact:2:branch-usage",
+      "predicate": "USES",
+      "document_id": "autodoc:129121ff725df0638c9f0a3f97a272f4aad797f6",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperCH Annex uses its GlintDBCH instance.",
+      "subject": "VesperCH Annex",
+      "object": "GlintDBCH"
+    },
+    {
+      "id": "challenge-fact:2:branch-host",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:6f436ed75efb62db9e7814f15306d830f3e33f7a",
+      "start": 0,
+      "end": 68,
+      "quote": "The GlintDBCH instance for Project VesperCH Annex runs on CumulusCH.",
+      "subject": "GlintDBCH",
+      "object": "CumulusCH"
+    },
+    {
+      "id": "challenge-fact:2:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:b6e52fa51a832bd7658d07313cfcd7f9f5fcf1fe",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyCH uses its ShardDBCH instance.",
+      "subject": "DecoyCH",
+      "object": "ShardDBCH"
+    },
+    {
+      "id": "challenge-fact:3:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:e51b0abac5de6ff991bfe3f9c9bb4e4824f6379c",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperDJ is managed by Neris QuillDJ.",
+      "subject": "Neris QuillDJ",
+      "object": "VesperDJ"
+    },
+    {
+      "id": "challenge-fact:3:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:cbf52abd3c7b3d4ac7a4f2809487e954574ff93f",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillDJ is employed by MarinerDJ Cooperative.",
+      "subject": "Neris QuillDJ",
+      "object": "MarinerDJ Cooperative"
+    },
+    {
+      "id": "challenge-fact:3:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:2c17097e95bb3e5a7b62f85186e53a139215b0b5",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperDJ is owned by MarinerDJ Cooperative.",
+      "subject": "VesperDJ",
+      "object": "MarinerDJ Cooperative"
+    },
+    {
+      "id": "challenge-fact:3:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:11d637e23eec82259ca15fb4e234717186328038",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperDJ utilizes its LucentDBDJ instance.",
+      "subject": "VesperDJ",
+      "object": "LucentDBDJ"
+    },
+    {
+      "id": "challenge-fact:3:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:26e50be921716e59d571f0a575945268c4700e7a",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyDJ uses its ShardDBDJ instance.",
+      "subject": "DecoyDJ",
+      "object": "ShardDBDJ"
+    },
+    {
+      "id": "challenge-fact:4:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:f72b2a156179fe08fa96837856ec97e7fe083ffb",
+      "start": 0,
+      "end": 61,
+      "quote": "Responsibility for Project VesperEU rests with Neris QuillEU.",
+      "subject": "Neris QuillEU",
+      "object": "VesperEU"
+    },
+    {
+      "id": "challenge-fact:4:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:00ea7031b82ef6801333181a7ab3cce3c691923f",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillEU is employed by MarinerEU Cooperative.",
+      "subject": "Neris QuillEU",
+      "object": "MarinerEU Cooperative"
+    },
+    {
+      "id": "challenge-fact:4:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:17114324a1b8bd081e5efdd5214ae43b9d8ebd29",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperEU is owned by MarinerEU Cooperative.",
+      "subject": "VesperEU",
+      "object": "MarinerEU Cooperative"
+    },
+    {
+      "id": "challenge-fact:4:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:5aad6fad1c0de8ee24629e708252467a254d1961",
+      "start": 0,
+      "end": 49,
+      "quote": "Project VesperEU relies on a LucentDBEU instance.",
+      "subject": "VesperEU",
+      "object": "LucentDBEU"
+    },
+    {
+      "id": "challenge-fact:4:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:8d450f0a9e7a75deb2713c624383c14e68684175",
+      "start": 0,
+      "end": 70,
+      "quote": "CumulusEU provides hosting for Project VesperEU's LucentDBEU instance.",
+      "subject": "LucentDBEU",
+      "object": "CumulusEU"
+    },
+    {
+      "id": "challenge-fact:4:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:e34340aa96ab4933fa2e0161b8c1a99d784f64c9",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyEU uses its ShardDBEU instance.",
+      "subject": "DecoyEU",
+      "object": "ShardDBEU"
+    },
+    {
+      "id": "challenge-fact:5:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:2fb973f30fdea80b07705fce0ea6867d5db22ea9",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperFS is managed by Neris QuillFS.",
+      "subject": "Neris QuillFS",
+      "object": "VesperFS"
+    },
+    {
+      "id": "challenge-fact:5:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:221617c149c3f6c1d9957d7dab34181bfed80380",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillFS is employed by MarinerFS Cooperative.",
+      "subject": "Neris QuillFS",
+      "object": "MarinerFS Cooperative"
+    },
+    {
+      "id": "challenge-fact:5:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:cdd18c952171a81a605a254ccb88952710e70a15",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperFS is owned by MarinerFS Cooperative.",
+      "subject": "VesperFS",
+      "object": "MarinerFS Cooperative"
+    },
+    {
+      "id": "challenge-fact:5:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:ffe1e40e8f1c9a997b28f23cb522ecb25f81a285",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperFS utilizes its LucentDBFS instance.",
+      "subject": "VesperFS",
+      "object": "LucentDBFS"
+    },
+    {
+      "id": "challenge-fact:5:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:578eac0f12b916c291446bdeec814cc60aa2d12b",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBFS instance for Project VesperFS runs on CumulusFS.",
+      "subject": "LucentDBFS",
+      "object": "CumulusFS"
+    },
+    {
+      "id": "challenge-fact:5:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:73f7e2b5ebf5bc18d205f392bc76dacea0950613",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyFS uses its ShardDBFS instance.",
+      "subject": "DecoyFS",
+      "object": "ShardDBFS"
+    },
+    {
+      "id": "challenge-fact:6:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:34c26bb6e14c63fb5b83248e6a4627c2abee9380",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperGD is managed by Neris QuillGD.",
+      "subject": "Neris QuillGD",
+      "object": "VesperGD"
+    },
+    {
+      "id": "challenge-fact:6:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:25c2684411f0e04aad0857445ba1469bb0304c31",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillGD is employed by MarinerGD Cooperative.",
+      "subject": "Neris QuillGD",
+      "object": "MarinerGD Cooperative"
+    },
+    {
+      "id": "challenge-fact:6:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:ef40dcb8c0e8a7c272235edb9997220a7cbd5f1a",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperGD is owned by MarinerGD Cooperative.",
+      "subject": "VesperGD",
+      "object": "MarinerGD Cooperative"
+    },
+    {
+      "id": "challenge-fact:6:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:8d4a92521dd13109fd475b549c410eb224a43d46",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperGD utilizes its LucentDBGD instance.",
+      "subject": "VesperGD",
+      "object": "LucentDBGD"
+    },
+    {
+      "id": "challenge-fact:6:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:14d36bb821fec6e0d268ab4b2755b3737256a98d",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBGD instance for Project VesperGD runs on CumulusGD.",
+      "subject": "LucentDBGD",
+      "object": "CumulusGD"
+    },
+    {
+      "id": "challenge-fact:6:conflict",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:8afdec7481c9bb4eca0c9c488c9bf513abc9c352",
+      "start": 0,
+      "end": 67,
+      "quote": "The LucentDBGD instance for Project VesperGD is hosted on NimbusGD.",
+      "subject": "LucentDBGD",
+      "object": "NimbusGD"
+    },
+    {
+      "id": "challenge-fact:6:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:32539fa0722fe7351dc7b9aa1c0cb2dcfb0f6c1c",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyGD uses its ShardDBGD instance.",
+      "subject": "DecoyGD",
+      "object": "ShardDBGD"
+    },
+    {
+      "id": "challenge-fact:7:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:2c133cb3608b05d9b263e420aef8fb5be68b5ed8",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperHR is managed by Neris QuillHR.",
+      "subject": "Neris QuillHR",
+      "object": "VesperHR"
+    },
+    {
+      "id": "challenge-fact:7:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:0fbf83ba74b5f0e709729c1e448c295eb0cb5c1b",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillHR is employed by MarinerHR Cooperative.",
+      "subject": "Neris QuillHR",
+      "object": "MarinerHR Cooperative"
+    },
+    {
+      "id": "challenge-fact:7:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:62ca840a0176187b82ef55693aa785e72a0ccf10",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperHR is owned by MarinerHR Cooperative.",
+      "subject": "VesperHR",
+      "object": "MarinerHR Cooperative"
+    },
+    {
+      "id": "challenge-fact:7:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:f3b2e0ada8859d32ecadef48b5dd2b5c46f216f4",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperHR utilizes its LucentDBHR instance.",
+      "subject": "VesperHR",
+      "object": "LucentDBHR"
+    },
+    {
+      "id": "challenge-fact:7:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:dfaaf9c3b19af6bc250ec3286f0f58271e052dc3",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBHR instance for Project VesperHR runs on CumulusHR.",
+      "subject": "LucentDBHR",
+      "object": "CumulusHR"
+    },
+    {
+      "id": "challenge-fact:7:branch",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:4d88395f66f8acd5fbf199f85280750528a20085",
+      "start": 0,
+      "end": 43,
+      "quote": "Neris QuillHR leads Project VesperHR Annex.",
+      "subject": "Neris QuillHR",
+      "object": "VesperHR Annex"
+    },
+    {
+      "id": "challenge-fact:7:branch-usage",
+      "predicate": "USES",
+      "document_id": "autodoc:9850acb41f818e08e854a430ad85e0f39234f271",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperHR Annex uses its GlintDBHR instance.",
+      "subject": "VesperHR Annex",
+      "object": "GlintDBHR"
+    },
+    {
+      "id": "challenge-fact:7:branch-host",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:cde6de7e509edffd9444f1ee34e0298f55f163cb",
+      "start": 0,
+      "end": 68,
+      "quote": "The GlintDBHR instance for Project VesperHR Annex runs on CumulusHR.",
+      "subject": "GlintDBHR",
+      "object": "CumulusHR"
+    },
+    {
+      "id": "challenge-fact:7:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:115650f1ac4915360d547298cc4127fc3a10f75a",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyHR uses its ShardDBHR instance.",
+      "subject": "DecoyHR",
+      "object": "ShardDBHR"
+    },
+    {
+      "id": "challenge-fact:8:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:5f516838b0b2c8b178b94c2c26101da655802eb3",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperIX is managed by Neris QuillIX.",
+      "subject": "Neris QuillIX",
+      "object": "VesperIX"
+    },
+    {
+      "id": "challenge-fact:8:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:ccd538b7a0e9b271aa301a45bc0d0cd14b031013",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillIX is employed by MarinerIX Cooperative.",
+      "subject": "Neris QuillIX",
+      "object": "MarinerIX Cooperative"
+    },
+    {
+      "id": "challenge-fact:8:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:acf832d7f73fa37f20833d5386344ac6f83d9d6b",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperIX is owned by MarinerIX Cooperative.",
+      "subject": "VesperIX",
+      "object": "MarinerIX Cooperative"
+    },
+    {
+      "id": "challenge-fact:8:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:71543cfa6bedf89a333c918f2b0095dbc1b0ab4c",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperIX utilizes its LucentDBIX instance.",
+      "subject": "VesperIX",
+      "object": "LucentDBIX"
+    },
+    {
+      "id": "challenge-fact:8:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:6558ee93493ab685c15760c28564e79dd4d2de56",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyIX uses its ShardDBIX instance.",
+      "subject": "DecoyIX",
+      "object": "ShardDBIX"
+    },
+    {
+      "id": "challenge-fact:9:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:3f5c59107b24fee8d5938d793fb06f42e8a2b84f",
+      "start": 0,
+      "end": 61,
+      "quote": "Responsibility for Project VesperJP rests with Neris QuillJP.",
+      "subject": "Neris QuillJP",
+      "object": "VesperJP"
+    },
+    {
+      "id": "challenge-fact:9:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:d078fc98cb8886925d3c3418c30ae1d999538a8f",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillJP is employed by MarinerJP Cooperative.",
+      "subject": "Neris QuillJP",
+      "object": "MarinerJP Cooperative"
+    },
+    {
+      "id": "challenge-fact:9:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:c287c3f45fb9d28a8e5741d5e89c65a932f9926e",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperJP is owned by MarinerJP Cooperative.",
+      "subject": "VesperJP",
+      "object": "MarinerJP Cooperative"
+    },
+    {
+      "id": "challenge-fact:9:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:d5739c18608e763b7db9764a7ee9bf358dd14c20",
+      "start": 0,
+      "end": 49,
+      "quote": "Project VesperJP relies on a LucentDBJP instance.",
+      "subject": "VesperJP",
+      "object": "LucentDBJP"
+    },
+    {
+      "id": "challenge-fact:9:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:f96b21b2b13f301f285cd563998c64f77acd8706",
+      "start": 0,
+      "end": 70,
+      "quote": "CumulusJP provides hosting for Project VesperJP's LucentDBJP instance.",
+      "subject": "LucentDBJP",
+      "object": "CumulusJP"
+    },
+    {
+      "id": "challenge-fact:9:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:139e33f4f796f6f870891406050fd36fca53847b",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyJP uses its ShardDBJP instance.",
+      "subject": "DecoyJP",
+      "object": "ShardDBJP"
+    },
+    {
+      "id": "challenge-fact:10:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:b8ef89fd7c110d27b0c8e10936738675f55462b9",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperKL is managed by Neris QuillKL.",
+      "subject": "Neris QuillKL",
+      "object": "VesperKL"
+    },
+    {
+      "id": "challenge-fact:10:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:c5ce3d054c18e18bcf4b342792fc88527e23e9a5",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillKL is employed by MarinerKL Cooperative.",
+      "subject": "Neris QuillKL",
+      "object": "MarinerKL Cooperative"
+    },
+    {
+      "id": "challenge-fact:10:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:d4565bb4a1dae9c86807b5014a8e4584870256c6",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperKL is owned by MarinerKL Cooperative.",
+      "subject": "VesperKL",
+      "object": "MarinerKL Cooperative"
+    },
+    {
+      "id": "challenge-fact:10:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:b3f9a27e083731e47396c223ff5f2fe5e20ebcf6",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperKL utilizes its LucentDBKL instance.",
+      "subject": "VesperKL",
+      "object": "LucentDBKL"
+    },
+    {
+      "id": "challenge-fact:10:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:b4cfb8784253aabd4ae6650f5a265bdafa36ca50",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBKL instance for Project VesperKL runs on CumulusKL.",
+      "subject": "LucentDBKL",
+      "object": "CumulusKL"
+    },
+    {
+      "id": "challenge-fact:10:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:1066d32ec581b4e9a89d65fe8675ffd78cd2e219",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyKL uses its ShardDBKL instance.",
+      "subject": "DecoyKL",
+      "object": "ShardDBKL"
+    },
+    {
+      "id": "challenge-fact:11:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:7a10cff29bb3226a58de799372f4fec1b9440475",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperLF is managed by Neris QuillLF.",
+      "subject": "Neris QuillLF",
+      "object": "VesperLF"
+    },
+    {
+      "id": "challenge-fact:11:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:988f9694e6736dfe8e77c930ee0402e062642361",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillLF is employed by MarinerLF Cooperative.",
+      "subject": "Neris QuillLF",
+      "object": "MarinerLF Cooperative"
+    },
+    {
+      "id": "challenge-fact:11:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:5c54e239638cd6a4140713fd25ebc5d25897b698",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperLF is owned by MarinerLF Cooperative.",
+      "subject": "VesperLF",
+      "object": "MarinerLF Cooperative"
+    },
+    {
+      "id": "challenge-fact:11:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:f07a8f0ffe5619d0d4076c54e6fb3a179151774a",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperLF utilizes its LucentDBLF instance.",
+      "subject": "VesperLF",
+      "object": "LucentDBLF"
+    },
+    {
+      "id": "challenge-fact:11:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:9a3f4397cb42e5a9d36dc6873fa7ff3c84e79f39",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBLF instance for Project VesperLF runs on CumulusLF.",
+      "subject": "LucentDBLF",
+      "object": "CumulusLF"
+    },
+    {
+      "id": "challenge-fact:11:conflict",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:c707c5199bb8c591fa818c77b0437690bc994fbe",
+      "start": 0,
+      "end": 67,
+      "quote": "The LucentDBLF instance for Project VesperLF is hosted on NimbusLF.",
+      "subject": "LucentDBLF",
+      "object": "NimbusLF"
+    },
+    {
+      "id": "challenge-fact:11:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:bc3bdd4d0beeef40ece914321e131cb183701a20",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyLF uses its ShardDBLF instance.",
+      "subject": "DecoyLF",
+      "object": "ShardDBLF"
+    },
+    {
+      "id": "challenge-fact:12:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:7923b87aaac28d333a6418d0c52c68414cf21105",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperMZ is managed by Neris QuillMZ.",
+      "subject": "Neris QuillMZ",
+      "object": "VesperMZ"
+    },
+    {
+      "id": "challenge-fact:12:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:e1b2d6bbb33f1f7c65e9c1a644faff2883ed967a",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillMZ is employed by MarinerMZ Cooperative.",
+      "subject": "Neris QuillMZ",
+      "object": "MarinerMZ Cooperative"
+    },
+    {
+      "id": "challenge-fact:12:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:ef20b83cc0283e2b874e5c68064c1ea3407eef6a",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperMZ is owned by MarinerMZ Cooperative.",
+      "subject": "VesperMZ",
+      "object": "MarinerMZ Cooperative"
+    },
+    {
+      "id": "challenge-fact:12:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:b453c4a2300661610041a9a9325fc703c82cf736",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperMZ utilizes its LucentDBMZ instance.",
+      "subject": "VesperMZ",
+      "object": "LucentDBMZ"
+    },
+    {
+      "id": "challenge-fact:12:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:e09c30bc7a7786bfb25c4e69109ac82309a009b4",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBMZ instance for Project VesperMZ runs on CumulusMZ.",
+      "subject": "LucentDBMZ",
+      "object": "CumulusMZ"
+    },
+    {
+      "id": "challenge-fact:12:branch",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:5ba63c7f63e0c659b3385a92df5eab1b0521794b",
+      "start": 0,
+      "end": 43,
+      "quote": "Neris QuillMZ leads Project VesperMZ Annex.",
+      "subject": "Neris QuillMZ",
+      "object": "VesperMZ Annex"
+    },
+    {
+      "id": "challenge-fact:12:branch-usage",
+      "predicate": "USES",
+      "document_id": "autodoc:5a2eb8a8bbac007bc1bb186313b160abba3c3223",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperMZ Annex uses its GlintDBMZ instance.",
+      "subject": "VesperMZ Annex",
+      "object": "GlintDBMZ"
+    },
+    {
+      "id": "challenge-fact:12:branch-host",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:fd3c553b2ac821aad0250d131ef34b14f9296bad",
+      "start": 0,
+      "end": 68,
+      "quote": "The GlintDBMZ instance for Project VesperMZ Annex runs on CumulusMZ.",
+      "subject": "GlintDBMZ",
+      "object": "CumulusMZ"
+    },
+    {
+      "id": "challenge-fact:12:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:43be63e33ef12e4eea8f4b02ef91a99b4f1cac27",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyMZ uses its ShardDBMZ instance.",
+      "subject": "DecoyMZ",
+      "object": "ShardDBMZ"
+    },
+    {
+      "id": "challenge-fact:13:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:59a01788fc74ae63b343ef9586ef7a6d94bf444f",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperNC is managed by Neris QuillNC.",
+      "subject": "Neris QuillNC",
+      "object": "VesperNC"
+    },
+    {
+      "id": "challenge-fact:13:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:350341c89ae9e7b68e683b534bca4739efdf592b",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillNC is employed by MarinerNC Cooperative.",
+      "subject": "Neris QuillNC",
+      "object": "MarinerNC Cooperative"
+    },
+    {
+      "id": "challenge-fact:13:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:80c977ad186e07c8b3a5e986a480ea8ef31e4bc8",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperNC is owned by MarinerNC Cooperative.",
+      "subject": "VesperNC",
+      "object": "MarinerNC Cooperative"
+    },
+    {
+      "id": "challenge-fact:13:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:763855076ed521289190d5d99e42df2eebf7c515",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperNC utilizes its LucentDBNC instance.",
+      "subject": "VesperNC",
+      "object": "LucentDBNC"
+    },
+    {
+      "id": "challenge-fact:13:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:b2eec9bf9c233ac307dcc08e6272fe2669b03df7",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyNC uses its ShardDBNC instance.",
+      "subject": "DecoyNC",
+      "object": "ShardDBNC"
+    },
+    {
+      "id": "challenge-fact:14:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:d881f08a629f79a6ce952703579f72b036005b42",
+      "start": 0,
+      "end": 61,
+      "quote": "Responsibility for Project VesperOR rests with Neris QuillOR.",
+      "subject": "Neris QuillOR",
+      "object": "VesperOR"
+    },
+    {
+      "id": "challenge-fact:14:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:f60db0abfeb1f5b324dadf69fa1f3f4caeb75133",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillOR is employed by MarinerOR Cooperative.",
+      "subject": "Neris QuillOR",
+      "object": "MarinerOR Cooperative"
+    },
+    {
+      "id": "challenge-fact:14:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:12a03bb31ffa5ed6cf692d9c56e26ac119a8ef10",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperOR is owned by MarinerOR Cooperative.",
+      "subject": "VesperOR",
+      "object": "MarinerOR Cooperative"
+    },
+    {
+      "id": "challenge-fact:14:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:5e1ed851df723c3e3c1dc2f39ef11dc11d4bbab4",
+      "start": 0,
+      "end": 49,
+      "quote": "Project VesperOR relies on a LucentDBOR instance.",
+      "subject": "VesperOR",
+      "object": "LucentDBOR"
+    },
+    {
+      "id": "challenge-fact:14:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:846c0f71eaa23445605556a730e86c8682ae2d74",
+      "start": 0,
+      "end": 70,
+      "quote": "CumulusOR provides hosting for Project VesperOR's LucentDBOR instance.",
+      "subject": "LucentDBOR",
+      "object": "CumulusOR"
+    },
+    {
+      "id": "challenge-fact:14:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:46ab5baf00815016aee045460d3f41c71c7ba2cf",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyOR uses its ShardDBOR instance.",
+      "subject": "DecoyOR",
+      "object": "ShardDBOR"
+    },
+    {
+      "id": "challenge-fact:15:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:eae148832b28331c9ddeaeead22bfb11c2b8d7d6",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperPM is managed by Neris QuillPM.",
+      "subject": "Neris QuillPM",
+      "object": "VesperPM"
+    },
+    {
+      "id": "challenge-fact:15:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:ce1510881d947e8e6939c24dc170c0d0b5c6c800",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillPM is employed by MarinerPM Cooperative.",
+      "subject": "Neris QuillPM",
+      "object": "MarinerPM Cooperative"
+    },
+    {
+      "id": "challenge-fact:15:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:ea8918c1d30e6799464a0bba47afb8e43284323f",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperPM is owned by MarinerPM Cooperative.",
+      "subject": "VesperPM",
+      "object": "MarinerPM Cooperative"
+    },
+    {
+      "id": "challenge-fact:15:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:f26003f07d5154185c9765813a5f1fa6ae2f0cb1",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperPM utilizes its LucentDBPM instance.",
+      "subject": "VesperPM",
+      "object": "LucentDBPM"
+    },
+    {
+      "id": "challenge-fact:15:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:e0c57cd1727bb5b7be07db3835e000fcf4b95e9a",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBPM instance for Project VesperPM runs on CumulusPM.",
+      "subject": "LucentDBPM",
+      "object": "CumulusPM"
+    },
+    {
+      "id": "challenge-fact:15:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:4b1c292fecd2e456f8fd583b5bbb41b205fa17bb",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyPM uses its ShardDBPM instance.",
+      "subject": "DecoyPM",
+      "object": "ShardDBPM"
+    },
+    {
+      "id": "challenge-fact:16:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:4757e2ef1407a083114029b4f30302c42d959b66",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperQA is managed by Neris QuillQA.",
+      "subject": "Neris QuillQA",
+      "object": "VesperQA"
+    },
+    {
+      "id": "challenge-fact:16:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:f3159fe6f31c740e7d01b5f3f8fe8d856a9a70f3",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillQA is employed by MarinerQA Cooperative.",
+      "subject": "Neris QuillQA",
+      "object": "MarinerQA Cooperative"
+    },
+    {
+      "id": "challenge-fact:16:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:d91ba75b837492d15ae7143c686896e789dec19d",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperQA is owned by MarinerQA Cooperative.",
+      "subject": "VesperQA",
+      "object": "MarinerQA Cooperative"
+    },
+    {
+      "id": "challenge-fact:16:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:73a425616d4279c21823b091c9d431c43e235ad4",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperQA utilizes its LucentDBQA instance.",
+      "subject": "VesperQA",
+      "object": "LucentDBQA"
+    },
+    {
+      "id": "challenge-fact:16:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:e034f53b04d786eb1fb2d400619dfc3226787f75",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBQA instance for Project VesperQA runs on CumulusQA.",
+      "subject": "LucentDBQA",
+      "object": "CumulusQA"
+    },
+    {
+      "id": "challenge-fact:16:conflict",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:4686695a2b0635065f9fed606839e2bd2f77f8c8",
+      "start": 0,
+      "end": 67,
+      "quote": "The LucentDBQA instance for Project VesperQA is hosted on NimbusQA.",
+      "subject": "LucentDBQA",
+      "object": "NimbusQA"
+    },
+    {
+      "id": "challenge-fact:16:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:7c8a07ee2eefbaca0c57837da3f7cdd7b7eeb48a",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyQA uses its ShardDBQA instance.",
+      "subject": "DecoyQA",
+      "object": "ShardDBQA"
+    },
+    {
+      "id": "challenge-fact:17:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:31b53dcaa63d6a031324812bed3cfce3d43cc75c",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperRU is managed by Neris QuillRU.",
+      "subject": "Neris QuillRU",
+      "object": "VesperRU"
+    },
+    {
+      "id": "challenge-fact:17:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:b59a699a935697872382d1b51adaea1ae0bec611",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillRU is employed by MarinerRU Cooperative.",
+      "subject": "Neris QuillRU",
+      "object": "MarinerRU Cooperative"
+    },
+    {
+      "id": "challenge-fact:17:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:b81133d5edf8b96e36ecfd2706d5d67198fd4b9f",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperRU is owned by MarinerRU Cooperative.",
+      "subject": "VesperRU",
+      "object": "MarinerRU Cooperative"
+    },
+    {
+      "id": "challenge-fact:17:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:0e4f99df552e366087854b141287f1df72575165",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperRU utilizes its LucentDBRU instance.",
+      "subject": "VesperRU",
+      "object": "LucentDBRU"
+    },
+    {
+      "id": "challenge-fact:17:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:4211817a94ec89ffedd369ae23e7597e44a0ea60",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBRU instance for Project VesperRU runs on CumulusRU.",
+      "subject": "LucentDBRU",
+      "object": "CumulusRU"
+    },
+    {
+      "id": "challenge-fact:17:branch",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:fe4d7d14d71f0a3df42a9680463d86ec45690331",
+      "start": 0,
+      "end": 43,
+      "quote": "Neris QuillRU leads Project VesperRU Annex.",
+      "subject": "Neris QuillRU",
+      "object": "VesperRU Annex"
+    },
+    {
+      "id": "challenge-fact:17:branch-usage",
+      "predicate": "USES",
+      "document_id": "autodoc:6258824468979f2f40af71f58782c68773b3ee3d",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperRU Annex uses its GlintDBRU instance.",
+      "subject": "VesperRU Annex",
+      "object": "GlintDBRU"
+    },
+    {
+      "id": "challenge-fact:17:branch-host",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:59771aef6ba45f632864d712514b4a1ac2cb7a56",
+      "start": 0,
+      "end": 68,
+      "quote": "The GlintDBRU instance for Project VesperRU Annex runs on CumulusRU.",
+      "subject": "GlintDBRU",
+      "object": "CumulusRU"
+    },
+    {
+      "id": "challenge-fact:17:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:af87a70efb7d31b720c18cc1a58235a7907874c7",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyRU uses its ShardDBRU instance.",
+      "subject": "DecoyRU",
+      "object": "ShardDBRU"
+    },
+    {
+      "id": "challenge-fact:18:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:fc3bf7d0e1389acfeaee43502d8124caf761c823",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperSP is managed by Neris QuillSP.",
+      "subject": "Neris QuillSP",
+      "object": "VesperSP"
+    },
+    {
+      "id": "challenge-fact:18:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:fbc89d420693bbeff6e821a9322d5b0f2531572a",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillSP is employed by MarinerSP Cooperative.",
+      "subject": "Neris QuillSP",
+      "object": "MarinerSP Cooperative"
+    },
+    {
+      "id": "challenge-fact:18:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:e5e868b188418420d977e7a2f2ff95bca9c824c8",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperSP is owned by MarinerSP Cooperative.",
+      "subject": "VesperSP",
+      "object": "MarinerSP Cooperative"
+    },
+    {
+      "id": "challenge-fact:18:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:c6617b4d7721d19521d6540d9059c2232b3a07a3",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperSP utilizes its LucentDBSP instance.",
+      "subject": "VesperSP",
+      "object": "LucentDBSP"
+    },
+    {
+      "id": "challenge-fact:18:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:633eb1cf584c8af5e9157b908416b668b13f6a34",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoySP uses its ShardDBSP instance.",
+      "subject": "DecoySP",
+      "object": "ShardDBSP"
+    },
+    {
+      "id": "challenge-fact:19:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:02da4657e4a02b4dd6fbc0417b3e60be88c790a5",
+      "start": 0,
+      "end": 61,
+      "quote": "Responsibility for Project VesperTB rests with Neris QuillTB.",
+      "subject": "Neris QuillTB",
+      "object": "VesperTB"
+    },
+    {
+      "id": "challenge-fact:19:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:814e5999f218cbe12bcc211e637f0870dacaced8",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillTB is employed by MarinerTB Cooperative.",
+      "subject": "Neris QuillTB",
+      "object": "MarinerTB Cooperative"
+    },
+    {
+      "id": "challenge-fact:19:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:050dfb925215a46abecc5fc6268b5f78c0802495",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperTB is owned by MarinerTB Cooperative.",
+      "subject": "VesperTB",
+      "object": "MarinerTB Cooperative"
+    },
+    {
+      "id": "challenge-fact:19:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:452fbcb3f737a7a61035c3294cb743f30bb85bc1",
+      "start": 0,
+      "end": 49,
+      "quote": "Project VesperTB relies on a LucentDBTB instance.",
+      "subject": "VesperTB",
+      "object": "LucentDBTB"
+    },
+    {
+      "id": "challenge-fact:19:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:ef09296a0844321bdc29df6bf2cf8cac4e383f42",
+      "start": 0,
+      "end": 70,
+      "quote": "CumulusTB provides hosting for Project VesperTB's LucentDBTB instance.",
+      "subject": "LucentDBTB",
+      "object": "CumulusTB"
+    },
+    {
+      "id": "challenge-fact:19:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:73c997d379869312b14843f8e4ed13f922be3e42",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyTB uses its ShardDBTB instance.",
+      "subject": "DecoyTB",
+      "object": "ShardDBTB"
+    },
+    {
+      "id": "challenge-fact:20:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:942f7cbfe245510305857993d2b9be9611563519",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperUA is managed by Neris QuillUA.",
+      "subject": "Neris QuillUA",
+      "object": "VesperUA"
+    },
+    {
+      "id": "challenge-fact:20:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:5f1aecc6d80ceb99971e0e8195cfdac616de220f",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillUA is employed by MarinerUA Cooperative.",
+      "subject": "Neris QuillUA",
+      "object": "MarinerUA Cooperative"
+    },
+    {
+      "id": "challenge-fact:20:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:1a3057e665ced03351baaf65372213af2004e0d8",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperUA is owned by MarinerUA Cooperative.",
+      "subject": "VesperUA",
+      "object": "MarinerUA Cooperative"
+    },
+    {
+      "id": "challenge-fact:20:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:c54171e9b059e7f4619690b33766347e3c505679",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperUA utilizes its LucentDBUA instance.",
+      "subject": "VesperUA",
+      "object": "LucentDBUA"
+    },
+    {
+      "id": "challenge-fact:20:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:18fc662bd1b311b3977b820f70169a3842819fdd",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBUA instance for Project VesperUA runs on CumulusUA.",
+      "subject": "LucentDBUA",
+      "object": "CumulusUA"
+    },
+    {
+      "id": "challenge-fact:20:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:a7aa9bd34481476afc35319d435c39effef3cb67",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyUA uses its ShardDBUA instance.",
+      "subject": "DecoyUA",
+      "object": "ShardDBUA"
+    },
+    {
+      "id": "challenge-fact:21:management",
+      "predicate": "MANAGES",
+      "document_id": "autodoc:7ce419ea2efdaf97b8d53a373ab07f45b6786556",
+      "start": 0,
+      "end": 45,
+      "quote": "Project VesperVF is managed by Neris QuillVF.",
+      "subject": "Neris QuillVF",
+      "object": "VesperVF"
+    },
+    {
+      "id": "challenge-fact:21:employment",
+      "predicate": "WORKS_FOR",
+      "document_id": "autodoc:955df15d1b4a47dc2d1657ee201fd01ad027ed28",
+      "start": 0,
+      "end": 51,
+      "quote": "Neris QuillVF is employed by MarinerVF Cooperative.",
+      "subject": "Neris QuillVF",
+      "object": "MarinerVF Cooperative"
+    },
+    {
+      "id": "challenge-fact:21:ownership",
+      "predicate": "BELONGS_TO",
+      "document_id": "autodoc:02c441fa04cedf0549dd36d3fde82e2bc46ed912",
+      "start": 0,
+      "end": 51,
+      "quote": "Project VesperVF is owned by MarinerVF Cooperative.",
+      "subject": "VesperVF",
+      "object": "MarinerVF Cooperative"
+    },
+    {
+      "id": "challenge-fact:21:usage",
+      "predicate": "USES",
+      "document_id": "autodoc:4bd08fc942eec0d67ad3bcedba2c9e78575ce750",
+      "start": 0,
+      "end": 50,
+      "quote": "Project VesperVF utilizes its LucentDBVF instance.",
+      "subject": "VesperVF",
+      "object": "LucentDBVF"
+    },
+    {
+      "id": "challenge-fact:21:hosting",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:7b86e033173b197d963d9ede1ec8257c72832ab9",
+      "start": 0,
+      "end": 63,
+      "quote": "The LucentDBVF instance for Project VesperVF runs on CumulusVF.",
+      "subject": "LucentDBVF",
+      "object": "CumulusVF"
+    },
+    {
+      "id": "challenge-fact:21:conflict",
+      "predicate": "HOSTED_ON",
+      "document_id": "autodoc:52b83f18ad5ccaa0e2c48f44d8ba00dfa980b68e",
+      "start": 0,
+      "end": 67,
+      "quote": "The LucentDBVF instance for Project VesperVF is hosted on NimbusVF.",
+      "subject": "LucentDBVF",
+      "object": "NimbusVF"
+    },
+    {
+      "id": "challenge-fact:21:decoy",
+      "predicate": "USES",
+      "document_id": "autodoc:65ab61c4df6e59c7cf2e014236a060b6d9a6feea",
+      "start": 47,
+      "end": 91,
+      "quote": "Project DecoyVF uses its ShardDBVF instance.",
+      "subject": "DecoyVF",
+      "object": "ShardDBVF"
+    }
+  ],
+  "questions": [
+    {
+      "id": "s6-00-0",
+      "question": "Which projects are led by Neris QuillAF?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperAF",
+      "supporting_fact_ids": [
+        "challenge-fact:0:management"
+      ],
+      "required_document_ids": [
+        "autodoc:f3da1e4adbaf1400fd682cbd7965a65f6893ebf5"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillAF"
+    },
+    {
+      "id": "s6-00-1",
+      "question": "Which organizations employ Neris QuillAF?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerAF Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:0:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:77821c550a55544743a5a5d7c2b8bd72ad081085"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillAF"
+    },
+    {
+      "id": "s6-00-2",
+      "question": "What technologies does Project VesperAF utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBAF",
+      "supporting_fact_ids": [
+        "challenge-fact:0:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:d844948b1bb34af34fd425f5f33bae8bf689f974"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-00-3",
+      "question": "What technologies does the project led by Neris QuillAF use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBAF",
+      "supporting_fact_ids": [
+        "challenge-fact:0:management",
+        "challenge-fact:0:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:d844948b1bb34af34fd425f5f33bae8bf689f974",
+        "autodoc:f3da1e4adbaf1400fd682cbd7965a65f6893ebf5"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillAF"
+    },
+    {
+      "id": "s6-00-4",
+      "question": "Who owns the projects under Neris QuillAF's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerAF Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:0:management",
+        "challenge-fact:0:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:023f38b256560f87dd7221fdd87483b724da9508",
+        "autodoc:f3da1e4adbaf1400fd682cbd7965a65f6893ebf5"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillAF"
+    },
+    {
+      "id": "s6-00-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillAF?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusAF",
+      "supporting_fact_ids": [
+        "challenge-fact:0:management",
+        "challenge-fact:0:usage",
+        "challenge-fact:0:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:5dba5544cc565d33c82d200de30591b58fbab41b",
+        "autodoc:d844948b1bb34af34fd425f5f33bae8bf689f974",
+        "autodoc:f3da1e4adbaf1400fd682cbd7965a65f6893ebf5"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillAF"
+    },
+    {
+      "id": "s6-00-6",
+      "question": "Which organizations employ Elian WrenAF?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-00-7",
+      "question": "Which organizations employ Oriel AbsentAF?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-00-8",
+      "question": "What technologies does Project DecoyAF utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBAF",
+      "supporting_fact_ids": [
+        "challenge-fact:0:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:1ff60e59bad9424e4b7a6e349378f250615d75ea"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-01-0",
+      "question": "Which projects are led by Neris QuillBX?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperBX",
+      "supporting_fact_ids": [
+        "challenge-fact:1:management"
+      ],
+      "required_document_ids": [
+        "autodoc:dab000383e4a1af1370ce9afa4d23482eb775d2f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillBX"
+    },
+    {
+      "id": "s6-01-1",
+      "question": "Which organizations employ Neris QuillBX?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerBX Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:1:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:65b951f298fc18aa6bc8fd81854f2ff8ac9ba25e"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillBX"
+    },
+    {
+      "id": "s6-01-2",
+      "question": "What technologies does Project VesperBX utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBBX",
+      "supporting_fact_ids": [
+        "challenge-fact:1:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:58396ea4a82e0c8cf7dfbd5f29de7ce272fce8b5"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-01-3",
+      "question": "What technologies does the project led by Neris QuillBX use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBBX",
+      "supporting_fact_ids": [
+        "challenge-fact:1:management",
+        "challenge-fact:1:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:58396ea4a82e0c8cf7dfbd5f29de7ce272fce8b5",
+        "autodoc:dab000383e4a1af1370ce9afa4d23482eb775d2f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillBX"
+    },
+    {
+      "id": "s6-01-4",
+      "question": "Who owns the projects under Neris QuillBX's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerBX Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:1:management",
+        "challenge-fact:1:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:acb53d3436b677ca8ed6415eade2091e0ebd5333",
+        "autodoc:dab000383e4a1af1370ce9afa4d23482eb775d2f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillBX"
+    },
+    {
+      "id": "s6-01-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillBX?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "conflicting"
+      ],
+      "start_surface": "Neris QuillBX"
+    },
+    {
+      "id": "s6-01-6",
+      "question": "Which organizations employ Elian WrenBX?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-01-7",
+      "question": "Which organizations employ Oriel AbsentBX?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-01-8",
+      "question": "What technologies does Project DecoyBX utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBBX",
+      "supporting_fact_ids": [
+        "challenge-fact:1:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:bef9bdcfca4f10b5b1505ec9175300697f35af05"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-02-0",
+      "question": "Which projects are led by Neris QuillCH?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperCH; VesperCH Annex",
+      "supporting_fact_ids": [
+        "challenge-fact:2:management",
+        "challenge-fact:2:branch"
+      ],
+      "required_document_ids": [
+        "autodoc:1acf32fee6c2408b26dd4d6d19ebe449105622c9",
+        "autodoc:a461ae39650c5bf9ccbb6837e0e088a137802e3f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillCH"
+    },
+    {
+      "id": "s6-02-1",
+      "question": "Which organizations employ Neris QuillCH?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerCH Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:2:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:40a5795d911b334c1c8f61ea9e518e9bf4bb49cf"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillCH"
+    },
+    {
+      "id": "s6-02-2",
+      "question": "What technologies does Project VesperCH utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBCH",
+      "supporting_fact_ids": [
+        "challenge-fact:2:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:e48bf6215288bb0cdb1d947d81bc6a0acaffb1a0"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-02-3",
+      "question": "What technologies does the project led by Neris QuillCH use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "GlintDBCH; LucentDBCH",
+      "supporting_fact_ids": [
+        "challenge-fact:2:management",
+        "challenge-fact:2:usage",
+        "challenge-fact:2:branch",
+        "challenge-fact:2:branch-usage"
+      ],
+      "required_document_ids": [
+        "autodoc:129121ff725df0638c9f0a3f97a272f4aad797f6",
+        "autodoc:1acf32fee6c2408b26dd4d6d19ebe449105622c9",
+        "autodoc:a461ae39650c5bf9ccbb6837e0e088a137802e3f",
+        "autodoc:e48bf6215288bb0cdb1d947d81bc6a0acaffb1a0"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillCH"
+    },
+    {
+      "id": "s6-02-4",
+      "question": "Who owns the projects under Neris QuillCH's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillCH"
+    },
+    {
+      "id": "s6-02-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillCH?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusCH",
+      "supporting_fact_ids": [
+        "challenge-fact:2:management",
+        "challenge-fact:2:usage",
+        "challenge-fact:2:hosting",
+        "challenge-fact:2:branch",
+        "challenge-fact:2:branch-usage",
+        "challenge-fact:2:branch-host"
+      ],
+      "required_document_ids": [
+        "autodoc:129121ff725df0638c9f0a3f97a272f4aad797f6",
+        "autodoc:1acf32fee6c2408b26dd4d6d19ebe449105622c9",
+        "autodoc:6f436ed75efb62db9e7814f15306d830f3e33f7a",
+        "autodoc:a461ae39650c5bf9ccbb6837e0e088a137802e3f",
+        "autodoc:e48bf6215288bb0cdb1d947d81bc6a0acaffb1a0",
+        "autodoc:e4e018543b06e094f964b753003efc9e270e495c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillCH"
+    },
+    {
+      "id": "s6-02-6",
+      "question": "Which organizations employ Elian WrenCH?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-02-7",
+      "question": "Which organizations employ Oriel AbsentCH?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-02-8",
+      "question": "What technologies does Project DecoyCH utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBCH",
+      "supporting_fact_ids": [
+        "challenge-fact:2:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:b6e52fa51a832bd7658d07313cfcd7f9f5fcf1fe"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-03-0",
+      "question": "Which projects are led by Neris QuillDJ?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperDJ",
+      "supporting_fact_ids": [
+        "challenge-fact:3:management"
+      ],
+      "required_document_ids": [
+        "autodoc:e51b0abac5de6ff991bfe3f9c9bb4e4824f6379c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillDJ"
+    },
+    {
+      "id": "s6-03-1",
+      "question": "Which organizations employ Neris QuillDJ?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerDJ Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:3:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:cbf52abd3c7b3d4ac7a4f2809487e954574ff93f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillDJ"
+    },
+    {
+      "id": "s6-03-2",
+      "question": "What technologies does Project VesperDJ utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBDJ",
+      "supporting_fact_ids": [
+        "challenge-fact:3:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:11d637e23eec82259ca15fb4e234717186328038"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-03-3",
+      "question": "What technologies does the project led by Neris QuillDJ use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBDJ",
+      "supporting_fact_ids": [
+        "challenge-fact:3:management",
+        "challenge-fact:3:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:11d637e23eec82259ca15fb4e234717186328038",
+        "autodoc:e51b0abac5de6ff991bfe3f9c9bb4e4824f6379c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillDJ"
+    },
+    {
+      "id": "s6-03-4",
+      "question": "Who owns the projects under Neris QuillDJ's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerDJ Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:3:management",
+        "challenge-fact:3:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:2c17097e95bb3e5a7b62f85186e53a139215b0b5",
+        "autodoc:e51b0abac5de6ff991bfe3f9c9bb4e4824f6379c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillDJ"
+    },
+    {
+      "id": "s6-03-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillDJ?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillDJ"
+    },
+    {
+      "id": "s6-03-6",
+      "question": "Which organizations employ Elian WrenDJ?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-03-7",
+      "question": "Which organizations employ Oriel AbsentDJ?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-03-8",
+      "question": "What technologies does Project DecoyDJ utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBDJ",
+      "supporting_fact_ids": [
+        "challenge-fact:3:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:26e50be921716e59d571f0a575945268c4700e7a"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-04-0",
+      "question": "Which projects are led by Neris QuillEU?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperEU",
+      "supporting_fact_ids": [
+        "challenge-fact:4:management"
+      ],
+      "required_document_ids": [
+        "autodoc:f72b2a156179fe08fa96837856ec97e7fe083ffb"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillEU"
+    },
+    {
+      "id": "s6-04-1",
+      "question": "Which organizations employ Neris QuillEU?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerEU Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:4:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:00ea7031b82ef6801333181a7ab3cce3c691923f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillEU"
+    },
+    {
+      "id": "s6-04-2",
+      "question": "What technologies does Project VesperEU utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBEU",
+      "supporting_fact_ids": [
+        "challenge-fact:4:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:5aad6fad1c0de8ee24629e708252467a254d1961"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-04-3",
+      "question": "What technologies does the project led by Neris QuillEU use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBEU",
+      "supporting_fact_ids": [
+        "challenge-fact:4:management",
+        "challenge-fact:4:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:5aad6fad1c0de8ee24629e708252467a254d1961",
+        "autodoc:f72b2a156179fe08fa96837856ec97e7fe083ffb"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillEU"
+    },
+    {
+      "id": "s6-04-4",
+      "question": "Who owns the projects under Neris QuillEU's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerEU Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:4:management",
+        "challenge-fact:4:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:17114324a1b8bd081e5efdd5214ae43b9d8ebd29",
+        "autodoc:f72b2a156179fe08fa96837856ec97e7fe083ffb"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillEU"
+    },
+    {
+      "id": "s6-04-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillEU?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusEU",
+      "supporting_fact_ids": [
+        "challenge-fact:4:management",
+        "challenge-fact:4:usage",
+        "challenge-fact:4:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:5aad6fad1c0de8ee24629e708252467a254d1961",
+        "autodoc:8d450f0a9e7a75deb2713c624383c14e68684175",
+        "autodoc:f72b2a156179fe08fa96837856ec97e7fe083ffb"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillEU"
+    },
+    {
+      "id": "s6-04-6",
+      "question": "Which organizations employ Elian WrenEU?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-04-7",
+      "question": "Which organizations employ Oriel AbsentEU?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-04-8",
+      "question": "What technologies does Project DecoyEU utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBEU",
+      "supporting_fact_ids": [
+        "challenge-fact:4:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:e34340aa96ab4933fa2e0161b8c1a99d784f64c9"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-05-0",
+      "question": "Which projects are led by Neris QuillFS?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperFS",
+      "supporting_fact_ids": [
+        "challenge-fact:5:management"
+      ],
+      "required_document_ids": [
+        "autodoc:2fb973f30fdea80b07705fce0ea6867d5db22ea9"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillFS"
+    },
+    {
+      "id": "s6-05-1",
+      "question": "Which organizations employ Neris QuillFS?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerFS Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:5:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:221617c149c3f6c1d9957d7dab34181bfed80380"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillFS"
+    },
+    {
+      "id": "s6-05-2",
+      "question": "What technologies does Project VesperFS utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBFS",
+      "supporting_fact_ids": [
+        "challenge-fact:5:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:ffe1e40e8f1c9a997b28f23cb522ecb25f81a285"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-05-3",
+      "question": "What technologies does the project led by Neris QuillFS use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBFS",
+      "supporting_fact_ids": [
+        "challenge-fact:5:management",
+        "challenge-fact:5:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:2fb973f30fdea80b07705fce0ea6867d5db22ea9",
+        "autodoc:ffe1e40e8f1c9a997b28f23cb522ecb25f81a285"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillFS"
+    },
+    {
+      "id": "s6-05-4",
+      "question": "Who owns the projects under Neris QuillFS's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerFS Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:5:management",
+        "challenge-fact:5:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:2fb973f30fdea80b07705fce0ea6867d5db22ea9",
+        "autodoc:cdd18c952171a81a605a254ccb88952710e70a15"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillFS"
+    },
+    {
+      "id": "s6-05-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillFS?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusFS",
+      "supporting_fact_ids": [
+        "challenge-fact:5:management",
+        "challenge-fact:5:usage",
+        "challenge-fact:5:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:2fb973f30fdea80b07705fce0ea6867d5db22ea9",
+        "autodoc:578eac0f12b916c291446bdeec814cc60aa2d12b",
+        "autodoc:ffe1e40e8f1c9a997b28f23cb522ecb25f81a285"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillFS"
+    },
+    {
+      "id": "s6-05-6",
+      "question": "Which organizations employ Elian WrenFS?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-05-7",
+      "question": "Which organizations employ Oriel AbsentFS?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-05-8",
+      "question": "What technologies does Project DecoyFS utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBFS",
+      "supporting_fact_ids": [
+        "challenge-fact:5:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:73f7e2b5ebf5bc18d205f392bc76dacea0950613"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-06-0",
+      "question": "Which projects are led by Neris QuillGD?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperGD",
+      "supporting_fact_ids": [
+        "challenge-fact:6:management"
+      ],
+      "required_document_ids": [
+        "autodoc:34c26bb6e14c63fb5b83248e6a4627c2abee9380"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillGD"
+    },
+    {
+      "id": "s6-06-1",
+      "question": "Which organizations employ Neris QuillGD?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerGD Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:6:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:25c2684411f0e04aad0857445ba1469bb0304c31"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillGD"
+    },
+    {
+      "id": "s6-06-2",
+      "question": "What technologies does Project VesperGD utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBGD",
+      "supporting_fact_ids": [
+        "challenge-fact:6:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:8d4a92521dd13109fd475b549c410eb224a43d46"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-06-3",
+      "question": "What technologies does the project led by Neris QuillGD use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBGD",
+      "supporting_fact_ids": [
+        "challenge-fact:6:management",
+        "challenge-fact:6:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:34c26bb6e14c63fb5b83248e6a4627c2abee9380",
+        "autodoc:8d4a92521dd13109fd475b549c410eb224a43d46"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillGD"
+    },
+    {
+      "id": "s6-06-4",
+      "question": "Who owns the projects under Neris QuillGD's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerGD Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:6:management",
+        "challenge-fact:6:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:34c26bb6e14c63fb5b83248e6a4627c2abee9380",
+        "autodoc:ef40dcb8c0e8a7c272235edb9997220a7cbd5f1a"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillGD"
+    },
+    {
+      "id": "s6-06-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillGD?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "conflicting"
+      ],
+      "start_surface": "Neris QuillGD"
+    },
+    {
+      "id": "s6-06-6",
+      "question": "Which organizations employ Elian WrenGD?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-06-7",
+      "question": "Which organizations employ Oriel AbsentGD?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-06-8",
+      "question": "What technologies does Project DecoyGD utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBGD",
+      "supporting_fact_ids": [
+        "challenge-fact:6:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:32539fa0722fe7351dc7b9aa1c0cb2dcfb0f6c1c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-07-0",
+      "question": "Which projects are led by Neris QuillHR?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperHR; VesperHR Annex",
+      "supporting_fact_ids": [
+        "challenge-fact:7:management",
+        "challenge-fact:7:branch"
+      ],
+      "required_document_ids": [
+        "autodoc:2c133cb3608b05d9b263e420aef8fb5be68b5ed8",
+        "autodoc:4d88395f66f8acd5fbf199f85280750528a20085"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillHR"
+    },
+    {
+      "id": "s6-07-1",
+      "question": "Which organizations employ Neris QuillHR?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerHR Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:7:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:0fbf83ba74b5f0e709729c1e448c295eb0cb5c1b"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillHR"
+    },
+    {
+      "id": "s6-07-2",
+      "question": "What technologies does Project VesperHR utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBHR",
+      "supporting_fact_ids": [
+        "challenge-fact:7:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:f3b2e0ada8859d32ecadef48b5dd2b5c46f216f4"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-07-3",
+      "question": "What technologies does the project led by Neris QuillHR use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "GlintDBHR; LucentDBHR",
+      "supporting_fact_ids": [
+        "challenge-fact:7:management",
+        "challenge-fact:7:usage",
+        "challenge-fact:7:branch",
+        "challenge-fact:7:branch-usage"
+      ],
+      "required_document_ids": [
+        "autodoc:2c133cb3608b05d9b263e420aef8fb5be68b5ed8",
+        "autodoc:4d88395f66f8acd5fbf199f85280750528a20085",
+        "autodoc:9850acb41f818e08e854a430ad85e0f39234f271",
+        "autodoc:f3b2e0ada8859d32ecadef48b5dd2b5c46f216f4"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillHR"
+    },
+    {
+      "id": "s6-07-4",
+      "question": "Who owns the projects under Neris QuillHR's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillHR"
+    },
+    {
+      "id": "s6-07-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillHR?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusHR",
+      "supporting_fact_ids": [
+        "challenge-fact:7:management",
+        "challenge-fact:7:usage",
+        "challenge-fact:7:hosting",
+        "challenge-fact:7:branch",
+        "challenge-fact:7:branch-usage",
+        "challenge-fact:7:branch-host"
+      ],
+      "required_document_ids": [
+        "autodoc:2c133cb3608b05d9b263e420aef8fb5be68b5ed8",
+        "autodoc:4d88395f66f8acd5fbf199f85280750528a20085",
+        "autodoc:9850acb41f818e08e854a430ad85e0f39234f271",
+        "autodoc:cde6de7e509edffd9444f1ee34e0298f55f163cb",
+        "autodoc:dfaaf9c3b19af6bc250ec3286f0f58271e052dc3",
+        "autodoc:f3b2e0ada8859d32ecadef48b5dd2b5c46f216f4"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillHR"
+    },
+    {
+      "id": "s6-07-6",
+      "question": "Which organizations employ Elian WrenHR?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-07-7",
+      "question": "Which organizations employ Oriel AbsentHR?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-07-8",
+      "question": "What technologies does Project DecoyHR utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBHR",
+      "supporting_fact_ids": [
+        "challenge-fact:7:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:115650f1ac4915360d547298cc4127fc3a10f75a"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-08-0",
+      "question": "Which projects are led by Neris QuillIX?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperIX",
+      "supporting_fact_ids": [
+        "challenge-fact:8:management"
+      ],
+      "required_document_ids": [
+        "autodoc:5f516838b0b2c8b178b94c2c26101da655802eb3"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillIX"
+    },
+    {
+      "id": "s6-08-1",
+      "question": "Which organizations employ Neris QuillIX?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerIX Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:8:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:ccd538b7a0e9b271aa301a45bc0d0cd14b031013"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillIX"
+    },
+    {
+      "id": "s6-08-2",
+      "question": "What technologies does Project VesperIX utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBIX",
+      "supporting_fact_ids": [
+        "challenge-fact:8:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:71543cfa6bedf89a333c918f2b0095dbc1b0ab4c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-08-3",
+      "question": "What technologies does the project led by Neris QuillIX use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBIX",
+      "supporting_fact_ids": [
+        "challenge-fact:8:management",
+        "challenge-fact:8:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:5f516838b0b2c8b178b94c2c26101da655802eb3",
+        "autodoc:71543cfa6bedf89a333c918f2b0095dbc1b0ab4c"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillIX"
+    },
+    {
+      "id": "s6-08-4",
+      "question": "Who owns the projects under Neris QuillIX's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerIX Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:8:management",
+        "challenge-fact:8:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:5f516838b0b2c8b178b94c2c26101da655802eb3",
+        "autodoc:acf832d7f73fa37f20833d5386344ac6f83d9d6b"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillIX"
+    },
+    {
+      "id": "s6-08-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillIX?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillIX"
+    },
+    {
+      "id": "s6-08-6",
+      "question": "Which organizations employ Elian WrenIX?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-08-7",
+      "question": "Which organizations employ Oriel AbsentIX?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-08-8",
+      "question": "What technologies does Project DecoyIX utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBIX",
+      "supporting_fact_ids": [
+        "challenge-fact:8:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:6558ee93493ab685c15760c28564e79dd4d2de56"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-09-0",
+      "question": "Which projects are led by Neris QuillJP?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperJP",
+      "supporting_fact_ids": [
+        "challenge-fact:9:management"
+      ],
+      "required_document_ids": [
+        "autodoc:3f5c59107b24fee8d5938d793fb06f42e8a2b84f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillJP"
+    },
+    {
+      "id": "s6-09-1",
+      "question": "Which organizations employ Neris QuillJP?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerJP Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:9:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:d078fc98cb8886925d3c3418c30ae1d999538a8f"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillJP"
+    },
+    {
+      "id": "s6-09-2",
+      "question": "What technologies does Project VesperJP utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBJP",
+      "supporting_fact_ids": [
+        "challenge-fact:9:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:d5739c18608e763b7db9764a7ee9bf358dd14c20"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-09-3",
+      "question": "What technologies does the project led by Neris QuillJP use?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBJP",
+      "supporting_fact_ids": [
+        "challenge-fact:9:management",
+        "challenge-fact:9:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:3f5c59107b24fee8d5938d793fb06f42e8a2b84f",
+        "autodoc:d5739c18608e763b7db9764a7ee9bf358dd14c20"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillJP"
+    },
+    {
+      "id": "s6-09-4",
+      "question": "Who owns the projects under Neris QuillJP's management?",
+      "split": "document_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerJP Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:9:management",
+        "challenge-fact:9:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:3f5c59107b24fee8d5938d793fb06f42e8a2b84f",
+        "autodoc:c287c3f45fb9d28a8e5741d5e89c65a932f9926e"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": "Neris QuillJP"
+    },
+    {
+      "id": "s6-09-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillJP?",
+      "split": "document_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusJP",
+      "supporting_fact_ids": [
+        "challenge-fact:9:management",
+        "challenge-fact:9:usage",
+        "challenge-fact:9:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:3f5c59107b24fee8d5938d793fb06f42e8a2b84f",
+        "autodoc:d5739c18608e763b7db9764a7ee9bf358dd14c20",
+        "autodoc:f96b21b2b13f301f285cd563998c64f77acd8706"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillJP"
+    },
+    {
+      "id": "s6-09-6",
+      "question": "Which organizations employ Elian WrenJP?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-09-7",
+      "question": "Which organizations employ Oriel AbsentJP?",
+      "split": "document_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "document_held_out",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-09-8",
+      "question": "What technologies does Project DecoyJP utilize?",
+      "split": "document_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBJP",
+      "supporting_fact_ids": [
+        "challenge-fact:9:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:139e33f4f796f6f870891406050fd36fca53847b"
+      ],
+      "tags": [
+        "document_held_out",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-10-0",
+      "question": "List Neris QuillKL's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperKL",
+      "supporting_fact_ids": [
+        "challenge-fact:10:management"
+      ],
+      "required_document_ids": [
+        "autodoc:b8ef89fd7c110d27b0c8e10936738675f55462b9"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillKL"
+    },
+    {
+      "id": "s6-10-1",
+      "question": "Identify Neris QuillKL's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerKL Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:10:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:c5ce3d054c18e18bcf4b342792fc88527e23e9a5"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillKL"
+    },
+    {
+      "id": "s6-10-2",
+      "question": "Give the data engine selected for Project VesperKL.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBKL",
+      "supporting_fact_ids": [
+        "challenge-fact:10:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:b3f9a27e083731e47396c223ff5f2fe5e20ebcf6"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-10-3",
+      "question": "Follow Neris QuillKL's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBKL",
+      "supporting_fact_ids": [
+        "challenge-fact:10:management",
+        "challenge-fact:10:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:b3f9a27e083731e47396c223ff5f2fe5e20ebcf6",
+        "autodoc:b8ef89fd7c110d27b0c8e10936738675f55462b9"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillKL"
+    },
+    {
+      "id": "s6-10-4",
+      "question": "Name the owners of Neris QuillKL's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerKL Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:10:management",
+        "challenge-fact:10:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:b8ef89fd7c110d27b0c8e10936738675f55462b9",
+        "autodoc:d4565bb4a1dae9c86807b5014a8e4584870256c6"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillKL"
+    },
+    {
+      "id": "s6-10-5",
+      "question": "Trace Neris QuillKL's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusKL",
+      "supporting_fact_ids": [
+        "challenge-fact:10:management",
+        "challenge-fact:10:usage",
+        "challenge-fact:10:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:b3f9a27e083731e47396c223ff5f2fe5e20ebcf6",
+        "autodoc:b4cfb8784253aabd4ae6650f5a265bdafa36ca50",
+        "autodoc:b8ef89fd7c110d27b0c8e10936738675f55462b9"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillKL"
+    },
+    {
+      "id": "s6-10-6",
+      "question": "Can you determine the employer of Elian WrenKL without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-10-7",
+      "question": "Do these records identify an employer for Oriel AbsentKL?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-10-8",
+      "question": "Identify the database behind Project DecoyKL.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBKL",
+      "supporting_fact_ids": [
+        "challenge-fact:10:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:1066d32ec581b4e9a89d65fe8675ffd78cd2e219"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-11-0",
+      "question": "List Neris QuillLF's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperLF",
+      "supporting_fact_ids": [
+        "challenge-fact:11:management"
+      ],
+      "required_document_ids": [
+        "autodoc:7a10cff29bb3226a58de799372f4fec1b9440475"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillLF"
+    },
+    {
+      "id": "s6-11-1",
+      "question": "Identify Neris QuillLF's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerLF Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:11:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:988f9694e6736dfe8e77c930ee0402e062642361"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillLF"
+    },
+    {
+      "id": "s6-11-2",
+      "question": "Give the data engine selected for Project VesperLF.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBLF",
+      "supporting_fact_ids": [
+        "challenge-fact:11:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:f07a8f0ffe5619d0d4076c54e6fb3a179151774a"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-11-3",
+      "question": "Follow Neris QuillLF's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBLF",
+      "supporting_fact_ids": [
+        "challenge-fact:11:management",
+        "challenge-fact:11:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:7a10cff29bb3226a58de799372f4fec1b9440475",
+        "autodoc:f07a8f0ffe5619d0d4076c54e6fb3a179151774a"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillLF"
+    },
+    {
+      "id": "s6-11-4",
+      "question": "Name the owners of Neris QuillLF's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerLF Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:11:management",
+        "challenge-fact:11:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:5c54e239638cd6a4140713fd25ebc5d25897b698",
+        "autodoc:7a10cff29bb3226a58de799372f4fec1b9440475"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillLF"
+    },
+    {
+      "id": "s6-11-5",
+      "question": "Trace Neris QuillLF's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "conflicting"
+      ],
+      "start_surface": "Neris QuillLF"
+    },
+    {
+      "id": "s6-11-6",
+      "question": "Can you determine the employer of Elian WrenLF without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-11-7",
+      "question": "Do these records identify an employer for Oriel AbsentLF?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-11-8",
+      "question": "Identify the database behind Project DecoyLF.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBLF",
+      "supporting_fact_ids": [
+        "challenge-fact:11:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:bc3bdd4d0beeef40ece914321e131cb183701a20"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-12-0",
+      "question": "List Neris QuillMZ's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperMZ; VesperMZ Annex",
+      "supporting_fact_ids": [
+        "challenge-fact:12:management",
+        "challenge-fact:12:branch"
+      ],
+      "required_document_ids": [
+        "autodoc:5ba63c7f63e0c659b3385a92df5eab1b0521794b",
+        "autodoc:7923b87aaac28d333a6418d0c52c68414cf21105"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillMZ"
+    },
+    {
+      "id": "s6-12-1",
+      "question": "Identify Neris QuillMZ's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerMZ Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:12:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:e1b2d6bbb33f1f7c65e9c1a644faff2883ed967a"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillMZ"
+    },
+    {
+      "id": "s6-12-2",
+      "question": "Give the data engine selected for Project VesperMZ.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBMZ",
+      "supporting_fact_ids": [
+        "challenge-fact:12:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:b453c4a2300661610041a9a9325fc703c82cf736"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-12-3",
+      "question": "Follow Neris QuillMZ's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "GlintDBMZ; LucentDBMZ",
+      "supporting_fact_ids": [
+        "challenge-fact:12:management",
+        "challenge-fact:12:usage",
+        "challenge-fact:12:branch",
+        "challenge-fact:12:branch-usage"
+      ],
+      "required_document_ids": [
+        "autodoc:5a2eb8a8bbac007bc1bb186313b160abba3c3223",
+        "autodoc:5ba63c7f63e0c659b3385a92df5eab1b0521794b",
+        "autodoc:7923b87aaac28d333a6418d0c52c68414cf21105",
+        "autodoc:b453c4a2300661610041a9a9325fc703c82cf736"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillMZ"
+    },
+    {
+      "id": "s6-12-4",
+      "question": "Name the owners of Neris QuillMZ's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillMZ"
+    },
+    {
+      "id": "s6-12-5",
+      "question": "Trace Neris QuillMZ's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusMZ",
+      "supporting_fact_ids": [
+        "challenge-fact:12:management",
+        "challenge-fact:12:usage",
+        "challenge-fact:12:hosting",
+        "challenge-fact:12:branch",
+        "challenge-fact:12:branch-usage",
+        "challenge-fact:12:branch-host"
+      ],
+      "required_document_ids": [
+        "autodoc:5a2eb8a8bbac007bc1bb186313b160abba3c3223",
+        "autodoc:5ba63c7f63e0c659b3385a92df5eab1b0521794b",
+        "autodoc:7923b87aaac28d333a6418d0c52c68414cf21105",
+        "autodoc:b453c4a2300661610041a9a9325fc703c82cf736",
+        "autodoc:e09c30bc7a7786bfb25c4e69109ac82309a009b4",
+        "autodoc:fd3c553b2ac821aad0250d131ef34b14f9296bad"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillMZ"
+    },
+    {
+      "id": "s6-12-6",
+      "question": "Can you determine the employer of Elian WrenMZ without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-12-7",
+      "question": "Do these records identify an employer for Oriel AbsentMZ?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-12-8",
+      "question": "Identify the database behind Project DecoyMZ.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBMZ",
+      "supporting_fact_ids": [
+        "challenge-fact:12:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:43be63e33ef12e4eea8f4b02ef91a99b4f1cac27"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-13-0",
+      "question": "List Neris QuillNC's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperNC",
+      "supporting_fact_ids": [
+        "challenge-fact:13:management"
+      ],
+      "required_document_ids": [
+        "autodoc:59a01788fc74ae63b343ef9586ef7a6d94bf444f"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillNC"
+    },
+    {
+      "id": "s6-13-1",
+      "question": "Identify Neris QuillNC's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerNC Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:13:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:350341c89ae9e7b68e683b534bca4739efdf592b"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillNC"
+    },
+    {
+      "id": "s6-13-2",
+      "question": "Give the data engine selected for Project VesperNC.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBNC",
+      "supporting_fact_ids": [
+        "challenge-fact:13:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:763855076ed521289190d5d99e42df2eebf7c515"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-13-3",
+      "question": "Follow Neris QuillNC's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBNC",
+      "supporting_fact_ids": [
+        "challenge-fact:13:management",
+        "challenge-fact:13:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:59a01788fc74ae63b343ef9586ef7a6d94bf444f",
+        "autodoc:763855076ed521289190d5d99e42df2eebf7c515"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillNC"
+    },
+    {
+      "id": "s6-13-4",
+      "question": "Name the owners of Neris QuillNC's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerNC Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:13:management",
+        "challenge-fact:13:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:59a01788fc74ae63b343ef9586ef7a6d94bf444f",
+        "autodoc:80c977ad186e07c8b3a5e986a480ea8ef31e4bc8"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillNC"
+    },
+    {
+      "id": "s6-13-5",
+      "question": "Trace Neris QuillNC's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillNC"
+    },
+    {
+      "id": "s6-13-6",
+      "question": "Can you determine the employer of Elian WrenNC without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-13-7",
+      "question": "Do these records identify an employer for Oriel AbsentNC?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-13-8",
+      "question": "Identify the database behind Project DecoyNC.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBNC",
+      "supporting_fact_ids": [
+        "challenge-fact:13:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:b2eec9bf9c233ac307dcc08e6272fe2669b03df7"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-14-0",
+      "question": "List Neris QuillOR's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperOR",
+      "supporting_fact_ids": [
+        "challenge-fact:14:management"
+      ],
+      "required_document_ids": [
+        "autodoc:d881f08a629f79a6ce952703579f72b036005b42"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillOR"
+    },
+    {
+      "id": "s6-14-1",
+      "question": "Identify Neris QuillOR's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerOR Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:14:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:f60db0abfeb1f5b324dadf69fa1f3f4caeb75133"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillOR"
+    },
+    {
+      "id": "s6-14-2",
+      "question": "Give the data engine selected for Project VesperOR.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBOR",
+      "supporting_fact_ids": [
+        "challenge-fact:14:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:5e1ed851df723c3e3c1dc2f39ef11dc11d4bbab4"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-14-3",
+      "question": "Follow Neris QuillOR's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBOR",
+      "supporting_fact_ids": [
+        "challenge-fact:14:management",
+        "challenge-fact:14:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:5e1ed851df723c3e3c1dc2f39ef11dc11d4bbab4",
+        "autodoc:d881f08a629f79a6ce952703579f72b036005b42"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillOR"
+    },
+    {
+      "id": "s6-14-4",
+      "question": "Name the owners of Neris QuillOR's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerOR Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:14:management",
+        "challenge-fact:14:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:12a03bb31ffa5ed6cf692d9c56e26ac119a8ef10",
+        "autodoc:d881f08a629f79a6ce952703579f72b036005b42"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillOR"
+    },
+    {
+      "id": "s6-14-5",
+      "question": "Trace Neris QuillOR's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusOR",
+      "supporting_fact_ids": [
+        "challenge-fact:14:management",
+        "challenge-fact:14:usage",
+        "challenge-fact:14:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:5e1ed851df723c3e3c1dc2f39ef11dc11d4bbab4",
+        "autodoc:846c0f71eaa23445605556a730e86c8682ae2d74",
+        "autodoc:d881f08a629f79a6ce952703579f72b036005b42"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillOR"
+    },
+    {
+      "id": "s6-14-6",
+      "question": "Can you determine the employer of Elian WrenOR without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-14-7",
+      "question": "Do these records identify an employer for Oriel AbsentOR?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-14-8",
+      "question": "Identify the database behind Project DecoyOR.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBOR",
+      "supporting_fact_ids": [
+        "challenge-fact:14:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:46ab5baf00815016aee045460d3f41c71c7ba2cf"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-15-0",
+      "question": "List Neris QuillPM's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperPM",
+      "supporting_fact_ids": [
+        "challenge-fact:15:management"
+      ],
+      "required_document_ids": [
+        "autodoc:eae148832b28331c9ddeaeead22bfb11c2b8d7d6"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillPM"
+    },
+    {
+      "id": "s6-15-1",
+      "question": "Identify Neris QuillPM's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerPM Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:15:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:ce1510881d947e8e6939c24dc170c0d0b5c6c800"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillPM"
+    },
+    {
+      "id": "s6-15-2",
+      "question": "Give the data engine selected for Project VesperPM.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBPM",
+      "supporting_fact_ids": [
+        "challenge-fact:15:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:f26003f07d5154185c9765813a5f1fa6ae2f0cb1"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-15-3",
+      "question": "Follow Neris QuillPM's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBPM",
+      "supporting_fact_ids": [
+        "challenge-fact:15:management",
+        "challenge-fact:15:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:eae148832b28331c9ddeaeead22bfb11c2b8d7d6",
+        "autodoc:f26003f07d5154185c9765813a5f1fa6ae2f0cb1"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillPM"
+    },
+    {
+      "id": "s6-15-4",
+      "question": "Name the owners of Neris QuillPM's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerPM Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:15:management",
+        "challenge-fact:15:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:ea8918c1d30e6799464a0bba47afb8e43284323f",
+        "autodoc:eae148832b28331c9ddeaeead22bfb11c2b8d7d6"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillPM"
+    },
+    {
+      "id": "s6-15-5",
+      "question": "Trace Neris QuillPM's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusPM",
+      "supporting_fact_ids": [
+        "challenge-fact:15:management",
+        "challenge-fact:15:usage",
+        "challenge-fact:15:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:e0c57cd1727bb5b7be07db3835e000fcf4b95e9a",
+        "autodoc:eae148832b28331c9ddeaeead22bfb11c2b8d7d6",
+        "autodoc:f26003f07d5154185c9765813a5f1fa6ae2f0cb1"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillPM"
+    },
+    {
+      "id": "s6-15-6",
+      "question": "Can you determine the employer of Elian WrenPM without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-15-7",
+      "question": "Do these records identify an employer for Oriel AbsentPM?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-15-8",
+      "question": "Identify the database behind Project DecoyPM.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBPM",
+      "supporting_fact_ids": [
+        "challenge-fact:15:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:4b1c292fecd2e456f8fd583b5bbb41b205fa17bb"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-16-0",
+      "question": "List Neris QuillQA's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperQA",
+      "supporting_fact_ids": [
+        "challenge-fact:16:management"
+      ],
+      "required_document_ids": [
+        "autodoc:4757e2ef1407a083114029b4f30302c42d959b66"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillQA"
+    },
+    {
+      "id": "s6-16-1",
+      "question": "Identify Neris QuillQA's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerQA Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:16:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:f3159fe6f31c740e7d01b5f3f8fe8d856a9a70f3"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillQA"
+    },
+    {
+      "id": "s6-16-2",
+      "question": "Give the data engine selected for Project VesperQA.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBQA",
+      "supporting_fact_ids": [
+        "challenge-fact:16:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:73a425616d4279c21823b091c9d431c43e235ad4"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-16-3",
+      "question": "Follow Neris QuillQA's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBQA",
+      "supporting_fact_ids": [
+        "challenge-fact:16:management",
+        "challenge-fact:16:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:4757e2ef1407a083114029b4f30302c42d959b66",
+        "autodoc:73a425616d4279c21823b091c9d431c43e235ad4"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillQA"
+    },
+    {
+      "id": "s6-16-4",
+      "question": "Name the owners of Neris QuillQA's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerQA Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:16:management",
+        "challenge-fact:16:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:4757e2ef1407a083114029b4f30302c42d959b66",
+        "autodoc:d91ba75b837492d15ae7143c686896e789dec19d"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillQA"
+    },
+    {
+      "id": "s6-16-5",
+      "question": "Trace Neris QuillQA's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "conflicting"
+      ],
+      "start_surface": "Neris QuillQA"
+    },
+    {
+      "id": "s6-16-6",
+      "question": "Can you determine the employer of Elian WrenQA without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-16-7",
+      "question": "Do these records identify an employer for Oriel AbsentQA?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-16-8",
+      "question": "Identify the database behind Project DecoyQA.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBQA",
+      "supporting_fact_ids": [
+        "challenge-fact:16:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:7c8a07ee2eefbaca0c57837da3f7cdd7b7eeb48a"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-17-0",
+      "question": "List Neris QuillRU's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperRU; VesperRU Annex",
+      "supporting_fact_ids": [
+        "challenge-fact:17:management",
+        "challenge-fact:17:branch"
+      ],
+      "required_document_ids": [
+        "autodoc:31b53dcaa63d6a031324812bed3cfce3d43cc75c",
+        "autodoc:fe4d7d14d71f0a3df42a9680463d86ec45690331"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillRU"
+    },
+    {
+      "id": "s6-17-1",
+      "question": "Identify Neris QuillRU's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerRU Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:17:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:b59a699a935697872382d1b51adaea1ae0bec611"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillRU"
+    },
+    {
+      "id": "s6-17-2",
+      "question": "Give the data engine selected for Project VesperRU.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBRU",
+      "supporting_fact_ids": [
+        "challenge-fact:17:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:0e4f99df552e366087854b141287f1df72575165"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-17-3",
+      "question": "Follow Neris QuillRU's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "GlintDBRU; LucentDBRU",
+      "supporting_fact_ids": [
+        "challenge-fact:17:management",
+        "challenge-fact:17:usage",
+        "challenge-fact:17:branch",
+        "challenge-fact:17:branch-usage"
+      ],
+      "required_document_ids": [
+        "autodoc:0e4f99df552e366087854b141287f1df72575165",
+        "autodoc:31b53dcaa63d6a031324812bed3cfce3d43cc75c",
+        "autodoc:6258824468979f2f40af71f58782c68773b3ee3d",
+        "autodoc:fe4d7d14d71f0a3df42a9680463d86ec45690331"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "multiple_answers"
+      ],
+      "start_surface": "Neris QuillRU"
+    },
+    {
+      "id": "s6-17-4",
+      "question": "Name the owners of Neris QuillRU's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillRU"
+    },
+    {
+      "id": "s6-17-5",
+      "question": "Trace Neris QuillRU's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusRU",
+      "supporting_fact_ids": [
+        "challenge-fact:17:management",
+        "challenge-fact:17:usage",
+        "challenge-fact:17:hosting",
+        "challenge-fact:17:branch",
+        "challenge-fact:17:branch-usage",
+        "challenge-fact:17:branch-host"
+      ],
+      "required_document_ids": [
+        "autodoc:0e4f99df552e366087854b141287f1df72575165",
+        "autodoc:31b53dcaa63d6a031324812bed3cfce3d43cc75c",
+        "autodoc:4211817a94ec89ffedd369ae23e7597e44a0ea60",
+        "autodoc:59771aef6ba45f632864d712514b4a1ac2cb7a56",
+        "autodoc:6258824468979f2f40af71f58782c68773b3ee3d",
+        "autodoc:fe4d7d14d71f0a3df42a9680463d86ec45690331"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillRU"
+    },
+    {
+      "id": "s6-17-6",
+      "question": "Can you determine the employer of Elian WrenRU without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-17-7",
+      "question": "Do these records identify an employer for Oriel AbsentRU?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-17-8",
+      "question": "Identify the database behind Project DecoyRU.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBRU",
+      "supporting_fact_ids": [
+        "challenge-fact:17:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:af87a70efb7d31b720c18cc1a58235a7907874c7"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-18-0",
+      "question": "List Neris QuillSP's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperSP",
+      "supporting_fact_ids": [
+        "challenge-fact:18:management"
+      ],
+      "required_document_ids": [
+        "autodoc:fc3bf7d0e1389acfeaee43502d8124caf761c823"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillSP"
+    },
+    {
+      "id": "s6-18-1",
+      "question": "Identify Neris QuillSP's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerSP Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:18:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:fbc89d420693bbeff6e821a9322d5b0f2531572a"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillSP"
+    },
+    {
+      "id": "s6-18-2",
+      "question": "Give the data engine selected for Project VesperSP.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBSP",
+      "supporting_fact_ids": [
+        "challenge-fact:18:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:c6617b4d7721d19521d6540d9059c2232b3a07a3"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-18-3",
+      "question": "Follow Neris QuillSP's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBSP",
+      "supporting_fact_ids": [
+        "challenge-fact:18:management",
+        "challenge-fact:18:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:c6617b4d7721d19521d6540d9059c2232b3a07a3",
+        "autodoc:fc3bf7d0e1389acfeaee43502d8124caf761c823"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillSP"
+    },
+    {
+      "id": "s6-18-4",
+      "question": "Name the owners of Neris QuillSP's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerSP Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:18:management",
+        "challenge-fact:18:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:e5e868b188418420d977e7a2f2ff95bca9c824c8",
+        "autodoc:fc3bf7d0e1389acfeaee43502d8124caf761c823"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillSP"
+    },
+    {
+      "id": "s6-18-5",
+      "question": "Trace Neris QuillSP's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": "Neris QuillSP"
+    },
+    {
+      "id": "s6-18-6",
+      "question": "Can you determine the employer of Elian WrenSP without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-18-7",
+      "question": "Do these records identify an employer for Oriel AbsentSP?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-18-8",
+      "question": "Identify the database behind Project DecoySP.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBSP",
+      "supporting_fact_ids": [
+        "challenge-fact:18:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:633eb1cf584c8af5e9157b908416b668b13f6a34"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-19-0",
+      "question": "List Neris QuillTB's project responsibilities.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperTB",
+      "supporting_fact_ids": [
+        "challenge-fact:19:management"
+      ],
+      "required_document_ids": [
+        "autodoc:02da4657e4a02b4dd6fbc0417b3e60be88c790a5"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillTB"
+    },
+    {
+      "id": "s6-19-1",
+      "question": "Identify Neris QuillTB's employer.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerTB Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:19:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:814e5999f218cbe12bcc211e637f0870dacaced8"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillTB"
+    },
+    {
+      "id": "s6-19-2",
+      "question": "Give the data engine selected for Project VesperTB.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBTB",
+      "supporting_fact_ids": [
+        "challenge-fact:19:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:452fbcb3f737a7a61035c3294cb743f30bb85bc1"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-19-3",
+      "question": "Follow Neris QuillTB's managed projects to their database products.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBTB",
+      "supporting_fact_ids": [
+        "challenge-fact:19:management",
+        "challenge-fact:19:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:02da4657e4a02b4dd6fbc0417b3e60be88c790a5",
+        "autodoc:452fbcb3f737a7a61035c3294cb743f30bb85bc1"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillTB"
+    },
+    {
+      "id": "s6-19-4",
+      "question": "Name the owners of Neris QuillTB's project portfolio.",
+      "split": "template_held_out",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerTB Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:19:management",
+        "challenge-fact:19:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:02da4657e4a02b4dd6fbc0417b3e60be88c790a5",
+        "autodoc:050dfb925215a46abecc5fc6268b5f78c0802495"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": "Neris QuillTB"
+    },
+    {
+      "id": "s6-19-5",
+      "question": "Trace Neris QuillTB's project databases to their cloud hosts.",
+      "split": "template_held_out",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusTB",
+      "supporting_fact_ids": [
+        "challenge-fact:19:management",
+        "challenge-fact:19:usage",
+        "challenge-fact:19:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:02da4657e4a02b4dd6fbc0417b3e60be88c790a5",
+        "autodoc:452fbcb3f737a7a61035c3294cb743f30bb85bc1",
+        "autodoc:ef09296a0844321bdc29df6bf2cf8cac4e383f42"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "unseen_source_structure"
+      ],
+      "start_surface": "Neris QuillTB"
+    },
+    {
+      "id": "s6-19-6",
+      "question": "Can you determine the employer of Elian WrenTB without a qualifier?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-19-7",
+      "question": "Do these records identify an employer for Oriel AbsentTB?",
+      "split": "template_held_out",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "template_held_out",
+        "paraphrased",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-19-8",
+      "question": "Identify the database behind Project DecoyTB.",
+      "split": "template_held_out",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBTB",
+      "supporting_fact_ids": [
+        "challenge-fact:19:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:73c997d379869312b14843f8e4ed13f922be3e42"
+      ],
+      "tags": [
+        "template_held_out",
+        "paraphrased"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-20-0",
+      "question": "Which projects are led by Neris QuillUA?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperUA",
+      "supporting_fact_ids": [
+        "challenge-fact:20:management"
+      ],
+      "required_document_ids": [
+        "autodoc:942f7cbfe245510305857993d2b9be9611563519"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillUA"
+    },
+    {
+      "id": "s6-20-1",
+      "question": "Which organizations employ Neris QuillUA?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerUA Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:20:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:5f1aecc6d80ceb99971e0e8195cfdac616de220f"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillUA"
+    },
+    {
+      "id": "s6-20-2",
+      "question": "What technologies does Project VesperUA utilize?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBUA",
+      "supporting_fact_ids": [
+        "challenge-fact:20:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:c54171e9b059e7f4619690b33766347e3c505679"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-20-3",
+      "question": "What technologies does the project led by Neris QuillUA use?",
+      "split": "calibration",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBUA",
+      "supporting_fact_ids": [
+        "challenge-fact:20:management",
+        "challenge-fact:20:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:942f7cbfe245510305857993d2b9be9611563519",
+        "autodoc:c54171e9b059e7f4619690b33766347e3c505679"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillUA"
+    },
+    {
+      "id": "s6-20-4",
+      "question": "Who owns the projects under Neris QuillUA's management?",
+      "split": "calibration",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerUA Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:20:management",
+        "challenge-fact:20:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:1a3057e665ced03351baaf65372213af2004e0d8",
+        "autodoc:942f7cbfe245510305857993d2b9be9611563519"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillUA"
+    },
+    {
+      "id": "s6-20-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillUA?",
+      "split": "calibration",
+      "hops": 3,
+      "answerable": true,
+      "expected_answer": "CumulusUA",
+      "supporting_fact_ids": [
+        "challenge-fact:20:management",
+        "challenge-fact:20:usage",
+        "challenge-fact:20:hosting"
+      ],
+      "required_document_ids": [
+        "autodoc:18fc662bd1b311b3977b820f70169a3842819fdd",
+        "autodoc:942f7cbfe245510305857993d2b9be9611563519",
+        "autodoc:c54171e9b059e7f4619690b33766347e3c505679"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillUA"
+    },
+    {
+      "id": "s6-20-6",
+      "question": "Which organizations employ Elian WrenUA?",
+      "split": "calibration",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "calibration",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-20-7",
+      "question": "Which organizations employ Oriel AbsentUA?",
+      "split": "calibration",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "calibration",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-20-8",
+      "question": "What technologies does Project DecoyUA utilize?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBUA",
+      "supporting_fact_ids": [
+        "challenge-fact:20:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:a7aa9bd34481476afc35319d435c39effef3cb67"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-21-0",
+      "question": "Which projects are led by Neris QuillVF?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "VesperVF",
+      "supporting_fact_ids": [
+        "challenge-fact:21:management"
+      ],
+      "required_document_ids": [
+        "autodoc:7ce419ea2efdaf97b8d53a373ab07f45b6786556"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillVF"
+    },
+    {
+      "id": "s6-21-1",
+      "question": "Which organizations employ Neris QuillVF?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "MarinerVF Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:21:employment"
+      ],
+      "required_document_ids": [
+        "autodoc:955df15d1b4a47dc2d1657ee201fd01ad027ed28"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillVF"
+    },
+    {
+      "id": "s6-21-2",
+      "question": "What technologies does Project VesperVF utilize?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "LucentDBVF",
+      "supporting_fact_ids": [
+        "challenge-fact:21:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:4bd08fc942eec0d67ad3bcedba2c9e78575ce750"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-21-3",
+      "question": "What technologies does the project led by Neris QuillVF use?",
+      "split": "calibration",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "LucentDBVF",
+      "supporting_fact_ids": [
+        "challenge-fact:21:management",
+        "challenge-fact:21:usage"
+      ],
+      "required_document_ids": [
+        "autodoc:4bd08fc942eec0d67ad3bcedba2c9e78575ce750",
+        "autodoc:7ce419ea2efdaf97b8d53a373ab07f45b6786556"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillVF"
+    },
+    {
+      "id": "s6-21-4",
+      "question": "Who owns the projects under Neris QuillVF's management?",
+      "split": "calibration",
+      "hops": 2,
+      "answerable": true,
+      "expected_answer": "MarinerVF Cooperative",
+      "supporting_fact_ids": [
+        "challenge-fact:21:management",
+        "challenge-fact:21:ownership"
+      ],
+      "required_document_ids": [
+        "autodoc:02c441fa04cedf0549dd36d3fde82e2bc46ed912",
+        "autodoc:7ce419ea2efdaf97b8d53a373ab07f45b6786556"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": "Neris QuillVF"
+    },
+    {
+      "id": "s6-21-5",
+      "question": "What platforms host the technologies used by the projects led by Neris QuillVF?",
+      "split": "calibration",
+      "hops": 3,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "calibration",
+        "structured",
+        "conflicting"
+      ],
+      "start_surface": "Neris QuillVF"
+    },
+    {
+      "id": "s6-21-6",
+      "question": "Which organizations employ Elian WrenVF?",
+      "split": "calibration",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "calibration",
+        "structured",
+        "ambiguous"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-21-7",
+      "question": "Which organizations employ Oriel AbsentVF?",
+      "split": "calibration",
+      "hops": 0,
+      "answerable": false,
+      "expected_answer": null,
+      "supporting_fact_ids": [],
+      "required_document_ids": [],
+      "tags": [
+        "calibration",
+        "structured",
+        "missing_evidence"
+      ],
+      "start_surface": null
+    },
+    {
+      "id": "s6-21-8",
+      "question": "What technologies does Project DecoyVF utilize?",
+      "split": "calibration",
+      "hops": 1,
+      "answerable": true,
+      "expected_answer": "ShardDBVF",
+      "supporting_fact_ids": [
+        "challenge-fact:21:decoy"
+      ],
+      "required_document_ids": [
+        "autodoc:65ab61c4df6e59c7cf2e014236a060b6d9a6feea"
+      ],
+      "tags": [
+        "calibration",
+        "structured"
+      ],
+      "start_surface": null
+    }
+  ]
+}

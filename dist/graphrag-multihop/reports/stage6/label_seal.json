@@ -1,0 +1,7 @@
+{
+  "sha256": "5de37148c8dba55d33da980e4d2a527d5350eac7da0185d9c88324c044c5e594",
+  "questions": 198,
+  "final_questions": 180,
+  "runtime_frozen_first": true,
+  "limitation": "Local process discipline and hashes, not external custody"
+}

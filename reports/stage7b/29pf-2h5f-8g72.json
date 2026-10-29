@@ -1,0 +1,103 @@
+{
+  "source": "https://api.github.com/advisories/GHSA-29pf-2h5f-8g72",
+  "retrieved": "2026-10-29",
+  "data": {
+    "ghsa_id": "GHSA-29pf-2h5f-8g72",
+    "cve_id": "CVE-2026-4372",
+    "url": "https://api.github.com/advisories/GHSA-29pf-2h5f-8g72",
+    "html_url": "https://github.com/advisories/GHSA-29pf-2h5f-8g72",
+    "summary": "HuggingFace transformers vulnerable to remote code execution",
+    "description": "A critical remote code execution vulnerability exists in all versions of the HuggingFace transformers library prior to version 5.3.0. The vulnerability allows an attacker to craft a malicious `config.json` file containing the `_attn_implementation_internal` field set to an attacker-controlled HuggingFace Hub repository ID. When a victim loads this model using the standard `AutoModelForCausalLM.from_pretrained()` API, the library downloads and executes arbitrary Python code from the attacker's repository with the victim's full OS privileges. This issue arises due to unfiltered deserialization of configuration attributes, insufficient sanitization of internal fields, and unsandboxed execution of downloaded kernels. The vulnerability bypasses the `trust_remote_code` security mechanism, is invisible to the victim, and exploits the standard documented usage pattern, making it particularly severe. Users are advised to upgrade to version 5.3.0 or later to mitigate this issue.",
+    "type": "reviewed",
+    "severity": "high",
+    "repository_advisory_url": null,
+    "source_code_location": "https://github.com/huggingface/transformers",
+    "identifiers": [
+      {
+        "value": "GHSA-29pf-2h5f-8g72",
+        "type": "GHSA"
+      },
+      {
+        "value": "CVE-2026-4372",
+        "type": "CVE"
+      }
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-4372",
+      "https://github.com/huggingface/transformers/commit/a7f8e7ff37d87d1a1a0c8cf607971c607741452f",
+      "https://huntr.com/bounties/1f693a6e-6836-4b8b-a0bd-ca036fba8884",
+      "https://github.com/advisories/GHSA-29pf-2h5f-8g72"
+    ],
+    "published_at": "2026-05-26T13:30:33Z",
+    "updated_at": "2026-07-01T18:00:11Z",
+    "github_reviewed_at": "2026-07-01T18:00:10Z",
+    "nvd_published_at": "2026-05-24T14:16:16Z",
+    "withdrawn_at": null,
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "pip",
+          "name": "transformers"
+        },
+        "vulnerable_version_range": "< 5.3.0",
+        "first_patched_version": "5.3.0",
+        "vulnerable_functions": []
+      }
+    ],
+    "cvss_severities": {
+      "cvss_v3": {
+        "vector_string": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "score": 7.8
+      },
+      "cvss_v4": {
+        "vector_string": null,
+        "score": 0.0
+      }
+    },
+    "cwes": [
+      {
+        "cwe_id": "CWE-502",
+        "name": "Deserialization of Untrusted Data"
+      },
+      {
+        "cwe_id": "CWE-1066",
+        "name": "Missing Serialization Control Element"
+      }
+    ],
+    "credits": [
+      {
+        "user": {
+          "login": "aaronmaxlevy",
+          "id": 3342097,
+          "node_id": "MDQ6VXNlcjMzNDIwOTc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3342097?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/aaronmaxlevy",
+          "html_url": "https://github.com/aaronmaxlevy",
+          "followers_url": "https://api.github.com/users/aaronmaxlevy/followers",
+          "following_url": "https://api.github.com/users/aaronmaxlevy/following{/other_user}",
+          "gists_url": "https://api.github.com/users/aaronmaxlevy/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/aaronmaxlevy/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/aaronmaxlevy/subscriptions",
+          "organizations_url": "https://api.github.com/users/aaronmaxlevy/orgs",
+          "repos_url": "https://api.github.com/users/aaronmaxlevy/repos",
+          "events_url": "https://api.github.com/users/aaronmaxlevy/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/aaronmaxlevy/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "type": "analyst"
+      }
+    ],
+    "comments": 0,
+    "cvss": {
+      "vector_string": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "score": 7.8
+    },
+    "epss": {
+      "percentage": 0.00696,
+      "percentile": 0.52742
+    }
+  }
+}

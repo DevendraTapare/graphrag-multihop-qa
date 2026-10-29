@@ -1,0 +1,33 @@
+{
+  "index": {
+    "id": 55,
+    "name": "chunk_minilm_cosine",
+    "state": "ONLINE",
+    "populationPercent": 100.0,
+    "type": "VECTOR",
+    "entityType": "NODE",
+    "labelsOrTypes": [
+      "ChunkEmbedding"
+    ],
+    "properties": [
+      "embedding"
+    ],
+    "indexProvider": "vector-2.0",
+    "owningConstraint": null,
+    "lastRead": null,
+    "readCount": 0,
+    "trackedSince": "2026-10-28T21:46:40.220000000+00:00",
+    "options": {
+      "indexConfig": {
+        "vector.dimensions": 384,
+        "vector.hnsw.m": 16,
+        "vector.quantization.enabled": true,
+        "vector.similarity_function": "COSINE",
+        "vector.hnsw.ef_construction": 100
+      },
+      "indexProvider": "vector-2.0"
+    },
+    "failureMessage": "",
+    "createStatement": "CREATE VECTOR INDEX `chunk_minilm_cosine` FOR (n:`ChunkEmbedding`) ON (n.`embedding`) OPTIONS {indexConfig: {`vector.dimensions`: 384,`vector.hnsw.ef_construction`: 100,`vector.hnsw.m`: 16,`vector.quantization.enabled`: true,`vector.similarity_function`: 'COSINE'}}"
+  }
+}

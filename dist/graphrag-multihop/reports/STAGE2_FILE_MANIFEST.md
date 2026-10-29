@@ -1,0 +1,175 @@
+﻿# Stage 2 file inventory
+
+Local credentials, environments, caches, logs, process IDs, and JUnit XML are excluded. The Stage 1 inventory is retained separately.
+
+Current shareable files: 103
+New shareable files: 40
+Changed Stage 1 files: 16
+
+## New files
+
+- app/evaluation/extraction.py
+- app/extraction/__init__.py
+- app/extraction/chunking.py
+- app/extraction/documents.py
+- app/extraction/models.py
+- app/extraction/pipeline.py
+- app/extraction/provenance.py
+- app/extraction/registry.py
+- app/extraction/rules.py
+- app/repositories/ingestion.py
+- app/services/ingestion.py
+- app/services/ingestion_validation.py
+- data/evaluation/extraction.json
+- data/extraction/entity_registry.json
+- data/fictional/atlas.txt
+- data/fictional/cedar.md
+- data/fictional/conflicting-hosting.txt
+- data/fictional/review-required.md
+- docs/AUTOMATIC_EXTRACTION.md
+- docs/ENTITY_RESOLUTION.md
+- docs/EXTRACTION_EVALUATION.md
+- docs/PROVENANCE_VALIDATION.md
+- docs/STAGE2_PLAN.md
+- docs/STAGE2_REPORT.md
+- migrations/003_ingestion_lifecycle.cypher
+- reports/extraction-evaluation.json
+- reports/STAGE2_FILE_MANIFEST.md
+- reports/stage2-cli-verification.json
+- reports/stage2-corpus-verification.json
+- reports/stage2-runtime-verification.json
+- reports/stage2-test-results.json
+- scripts/build_extraction_evaluation.py
+- scripts/build_registry.py
+- scripts/evaluate_extraction.py
+- scripts/ingest.py
+- scripts/verify_ingestion.py
+- tests/integration/test_ingestion.py
+- tests/unit/test_extraction_documents.py
+- tests/unit/test_extraction_provenance.py
+- tests/unit/test_extraction_rules.py
+
+## Changed Stage 1 files
+
+- .env.example
+- README.md
+- app/core/config.py
+- app/db/neo4j.py
+- app/repositories/fixture.py
+- app/services/validation.py
+- compose.yaml
+- docs/ARCHITECTURE.md
+- docs/DATA_PROVENANCE.md
+- docs/GRAPH_SCHEMA.md
+- docs/PROJECT_ROADMAP.md
+- infra/README.md
+- reports/README.md
+- reports/runtime-verification.json
+- scripts/verify_runtime.py
+- tests/integration/test_neo4j.py
+
+## Complete current inventory
+
+- .env.example
+- .gitignore
+- .python-version
+- app/__init__.py
+- app/api/__init__.py
+- app/api/routes.py
+- app/core/__init__.py
+- app/core/config.py
+- app/core/logging.py
+- app/db/__init__.py
+- app/db/migrations.py
+- app/db/neo4j.py
+- app/evaluation/__init__.py
+- app/evaluation/extraction.py
+- app/extraction/__init__.py
+- app/extraction/chunking.py
+- app/extraction/documents.py
+- app/extraction/models.py
+- app/extraction/pipeline.py
+- app/extraction/provenance.py
+- app/extraction/registry.py
+- app/extraction/rules.py
+- app/graph/__init__.py
+- app/graph/fixtures.py
+- app/graph/queries.py
+- app/graph/schema.py
+- app/main.py
+- app/models/__init__.py
+- app/models/fixtures.py
+- app/repositories/__init__.py
+- app/repositories/fixture.py
+- app/repositories/ingestion.py
+- app/schemas/__init__.py
+- app/services/__init__.py
+- app/services/ingestion.py
+- app/services/ingestion_validation.py
+- app/services/validation.py
+- compose.yaml
+- data/evaluation/extraction.json
+- data/evaluation/questions.json
+- data/extraction/entity_registry.json
+- data/fictional/atlas.txt
+- data/fictional/cedar.md
+- data/fictional/conflicting-hosting.txt
+- data/fictional/review-required.md
+- data/fixtures/corporate.json
+- docs/ARCHITECTURE.md
+- docs/AUTOMATIC_EXTRACTION.md
+- docs/DATA_PROVENANCE.md
+- docs/ENTITY_RESOLUTION.md
+- docs/EXTRACTION_EVALUATION.md
+- docs/GRAPH_SCHEMA.md
+- docs/PROJECT_ROADMAP.md
+- docs/PROVENANCE_VALIDATION.md
+- docs/STAGE1_REPORT.md
+- docs/STAGE2_PLAN.md
+- docs/STAGE2_REPORT.md
+- infra/README.md
+- migrations/001_identity.cypher
+- migrations/002_lookup_indexes.cypher
+- migrations/003_ingestion_lifecycle.cypher
+- pyproject.toml
+- README.md
+- reports/extraction-evaluation.json
+- reports/FILE_MANIFEST.md
+- reports/graph-validation.json
+- reports/README.md
+- reports/runtime-verification.json
+- reports/STAGE2_FILE_MANIFEST.md
+- reports/stage2-cli-verification.json
+- reports/stage2-corpus-verification.json
+- reports/stage2-runtime-verification.json
+- reports/stage2-test-results.json
+- reports/test-results.json
+- scripts/__init__.py
+- scripts/build_extraction_evaluation.py
+- scripts/build_fixtures.py
+- scripts/build_registry.py
+- scripts/evaluate_extraction.py
+- scripts/graph.py
+- scripts/ingest.py
+- scripts/serve.py
+- scripts/setup_env.py
+- scripts/verify_ingestion.py
+- scripts/verify_runtime.py
+- tests/__init__.py
+- tests/client.py
+- tests/conftest.py
+- tests/integration/__init__.py
+- tests/integration/conftest.py
+- tests/integration/test_ingestion.py
+- tests/integration/test_neo4j.py
+- tests/unit/__init__.py
+- tests/unit/test_api.py
+- tests/unit/test_config.py
+- tests/unit/test_database.py
+- tests/unit/test_extraction_documents.py
+- tests/unit/test_extraction_provenance.py
+- tests/unit/test_extraction_rules.py
+- tests/unit/test_fixture_safety.py
+- tests/unit/test_fixtures.py
+- tests/unit/test_migrations.py
+- uv.lock

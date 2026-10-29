@@ -1,0 +1,1321 @@
+{
+  "graph_snapshot_before": {
+    "sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+    "unchanged": true,
+    "counts": {
+      "nodes": 254,
+      "edges": 622,
+      "sources": 93,
+      "runs": 110,
+      "vectors": 92
+    }
+  },
+  "health_connected": 200,
+  "startup_to_health_ms": 4108.027200010838,
+  "ready_connected": 200,
+  "connected_query": {
+    "answer": "AWS",
+    "answers": [
+      {
+        "id": "platform:aws",
+        "name": "AWS",
+        "entity_type": "Platform",
+        "scope": "cloud_vendor"
+      }
+    ],
+    "abstained": false,
+    "reason": "supported",
+    "retrieval_mode": "graph_multi_hop",
+    "generator": "deterministic_graph_v1",
+    "request_id": "ce1f2872d35f4cd0b682046fc38a512a",
+    "plan": {
+      "mention": "Priya (Lumen employee 001)",
+      "start_type": "Person",
+      "steps": [
+        {
+          "relation": "MANAGES",
+          "direction": "outgoing"
+        },
+        {
+          "relation": "USES",
+          "direction": "outgoing"
+        },
+        {
+          "relation": "HOSTED_ON",
+          "direction": "outgoing"
+        }
+      ],
+      "answer_type": "Platform",
+      "contexts": [],
+      "multiple": false,
+      "rule_id": "person_platform",
+      "parsing_status": "supported"
+    },
+    "resolution": {
+      "status": "resolved",
+      "canonical_id": "person:priya",
+      "candidate_ids": [
+        "person:priya"
+      ],
+      "reason": "exact_typed_alias_and_context"
+    },
+    "hop_count": 3,
+    "reasoning_path": [
+      {
+        "source": {
+          "id": "person:priya",
+          "name": "Priya",
+          "entity_type": "Person",
+          "scope": "lumen_employee_001"
+        },
+        "relation": "MANAGES",
+        "target": {
+          "id": "project:atlas",
+          "name": "Atlas",
+          "entity_type": "Project",
+          "scope": "lumen"
+        },
+        "direction": "outgoing",
+        "stored_source_id": "person:priya",
+        "stored_target_id": "project:atlas",
+        "supports": [
+          {
+            "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Priya manages Project Atlas.",
+            "start": 0,
+            "end": 28,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+            "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+            "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+            "quote": "Priya manages Project Atlas at Lumen Orchard.",
+            "start": 0,
+            "end": 45,
+            "source_kind": "automatic",
+            "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:001",
+            "document_id": "doc:01",
+            "chunk_id": "chunk:01",
+            "quote": "Priya manages Project Atlas at Lumen Orchard.",
+            "start": 0,
+            "end": 45,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ]
+      },
+      {
+        "source": {
+          "id": "project:atlas",
+          "name": "Atlas",
+          "entity_type": "Project",
+          "scope": "lumen"
+        },
+        "relation": "USES",
+        "target": {
+          "id": "tech:postgres-atlas",
+          "name": "PostgreSQL",
+          "entity_type": "Technology",
+          "scope": "atlas_deployment"
+        },
+        "direction": "outgoing",
+        "stored_source_id": "project:atlas",
+        "stored_target_id": "tech:postgres-atlas",
+        "supports": [
+          {
+            "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+            "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+            "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "automatic",
+            "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Atlas uses PostgreSQL.",
+            "start": 29,
+            "end": 51,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:003",
+            "document_id": "doc:02",
+            "chunk_id": "chunk:02",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ]
+      },
+      {
+        "source": {
+          "id": "tech:postgres-atlas",
+          "name": "PostgreSQL",
+          "entity_type": "Technology",
+          "scope": "atlas_deployment"
+        },
+        "relation": "HOSTED_ON",
+        "target": {
+          "id": "platform:aws",
+          "name": "AWS",
+          "entity_type": "Platform",
+          "scope": "cloud_vendor"
+        },
+        "direction": "outgoing",
+        "stored_source_id": "tech:postgres-atlas",
+        "stored_target_id": "platform:aws",
+        "supports": [
+          {
+            "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+            "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+            "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 0,
+            "end": 59,
+            "source_kind": "automatic",
+            "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 52,
+            "end": 111,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:005",
+            "document_id": "doc:03",
+            "chunk_id": "chunk:03",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 0,
+            "end": 59,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ]
+      }
+    ],
+    "reasoning_paths": [
+      {
+        "nodes": [
+          {
+            "id": "person:priya",
+            "name": "Priya",
+            "entity_type": "Person",
+            "scope": "lumen_employee_001"
+          },
+          {
+            "id": "project:atlas",
+            "name": "Atlas",
+            "entity_type": "Project",
+            "scope": "lumen"
+          },
+          {
+            "id": "tech:postgres-atlas",
+            "name": "PostgreSQL",
+            "entity_type": "Technology",
+            "scope": "atlas_deployment"
+          },
+          {
+            "id": "platform:aws",
+            "name": "AWS",
+            "entity_type": "Platform",
+            "scope": "cloud_vendor"
+          }
+        ],
+        "steps": [
+          {
+            "source": {
+              "id": "person:priya",
+              "name": "Priya",
+              "entity_type": "Person",
+              "scope": "lumen_employee_001"
+            },
+            "relation": "MANAGES",
+            "target": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "person:priya",
+            "stored_target_id": "project:atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Priya manages Project Atlas.",
+                "start": 0,
+                "end": 28,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+                "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+                "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+                "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                "start": 0,
+                "end": 45,
+                "source_kind": "automatic",
+                "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+                "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:001",
+                "document_id": "doc:01",
+                "chunk_id": "chunk:01",
+                "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                "start": 0,
+                "end": 45,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "relation": "USES",
+            "target": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "project:atlas",
+            "stored_target_id": "tech:postgres-atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+                "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+                "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "automatic",
+                "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Atlas uses PostgreSQL.",
+                "start": 29,
+                "end": 51,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:003",
+                "document_id": "doc:02",
+                "chunk_id": "chunk:02",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "relation": "HOSTED_ON",
+            "target": {
+              "id": "platform:aws",
+              "name": "AWS",
+              "entity_type": "Platform",
+              "scope": "cloud_vendor"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "tech:postgres-atlas",
+            "stored_target_id": "platform:aws",
+            "supports": [
+              {
+                "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+                "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+                "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 0,
+                "end": 59,
+                "source_kind": "automatic",
+                "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+                "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 52,
+                "end": 111,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:005",
+                "document_id": "doc:03",
+                "chunk_id": "chunk:03",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 0,
+                "end": 59,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "hop_count": 3
+      }
+    ],
+    "citations": [
+      {
+        "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "Priya manages Project Atlas.",
+        "start": 0,
+        "end": 28,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 0,
+        "end": 59,
+        "source_kind": "automatic",
+        "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "automatic",
+        "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+        "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+        "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+        "quote": "Priya manages Project Atlas at Lumen Orchard.",
+        "start": 0,
+        "end": 45,
+        "source_kind": "automatic",
+        "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "Atlas uses PostgreSQL.",
+        "start": 29,
+        "end": 51,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 52,
+        "end": 111,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "fact:001",
+        "document_id": "doc:01",
+        "chunk_id": "chunk:01",
+        "quote": "Priya manages Project Atlas at Lumen Orchard.",
+        "start": 0,
+        "end": 45,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:003",
+        "document_id": "doc:02",
+        "chunk_id": "chunk:02",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:005",
+        "document_id": "doc:03",
+        "chunk_id": "chunk:03",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 0,
+        "end": 59,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      }
+    ],
+    "evidence_chunks": [
+      {
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "start": 0,
+        "end": 112,
+        "text": "Priya manages Project Atlas.\nAtlas uses PostgreSQL.\nThe PostgreSQL instance for Project Atlas is hosted on AWS.\n",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+        "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+        "start": 0,
+        "end": 76,
+        "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard.",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "start": 0,
+        "end": 92,
+        "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "start": 0,
+        "end": 59,
+        "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "doc:01",
+        "chunk_id": "chunk:01",
+        "start": 0,
+        "end": 76,
+        "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard.",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "source_kind": "curated"
+      },
+      {
+        "document_id": "doc:02",
+        "chunk_id": "chunk:02",
+        "start": 0,
+        "end": 92,
+        "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "source_kind": "curated"
+      },
+      {
+        "document_id": "doc:03",
+        "chunk_id": "chunk:03",
+        "start": 0,
+        "end": 59,
+        "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "source_kind": "curated"
+      }
+    ],
+    "candidate_path_count": 39,
+    "paths_discarded": 0,
+    "diagnostics": {
+      "complete_candidates": 27,
+      "edges_checked": 9,
+      "provenance_rejections": 0,
+      "validated_complete_paths": 1
+    },
+    "latency_ms": {
+      "parsing": 3.5559999814722687,
+      "entity_linking": 0.02720000338740647,
+      "traversal": 117.86270001903176,
+      "provenance": 41.51869998895563,
+      "selection": 0.2175999979954213,
+      "revalidation": 162.63819998130202,
+      "generation": 0.013100012438371778,
+      "end_to_end": 325.8987999870442
+    }
+  },
+  "concurrent_http_requests": 8,
+  "concurrent_unique_request_ids": 8,
+  "bad_depth": 422,
+  "health_outage": 200,
+  "ready_outage": 503,
+  "outage_query": {
+    "error": "Graph database unavailable",
+    "request_id": "5ea77feb11d34f4f804a84b7374b4ff9"
+  },
+  "health_start_during_outage": 200,
+  "ready_start_during_outage": 503,
+  "outage_query_after_api_restart": {
+    "error": "Graph database unavailable",
+    "request_id": "1668cfc61659494f9b64525f7d27caa2"
+  },
+  "ready_recovered": 200,
+  "recovered_query": {
+    "answer": "AWS",
+    "answers": [
+      {
+        "id": "platform:aws",
+        "name": "AWS",
+        "entity_type": "Platform",
+        "scope": "cloud_vendor"
+      }
+    ],
+    "abstained": false,
+    "reason": "supported",
+    "retrieval_mode": "graph_multi_hop",
+    "generator": "deterministic_graph_v1",
+    "request_id": "81e4a769bc0248aaa93cc98c49c16a96",
+    "plan": {
+      "mention": "Priya (Lumen employee 001)",
+      "start_type": "Person",
+      "steps": [
+        {
+          "relation": "MANAGES",
+          "direction": "outgoing"
+        },
+        {
+          "relation": "USES",
+          "direction": "outgoing"
+        },
+        {
+          "relation": "HOSTED_ON",
+          "direction": "outgoing"
+        }
+      ],
+      "answer_type": "Platform",
+      "contexts": [],
+      "multiple": false,
+      "rule_id": "person_platform",
+      "parsing_status": "supported"
+    },
+    "resolution": {
+      "status": "resolved",
+      "canonical_id": "person:priya",
+      "candidate_ids": [
+        "person:priya"
+      ],
+      "reason": "exact_typed_alias_and_context"
+    },
+    "hop_count": 3,
+    "reasoning_path": [
+      {
+        "source": {
+          "id": "person:priya",
+          "name": "Priya",
+          "entity_type": "Person",
+          "scope": "lumen_employee_001"
+        },
+        "relation": "MANAGES",
+        "target": {
+          "id": "project:atlas",
+          "name": "Atlas",
+          "entity_type": "Project",
+          "scope": "lumen"
+        },
+        "direction": "outgoing",
+        "stored_source_id": "person:priya",
+        "stored_target_id": "project:atlas",
+        "supports": [
+          {
+            "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Priya manages Project Atlas.",
+            "start": 0,
+            "end": 28,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+            "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+            "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+            "quote": "Priya manages Project Atlas at Lumen Orchard.",
+            "start": 0,
+            "end": 45,
+            "source_kind": "automatic",
+            "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:001",
+            "document_id": "doc:01",
+            "chunk_id": "chunk:01",
+            "quote": "Priya manages Project Atlas at Lumen Orchard.",
+            "start": 0,
+            "end": 45,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ]
+      },
+      {
+        "source": {
+          "id": "project:atlas",
+          "name": "Atlas",
+          "entity_type": "Project",
+          "scope": "lumen"
+        },
+        "relation": "USES",
+        "target": {
+          "id": "tech:postgres-atlas",
+          "name": "PostgreSQL",
+          "entity_type": "Technology",
+          "scope": "atlas_deployment"
+        },
+        "direction": "outgoing",
+        "stored_source_id": "project:atlas",
+        "stored_target_id": "tech:postgres-atlas",
+        "supports": [
+          {
+            "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+            "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+            "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "automatic",
+            "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "Atlas uses PostgreSQL.",
+            "start": 29,
+            "end": 51,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:003",
+            "document_id": "doc:02",
+            "chunk_id": "chunk:02",
+            "quote": "Project Atlas uses its PostgreSQL database instance.",
+            "start": 0,
+            "end": 52,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ]
+      },
+      {
+        "source": {
+          "id": "tech:postgres-atlas",
+          "name": "PostgreSQL",
+          "entity_type": "Technology",
+          "scope": "atlas_deployment"
+        },
+        "relation": "HOSTED_ON",
+        "target": {
+          "id": "platform:aws",
+          "name": "AWS",
+          "entity_type": "Platform",
+          "scope": "cloud_vendor"
+        },
+        "direction": "outgoing",
+        "stored_source_id": "tech:postgres-atlas",
+        "stored_target_id": "platform:aws",
+        "supports": [
+          {
+            "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+            "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+            "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 0,
+            "end": 59,
+            "source_kind": "automatic",
+            "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+            "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+            "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 52,
+            "end": 111,
+            "source_kind": "automatic",
+            "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+            "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+            "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+            "extraction_method": "deterministic_rules"
+          },
+          {
+            "fact_id": "fact:005",
+            "document_id": "doc:03",
+            "chunk_id": "chunk:03",
+            "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+            "start": 0,
+            "end": 59,
+            "source_kind": "curated",
+            "source_id": null,
+            "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+            "processing_version": null,
+            "extraction_method": "manual_fixture"
+          }
+        ]
+      }
+    ],
+    "reasoning_paths": [
+      {
+        "nodes": [
+          {
+            "id": "person:priya",
+            "name": "Priya",
+            "entity_type": "Person",
+            "scope": "lumen_employee_001"
+          },
+          {
+            "id": "project:atlas",
+            "name": "Atlas",
+            "entity_type": "Project",
+            "scope": "lumen"
+          },
+          {
+            "id": "tech:postgres-atlas",
+            "name": "PostgreSQL",
+            "entity_type": "Technology",
+            "scope": "atlas_deployment"
+          },
+          {
+            "id": "platform:aws",
+            "name": "AWS",
+            "entity_type": "Platform",
+            "scope": "cloud_vendor"
+          }
+        ],
+        "steps": [
+          {
+            "source": {
+              "id": "person:priya",
+              "name": "Priya",
+              "entity_type": "Person",
+              "scope": "lumen_employee_001"
+            },
+            "relation": "MANAGES",
+            "target": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "person:priya",
+            "stored_target_id": "project:atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Priya manages Project Atlas.",
+                "start": 0,
+                "end": 28,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+                "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+                "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+                "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                "start": 0,
+                "end": 45,
+                "source_kind": "automatic",
+                "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+                "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:001",
+                "document_id": "doc:01",
+                "chunk_id": "chunk:01",
+                "quote": "Priya manages Project Atlas at Lumen Orchard.",
+                "start": 0,
+                "end": 45,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "project:atlas",
+              "name": "Atlas",
+              "entity_type": "Project",
+              "scope": "lumen"
+            },
+            "relation": "USES",
+            "target": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "project:atlas",
+            "stored_target_id": "tech:postgres-atlas",
+            "supports": [
+              {
+                "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+                "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+                "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "automatic",
+                "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "Atlas uses PostgreSQL.",
+                "start": 29,
+                "end": 51,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:003",
+                "document_id": "doc:02",
+                "chunk_id": "chunk:02",
+                "quote": "Project Atlas uses its PostgreSQL database instance.",
+                "start": 0,
+                "end": 52,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          },
+          {
+            "source": {
+              "id": "tech:postgres-atlas",
+              "name": "PostgreSQL",
+              "entity_type": "Technology",
+              "scope": "atlas_deployment"
+            },
+            "relation": "HOSTED_ON",
+            "target": {
+              "id": "platform:aws",
+              "name": "AWS",
+              "entity_type": "Platform",
+              "scope": "cloud_vendor"
+            },
+            "direction": "outgoing",
+            "stored_source_id": "tech:postgres-atlas",
+            "stored_target_id": "platform:aws",
+            "supports": [
+              {
+                "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+                "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+                "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 0,
+                "end": 59,
+                "source_kind": "automatic",
+                "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+                "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+                "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+                "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 52,
+                "end": 111,
+                "source_kind": "automatic",
+                "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+                "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+                "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+                "extraction_method": "deterministic_rules"
+              },
+              {
+                "fact_id": "fact:005",
+                "document_id": "doc:03",
+                "chunk_id": "chunk:03",
+                "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+                "start": 0,
+                "end": 59,
+                "source_kind": "curated",
+                "source_id": null,
+                "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+                "processing_version": null,
+                "extraction_method": "manual_fixture"
+              }
+            ]
+          }
+        ],
+        "hop_count": 3
+      }
+    ],
+    "citations": [
+      {
+        "fact_id": "auto-fact:11c1e606186a3994b8469ca5c3c0903d7576669f",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "Priya manages Project Atlas.",
+        "start": 0,
+        "end": 28,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:28d443ecf9f42ac124bf96b442b1fb243419067b",
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 0,
+        "end": 59,
+        "source_kind": "automatic",
+        "source_id": "source:c69df8ea71f14a45eda32d628f2b5ce37076d235",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:4811ed137ba10b7bc02abfd707577df1af8e603b",
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "automatic",
+        "source_id": "source:a5a545acaf6e70236c4b24a6837f6a63aee64b6e",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:a4486c00be880b039194fc270defbae99321ac24",
+        "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+        "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+        "quote": "Priya manages Project Atlas at Lumen Orchard.",
+        "start": 0,
+        "end": 45,
+        "source_kind": "automatic",
+        "source_id": "source:a2801d348ca72cad1d889864294ff3d2e05b0f7c",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:b86eff904e7916bc96dd5ee4ae5f68390312bd5a",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "Atlas uses PostgreSQL.",
+        "start": 29,
+        "end": 51,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "auto-fact:fa1a8f5c0bb83cfba9c1e78fe7ebb5003a312794",
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 52,
+        "end": 111,
+        "source_kind": "automatic",
+        "source_id": "source:b957fc6f9a3c7019b71c79196908b4beb597c79a",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+        "extraction_method": "deterministic_rules"
+      },
+      {
+        "fact_id": "fact:001",
+        "document_id": "doc:01",
+        "chunk_id": "chunk:01",
+        "quote": "Priya manages Project Atlas at Lumen Orchard.",
+        "start": 0,
+        "end": 45,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:003",
+        "document_id": "doc:02",
+        "chunk_id": "chunk:02",
+        "quote": "Project Atlas uses its PostgreSQL database instance.",
+        "start": 0,
+        "end": 52,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      },
+      {
+        "fact_id": "fact:005",
+        "document_id": "doc:03",
+        "chunk_id": "chunk:03",
+        "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "start": 0,
+        "end": 59,
+        "source_kind": "curated",
+        "source_id": null,
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "processing_version": null,
+        "extraction_method": "manual_fixture"
+      }
+    ],
+    "evidence_chunks": [
+      {
+        "document_id": "autodoc:8b903cc633fe534bce1008ad8ee75a17fe4cb8d4",
+        "chunk_id": "autochunk:52a167b4a41f770631b353b9f1cfcda62ef53094",
+        "start": 0,
+        "end": 112,
+        "text": "Priya manages Project Atlas.\nAtlas uses PostgreSQL.\nThe PostgreSQL instance for Project Atlas is hosted on AWS.\n",
+        "content_hash": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "autodoc:939fd3abadb7554a1cce8d3e3975c86bf468187c",
+        "chunk_id": "autochunk:23eaedf17fcbae7214e7b468835a9497daadf371",
+        "start": 0,
+        "end": 76,
+        "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard.",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "autodoc:9ea54cccd47da1cc6bc1462a73e044d08822d0d8",
+        "chunk_id": "autochunk:cf2dfb2beb24c9d695a2d34ee37fd9f6db5f890a",
+        "start": 0,
+        "end": 92,
+        "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "autodoc:f405c0ac68af2ee1e1a1f4ff4e8776c8925f0a68",
+        "chunk_id": "autochunk:f26924af9c7605dd9979c581d70cb909a404441a",
+        "start": 0,
+        "end": 59,
+        "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "source_kind": "automatic"
+      },
+      {
+        "document_id": "doc:01",
+        "chunk_id": "chunk:01",
+        "start": 0,
+        "end": 76,
+        "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard.",
+        "content_hash": "d67de8e368360145ed31e7366b0631fa4bae87611ad8fe7f3d48c2bf322171b0",
+        "source_kind": "curated"
+      },
+      {
+        "document_id": "doc:02",
+        "chunk_id": "chunk:02",
+        "start": 0,
+        "end": 92,
+        "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard.",
+        "content_hash": "c0e22fd64d8703eec82f40254c60463c3c7e8272f8de68ee8ce62d5c9c570f9a",
+        "source_kind": "curated"
+      },
+      {
+        "document_id": "doc:03",
+        "chunk_id": "chunk:03",
+        "start": 0,
+        "end": 59,
+        "text": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+        "content_hash": "2efe9bd7d2912ca67befe0e7548c5801c825374f7c302264523b81e979b4dd0e",
+        "source_kind": "curated"
+      }
+    ],
+    "candidate_path_count": 39,
+    "paths_discarded": 0,
+    "diagnostics": {
+      "complete_candidates": 27,
+      "edges_checked": 9,
+      "provenance_rejections": 0,
+      "validated_complete_paths": 1
+    },
+    "latency_ms": {
+      "parsing": 0.10289999772794545,
+      "entity_linking": 0.02519998815841973,
+      "traversal": 14975.90369998943,
+      "provenance": 1856.5998999984004,
+      "selection": 0.21930001094006002,
+      "revalidation": 793.1347000121605,
+      "generation": 0.014400022337213159,
+      "end_to_end": 17626.084999996237
+    }
+  },
+  "graph_snapshot_after": {
+    "sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+    "unchanged": true,
+    "counts": {
+      "nodes": 254,
+      "edges": 622,
+      "sources": 93,
+      "runs": 110,
+      "vectors": 92
+    }
+  }
+}

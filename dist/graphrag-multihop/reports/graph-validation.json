@@ -1,0 +1,35 @@
+﻿{
+  "nodes": 50,
+  "relationships": 91,
+  "facts": 30,
+  "answerable_paths": 6,
+  "two_hop": [
+    {
+      "nodes": [
+        "person:priya",
+        "project:atlas",
+        "tech:postgres-atlas"
+      ],
+      "facts": [
+        "fact:001",
+        "fact:003"
+      ]
+    }
+  ],
+  "three_hop": [
+    {
+      "nodes": [
+        "person:priya",
+        "project:atlas",
+        "tech:postgres-atlas",
+        "platform:aws"
+      ],
+      "facts": [
+        "fact:001",
+        "fact:003",
+        "fact:005"
+      ],
+      "answer": "AWS"
+    }
+  ]
+}

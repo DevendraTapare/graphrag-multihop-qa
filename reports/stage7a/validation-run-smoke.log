@@ -1,0 +1,6 @@
+{
+  "kind": "smoke",
+  "questions": 9,
+  "requests": 27,
+  "unsupported_answers": 0
+}

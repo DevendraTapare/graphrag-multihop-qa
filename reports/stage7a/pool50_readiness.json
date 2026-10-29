@@ -1,0 +1,6 @@
+{
+  "attempts": 1,
+  "wall_ms": 369.68980001984164,
+  "exception_events": [],
+  "note": "Bounded pre-measurement polling; no measured-request retries added"
+}

@@ -1,0 +1,31 @@
+{
+  "files": 328,
+  "bytes": 24727545,
+  "mib": 23.582024574279785,
+  "inventory_entries": 326,
+  "checksum_entries": 327,
+  "checksum_failures": 0,
+  "top_level_files": {
+    ".env.example": 1,
+    ".gitattributes": 1,
+    ".github": 1,
+    ".gitignore": 1,
+    ".gitleaks.toml": 1,
+    ".python-version": 1,
+    "app": 61,
+    "compose.yaml": 1,
+    "data": 18,
+    "docs": 50,
+    "FILE_INVENTORY.json": 1,
+    "infra": 1,
+    "migrations": 4,
+    "PUBLICATION.json": 1,
+    "pyproject.toml": 1,
+    "README.md": 1,
+    "reports": 99,
+    "scripts": 52,
+    "SHA256SUMS": 1,
+    "tests": 30,
+    "uv.lock": 1
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "scanner": "pip-audit",
+  "service": "PyPI advisory service",
+  "date": "2026-10-29",
+  "audited_distributions": 56,
+  "skip_count": 0,
+  "advisory_records": 9,
+  "distinct_advisory_ids": 6,
+  "findings": [
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2025-217",
+      "aliases": [
+        "CVE-2025-14929"
+      ],
+      "fix_versions": []
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-2288",
+      "aliases": [
+        "CVE-2026-1839",
+        "GHSA-69w3-r845-3855"
+      ],
+      "fix_versions": [
+        "5.0.0rc3"
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-2289",
+      "aliases": [
+        "CVE-2026-4372",
+        "GHSA-29pf-2h5f-8g72"
+      ],
+      "fix_versions": [
+        "5.3.0"
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-2290",
+      "aliases": [
+        "GHSA-fgcw-684q-jj6r",
+        "CVE-2026-5241"
+      ],
+      "fix_versions": []
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-2288",
+      "aliases": [
+        "CVE-2026-1839",
+        "GHSA-69w3-r845-3855"
+      ],
+      "fix_versions": [
+        "5.0.0"
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-2289",
+      "aliases": [
+        "CVE-2026-4372",
+        "GHSA-29pf-2h5f-8g72"
+      ],
+      "fix_versions": [
+        "5.3.0"
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-2290",
+      "aliases": [
+        "GHSA-fgcw-684q-jj6r",
+        "CVE-2026-5241"
+      ],
+      "fix_versions": [
+        "5.5.0"
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-3929",
+      "aliases": [
+        "CVE-2026-9856",
+        "GHSA-xrqw-3rrv-vx5w"
+      ],
+      "fix_versions": [
+        "5.10.0"
+      ]
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "id": "PYSEC-2026-4174",
+      "aliases": [
+        "CVE-2026-80047",
+        "GHSA-x9r9-c232-4q39"
+      ],
+      "fix_versions": []
+    }
+  ],
+  "gate": "OPEN; trusted pinned local model scope only; no dependency migration performed"
+}

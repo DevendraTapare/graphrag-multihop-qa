@@ -1,0 +1,38 @@
+{
+  "dataset_version": "multihop-vector-v1",
+  "corpus_build": "vector-build:844933f2e03ad5f3ad8f1a7970d01c5bd342faf7",
+  "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+  "query_comparisons": 488,
+  "same_ranked_chunks_scores_answers_and_metrics": true,
+  "compared_fields": [
+    "id",
+    "split",
+    "hops",
+    "top_k",
+    "answer",
+    "reason",
+    "document_recall",
+    "precision",
+    "required_evidence_coverage",
+    "complete_chain",
+    "exact_match",
+    "abstained",
+    "citation_count",
+    "correct_citations",
+    "unsupported_answer",
+    "covered_fact_ids",
+    "missing_fact_ids",
+    "retrieved_document_ids",
+    "retrieved_chunk_ids",
+    "scores"
+  ],
+  "timings_excluded": true,
+  "first_k5_end_to_end_ms": {
+    "p50": 96.43120001419447,
+    "p95": 232.45096500322668
+  },
+  "second_k5_end_to_end_ms": {
+    "p50": 87.18190000217874,
+    "p95": 217.91806998662648
+  }
+}

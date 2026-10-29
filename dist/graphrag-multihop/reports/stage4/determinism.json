@@ -1,0 +1,86 @@
+{
+  "questions_per_run": 122,
+  "runs": 2,
+  "identical_non_timing_query_results": true,
+  "difference_ids": [],
+  "runtime_sha256": {
+    "app/graph_rag/interpretation.py": "4c2d086f8877ba49008b179188f86d246f9f7687bed30f448a790c24a0603ff0",
+    "app/graph_rag/linking.py": "67afc660a7c044d1e0976a871de30c59e1aad6e4d98ef40efa20c7791fb87e14",
+    "app/graph_rag/models.py": "dcb7db12abf92ff0d397e38bb4d6897b9c1d31f1ba9576cddc88524e9252f419",
+    "app/graph_rag/provenance.py": "a0d7008173b46ff3c5e9c43846e843085c074a4c79d57411a25fb0a7c9df7fa2",
+    "app/graph_rag/repository.py": "bbe96af64c50e8a5fa924e867d0e0366ab3b34453b872fb546e00dc567b15fc4",
+    "app/graph_rag/service.py": "ca32e07084417438bcff37b6957e4846a1573b0b542f6dd4aa84e2bd55c0ebb3",
+    "app/graph_rag/__init__.py": "97b12edd5a8508a6aef44d98d994cb53aef9a6184c23c02ef438fc9cae123507",
+    "app/api/graph_rag.py": "12ea090fb177c92e306c3dd2ef756e35e38f5d7c9f09ec3704b190c6f6dd026d"
+  },
+  "snapshot_sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+  "first_run_latency_ms": {
+    "parsing": {
+      "p50": 0.07315000402741134,
+      "p95": 0.41990501340478603
+    },
+    "entity_linking": {
+      "p50": 0.0044000043999403715,
+      "p95": 0.006084989581722763
+    },
+    "traversal": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "provenance": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "selection": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "revalidation": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "generation": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "end_to_end": {
+      "p50": 0.08689999231137335,
+      "p95": 0.4373599978862326
+    }
+  },
+  "second_run_latency_ms": {
+    "parsing": {
+      "p50": 0.039000005926936865,
+      "p95": 0.34786999749485326
+    },
+    "entity_linking": {
+      "p50": 0.0043000036384910345,
+      "p95": 0.005290011176839468
+    },
+    "traversal": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "provenance": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "selection": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "revalidation": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "generation": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "end_to_end": {
+      "p50": 0.05215000419411808,
+      "p95": 0.3648400102974839
+    }
+  },
+  "active_path_repeats": "operational_verification.json: exact paths/citations compared across five repeats at concurrency 1 and 4"
+}

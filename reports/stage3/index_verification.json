@@ -1,0 +1,89 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+  "processing_version": "processing:8d0ae79ff5fdbf8c4caefe1e67bef04ff8aea800",
+  "build": {
+    "build_id": "vector-build:844933f2e03ad5f3ad8f1a7970d01c5bd342faf7",
+    "documents": 92,
+    "chunks": 92,
+    "status": "ready",
+    "cached": true
+  },
+  "index": {
+    "id": 55,
+    "name": "chunk_minilm_cosine",
+    "state": "ONLINE",
+    "populationPercent": 100.0,
+    "type": "VECTOR",
+    "entityType": "NODE",
+    "labelsOrTypes": [
+      "ChunkEmbedding"
+    ],
+    "properties": [
+      "embedding"
+    ],
+    "indexProvider": "vector-2.0",
+    "owningConstraint": null,
+    "lastRead": "2026-10-28T15:50:34.804000000+00:00",
+    "readCount": 2,
+    "trackedSince": "2026-10-28T15:41:49.301000000+00:00",
+    "options": {
+      "indexConfig": {
+        "vector.dimensions": 384,
+        "vector.hnsw.m": 16,
+        "vector.quantization.enabled": true,
+        "vector.similarity_function": "COSINE",
+        "vector.hnsw.ef_construction": 100
+      },
+      "indexProvider": "vector-2.0"
+    },
+    "failureMessage": "",
+    "createStatement": "CREATE VECTOR INDEX `chunk_minilm_cosine` FOR (n:`ChunkEmbedding`) ON (n.`embedding`) OPTIONS {indexConfig: {`vector.dimensions`: 384,`vector.hnsw.ef_construction`: 100,`vector.hnsw.m`: 16,`vector.quantization.enabled`: true,`vector.similarity_function`: 'COSINE'}}"
+  },
+  "vectors_checked": 92,
+  "dimension": 384,
+  "all_finite_normalized": true,
+  "canonical_chunk_ids_unique": true,
+  "idempotent_repeat": true,
+  "source_audits_passed": 92,
+  "stage1": {
+    "nodes": 50,
+    "relationships": 91,
+    "facts": 30,
+    "answerable_paths": 6,
+    "two_hop": [
+      {
+        "nodes": [
+          "person:priya",
+          "project:atlas",
+          "tech:postgres-atlas"
+        ],
+        "facts": [
+          "fact:001",
+          "fact:003"
+        ]
+      }
+    ],
+    "three_hop": [
+      {
+        "nodes": [
+          "person:priya",
+          "project:atlas",
+          "tech:postgres-atlas",
+          "platform:aws"
+        ],
+        "facts": [
+          "fact:001",
+          "fact:003",
+          "fact:005"
+        ],
+        "answer": "AWS"
+      }
+    ]
+  },
+  "schema": {
+    "constraints": 23,
+    "indexes": 32
+  }
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\Projects\GraphRAG-MultiHop\dist\graphrag-multihop\scripts\portfolio.py", line 325, in <module>
+    main()
+  File "D:\Projects\GraphRAG-MultiHop\dist\graphrag-multihop\scripts\portfolio.py", line 318, in main
+    value = demo(args.output)
+            ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\GraphRAG-MultiHop\dist\graphrag-multihop\scripts\portfolio.py", line 233, in demo
+    raise ValueError(f"Demo mismatch: {label}/{mode}: {response['answer']!r}")
+ValueError: Demo mismatch: ambiguous/vector_only: 'Atlas'

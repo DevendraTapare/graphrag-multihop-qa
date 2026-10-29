@@ -1,0 +1,715 @@
+{
+  "method": "Two waves, four fixed calibration probes, 1/5/10/25/50 users. All modes measured sequentially. 546 requests per pool. One before/after pair; not HTTP/sustained/randomized. Same application bounds; no measured retries.",
+  "rows": [
+    {
+      "pool": 10,
+      "mode": "graph_only",
+      "users": 1,
+      "requests": 2,
+      "outcomes": {
+        "successful_answer": 2
+      },
+      "p50_ms": 705.6905500066932,
+      "p95_ms": 726.951114993426,
+      "completed_per_second": 1.3985887819574934,
+      "correct_results_per_second": 1.3985887819574934,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "graph_only",
+      "users": 5,
+      "requests": 10,
+      "outcomes": {
+        "successful_answer": 8,
+        "correct_abstention": 2
+      },
+      "p50_ms": 1884.0148999879602,
+      "p95_ms": 2119.165200002317,
+      "completed_per_second": 2.387774480051159,
+      "correct_results_per_second": 2.387774480051159,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "graph_only",
+      "users": 10,
+      "requests": 20,
+      "outcomes": {
+        "successful_answer": 16,
+        "correct_abstention": 4
+      },
+      "p50_ms": 2925.5784999986645,
+      "p95_ms": 4507.753630015941,
+      "completed_per_second": 2.658869337357175,
+      "correct_results_per_second": 2.658869337357175,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "graph_only",
+      "users": 25,
+      "requests": 50,
+      "outcomes": {
+        "successful_answer": 20,
+        "correct_abstention": 12,
+        "error": 18
+      },
+      "p50_ms": 3177.4033499968937,
+      "p95_ms": 5459.987754994654,
+      "completed_per_second": 5.035917878514075,
+      "correct_results_per_second": 3.2229874422490083,
+      "exception_causes": {
+        "DatabaseUnavailable": 18,
+        "ConnectionAcquisitionTimeoutError": 18
+      },
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "graph_only",
+      "users": 50,
+      "requests": 100,
+      "outcomes": {
+        "successful_answer": 20,
+        "correct_abstention": 24,
+        "error": 56
+      },
+      "p50_ms": 3001.704649985186,
+      "p95_ms": 4180.541519993858,
+      "completed_per_second": 11.52563917618369,
+      "correct_results_per_second": 5.071281237520823,
+      "exception_causes": {
+        "DatabaseUnavailable": 56,
+        "ConnectionAcquisitionTimeoutError": 56
+      },
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "vector_only",
+      "users": 1,
+      "requests": 2,
+      "outcomes": {
+        "successful_answer": 1,
+        "false_abstention": 1
+      },
+      "p50_ms": 291.62864999671,
+      "p95_ms": 360.1271550011006,
+      "completed_per_second": 3.416645383916238,
+      "correct_results_per_second": 1.708322691958119,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 0.002700006007216871,
+        "p95": 0.002969994966406375
+      },
+      "embedding_hold_ms": {
+        "p50": 143.48170001176186,
+        "p95": 228.1537000206299
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "vector_only",
+      "users": 5,
+      "requests": 10,
+      "outcomes": {
+        "successful_answer": 3,
+        "false_abstention": 5,
+        "correct_abstention": 2
+      },
+      "p50_ms": 666.0977500141598,
+      "p95_ms": 834.4617400041898,
+      "completed_per_second": 6.397018682175199,
+      "correct_results_per_second": 3.1985093410875995,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 139.2209999903571,
+        "p95": 405.1218049920862
+      },
+      "embedding_hold_ms": {
+        "p50": 84.21674999408424,
+        "p95": 139.61392998899095
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "vector_only",
+      "users": 10,
+      "requests": 20,
+      "outcomes": {
+        "successful_answer": 5,
+        "false_abstention": 11,
+        "correct_abstention": 4
+      },
+      "p50_ms": 1292.6016500132391,
+      "p95_ms": 1542.8935849820846,
+      "completed_per_second": 6.442542634488237,
+      "correct_results_per_second": 2.8991441855197064,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 381.79920001130085,
+        "p95": 987.0922900096048
+      },
+      "embedding_hold_ms": {
+        "p50": 75.93020000786055,
+        "p95": 289.0096650095075
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "vector_only",
+      "users": 25,
+      "requests": 50,
+      "outcomes": {
+        "successful_answer": 13,
+        "false_abstention": 25,
+        "correct_abstention": 12
+      },
+      "p50_ms": 2869.222700013779,
+      "p95_ms": 3616.68484499678,
+      "completed_per_second": 7.027359280565458,
+      "correct_results_per_second": 3.513679640282729,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 1415.9459000075003,
+        "p95": 2612.2774249859503
+      },
+      "embedding_hold_ms": {
+        "p50": 87.33444999961648,
+        "p95": 271.44807501899754
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "vector_only",
+      "users": 50,
+      "requests": 100,
+      "outcomes": {
+        "successful_answer": 25,
+        "false_abstention": 51,
+        "correct_abstention": 24
+      },
+      "p50_ms": 3777.381050022086,
+      "p95_ms": 7311.604354996234,
+      "completed_per_second": 7.097229560951975,
+      "correct_results_per_second": 3.4776424848664678,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 2921.9529499969212,
+        "p95": 6014.03473001119
+      },
+      "embedding_hold_ms": {
+        "p50": 94.0594000130659,
+        "p95": 375.2911250092438
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "hybrid_graph_vector",
+      "users": 1,
+      "requests": 2,
+      "outcomes": {
+        "successful_answer": 2
+      },
+      "p50_ms": 608.1358499941416,
+      "p95_ms": 617.8733549866593,
+      "completed_per_second": 1.6172540304231533,
+      "correct_results_per_second": 1.6172540304231533,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 0.003149994881823659,
+        "p95": 0.0037349993363022804
+      },
+      "embedding_hold_ms": {
+        "p50": 80.04829999117646,
+        "p95": 95.2353500018944
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "hybrid_graph_vector",
+      "users": 5,
+      "requests": 10,
+      "outcomes": {
+        "successful_answer": 8,
+        "correct_abstention": 2
+      },
+      "p50_ms": 2170.6235999881756,
+      "p95_ms": 2425.070260000939,
+      "completed_per_second": 2.0613362133777344,
+      "correct_results_per_second": 2.0613362133777344,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 116.91759999666829,
+        "p95": 362.92225000652235
+      },
+      "embedding_hold_ms": {
+        "p50": 71.59094998496585,
+        "p95": 220.35100000211963
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "hybrid_graph_vector",
+      "users": 10,
+      "requests": 20,
+      "outcomes": {
+        "successful_answer": 16,
+        "correct_abstention": 4
+      },
+      "p50_ms": 4204.422349983361,
+      "p95_ms": 5137.428575006197,
+      "completed_per_second": 1.9714458348139952,
+      "correct_results_per_second": 1.9714458348139952,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 420.51725000783335,
+        "p95": 1552.9942850058437
+      },
+      "embedding_hold_ms": {
+        "p50": 79.55809999839403,
+        "p95": 476.24827501858823
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "hybrid_graph_vector",
+      "users": 25,
+      "requests": 50,
+      "outcomes": {
+        "successful_answer": 35,
+        "correct_abstention": 11,
+        "error": 4
+      },
+      "p50_ms": 6484.129300006316,
+      "p95_ms": 10023.029255006986,
+      "completed_per_second": 2.5855156455704944,
+      "correct_results_per_second": 2.378674393924855,
+      "exception_causes": {
+        "DatabaseUnavailable": 4,
+        "ConnectionAcquisitionTimeoutError": 4
+      },
+      "embedding_wait_ms": {
+        "p50": 1573.645700016641,
+        "p95": 5017.276344999846
+      },
+      "embedding_hold_ms": {
+        "p50": 131.5877500019269,
+        "p95": 621.8457550188757
+      }
+    },
+    {
+      "pool": 10,
+      "mode": "hybrid_graph_vector",
+      "users": 50,
+      "requests": 100,
+      "outcomes": {
+        "successful_answer": 65,
+        "correct_abstention": 18,
+        "error": 17
+      },
+      "p50_ms": 10976.024000003235,
+      "p95_ms": 17657.272419991205,
+      "completed_per_second": 2.7879337169312155,
+      "correct_results_per_second": 2.3139849850529086,
+      "exception_causes": {
+        "DatabaseUnavailable": 17,
+        "ConnectionAcquisitionTimeoutError": 17
+      },
+      "embedding_wait_ms": {
+        "p50": 6083.800649998011,
+        "p95": 13314.167239973904
+      },
+      "embedding_hold_ms": {
+        "p50": 241.57209999975748,
+        "p95": 958.2823250137152
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "graph_only",
+      "users": 1,
+      "requests": 2,
+      "outcomes": {
+        "successful_answer": 2
+      },
+      "p50_ms": 401.0359000094468,
+      "p95_ms": 407.64559000817826,
+      "completed_per_second": 2.460803400589544,
+      "correct_results_per_second": 2.460803400589544,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "graph_only",
+      "users": 5,
+      "requests": 10,
+      "outcomes": {
+        "successful_answer": 8,
+        "correct_abstention": 2
+      },
+      "p50_ms": 1258.177000010619,
+      "p95_ms": 1858.9022899948757,
+      "completed_per_second": 3.113766115687405,
+      "correct_results_per_second": 3.113766115687405,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "graph_only",
+      "users": 10,
+      "requests": 20,
+      "outcomes": {
+        "successful_answer": 16,
+        "correct_abstention": 4
+      },
+      "p50_ms": 2468.3284500060836,
+      "p95_ms": 2741.646634998324,
+      "completed_per_second": 3.6639389068948054,
+      "correct_results_per_second": 3.6639389068948054,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "graph_only",
+      "users": 25,
+      "requests": 50,
+      "outcomes": {
+        "successful_answer": 38,
+        "correct_abstention": 12
+      },
+      "p50_ms": 5603.403950008214,
+      "p95_ms": 6052.967279983568,
+      "completed_per_second": 4.170621388888913,
+      "correct_results_per_second": 4.170621388888913,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "graph_only",
+      "users": 50,
+      "requests": 100,
+      "outcomes": {
+        "successful_answer": 76,
+        "correct_abstention": 24
+      },
+      "p50_ms": 11159.561499996926,
+      "p95_ms": 17267.687370009662,
+      "completed_per_second": 3.432451114335747,
+      "correct_results_per_second": 3.432451114335747,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": null,
+        "p95": null
+      },
+      "embedding_hold_ms": {
+        "p50": null,
+        "p95": null
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "vector_only",
+      "users": 1,
+      "requests": 2,
+      "outcomes": {
+        "successful_answer": 1,
+        "false_abstention": 1
+      },
+      "p50_ms": 1308.8717499922495,
+      "p95_ms": 1715.65847498714,
+      "completed_per_second": 0.7613908448337995,
+      "correct_results_per_second": 0.38069542241689974,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 0.0031500094337388873,
+        "p95": 0.0035549994208849967
+      },
+      "embedding_hold_ms": {
+        "p50": 663.7503499950981,
+        "p95": 806.8867550100549
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "vector_only",
+      "users": 5,
+      "requests": 10,
+      "outcomes": {
+        "successful_answer": 3,
+        "false_abstention": 5,
+        "correct_abstention": 2
+      },
+      "p50_ms": 759.8279999947408,
+      "p95_ms": 925.2437199989799,
+      "completed_per_second": 5.464427125829997,
+      "correct_results_per_second": 2.7322135629149984,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 187.93770000047516,
+        "p95": 437.94448000990076
+      },
+      "embedding_hold_ms": {
+        "p50": 94.87734999856912,
+        "p95": 132.86659999430412
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "vector_only",
+      "users": 10,
+      "requests": 20,
+      "outcomes": {
+        "successful_answer": 5,
+        "false_abstention": 11,
+        "correct_abstention": 4
+      },
+      "p50_ms": 796.5927999903215,
+      "p95_ms": 1772.811430002912,
+      "completed_per_second": 6.473098998083664,
+      "correct_results_per_second": 2.912894549137649,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 404.02579998772126,
+        "p95": 1055.779685001471
+      },
+      "embedding_hold_ms": {
+        "p50": 94.87039998930413,
+        "p95": 214.86970499390736
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "vector_only",
+      "users": 25,
+      "requests": 50,
+      "outcomes": {
+        "successful_answer": 13,
+        "false_abstention": 25,
+        "correct_abstention": 12
+      },
+      "p50_ms": 2356.7131500021787,
+      "p95_ms": 3540.689920002478,
+      "completed_per_second": 6.92013832360461,
+      "correct_results_per_second": 3.460069161802305,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 1564.2294500139542,
+        "p95": 2889.548509992892
+      },
+      "embedding_hold_ms": {
+        "p50": 100.65094998572022,
+        "p95": 287.8275050097725
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "vector_only",
+      "users": 50,
+      "requests": 100,
+      "outcomes": {
+        "successful_answer": 25,
+        "false_abstention": 51,
+        "correct_abstention": 24
+      },
+      "p50_ms": 3223.7881499895593,
+      "p95_ms": 6569.526015003794,
+      "completed_per_second": 7.6275831897520145,
+      "correct_results_per_second": 3.737515762978487,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 2782.3126000148477,
+        "p95": 6199.465244989551
+      },
+      "embedding_hold_ms": {
+        "p50": 98.75114999886137,
+        "p95": 220.37552998954192
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "hybrid_graph_vector",
+      "users": 1,
+      "requests": 2,
+      "outcomes": {
+        "successful_answer": 2
+      },
+      "p50_ms": 591.1740500014275,
+      "p95_ms": 704.9203250091523,
+      "completed_per_second": 1.6880926418278333,
+      "correct_results_per_second": 1.6880926418278333,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 0.002349988790228963,
+        "p95": 0.002484989818185568
+      },
+      "embedding_hold_ms": {
+        "p50": 52.721349988132715,
+        "p95": 70.0425249960972
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "hybrid_graph_vector",
+      "users": 5,
+      "requests": 10,
+      "outcomes": {
+        "successful_answer": 8,
+        "correct_abstention": 2
+      },
+      "p50_ms": 1569.6116500039352,
+      "p95_ms": 2171.4183150063036,
+      "completed_per_second": 2.4755723516983186,
+      "correct_results_per_second": 2.4755723516983186,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 116.79075000574812,
+        "p95": 504.8179250065002
+      },
+      "embedding_hold_ms": {
+        "p50": 92.46975000132807,
+        "p95": 249.67848499363745
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "hybrid_graph_vector",
+      "users": 10,
+      "requests": 20,
+      "outcomes": {
+        "successful_answer": 16,
+        "correct_abstention": 4
+      },
+      "p50_ms": 4027.026099996874,
+      "p95_ms": 6982.4494449814665,
+      "completed_per_second": 1.6136754996675156,
+      "correct_results_per_second": 1.6136754996675156,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 1253.3835499925772,
+        "p95": 3702.508534981464
+      },
+      "embedding_hold_ms": {
+        "p50": 274.8351000045659,
+        "p95": 1151.9781800117946
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "hybrid_graph_vector",
+      "users": 25,
+      "requests": 50,
+      "outcomes": {
+        "successful_answer": 38,
+        "correct_abstention": 12
+      },
+      "p50_ms": 5985.859249994974,
+      "p95_ms": 9101.605104999908,
+      "completed_per_second": 2.6901740966090277,
+      "correct_results_per_second": 2.6901740966090277,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 2725.3244499879656,
+        "p95": 7466.993560011905
+      },
+      "embedding_hold_ms": {
+        "p50": 216.06859999883454,
+        "p95": 682.5364449934567
+      }
+    },
+    {
+      "pool": 50,
+      "mode": "hybrid_graph_vector",
+      "users": 50,
+      "requests": 100,
+      "outcomes": {
+        "successful_answer": 76,
+        "correct_abstention": 24
+      },
+      "p50_ms": 10510.624450005707,
+      "p95_ms": 17910.353945002134,
+      "completed_per_second": 2.755765913823586,
+      "correct_results_per_second": 2.755765913823586,
+      "exception_causes": {},
+      "embedding_wait_ms": {
+        "p50": 7726.673800003482,
+        "p95": 15021.48819501308
+      },
+      "embedding_hold_ms": {
+        "p50": 252.52195000939537,
+        "p95": 725.8970149749075
+      }
+    }
+  ]
+}

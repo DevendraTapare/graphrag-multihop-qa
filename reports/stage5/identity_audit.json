@@ -1,0 +1,9 @@
+{
+  "registry_entities": 138,
+  "new_entities_created": 111,
+  "existing_entities_reused": 27,
+  "all_discovered_entities_persisted": true,
+  "duplicate_canonical_ids": 0,
+  "observed_incorrect_merges_in_tested_cases": 0,
+  "limitation": "This is a controlled source-context identity policy, not external identity ground truth. Indistinguishable unqualified homonyms cannot be resolved without additional explicit source context."
+}

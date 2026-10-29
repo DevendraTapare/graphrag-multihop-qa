@@ -1,0 +1,47 @@
+{
+  "reused_stage5_identity_names": [],
+  "exact_entity_normalized_question_template_overlaps": [],
+  "old_templates": [
+    "name the technology used by the project under <person>'s management?",
+    "what platform hosts the technology used by the project led by <person>?",
+    "what platform hosts the technology used by the project managed by <person>?",
+    "what technology is used by <project>?",
+    "where is the technology of the project under <person>'s management hosted?",
+    "where is the technology used by <project> hosted?",
+    "which cloud platform hosts the database used by <project>?",
+    "which cloud platform hosts the database used by the project managed by <person>?",
+    "which database does <project> use?",
+    "which database does the project managed by <person> use?",
+    "which organization employs <person>?",
+    "which organization owns the project managed by <person>?",
+    "which project does <person> manage?",
+    "which project is led by <person>?",
+    "who employs <person>?",
+    "who owns the project under <person>'s management?"
+  ],
+  "challenge_templates": [
+    "can you determine the employer of <person> without a qualifier?",
+    "do these records identify an employer for <person>?",
+    "follow <person>'s managed projects to their database products.",
+    "give the data engine selected for <project>.",
+    "identify <person>'s employer.",
+    "identify the database behind <project>.",
+    "list <person>'s project responsibilities.",
+    "name the owners of <person>'s project portfolio.",
+    "trace <person>'s project databases to their cloud hosts.",
+    "what platforms host the technologies used by the projects led by <person>?",
+    "what technologies does <project> utilize?",
+    "what technologies does the project led by <person> use?",
+    "which organizations employ <person>?",
+    "which projects are led by <person>?",
+    "who owns the projects under <person>'s management?"
+  ],
+  "reused_source_ids": [],
+  "source_split_counts": {
+    "calibration": 19,
+    "document_held_out": 96,
+    "template_held_out": 96
+  },
+  "gold_ids_found_in_runtime_manifests": 0,
+  "note": "Exact template normalization is a lexical audit, not semantic independence. Document holdout still uses related closed grammar families."
+}

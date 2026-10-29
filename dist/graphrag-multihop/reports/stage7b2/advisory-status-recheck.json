@@ -1,0 +1,28 @@
+[
+  {
+    "name": "custom-generation",
+    "source": "https://api.github.com/advisories/GHSA-x9r9-c232-4q39",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "pip",
+          "name": "transformers"
+        },
+        "vulnerable_version_range": ">= 4.49.0, <= 5.8.1",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ],
+    "severity": "high",
+    "updated": "2026-09-30T23:40:29Z"
+  },
+  {
+    "name": "xclip-pypa",
+    "source": "https://raw.githubusercontent.com/pypa/advisory-database/main/vulns/transformers/PYSEC-2025-217.yaml",
+    "fixed_event_present": false,
+    "range_events": [
+      "- introduced: '0'",
+      "- last_affected: 5.0.0-rc0"
+    ]
+  }
+]

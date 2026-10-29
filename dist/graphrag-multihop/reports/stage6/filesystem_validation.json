@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "path_kind": "real_junction",
+      "rejection": "linked_source_not_allowed"
+    },
+    {
+      "path_kind": "invalid_path",
+      "rejection": "invalid_local_path"
+    },
+    {
+      "path_kind": "invalid_path",
+      "rejection": "invalid_local_path"
+    },
+    {
+      "path_kind": "invalid_path",
+      "rejection": "invalid_local_path"
+    }
+  ],
+  "real_windows_junction_rejected": true,
+  "real_symbolic_link_creation_tested": false,
+  "note": "Actual junction and real temporary file; no protected OS file read. Symlink guard additionally covered by the existing unit monkeypatch test."
+}

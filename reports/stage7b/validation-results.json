@@ -1,0 +1,77 @@
+[
+  {
+    "step": "lint",
+    "exit_code": 0,
+    "seconds": 0.3909999999741558
+  },
+  {
+    "step": "format",
+    "exit_code": 0,
+    "seconds": 0.23499999998603016
+  },
+  {
+    "step": "lock-check",
+    "exit_code": 0,
+    "seconds": 0.07899999999790452
+  },
+  {
+    "step": "units",
+    "exit_code": 0,
+    "seconds": 10.125
+  },
+  {
+    "step": "park-research",
+    "exit_code": 0,
+    "seconds": 13.937000000005355
+  },
+  {
+    "step": "start-db",
+    "exit_code": 0,
+    "seconds": 78.48500000001513
+  },
+  {
+    "step": "bolt-ready",
+    "exit_code": 0,
+    "seconds": 13.014999999984866
+  },
+  {
+    "step": "full-tests",
+    "exit_code": 0,
+    "seconds": 1442.3120000000054
+  },
+  {
+    "step": "reject-skips",
+    "exit_code": 0,
+    "seconds": 0.3129999999946449
+  },
+  {
+    "step": "prepare-demo",
+    "exit_code": 0,
+    "seconds": 53.578000000008615
+  },
+  {
+    "step": "run-demo",
+    "exit_code": 0,
+    "seconds": 56.57799999997951
+  },
+  {
+    "step": "prepare-smoke",
+    "exit_code": 0,
+    "seconds": 59.734000000025844
+  },
+  {
+    "step": "run-smoke",
+    "exit_code": 0,
+    "seconds": 35.812000000005355
+  },
+  {
+    "step": "stop-db",
+    "exit_code": 0,
+    "seconds": 10.15600000001723
+  },
+  {
+    "step": "restore-research",
+    "exit_code": 0,
+    "seconds": 3.765999999974156
+  }
+]

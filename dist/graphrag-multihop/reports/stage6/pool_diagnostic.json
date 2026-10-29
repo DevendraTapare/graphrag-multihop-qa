@@ -1,0 +1,1523 @@
+{
+  "users": 50,
+  "requests": 50,
+  "rounds": 1,
+  "mode": "graph_only",
+  "rows": [
+    {
+      "probe": 0,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7339.6690000081435,
+      "server_summaries": [
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 54
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 31,
+          "consumed_after_ms": 16
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 40
+        },
+        {
+          "available_after_ms": 21,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 61,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 154,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 181
+        },
+        {
+          "available_after_ms": 268,
+          "consumed_after_ms": 14
+        },
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 15
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 3
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 4
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 26
+        }
+      ]
+    },
+    {
+      "probe": 1,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7410.8370000030845,
+      "server_summaries": [
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 73
+        },
+        {
+          "available_after_ms": 44,
+          "consumed_after_ms": 16
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 4
+        },
+        {
+          "available_after_ms": 9,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 129,
+          "consumed_after_ms": 57
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 36
+        },
+        {
+          "available_after_ms": 76,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 18
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 47,
+          "consumed_after_ms": 242
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 158,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 3
+        },
+        {
+          "available_after_ms": 34,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 3
+        }
+      ]
+    },
+    {
+      "probe": 2,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7939.879400015343,
+      "server_summaries": [
+        {
+          "available_after_ms": 18,
+          "consumed_after_ms": 231
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 3
+        },
+        {
+          "available_after_ms": 18,
+          "consumed_after_ms": 47
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 17
+        },
+        {
+          "available_after_ms": 37,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 20
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 32
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 176
+        },
+        {
+          "available_after_ms": 240,
+          "consumed_after_ms": 288
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 110
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 144,
+          "consumed_after_ms": 16
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 108,
+          "consumed_after_ms": 3
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 13
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 9,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 13,
+          "consumed_after_ms": 81
+        }
+      ]
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.25209999876096845,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7342.607900005532,
+      "server_summaries": [
+        {
+          "available_after_ms": 20,
+          "consumed_after_ms": 41
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 78
+        },
+        {
+          "available_after_ms": 6,
+          "consumed_after_ms": 65
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 15
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 11
+        },
+        {
+          "available_after_ms": 216,
+          "consumed_after_ms": 51
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 95
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 130
+        },
+        {
+          "available_after_ms": 15,
+          "consumed_after_ms": 189
+        },
+        {
+          "available_after_ms": 16,
+          "consumed_after_ms": 140
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 126,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 95
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 22
+        }
+      ]
+    },
+    {
+      "probe": 1,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7925.1327000092715,
+      "server_summaries": [
+        {
+          "available_after_ms": 21,
+          "consumed_after_ms": 33
+        },
+        {
+          "available_after_ms": 15,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 5
+        },
+        {
+          "available_after_ms": 11,
+          "consumed_after_ms": 20
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 125
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 285
+        },
+        {
+          "available_after_ms": 51,
+          "consumed_after_ms": 0
+        },
+        {
+          "available_after_ms": 158,
+          "consumed_after_ms": 15
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 25
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 127
+        },
+        {
+          "available_after_ms": 16,
+          "consumed_after_ms": 48
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 20
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 69,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 6,
+          "consumed_after_ms": 35
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 20,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 2
+        }
+      ]
+    },
+    {
+      "probe": 2,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7907.387299987022,
+      "server_summaries": [
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 144
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 76,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 59,
+          "consumed_after_ms": 366
+        },
+        {
+          "available_after_ms": 111,
+          "consumed_after_ms": 16
+        },
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 78
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 49
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 64
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 272,
+          "consumed_after_ms": 19
+        },
+        {
+          "available_after_ms": 14,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 17,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 24,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 87
+        },
+        {
+          "available_after_ms": 48,
+          "consumed_after_ms": 12
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 13
+        },
+        {
+          "available_after_ms": 87,
+          "consumed_after_ms": 54
+        }
+      ]
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.2080999838653952,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 7639.695799996844,
+      "server_summaries": [
+        {
+          "available_after_ms": 9,
+          "consumed_after_ms": 48
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 14,
+          "consumed_after_ms": 15
+        },
+        {
+          "available_after_ms": 93,
+          "consumed_after_ms": 21
+        },
+        {
+          "available_after_ms": 7,
+          "consumed_after_ms": 18
+        },
+        {
+          "available_after_ms": 28,
+          "consumed_after_ms": 3
+        },
+        {
+          "available_after_ms": 85,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 4,
+          "consumed_after_ms": 336
+        },
+        {
+          "available_after_ms": 15,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 172,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 121,
+          "consumed_after_ms": 29
+        },
+        {
+          "available_after_ms": 15,
+          "consumed_after_ms": 0
+        },
+        {
+          "available_after_ms": 20,
+          "consumed_after_ms": 1
+        }
+      ]
+    },
+    {
+      "probe": 1,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 8030.952099972637,
+      "server_summaries": [
+        {
+          "available_after_ms": 7,
+          "consumed_after_ms": 19
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 62
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 19,
+          "consumed_after_ms": 5
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 158
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 205,
+          "consumed_after_ms": 79
+        },
+        {
+          "available_after_ms": 109,
+          "consumed_after_ms": 78
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 560
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 54
+        },
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 4
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 59,
+          "consumed_after_ms": 70
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 0
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 37
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 4
+        }
+      ]
+    },
+    {
+      "probe": 2,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 8104.505600000266,
+      "server_summaries": [
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 93
+        },
+        {
+          "available_after_ms": 44,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 241
+        },
+        {
+          "available_after_ms": 86,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 172
+        },
+        {
+          "available_after_ms": 479,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 139,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 18,
+          "consumed_after_ms": 80
+        },
+        {
+          "available_after_ms": 99,
+          "consumed_after_ms": 38
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 17
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 62
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 7,
+          "consumed_after_ms": 103
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 6
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 8
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 45
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 6
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 15
+        }
+      ]
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.19890000112354755,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3488.377900008345,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3488.284699997166,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3488.162399997236,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.5765999958384782,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3487.4226999818347,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3486.850499990396,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3486.665999982506,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.15330000314861536,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3486.3473000004888,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3486.2430000212044,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3486.1264000064693,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.13420000323094428,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3485.816500004148,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3485.7151999894995,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3485.5984000023454,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.12909999350085855,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3485.2623000042513,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3480.1115000154823,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3479.817399987951,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.17179999849759042,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3479.4458000105806,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3479.3361999909393,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3479.2115000018384,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.13470000703819096,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3478.924499999266,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3478.8130999950226,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3478.6247999873012,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.1309000072069466,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3478.3100000058766,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3478.205600025831,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3478.0878000019584,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.13149998267181218,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3477.7901000052225,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3477.688900020439,
+      "server_summaries": []
+    },
+    {
+      "probe": 2,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3477.5691000104416,
+      "server_summaries": []
+    },
+    {
+      "probe": 3,
+      "outcome": "entity_not_found",
+      "causes": [],
+      "wall_ms": 0.18510001245886087,
+      "server_summaries": []
+    },
+    {
+      "probe": 0,
+      "outcome": "DatabaseUnavailable",
+      "causes": [
+        {
+          "type": "DatabaseUnavailable",
+          "code": null,
+          "pool_acquisition": false,
+          "timeout": false,
+          "defunct_connection": false
+        },
+        {
+          "type": "ConnectionAcquisitionTimeoutError",
+          "code": null,
+          "pool_acquisition": true,
+          "timeout": true,
+          "defunct_connection": false
+        }
+      ],
+      "wall_ms": 3477.227099996526,
+      "server_summaries": []
+    },
+    {
+      "probe": 1,
+      "outcome": "supported",
+      "causes": [],
+      "wall_ms": 8043.451700010337,
+      "server_summaries": [
+        {
+          "available_after_ms": 46,
+          "consumed_after_ms": 104
+        },
+        {
+          "available_after_ms": 62,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 30,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 147
+        },
+        {
+          "available_after_ms": 48,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 416,
+          "consumed_after_ms": 2
+        },
+        {
+          "available_after_ms": 117,
+          "consumed_after_ms": 17
+        },
+        {
+          "available_after_ms": 14,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 223,
+          "consumed_after_ms": 93
+        },
+        {
+          "available_after_ms": 252,
+          "consumed_after_ms": 207
+        },
+        {
+          "available_after_ms": 1,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 88,
+          "consumed_after_ms": 4
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 3,
+          "consumed_after_ms": 21
+        },
+        {
+          "available_after_ms": 2,
+          "consumed_after_ms": 29
+        },
+        {
+          "available_after_ms": 28,
+          "consumed_after_ms": 1
+        },
+        {
+          "available_after_ms": 4,
+          "consumed_after_ms": 31
+        }
+      ]
+    }
+  ],
+  "outcomes": {
+    "supported": 10,
+    "entity_not_found": 12,
+    "DatabaseUnavailable": 28
+  },
+  "pool_acquisition_failures": 28,
+  "server_available_after_ms": {
+    "p50": 2.0,
+    "p95": 173.64999999999944
+  },
+  "server_consumed_after_ms": {
+    "p50": 9.5,
+    "p95": 189.8999999999997
+  },
+  "note": "Supplementary burst after recovery; server summary times exclude pool wait. Not primary load numbers."
+}

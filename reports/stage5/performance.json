@@ -1,0 +1,49 @@
+{
+  "cache": "Fresh local model process with cached weights; DB already running. Warm-up requests precede benchmark; no forced OS/page-cache eviction.",
+  "model_start_plus_first_inference_ms": 14628.796900011366,
+  "first_requests": {
+    "vector_only": {
+      "answer": "Atlas East",
+      "wall_ms": 429.27140000392683,
+      "latency_ms": {
+        "query_embedding": 366.4979000168387,
+        "vector_retrieval": 61.408899986417964,
+        "generation": 1.3034000003244728,
+        "end_to_end": 429.2102000035811
+      }
+    },
+    "graph_only": {
+      "answer": "Atlas East",
+      "wall_ms": 188.4239999926649,
+      "latency_ms": {
+        "parsing": 0.8405999979004264,
+        "entity_linking": 0.026399997295811772,
+        "traversal": 78.98109999950975,
+        "provenance": 23.101600003428757,
+        "selection": 0.05979998968541622,
+        "revalidation": 85.12780000455678,
+        "generation": 0.006799993570894003,
+        "end_to_end": 188.20390000473708
+      }
+    },
+    "hybrid_graph_vector": {
+      "answer": "Atlas East",
+      "wall_ms": 292.3346000025049,
+      "latency_ms": {
+        "parsing": 0.06640001083724201,
+        "embedding_generation": 46.93710000719875,
+        "vector_search": 51.16170001565479,
+        "vector_generation": 0.301499996567145,
+        "candidate_generation": 4.337999998824671,
+        "entity_linking": 0.022400025045499206,
+        "graph_traversal": 74.10909997997805,
+        "provenance_validation": 28.343800018774346,
+        "graph_revalidation": 86.3375999906566,
+        "fusion_ranking": 0.09509999654255807,
+        "answer_generation": 0.006499991286545992,
+        "end_to_end": 292.11079998640344
+      }
+    }
+  },
+  "snapshot_unchanged": true
+}

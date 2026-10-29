@@ -1,0 +1,69 @@
+﻿# Stage 1 file manifest
+
+Shareable project files. Local credentials, virtual environments, caches, logs, process IDs, and JUnit XML are excluded.
+
+File count: 63
+
+- .env.example
+- .gitignore
+- .python-version
+- app/__init__.py
+- app/api/__init__.py
+- app/api/routes.py
+- app/core/__init__.py
+- app/core/config.py
+- app/core/logging.py
+- app/db/__init__.py
+- app/db/migrations.py
+- app/db/neo4j.py
+- app/evaluation/__init__.py
+- app/graph/__init__.py
+- app/graph/fixtures.py
+- app/graph/queries.py
+- app/graph/schema.py
+- app/main.py
+- app/models/__init__.py
+- app/models/fixtures.py
+- app/repositories/__init__.py
+- app/repositories/fixture.py
+- app/schemas/__init__.py
+- app/services/__init__.py
+- app/services/validation.py
+- compose.yaml
+- data/evaluation/questions.json
+- data/fixtures/corporate.json
+- docs/ARCHITECTURE.md
+- docs/DATA_PROVENANCE.md
+- docs/GRAPH_SCHEMA.md
+- docs/PROJECT_ROADMAP.md
+- docs/STAGE1_REPORT.md
+- infra/README.md
+- migrations/001_identity.cypher
+- migrations/002_lookup_indexes.cypher
+- pyproject.toml
+- README.md
+- reports/FILE_MANIFEST.md
+- reports/graph-validation.json
+- reports/README.md
+- reports/runtime-verification.json
+- reports/test-results.json
+- scripts/__init__.py
+- scripts/build_fixtures.py
+- scripts/graph.py
+- scripts/serve.py
+- scripts/setup_env.py
+- scripts/verify_runtime.py
+- tests/__init__.py
+- tests/client.py
+- tests/conftest.py
+- tests/integration/__init__.py
+- tests/integration/conftest.py
+- tests/integration/test_neo4j.py
+- tests/unit/__init__.py
+- tests/unit/test_api.py
+- tests/unit/test_config.py
+- tests/unit/test_database.py
+- tests/unit/test_fixture_safety.py
+- tests/unit/test_fixtures.py
+- tests/unit/test_migrations.py
+- uv.lock

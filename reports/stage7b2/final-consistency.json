@@ -1,0 +1,28 @@
+{
+  "files": 369,
+  "bytes": 26482122,
+  "mib": 25.255319595336914,
+  "added": 21,
+  "modified": 8,
+  "removed": 0,
+  "checksum_entries": 368,
+  "inventory_entries": 367,
+  "checksum_failures": [],
+  "change_record_hash_errors": [],
+  "current_override_hash_errors": [],
+  "historical_reports_unchanged": 117,
+  "source_test_data_migration_files_unchanged": 166,
+  "local_links": 187,
+  "missing_links": [],
+  "credential_matches": [],
+  "binary_artifacts": [],
+  "license": "MIT",
+  "copyright_holder": "Devendra Tapare",
+  "root_git_exists": false,
+  "release_git_exists": false,
+  "root_license_added": false,
+  "research": {
+    "original_files": 324,
+    "changed": []
+  }
+}

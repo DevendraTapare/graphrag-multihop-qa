@@ -1,0 +1,451 @@
+{
+  "version": "fictional-aliases-v1",
+  "entries": [
+    {
+      "entity": {
+        "id": "org:lumen",
+        "label": "Organization",
+        "name": "Lumen Orchard",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Lumen Orchard"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "org:cedar",
+        "label": "Organization",
+        "name": "Cedar Kite",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Cedar Kite"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "org:tidal",
+        "label": "Organization",
+        "name": "Tidal Lantern",
+        "scope": "fictional_registry"
+      },
+      "aliases": [
+        "Tidal Lantern"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:priya",
+        "label": "Person",
+        "name": "Priya",
+        "scope": "lumen_employee_001"
+      },
+      "aliases": [
+        "Priya",
+        "Priya (Lumen employee 001)"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:morgan",
+        "label": "Person",
+        "name": "Morgan",
+        "scope": "cedar_employee_001"
+      },
+      "aliases": [
+        "Morgan"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:sam",
+        "label": "Person",
+        "name": "Sam",
+        "scope": "lumen_employee_002"
+      },
+      "aliases": [
+        "Sam"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:lee-north",
+        "label": "Person",
+        "name": "Lee Chen",
+        "scope": "cedar_employee_002"
+      },
+      "aliases": [
+        "Lee Chen",
+        "Lee",
+        "Lee Chen (Cedar employee 002)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:lee-south",
+        "label": "Person",
+        "name": "Lee Chen",
+        "scope": "tidal_employee_001"
+      },
+      "aliases": [
+        "Lee Chen",
+        "Lee",
+        "Lee Chen (Tidal employee 001)"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:noor",
+        "label": "Person",
+        "name": "Noor",
+        "scope": "tidal_employee_002"
+      },
+      "aliases": [
+        "Noor"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "person:ivo",
+        "label": "Person",
+        "name": "Ivo",
+        "scope": "directory_only_001"
+      },
+      "aliases": [
+        "Ivo"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:una",
+        "label": "Person",
+        "name": "Una",
+        "scope": "directory_only_002"
+      },
+      "aliases": [
+        "Una"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "project:atlas",
+        "label": "Project",
+        "name": "Atlas",
+        "scope": "lumen"
+      },
+      "aliases": [
+        "Atlas",
+        "Project Atlas"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:postgres-atlas",
+        "label": "Technology",
+        "name": "PostgreSQL",
+        "scope": "atlas_deployment"
+      },
+      "aliases": [
+        "PostgreSQL",
+        "Postgres",
+        "PostgreSQL (Atlas instance)"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:atlas"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:atlas-east",
+        "label": "Project",
+        "name": "Atlas East",
+        "scope": "cedar"
+      },
+      "aliases": [
+        "Atlas East",
+        "Project Atlas East"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:postgres-east",
+        "label": "Technology",
+        "name": "PostgreSQL",
+        "scope": "atlas-east_deployment"
+      },
+      "aliases": [
+        "PostgreSQL",
+        "Postgres",
+        "PostgreSQL (Atlas East instance)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:beacon",
+        "label": "Project",
+        "name": "Beacon",
+        "scope": "lumen"
+      },
+      "aliases": [
+        "Beacon",
+        "Project Beacon"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:redis",
+        "label": "Technology",
+        "name": "Redis",
+        "scope": "beacon_deployment"
+      },
+      "aliases": [
+        "Redis"
+      ],
+      "organization_ids": [
+        "org:lumen"
+      ],
+      "project_ids": [
+        "project:beacon"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:comet",
+        "label": "Project",
+        "name": "Comet",
+        "scope": "cedar"
+      },
+      "aliases": [
+        "Comet",
+        "Project Comet"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:neo4j",
+        "label": "Technology",
+        "name": "Neo4j",
+        "scope": "comet_deployment"
+      },
+      "aliases": [
+        "Neo4j"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:comet"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:delta",
+        "label": "Project",
+        "name": "Delta",
+        "scope": "tidal"
+      },
+      "aliases": [
+        "Delta",
+        "Project Delta"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:kafka",
+        "label": "Technology",
+        "name": "Kafka",
+        "scope": "delta_deployment"
+      },
+      "aliases": [
+        "Kafka"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:delta"
+      ]
+    },
+    {
+      "entity": {
+        "id": "project:echo",
+        "label": "Project",
+        "name": "Echo",
+        "scope": "tidal"
+      },
+      "aliases": [
+        "Echo",
+        "Project Echo"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "tech:duckdb",
+        "label": "Technology",
+        "name": "DuckDB",
+        "scope": "echo_deployment"
+      },
+      "aliases": [
+        "DuckDB"
+      ],
+      "organization_ids": [
+        "org:tidal"
+      ],
+      "project_ids": [
+        "project:echo"
+      ]
+    },
+    {
+      "entity": {
+        "id": "platform:aws",
+        "label": "Platform",
+        "name": "AWS",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:azure",
+        "label": "Platform",
+        "name": "Azure",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "Azure",
+        "Microsoft Azure"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "platform:gcp",
+        "label": "Platform",
+        "name": "GCP",
+        "scope": "cloud_vendor"
+      },
+      "aliases": [
+        "GCP",
+        "Google Cloud"
+      ],
+      "organization_ids": [],
+      "project_ids": []
+    },
+    {
+      "entity": {
+        "id": "person:priya-cedar",
+        "label": "Person",
+        "name": "Priya",
+        "scope": "cedar_employee_003"
+      },
+      "aliases": [
+        "Priya",
+        "Priya (Cedar employee 003)"
+      ],
+      "organization_ids": [
+        "org:cedar"
+      ],
+      "project_ids": [
+        "project:atlas-east"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "step": "locked-sync",
+    "exit_code": 0,
+    "seconds": 0.7339999999967404
+  },
+  {
+    "step": "lock-check",
+    "exit_code": 0,
+    "seconds": 0.09400000001187436
+  },
+  {
+    "step": "lint",
+    "exit_code": 0,
+    "seconds": 1.5159999999741558
+  },
+  {
+    "step": "format",
+    "exit_code": 0,
+    "seconds": 0.5940000000118744
+  },
+  {
+    "step": "units",
+    "exit_code": 0,
+    "seconds": 12.953000000008615
+  },
+  {
+    "step": "park-research",
+    "exit_code": 1,
+    "seconds": 0.1870000000053551
+  }
+]

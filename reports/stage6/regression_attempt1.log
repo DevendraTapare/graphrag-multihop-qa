@@ -1,0 +1,182 @@
+...F.................................................................... [ 17%]
+........................................................................ [ 34%]
+........................................................................ [ 51%]
+........................................................................ [ 68%]
+........................................................................ [ 85%]
+...............................................................          [100%]
+================================== FAILURES ===================================
+_________ test_source_discovered_homonyms_remain_distinct_in_database _________
+
+self = <app.repositories.ingestion.IngestionRepository object at 0x00000255C76CBF20>
+callback = <bound method IngestionRepository._put_facts of <app.repositories.ingestion.IngestionRepository object at 0x00000255C76CBF20>>
+args = (Claim(source_id='source:339fbbe66bf75a2aad04fe7a1c853ea70efa70c7', run_id='ingestion:b953f307d315c291c546e60dc09e7a2a...1c853ea70efa70c7', 'source_document_id': 'autodoc:debb231b7553a3ce1306b989b2499c2c0580ae16', ...}}], 1793225338.627153)
+
+    def write(self, callback, *args):
+        @unit_of_work(timeout=self.db.settings.neo4j_import_timeout)
+        def transaction(tx):
+            return callback(tx, *args)
+    
+        try:
+            with self.db.driver.session(database=self.db.settings.neo4j_database) as session:
+>               return session.execute_write(transaction)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+app\repositories\ingestion.py:75: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\neo4j\_sync\work\session.py:760: in execute_write
+    return self._run_transaction(
+.venv\Lib\site-packages\neo4j\_sync\work\session.py:572: in _run_transaction
+    self._open_transaction(
+.venv\Lib\site-packages\neo4j\_sync\work\session.py:434: in _open_transaction
+    self._connect(access_mode=access_mode)
+.venv\Lib\site-packages\neo4j\_sync\work\session.py:125: in _connect
+    super()._connect(
+.venv\Lib\site-packages\neo4j\_sync\work\workspace.py:181: in _connect
+    self._connection = self._pool.acquire(**acquire_kwargs_)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\neo4j\_sync\io\_pool.py:771: in acquire
+    return self._acquire(
+.venv\Lib\site-packages\neo4j\_sync\io\_pool.py:492: in _acquire
+    connection = self._acquire_from_pool_checked(
+.venv\Lib\site-packages\neo4j\_sync\io\_pool.py:353: in _acquire_from_pool_checked
+    self._raise_acquisition_timed_out(deadline)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <DirectBoltPool address=IPv4Address(('127.0.0.1', 65520))>
+deadline = <neo4j._deadline.Deadline object at 0x00000255C7848620>
+
+    def _raise_acquisition_timed_out(self, deadline) -> t.Never:
+        log.debug("[#0000]  _: <POOL> acquisition timed out")
+>       raise ConnectionAcquisitionTimeoutError(
+            "failed to obtain a connection from the pool within "
+            f"{deadline.original_timeout!r}s (timeout)"
+        )
+E       neo4j.exceptions.ConnectionAcquisitionTimeoutError: failed to obtain a connection from the pool within 3s (timeout)
+
+.venv\Lib\site-packages\neo4j\_sync\io\_pool.py:260: ConnectionAcquisitionTimeoutError
+
+The above exception was the direct cause of the following exception:
+
+self = <app.services.ingestion.IngestionService object at 0x00000255C7445D90>
+document = SourceDocument(id='autodoc:debb231b7553a3ce1306b989b2499c2c0580ae16', source_id='source:339fbbe66bf75a2aad04fe7a1c853e...original_document_id=None, created_at=datetime.datetime(2026, 10, 28, 22, 8, 56, 121327, tzinfo=datetime.timezone.utc))
+refresh = <function test_source_discovered_homonyms_remain_distinct_in_database.<locals>.<lambda> at 0x00000255C7746340>
+
+    def ingest(self, document: SourceDocument, refresh: Callable[[], SourceDocument]) -> dict:
+        document = SourceDocument.model_validate(document.model_dump())
+        claim = self.repository.start(document)
+        if claim is None:
+            current = refresh()
+            if (current.id, current.content_hash) != (document.id, document.content_hash):
+                # Claim the changed snapshot immediately; never return stale ready evidence.
+                return self.ingest(current, refresh)
+            return self.repository.summary(document.source_id)
+        try:
+            chunks, batch, result = self.pipeline.extract(document)
+            self.repository.record_plan(claim, chunks, result)
+            self.repository.put_chunks(claim, document, chunks)
+            self.repository.put_entities(claim, document, chunks, result)
+>           self.repository.put_facts(claim, document, chunks, batch, result)
+
+app\services\ingestion.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+app\repositories\ingestion.py:385: in put_facts
+    self.write(self._put_facts, claim, kind, group, utcnow().timestamp())
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <app.repositories.ingestion.IngestionRepository object at 0x00000255C76CBF20>
+callback = <bound method IngestionRepository._put_facts of <app.repositories.ingestion.IngestionRepository object at 0x00000255C76CBF20>>
+args = (Claim(source_id='source:339fbbe66bf75a2aad04fe7a1c853ea70efa70c7', run_id='ingestion:b953f307d315c291c546e60dc09e7a2a...1c853ea70efa70c7', 'source_document_id': 'autodoc:debb231b7553a3ce1306b989b2499c2c0580ae16', ...}}], 1793225338.627153)
+
+    def write(self, callback, *args):
+        @unit_of_work(timeout=self.db.settings.neo4j_import_timeout)
+        def transaction(tx):
+            return callback(tx, *args)
+    
+        try:
+            with self.db.driver.session(database=self.db.settings.neo4j_database) as session:
+                return session.execute_write(transaction)
+        except (DriverError, Neo4jError, OSError) as exc:
+>           raise IngestionFailure("database_unavailable") from exc
+E           app.extraction.models.IngestionFailure: database_unavailable
+
+app\repositories\ingestion.py:77: IngestionFailure
+
+The above exception was the direct cause of the following exception:
+
+aligned_case = namespace(db=<app.db.neo4j.GraphDatabaseClient object at 0x00000255C75FA9C0>, docs=[SourceDocument(id='autodoc:f310da7...19c485ae6f77bbdb8ee9fd2185ec83558b449d4e'}, repo=<app.vector.repository.VectorRepository object at 0x00000255C77DDAF0>)
+tmp_path = WindowsPath('C:/Users/Devendra/AppData/Local/Temp/pytest-of-Devendra/pytest-168/test_source_discovered_homonym0')
+
+    def test_source_discovered_homonyms_remain_distinct_in_database(aligned_case, tmp_path):
+        c = aligned_case
+        docs = [
+            snapshot(f"homonym:{i}", f"{i}.txt", text)
+            for i, text in enumerate(
+                [
+                    "Sam Vale (North employee 101) works for Harbor Birch. "
+                    "Sam Vale (North employee 101) manages Project Birch One.",
+                    "Sam Vale (South employee 102) works for Harbor Birch East. "
+                    "Sam Vale (South employee 102) manages Project Birch One East.",
+                ]
+            )
+        ]
+        discovered = discover(docs)
+        path = tmp_path / "homonyms.json"
+        path.write_text(discovered.registry.model_dump_json())
+        pipeline = ExtractionPipeline(registry=EntityRegistry(path))
+        service = IngestionService(IngestionRepository(c.db, pipeline))
+        for doc in docs:
+>           service.ingest(doc, lambda doc=doc: doc)
+
+tests\integration\test_aligned.py:159: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <app.services.ingestion.IngestionService object at 0x00000255C7445D90>
+document = SourceDocument(id='autodoc:debb231b7553a3ce1306b989b2499c2c0580ae16', source_id='source:339fbbe66bf75a2aad04fe7a1c853e...original_document_id=None, created_at=datetime.datetime(2026, 10, 28, 22, 8, 56, 121327, tzinfo=datetime.timezone.utc))
+refresh = <function test_source_discovered_homonyms_remain_distinct_in_database.<locals>.<lambda> at 0x00000255C7746340>
+
+    def ingest(self, document: SourceDocument, refresh: Callable[[], SourceDocument]) -> dict:
+        document = SourceDocument.model_validate(document.model_dump())
+        claim = self.repository.start(document)
+        if claim is None:
+            current = refresh()
+            if (current.id, current.content_hash) != (document.id, document.content_hash):
+                # Claim the changed snapshot immediately; never return stale ready evidence.
+                return self.ingest(current, refresh)
+            return self.repository.summary(document.source_id)
+        try:
+            chunks, batch, result = self.pipeline.extract(document)
+            self.repository.record_plan(claim, chunks, result)
+            self.repository.put_chunks(claim, document, chunks)
+            self.repository.put_entities(claim, document, chunks, result)
+            self.repository.put_facts(claim, document, chunks, batch, result)
+            current = refresh()
+            if (current.id, current.content_hash, current.ingestion_version) != (
+                document.id,
+                document.content_hash,
+                document.ingestion_version,
+            ):
+                raise IngestionFailure("source_changed_during_processing")
+            return self.repository.publish(claim, document, chunks, result)
+        except Exception as exc:
+            category = (
+                exc.category
+                if isinstance(exc, IngestionFailure)
+                else (
+                    "invalid_extractor_output"
+                    if isinstance(exc, ValidationError)
+                    else "processing_failed"
+                )
+            )
+            try:
+                self.repository.fail(claim, category)
+            except IngestionFailure:
+                pass  # Outage leaves a processing lease, never a ready document.
+>           raise IngestionFailure(category) from exc
+E           app.extraction.models.IngestionFailure: database_unavailable
+
+app\services\ingestion.py:61: IngestionFailure
+------------------------------ Captured log call ------------------------------
+ERROR    neo4j.io:_base.py:649 [#CBCE]  _: <CONNECTION> error: Failed to read from defunct connection IPv4Address(('127.0.0.1', 65520)) (ResolvedIPv4Address(('127.0.0.1', 65520))): SocketDeadlineExceededError('read timed out')
+=========================== short test summary info ===========================
+FAILED tests/integration/test_aligned.py::test_source_discovered_homonyms_remain_distinct_in_database
+1 failed, 422 passed in 1073.15s (0:17:53)

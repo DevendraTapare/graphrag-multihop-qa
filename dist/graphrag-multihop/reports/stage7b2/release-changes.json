@@ -1,0 +1,213 @@
+{
+  "previous_files": 348,
+  "previous_bytes": 25640975,
+  "not_byte_identical_to_previous_snapshot": true,
+  "files": [
+    {
+      "path": "FILE_INVENTORY.json",
+      "change": "modified",
+      "before_sha256": "bac67e9a21db112ec3dd050ebd2e000bab49fdebe262680683957bbb086b0696",
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": null,
+      "hash_scope": "Current hash is in SHA256SUMS where covered; own hash is never embedded; avoids checksum cycles"
+    },
+    {
+      "path": "LICENSE",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Approved canonical MIT license",
+      "after_sha256": "e293d052259cae43da41f782af7d1f1b23afa2452fc69f94533edff74cedbc90"
+    },
+    {
+      "path": "PUBLICATION.json",
+      "change": "modified",
+      "before_sha256": "1649f78d75f064ed0672ca9ae2c5f4748f422e53afab5a8d865b9c186718e37d",
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "1ff94d4116498e4882a194cad2b8c30ab99872e3bb825249d24815c8b172fd6f"
+    },
+    {
+      "path": "README.md",
+      "change": "modified",
+      "before_sha256": "b11d38d9401e2bfb09d43eed01c3182cff0cbc66f04ce407881ea601b94ed65c",
+      "reason": "Necessary license scope/current release documentation",
+      "after_sha256": "b0041144137a14de076f09595cb558d6a946bbcee2d4af5cf6b4f92ee0ce1a18"
+    },
+    {
+      "path": "SHA256SUMS",
+      "change": "modified",
+      "before_sha256": "5ad36026b701e91e077abbebc2bfba714e3684d59b62bf8088a4fb9b824fe6e6",
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": null,
+      "hash_scope": "Current hash is in SHA256SUMS where covered; own hash is never embedded; avoids checksum cycles"
+    },
+    {
+      "path": "docs/FINAL_PROJECT_SUMMARY.md",
+      "change": "modified",
+      "before_sha256": "d77e0ef05e3cca7e20d7bb6794f66c36106ed013011aa19a915cacbac13f4e1b",
+      "reason": "Necessary license scope/current release documentation",
+      "after_sha256": "db60517bae36fc95d6be4a8e3785e57ade0c369be472f4999dfd5ec377727126"
+    },
+    {
+      "path": "docs/PUBLICATION_MANIFEST.md",
+      "change": "modified",
+      "before_sha256": "89b0bbc2efa2423a0a2304daa4bf3decb473f050034e2b8166d246610b088fb8",
+      "reason": "Necessary license scope/current release documentation",
+      "after_sha256": "e23d6a7f95bce55fec232a3458f6a8f21c94ed9332f191580dabcf0501618882"
+    },
+    {
+      "path": "docs/SECURITY_REVIEW.md",
+      "change": "modified",
+      "before_sha256": "52cfa9c5a37085255acc1f40754fbc4dd00f6b603231a0664e58c9a15e4a27d9",
+      "reason": "Necessary license scope/current release documentation",
+      "after_sha256": "06a3ac3844ffc15caae949d4c6dd38a75d47f787a899e2b12bbb87c68c4cdd46"
+    },
+    {
+      "path": "docs/STAGE7B_PRECOMMIT_REPORT.md",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Necessary license scope/current release documentation",
+      "after_sha256": "6164209bd99becfb0d9d1998272aa0aeafc51f081845cd503cd7981bcc6b594d"
+    },
+    {
+      "path": "docs/THIRD_PARTY_LICENSES.md",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Verified third-party licensing inventory",
+      "after_sha256": "745298da8a42e732022d6400b6a9fbf0552e9db0b9820d90257ee9cbcad772fa"
+    },
+    {
+      "path": "docs/THIRD_PARTY_NOTICES.md",
+      "change": "modified",
+      "before_sha256": "7ffe4f9d5c01ccdd9b3a8d4101da2d023d508cc0d2570529a80feb179cf6b391",
+      "reason": "Necessary license scope/current release documentation",
+      "after_sha256": "e4df6b71b2257b3177b886de7d5022f09e3f588c9e8ae23af2ba3632dafed0f2"
+    },
+    {
+      "path": "reports/stage7b2/advisory-status-recheck.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "d996fc1efc4c5eec1e8baeee047f80760dbf0b67168380e4e2b5f295773e1bad"
+    },
+    {
+      "path": "reports/stage7b2/bandit.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "ce6356c4c319b20d49a9bd5b408322e656194fb27392029021e7f41efcfa6f98"
+    },
+    {
+      "path": "reports/stage7b2/demo-results.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "47f47db960e7f1d08483d10126b7767e5a635d40e33aac58f027af2357f19e76"
+    },
+    {
+      "path": "reports/stage7b2/installed-versions.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "81d99a8478fe36c5021460f53b61dd6e9d717bc115ea1c8547156b9180dbaba2"
+    },
+    {
+      "path": "reports/stage7b2/license-verification.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "ec3233d5574a924baca3de514ff011606d0e6c3428e9008333b8e2a2e2d2e83a"
+    },
+    {
+      "path": "reports/stage7b2/model-rights-recheck.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "5d067bb3cb62b0eec4e3139f3161452e599334a59688671761cfd00459608034"
+    },
+    {
+      "path": "reports/stage7b2/pip-audit.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "6d4e6560845e888d008a65cd37281908080caed83c14ffced0c08389ae6035c0"
+    },
+    {
+      "path": "reports/stage7b2/previous-release.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "f50e226f4efb122b9ecb477e863b682c5c3db7e4b229f8aae81c1b0043feea05"
+    },
+    {
+      "path": "reports/stage7b2/primary-rights-sources.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "e60d2d7f06c67fef358ad67af12891a87301edef3371680fc9616581026b2d01"
+    },
+    {
+      "path": "reports/stage7b2/publication-checks.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "81655eca07f359b9a752e1b62141c72d1327fc47beb7abb161f95ce72a511732"
+    },
+    {
+      "path": "reports/stage7b2/release-changes.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": null,
+      "hash_scope": "Current hash is in SHA256SUMS where covered; own hash is never embedded; avoids checksum cycles"
+    },
+    {
+      "path": "reports/stage7b2/research-preservation.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "eed2630b1228da138740c6c4082eaf0d0846ff522a345777b8a71e3df1625244"
+    },
+    {
+      "path": "reports/stage7b2/security-summary.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "a5de8282ad44641df44d55ef1294b93b11d7fe1b49059fc2195ce3f322968d25"
+    },
+    {
+      "path": "reports/stage7b2/smoke-results.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "75e843ab6d983edcd47b74d87fcf2db416b2b7ff8552bec2c549e68fb617ff75"
+    },
+    {
+      "path": "reports/stage7b2/third-party-rights.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "4bbb3d8a66f9d3cb66df79b1a572e235e02c4934d806ba3d2c86fb83f9555c15"
+    },
+    {
+      "path": "reports/stage7b2/validation-summary.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "73487c509b9c6149370a8829963ac13836d7417a55719a4fe1c68d7e34ea5f5a"
+    },
+    {
+      "path": "reports/stage7b2/verification-tools.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "d7ac2429286b9081e7ca3df78de67fdb1cded627ac8c717fb6c94c101df66075"
+    },
+    {
+      "path": "reports/stage7b2/wheel-rights-review.json",
+      "change": "added",
+      "before_sha256": null,
+      "reason": "Final verification evidence or release metadata",
+      "after_sha256": "094327a6689b94fc2dfaa6b1ad9473596a4c04f69f28a03d6a97439b8963f2cb"
+    }
+  ]
+}

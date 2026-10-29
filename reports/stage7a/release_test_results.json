@@ -1,0 +1,16 @@
+{
+  "tests": 429,
+  "unit": 300,
+  "integration": 129,
+  "failures_errors_skips": [],
+  "passed": 429,
+  "original_cases_retained": 423,
+  "new_publication_cases": 6,
+  "historical_guard_adaptations": 1,
+  "integration_test_changes": 0,
+  "final_unit_recheck": {
+    "unit_tests": 300,
+    "exit_code": 0,
+    "reason": "Final adapter safety and publication config changes; app/data/migrations/integration tests unchanged"
+  }
+}

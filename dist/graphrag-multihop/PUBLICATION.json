@@ -1,0 +1,700 @@
+{
+  "stage": "7B.2",
+  "portfolio_only": true,
+  "license_selected": true,
+  "original_files": 324,
+  "omissions": {
+    "reports/all-tests.xml": {
+      "source_sha256": "ce125993357c42f9dbf680f17b084cb525467c6c10bd9c16f4186f8af0eda22f",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/api.stderr.log": {
+      "source_sha256": "72b7e17ca6c41c1412ffcd7380544a38f4ce0e81cb90302fb82fd5f1d5a5dda1",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/api.stdout.log": {
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/integration.xml": {
+      "source_sha256": "6b9d89dd93f2806301c44f51ba2fb39eeff9b70d3266e882a0b9c75be315f4ed",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/runtime-api-process.json": {
+      "source_sha256": "cf7f340aa35b514d19fa3fe9682916b51cbbe153a6f7a13baea44a49ec346130",
+      "reason": "Private log or redundant research archive/snapshot; original retained"
+    },
+    "reports/runtime-api.log": {
+      "source_sha256": "07b4ebfbe7caf73af67df8df035b4b5e9a8f53fa6dcc2b3383d53435fb6006e9",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage2-all-tests.xml": {
+      "source_sha256": "fcbaf1785d13cd69b9ead6e2ff3fdb5689e4a5bff8326298afa6ececb98833aa",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage2-integration.xml": {
+      "source_sha256": "ea92464bef84d6bd2bbea43bb34f860d8c4e0b344b6a7738fbd7e8f386931e67",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage2-unit.xml": {
+      "source_sha256": "8861871e9a975125ef2343572ce0f8e5d1921d5d20157a0fdf03469b5bd02a88",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage3-runtime.log": {
+      "source_sha256": "669778d15d67ee2a8fc3b52bd3404fd4e412a29b1dc2d4c557828b5b2bea850a",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage3-tests.xml": {
+      "source_sha256": "25fef6d6792c5a69174bb373d3f33af78343186ad1e2fbe9a4de1b1d2847362e",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage4/frozen_stage3.zip": {
+      "source_sha256": "7c343d96c0406db6b56989733a4f603b15078c0d529895e0b549158c3c760c4d",
+      "reason": "Duplicate frozen research archive; original retained"
+    },
+    "reports/stage4/graph_snapshot.json": {
+      "source_sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+      "reason": "Large serialized research database snapshot; original retained and final digest compared"
+    },
+    "reports/stage4/runtime-api.log": {
+      "source_sha256": "250c7ad40fbf375b761b4b63fce3d7ce144ca51f3abe197e036496bad4acea66",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage4-graph-tests.xml": {
+      "source_sha256": "6ada00d01cfc5cdd772f1eafdcae64886ad6ac4c905fc0a3b3b48064038967d3",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage4-tests.xml": {
+      "source_sha256": "bfe8517e67b5b0cc6d7e31d8b86ba15bc34b8d1592701142eb3c9a3175748b13",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage5/aligned_snapshot.json": {
+      "source_sha256": "ea4c193ebc18e28698b5e6addff6724e8ac8897a1876e4c6d3137abfbfecde46",
+      "reason": "Large serialized research database snapshot; original retained and final digest compared"
+    },
+    "reports/stage5/frozen_stage4.zip": {
+      "source_sha256": "99c5ed64afc64288aacdec749b6c0eb73bc1dff2e71541bdc276b90956691b24",
+      "reason": "Duplicate frozen research archive; original retained"
+    },
+    "reports/stage5/hybrid_no_reranking_metrics.json": {
+      "source_sha256": "ff4b25b06b6122223bcd47fb83fd3c6a904412a6429954cd9abd8c7444de3e65",
+      "reason": "Redundant per-question ablation rows; ablation CSV and comparison summary retained"
+    },
+    "reports/stage5-aligned-tests.xml": {
+      "source_sha256": "4d8adf84702f59b0e7f4fa515d34aeaa9d8d487031242b672605a9f3a577b7b3",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage5-seal-tests.xml": {
+      "source_sha256": "1c6d7c55556a02b28c00828fb6c7ad069070aae76369742f2fd7e26d69af83d6",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage5-tests.xml": {
+      "source_sha256": "19357bfa8967daa4babfa9f1f9a3261ad1f181037b53fc161267023e1b5998fb",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage6/challenge_run1.json": {
+      "source_sha256": "69b57c9a4b9e83fa18769dceb989156fdaa5af409005a2c5f9eba68fc1812dc1",
+      "reason": "Duplicate full challenge run; primary result rows and determinism report retained"
+    },
+    "reports/stage6/challenge_run2.json": {
+      "source_sha256": "50b01bd3b70914ab328c27c289f4d35a5ed79514b2e618c1f71a3ae562ce442e",
+      "reason": "Duplicate full challenge run; primary result rows and determinism report retained"
+    },
+    "reports/stage6/challenge_snapshot.json": {
+      "source_sha256": "754df82b01af5e6ba2a122fa1c310f77bf474613cedfb9d517e0b8e13ad8fd50",
+      "reason": "Large serialized research database snapshot; original retained and final digest compared"
+    },
+    "reports/stage6/frozen_stage5.zip": {
+      "source_sha256": "c88056b36f0496cac8a05225cebd232fcdcaf7244015c54d270fe02cffaab58c",
+      "reason": "Duplicate frozen research archive; original retained"
+    },
+    "reports/stage6/label_access.jsonl": {
+      "source_sha256": "249769818e00f13dd28a63656971816c693f3cdc54bcf096909cd1cb9f0f9d99",
+      "reason": "Private log or redundant research archive/snapshot; original retained"
+    },
+    "reports/stage6/load_driver.log": {
+      "source_sha256": "70888b1db3f38da171850e746308f59a083cfb9845103b6b6f5fea4454fb2f71",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage6/recovery-api.log": {
+      "source_sha256": "c689ae339d3b75f30fe1f89d69ffbcb13dea02c6650910d834c10fa79a4bfb89",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage6/regression_attempt1.log": {
+      "source_sha256": "f157425f582066c47687f09061e3249a544e8875875808b6a7b49485f853356d",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage6-tests-attempt1.xml": {
+      "source_sha256": "45825f5d3510d8008c565309134c77a22599de107b108c26833c54624d2e55e1",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/stage6-tests.xml": {
+      "source_sha256": "d830ad50a55b52669748b19b52df92863e9fb1b4eac7cd69c982eec72e27c603",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "reports/unit.xml": {
+      "source_sha256": "f466d285bb1fef588409f9f200844e24c4b7217fa687fddaab87ff83fa01875b",
+      "reason": "Private diagnostic/test log; original retained, public test summaries included"
+    },
+    "compose.stage5.yml": {
+      "source_sha256": "7efe55fa8569d080ecfbb2f4df625603bd528528f6f449b54cce6f51f7101fe4",
+      "reason": "Legacy Compose project/ports reuse research volumes; clean CLI needs only isolated compose.yaml. Original retained."
+    },
+    "compose.stage6.yml": {
+      "source_sha256": "e61ccac362754d0c3f5b8d664df52e53f55b86f66255a3d997d680c009c28e21",
+      "reason": "Legacy Compose project/ports reuse research volumes; clean CLI needs only isolated compose.yaml. Original retained."
+    }
+  },
+  "overrides": {
+    "docs/AUTOMATIC_EXTRACTION.md": {
+      "source_sha256": "33dc382b79d25c581238bf6c0ef3806eef7d8c85a751fbec31bde0db32c5626f",
+      "release_sha256": "bcd9612dc8a3eca51b7f405ab92bde5694c7d6a50f3f5b47c7b9e6bb36610a58",
+      "reason": "Remove workstation-specific absolute paths"
+    },
+    "docs/STAGE1_REPORT.md": {
+      "source_sha256": "574566d96a72e5ff5f75751af9bb7c5f38eb1a0d767dab13a75287ffe00f66f4",
+      "release_sha256": "d13b12769d161ea983087a63513aeb905fe84315007e0b33c9933fcd7e8414ac",
+      "reason": "Remove workstation-specific absolute paths"
+    },
+    "docs/STAGE2_REPORT.md": {
+      "source_sha256": "12837302a715af2dd1952097e60d5c4527af0b87ed0c124e413882d8ad4102d3",
+      "release_sha256": "d0f2323d0f08e2e4ddd281f0f9678924d8bf1a8031b3abb03afe1823c51daac0",
+      "reason": "Remove workstation-specific absolute paths"
+    },
+    "docs/STAGE3_REPORT.md": {
+      "source_sha256": "b78e5a60e73b6e56033ec4150a797cd2885cf7f7071072816607b4576177b15d",
+      "release_sha256": "a5e1c6371f5ac0bc236af9224ba43e0d47eb1b64204a6d39dd26e609c1c88a94",
+      "reason": "Remove workstation-specific absolute paths"
+    },
+    "docs/STAGE4_REPORT.md": {
+      "source_sha256": "6ee7300b495a2afd81b9f674e0668cffc751b787f8d854e66952462b769d4475",
+      "release_sha256": "8c829415984b8fdd8651f38497c2b4721b0f3b398b802a5965cf4e54d2e8f6ab",
+      "reason": "Remove workstation-specific absolute paths"
+    },
+    "docs/VECTOR_INDEXING.md": {
+      "source_sha256": "1b81d2303d271e4b638debcf40695a415571215b2170195c6b1843c05ccda8a9",
+      "release_sha256": "05fd8f347a2076a6271183aea45a2b0d4228dc72ed66c204c1a77aa65ccaaee2",
+      "reason": "Remove workstation-specific absolute paths"
+    },
+    ".gitignore": {
+      "source_sha256": "fc584caaaeeea3af1172106e460d98888210f6f50d777141a595f9f2101c1195",
+      "release_sha256": "4415710634e0603a4e382365903c8c07e5ca37068588fa335440719ef9b5d952",
+      "reason": "Exclude local demo state, nested dist and private key artifacts"
+    },
+    ".env.example": {
+      "source_sha256": "0b4d1a6edf86a1e6df38a8f7319ce1aad15742ac58b2b02eef4f60a5d3d1f27e",
+      "release_sha256": "f81ce93199b46c6f317ff70ea5de7d08ed0c4aca146e7112e873f886dd00d009",
+      "reason": "Fresh isolated ports and tested pool size 50; no actual password"
+    },
+    "compose.yaml": {
+      "source_sha256": "ccde746fa1118bce4315117cc7ec4325ef8efab6078949fbcdd82e4677a12980",
+      "release_sha256": "9a60533c47566aac368db7223cc06c66b1f935787a81021f19dc678734515a25",
+      "reason": "Separate publication project/volume and loopback 37477/37690 ports"
+    },
+    "README.md": {
+      "source_sha256": "d514bd2ef01e92a055f73cfd01fce74326902bc7ac7664d53e64ac8352811406",
+      "release_sha256": "b0041144137a14de076f09595cb558d6a946bbcee2d4af5cf6b4f92ee0ce1a18",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/ARCHITECTURE.md": {
+      "source_sha256": "910c50f0d80d0a46e11dd590761fc4abef9a57d220f8511dd31a120dc0688d49",
+      "release_sha256": "94e2cd5b10a12fd15e5fdae0741d6c61ed748f1b42139a4e2e38a1bf8163d4a6",
+      "reason": "Current architecture; original Stage 1 architecture retained in history"
+    },
+    "tests/unit/test_graph_rag.py": {
+      "source_sha256": "00afb889f2a0440d507947c52f1a15c3a1b105bd4d47f80c85e2c4b50b4f7c30",
+      "release_sha256": "2759d1f80a959c90b5369ac173815d454c76441c5102ec9d9e2848b5d5a0bbe3",
+      "reason": "Stage 7B: exact named security-file allowlist; retain original/release hash and core checks"
+    },
+    ".github/workflows/ci.yml": {
+      "source_sha256": "fae7bef74ab87fc514ac29eacb41808dbffbbb62daeb358625b6a12006ab194f",
+      "release_sha256": "a78343c6973fdad9e4f14c0f51687b2b92646ceefb7834e44faf841d3dd6850e",
+      "reason": "Add actual CLI demo and explicit evaluation smoke after the unchanged full integration suite; hosted execution unverified"
+    },
+    "pyproject.toml": {
+      "source_sha256": "304a8c87462779e3376b8d2f5045a9e73c574cb5496a2063656e75d6c17fa5ad",
+      "release_sha256": "5b2ab5cc61da83a4e7f25f4fb5ab2e92b804c4a42e77da36a5fa6b1c3ce3acce",
+      "reason": "Stage 7B: verified Transformers 5.17 dependency migration and hardened XML dev parser"
+    },
+    "uv.lock": {
+      "source_sha256": "067017a3c749f6820fb323de669fcd2ff121c8ec14dbba7d0dcfbd036b7cc2a5",
+      "release_sha256": "85696bc74499dca589fb19fdcb332557d4daa330e51e0c123dd0ad1521083ad6",
+      "reason": "Stage 7B: verified Transformers 5.17 dependency migration and hardened XML dev parser"
+    },
+    "scripts/check_ci_results.py": {
+      "source_sha256": "793d2267e17b1aea1a9748e81e054c547c9b6cc9b008b452f2d31f5ca985d12c",
+      "release_sha256": "c5dd5821fd736dee057342c37069a4b78840bb1e52bba5c4245e89a6744507f9",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/document_stage6.py": {
+      "source_sha256": "e78329853ebb6a1026b86dc87a045a2eb372c6545d5c034064e69fc045244821",
+      "release_sha256": "7b8781f21f29b844bde1dce1c2851fb02b4d678446e6ba97119c01b505fdc7ea",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage3_tests.py": {
+      "source_sha256": "23ac5cd6598b3515eeeba726d0c8622dd4c2f374cd2dcf9d3268a64997e8ccb7",
+      "release_sha256": "258d2e43921b1a9cbe0d693d38a9c9815fa9f3f6d2f86e2f815fcd19778cd9f3",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage4.py": {
+      "source_sha256": "d6a8c4680a0c34ea1049ded520b1ef46c8b22c8ba8a24a27992b558ffd4fa2f0",
+      "release_sha256": "e8c6998fc7bdeebcc3845b8701cb98edf760e1c9de07622c6574890123dafa9c",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage5.py": {
+      "source_sha256": "6d1eeca63c37df46dc9b6a324cde1b96eac92b568e8503e757d3fe5b2f52e76c",
+      "release_sha256": "d0f6012090f040fd92593951b2e176813269072e7a81c4a4401dbac93f31035e",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage6.py": {
+      "source_sha256": "57b019331cb67445471a35319bea86f044bba0f2aa25cb49b794a70c39a15409",
+      "release_sha256": "3f8d632f38ac9aea752cc4c331a539e9daf1712b6929f8514ee88459ee78cafb",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/audit_stage6_labels.py": {
+      "source_sha256": "b39eff9af5c33f31f98f811598bad62c2f39e69d3670a9e211c15fa7275eed0b",
+      "release_sha256": "9e073f4ecb69d58513f2951f951eb04d5c30c548303f9f4ee915b20a16b53f0b",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/benchmark_vector.py": {
+      "source_sha256": "f28ce7d9facb4f1b125dea73fc2abf7af640651164c672696bd5c1ce57b255a5",
+      "release_sha256": "5746ae2f2464943d5616b1cd6de98073a3f641f944f433637624dcc437aa2e4a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/build_aligned.py": {
+      "source_sha256": "74b5d8f986396b9f4af7203875f78f71a4684c90cb23de6cce46162a84bf8610",
+      "release_sha256": "63a9dfb0bdacf9df54a2e8b8b5b8b39cba6486c7aba6ee05f156cc45156ee485",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/build_stage6.py": {
+      "source_sha256": "3f9cbd8ee1611ee29a58fa006799feb0d6776647fe26f1543282481c1be1cb85",
+      "release_sha256": "7b38ef4e0139943829b0a0d4fd6d937c7c84a82d9e6601640472411e04b48530",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/compare_stage4.py": {
+      "source_sha256": "365ef3eebfa0fb6e857691fbd428ed47ed51295beaa7b59d8b83916f6dbbaf53",
+      "release_sha256": "b8c6338f437d786f8591ac7fcbec63a103fe5e166567adbe647872c6a56f675e",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/evaluate_stage5.py": {
+      "source_sha256": "2c0ed8319a363687ab16ec5fc916761c5cf05890773db5ae68c654a288deab60",
+      "release_sha256": "aa89f0efb179bf3da0cbb60835ff9f7b76ee76c7eabdff6bb3de2960eb4e9bc8",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/evaluate_stage6.py": {
+      "source_sha256": "7a7587db0d3edc4fe479449ec3cdd36b0bb0ae45a80b98e18181ed7aae723b36",
+      "release_sha256": "0252b1e7548508dc8e09c0b3b6db888a72258483dc607fe5212e0adb4e309c72",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/recovery_stage6.py": {
+      "source_sha256": "daa4eaee7dd3dc14a0e2e79d2f5f6b45719e778b765ffe912867bced2045873b",
+      "release_sha256": "c98b6ade9e2b7389f7df763a514487ef6b726de57832429edea11b7a54a2e6b6",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/replay_stage6.py": {
+      "source_sha256": "f0839d5327bb690c7ce62e3001a43b7cb92a4a507c4fd488fc66e3efe8cd57d1",
+      "release_sha256": "de0fd46df0fedf3ec41e48dcc61941b314d0f7bc6b3cb3257441f33c9cf9cc00",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage3_manifest.py": {
+      "source_sha256": "366569d312dc306afca8a1506cb84320fa9840565a19970c11e3fd0e737a3c89",
+      "release_sha256": "6b72b8191482da4df8c4ab720f2f5b6ca62b9f862bc2fd0812bc697381fbbebf",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage4_support.py": {
+      "source_sha256": "593894d5c003f646fa6bb5d8802960eeb430f62f935ae74c26e09061f9c8618d",
+      "release_sha256": "5b1b5f8590a5ec78ce4cece6df3bcb297882910fde55e813069b6b022ab197f1",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage5_support.py": {
+      "source_sha256": "14d6840b512ed40345e318671fc0da5fb17c9604203bdfc934dd9c22fcd4ca66",
+      "release_sha256": "7f4774b9b2922844a0d32ce822619d6ed42d1780ff176e1e24f32d66f5d7e43a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage6_benchmark.py": {
+      "source_sha256": "02c549f8bda739386e6e33169f7730f7fc2dd0fb5c839367824bc7965761e7d8",
+      "release_sha256": "951319d3fde498305e602101b3fee561001053beb6b99e16b22dc13902f1e6dd",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage6_dataset.py": {
+      "source_sha256": "b1e8e053dae0734b482965be7531161d5f4152a6b1c6e3f34a49e1c2faa67b40",
+      "release_sha256": "13839dd14220e37da9a723406db3e57b5ed026a70102ac2911d25e48b02a732a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage6_support.py": {
+      "source_sha256": "1cec36491895e5339b05ebf65b03b44f62ae7f76f083c0a7e2c1e6beee49849e",
+      "release_sha256": "8c0c399114299e1f8619337e14c0a77ee765da96f9d1c779e74a193cc922d6ba",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_aligned.py": {
+      "source_sha256": "c59728e64d2fbc8b647737ae184b57e2327be8f36cd12b920fa3538295d2aee9",
+      "release_sha256": "b39343607e07a182986b516d466ddd567a3c30f6eb6dfea5333fd433428a7341",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_baseline_repeat.py": {
+      "source_sha256": "8f4c4f91b14f884b6173fe17aacf5c80c80c1929a67e2e8f9067eedde1a95dc0",
+      "release_sha256": "e6e643a14ef3b540f5c5536eb7b3f2ee61fae62cbd974ed2dd22eaeb2ae44c46",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_graph.py": {
+      "source_sha256": "e0d8222f0175ffe003bba65888dade418e662dbb6dd47406505a4239327b0fed",
+      "release_sha256": "28f088bc82de1e52075f662ab09095d358e3649152834eb8a019a95f1013512c",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_graph_runtime.py": {
+      "source_sha256": "c3aaf86b856fd260fa4c8aa2bfe7cb6a067c0c4fa44ba6cb51d0116e4a24104a",
+      "release_sha256": "b24e7563ea5c17a8ad94f28c6bfad603fe09ff900e3fa7d068e92bc4feb0908c",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_runtime.py": {
+      "source_sha256": "458158659c75cc713ccafb77d2e5ebd78ffdd05d7a6f068e0c02274dd14e44d2",
+      "release_sha256": "34851f4304838364e1ed228628fc7683c20cc7b860647347274232f0e0cc7b85",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_stage5_runtime.py": {
+      "source_sha256": "29314ea13923757630c202a41ed62c159277e467bab8e590ff5a7b14322d5e52",
+      "release_sha256": "13f3de6e5e0cd3513cbdde5e26112c48e77b58add096fcb5ed3858d890de469e",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_vector_index.py": {
+      "source_sha256": "7714373e1d109e6f2c12db00e889b8bcab763e74bae1d26be1ecd9c06f060b73",
+      "release_sha256": "04d0c4c1be9586a7ebcaed262f8d2b1db41ac09bba36189b248af2f5923a2514",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_vector_runtime.py": {
+      "source_sha256": "48736758d3feaa20608d89be169d83826a310397eca556907cd0eefaddf2f891",
+      "release_sha256": "5112fc7cbd521921ef09ab18f02339df0e21f18e89088aec5f96ff85c9eba35a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "docs/FINAL_PROJECT_SUMMARY.md": {
+      "source_sha256": "208e9798d53daa9db8e119224267775cf39c41da419e4e1d2285a7e282d00b92",
+      "release_sha256": "db60517bae36fc95d6be4a8e3785e57ade0c369be472f4999dfd5ec377727126",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/PUBLICATION_MANIFEST.md": {
+      "source_sha256": "8578f36c70b1602f9248ac9fb5ecf8eee19ff1f45956169aec8774aa03eae1f5",
+      "release_sha256": "e23d6a7f95bce55fec232a3458f6a8f21c94ed9332f191580dabcf0501618882",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/SECURITY_REVIEW.md": {
+      "source_sha256": "000d94fd6ada2708ebb34ae6a80eb5e7f632fa35b991f2ccc7d1f3e45b6a08f5",
+      "release_sha256": "06a3ac3844ffc15caae949d4c6dd38a75d47f787a899e2b12bbb87c68c4cdd46",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/THIRD_PARTY_NOTICES.md": {
+      "source_sha256": "c4aa628c085f985be58f9155a041ba9f062e92b0d350656104a2d5f9ce489dbf",
+      "release_sha256": "e4df6b71b2257b3177b886de7d5022f09e3f588c9e8ae23af2ba3632dafed0f2",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    }
+  },
+  "core_source_hashes": {
+    "app/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/aligned/__init__.py": "e93ef64dc412048df80c482a20786a912535c893766d2ce07558c05b03bdeb8a",
+    "app/aligned/components.py": "77de181a6a4f96c879ad259163f19e6a6ced0fc886aad39d193e8bb646c7e4fd",
+    "app/aligned/discovery.py": "77c250f2e9422b3e6e32ddf2bccb2b71a4caf3c1818ef2b7050a58feb4b7094d",
+    "app/aligned/graph.py": "c29c5f6cbec4a75426da0099159b6d953bf75bd47eac3b6db60a22e2ecd8b74b",
+    "app/aligned/hybrid.py": "4103d675c1c5539ca2bb0485f061a7530838c4c59cfb6eb01021851a00e23cc9",
+    "app/aligned/integrity.py": "7b10785820c176512718f1a774930415ce9549633d48ef3c297b2926635d08ee",
+    "app/aligned/interpretation.py": "1bb0177d67d55e879c8870de8cdc9c027a5bd2837babfd0fa00b268159b88d20",
+    "app/aligned/models.py": "da880a16c17fab88ab84cd66a4e7df078db7c9ed397222efbc86fd280759881f",
+    "app/api/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/api/graph_rag.py": "12ea090fb177c92e306c3dd2ef756e35e38f5d7c9f09ec3704b190c6f6dd026d",
+    "app/api/hybrid.py": "c01faca72baaf99476c820a0efbc114c8abfe43642ebc6ef6df0954f42abc27f",
+    "app/api/routes.py": "a351cd0fe3ee4f24ab3b7748728c465c821698990c869847ddf9b00adae462fa",
+    "app/api/vector.py": "b78787ff812f69222639844b8381cabb946339da1059c506c6b534b4d0c7426f",
+    "app/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/core/config.py": "b25f77e9ab6a3de8a769ac1bb26addfce2c98b46bb0f7fad2231c82c2260b8f5",
+    "app/core/logging.py": "f82f923d3183f5744d22801ea1954c620b0645eba250ec89d1e15d8aef0134f3",
+    "app/db/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/db/migrations.py": "0be937df30f7a8cb480266b8108a1ba36aafd6fc0287402da8ca32b0ffff61a0",
+    "app/db/neo4j.py": "6aa55cf9674ef30f0503a2844ae4d9360b5630037485dd06a7fc98121bc11dec",
+    "app/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/evaluation/baseline.py": "7a0b5cc2bde44a1d02fc6a284401a7e30746d6e29e85607bd339e6ba0ecea83b",
+    "app/evaluation/extraction.py": "3599102f73d58dc78d8fa0a5f156dcd7495487ac4e9c303b8fb59b6814c5f305",
+    "app/evaluation/graph.py": "068dec56dd6fdf8875825b8c91b69ee33f720e1ab2cf92adc1daea85eef057d9",
+    "app/extraction/__init__.py": "61ff568db096910fe27aa035102816feaa93cb3b1ad6e658819232b7788054be",
+    "app/extraction/chunking.py": "3fbd2db43897120164d06c69b18bf18654f936fa3061b306b06f9291f1d10ee8",
+    "app/extraction/documents.py": "3bb86f9c4e3392083cd0e16852fedb08a914bc8329e3055106de83e507cef528",
+    "app/extraction/models.py": "11a0dae8bf8c39aa166b863fc4eb5e5e29aa6b3cd6a2c926713e233d2b861c83",
+    "app/extraction/pipeline.py": "d58d597b0f74059afe4c76a76ccebb038fd23b3a5390b8eca6e8d71e9a34ada9",
+    "app/extraction/provenance.py": "a55477f34c06a5e76f8a0e6c9036841df85d9227a2278527e9f264939d544b86",
+    "app/extraction/registry.py": "7dc40d927c33c6742bdec75319a28014674bc15e78d66732953cf973f1b9b628",
+    "app/extraction/rules.py": "a5620e90c52d104a97c83a10fc429e596fa87736bd9944c20df8cec9fdfa5f88",
+    "app/graph/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/graph/fixtures.py": "f5a5bb9ed455b20304d2779105dc702411eda80931654e53ceef90b8c97d3182",
+    "app/graph/queries.py": "cd457f45b7274c085f86b85166f98477f4210fb1e1745bd4a30e167ba1fe6921",
+    "app/graph/schema.py": "9153a27718f168948ff68ada380edf82c509951aa2447c27ab93e00620e4137d",
+    "app/graph_rag/__init__.py": "97b12edd5a8508a6aef44d98d994cb53aef9a6184c23c02ef438fc9cae123507",
+    "app/graph_rag/interpretation.py": "4c2d086f8877ba49008b179188f86d246f9f7687bed30f448a790c24a0603ff0",
+    "app/graph_rag/linking.py": "67afc660a7c044d1e0976a871de30c59e1aad6e4d98ef40efa20c7791fb87e14",
+    "app/graph_rag/models.py": "dcb7db12abf92ff0d397e38bb4d6897b9c1d31f1ba9576cddc88524e9252f419",
+    "app/graph_rag/provenance.py": "a0d7008173b46ff3c5e9c43846e843085c074a4c79d57411a25fb0a7c9df7fa2",
+    "app/graph_rag/repository.py": "bbe96af64c50e8a5fa924e867d0e0366ab3b34453b872fb546e00dc567b15fc4",
+    "app/graph_rag/service.py": "ca32e07084417438bcff37b6957e4846a1573b0b542f6dd4aa84e2bd55c0ebb3",
+    "app/main.py": "a946a3f3b7be32b1a28667874fd668398b7faf0bf3de21171052901ac294a1b4",
+    "app/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/models/fixtures.py": "aee2a44dcdef037ec6107989380125979aa786f2b88571ddecea2831bb9ccd69",
+    "app/repositories/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/repositories/fixture.py": "03504762bd570acc4c5331ab7100a8266f8b03115475a752374ed5d4657cc864",
+    "app/repositories/ingestion.py": "20c181c0270dfe7cff188b8b96be8431b9e202cf607f395f7b5099c65c9697b2",
+    "app/schemas/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/services/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/services/ingestion.py": "c2967b14bddd4f709169587d5950c771bdcd2dafb1273d4150be7023eda7d436",
+    "app/services/ingestion_validation.py": "7ab152802f915fdada3d31fbd693585bb08c035c4afb81800278fdf466c539ae",
+    "app/services/validation.py": "13d6a798b2138bb9a9b67cd20f26facaa7215fb8bdd299bb61334cc3b561bdd0",
+    "app/vector/__init__.py": "a52392f9db27c227a95b0d6269ab162ba4b2f93f0323cdd78c9d98ac1998ef86",
+    "app/vector/answering.py": "ec90fa15a3afe7065467e2118bb1d4409c817a8aa94828cf97fcee9758e17ff8",
+    "app/vector/embedding.py": "babb80f9a2d4602720ff7bbd90b61f9a62e0490efe40f9b92b3ba7c54ebd8eab",
+    "app/vector/indexing.py": "561f23744bfdb901f4ba6a5ee15c16617fa8710af7537d1d341551dada8a8944",
+    "app/vector/models.py": "f2b469570daac196bc89fd9e0ec576851051eadbebe42929094740f4425e6d5a",
+    "app/vector/repository.py": "57cd0e4065289471ca565a7c730a24fe47d8525e0dea7e6beea6dfb8a7a60522",
+    "app/vector/retrieval.py": "1276a57653413cebe8c64924e5df972f286619a24bd357cca602e44c01ce8b45",
+    "data/evaluation/baseline_v1.json": "c2d65d9c3e6d34483948c5a6f637daf3dd8cd78047c51b2d43f7d6d499f5e85d",
+    "data/evaluation/extraction.json": "71e8f2075be4886ee5b0e5b771bc72fbe2d8a022d7b59513c6de1e94bf887e18",
+    "data/evaluation/questions.json": "d590ce370e51415b9ff300692a43d3c488ff54acba3cae7f8b0e4181e29eebf8",
+    "data/extraction/entity_registry.json": "8e753f65ccdf8ae4b2a344b33ebeb1b4a729782f04a1e91a6f4192dcf30fba8a",
+    "data/fictional/atlas.txt": "0e6d2e53b2d1d2fd6b8b3d8d01c34b59d5e0de220a1c8c72f2f2d0d7d8878a47",
+    "data/fictional/cedar.md": "7208c25b33ed8199c017c38faa6727e48753a6331cac6fd28fbea2346128286c",
+    "data/fictional/conflicting-hosting.txt": "361b87697e4e98bb42e0ef873c455943d603322d58c0245dc0f01b645e30e582",
+    "data/fictional/review-required.md": "37ad43cc92fc6967ac726e3b227bfea674d7d6d29f0a1ee0ee4d6bb13d6a1e93",
+    "data/fictional/stage3_corpus.json": "741040e8f4b8e6e390b82e3c308730885158a7d095439a66332149642980c593",
+    "data/fixtures/corporate.json": "c2836ccac8943643238682b10b1505fd575ca12e8bb56aa5599f880e4c3e0d31",
+    "data/runtime/graph_corpus_v1.json": "10f5e6e04a21f6df0f11c5af4d2a15804e3597f4c53f109dfc8fc64c8b947320",
+    "data/runtime/stage5_corpus.json": "88a0e787f1e20975a93f05b2f529b0504a49699c93ae0e9b831b532ca07a823a",
+    "data/runtime/stage5_registry.json": "2d31b8e845f9d2894cd46817de5fb6d77d3160db3caa561775af89b96f4ec6d5",
+    "data/stage6/corpus.json": "9e4894ff0a8f83ccca5c664d5a94390e8f7dd831050a674ddfe65d326b81701e",
+    "data/stage6/labels.json": "5de37148c8dba55d33da980e4d2a527d5350eac7da0185d9c88324c044c5e594",
+    "data/stage6/registry.json": "d9e65dc0abc39c6d0ddb95d01ced10c3c58c00f2ab8aba1b4140c2c3654f4d30",
+    "data/stage6/sources.json": "7c31ca99377a910232364d845aa10fc4a6137d4a8d9bd7cf5af5f924e15c4781",
+    "data/stage6/world.json": "ccd3947a80a47d7804bf860be782d0c303f504091be1e774fef600bdebfa69d0",
+    "migrations/001_identity.cypher": "d854ef71ecf96d82880968f21bbb5b5e9604cb3fc68cae1a0c41115c0472037d",
+    "migrations/002_lookup_indexes.cypher": "44daf245c76ce6c87e6a98db66888bbb80fe6813c729e61a2e890ad1b4389512",
+    "migrations/003_ingestion_lifecycle.cypher": "0892ccf63200b6438d10dbd0c807e9587da483842ad66f4ad21b8139bec50826",
+    "migrations/004_chunk_vectors.cypher": "265e9e9a9ede3562a2a6002e191613ed899672a630e769b8252e56213e4d2969"
+  },
+  "note": "Research preserved. One historical unit hash guard adapted for declared documentation/configuration changes; all integration tests unchanged.",
+  "security_overrides": {
+    "pyproject.toml": {
+      "stage7a_sha256": "304a8c87462779e3376b8d2f5045a9e73c574cb5496a2063656e75d6c17fa5ad",
+      "release_sha256": "5b2ab5cc61da83a4e7f25f4fb5ab2e92b804c4a42e77da36a5fa6b1c3ce3acce",
+      "reason": "Stage 7B: verified Transformers 5.17 dependency migration and hardened XML dev parser"
+    },
+    "README.md": {
+      "stage7a_sha256": "f6d38be7ec462535fe3b505533c1a6ac1a56cd92d25793f692b43663cf9364d8",
+      "release_sha256": "b11d38d9401e2bfb09d43eed01c3182cff0cbc66f04ce407881ea601b94ed65c",
+      "reason": "Stage 7B: current security results, release metadata and historical-context clarification"
+    },
+    "uv.lock": {
+      "stage7a_sha256": "067017a3c749f6820fb323de669fcd2ff121c8ec14dbba7d0dcfbd036b7cc2a5",
+      "release_sha256": "85696bc74499dca589fb19fdcb332557d4daa330e51e0c123dd0ad1521083ad6",
+      "reason": "Stage 7B: verified Transformers 5.17 dependency migration and hardened XML dev parser"
+    },
+    "docs/FINAL_PROJECT_SUMMARY.md": {
+      "stage7a_sha256": "208e9798d53daa9db8e119224267775cf39c41da419e4e1d2285a7e282d00b92",
+      "release_sha256": "d77e0ef05e3cca7e20d7bb6794f66c36106ed013011aa19a915cacbac13f4e1b",
+      "reason": "Stage 7B: current security results, release metadata and historical-context clarification"
+    },
+    "docs/PUBLICATION_MANIFEST.md": {
+      "stage7a_sha256": "8578f36c70b1602f9248ac9fb5ecf8eee19ff1f45956169aec8774aa03eae1f5",
+      "release_sha256": "89b0bbc2efa2423a0a2304daa4bf3decb473f050034e2b8166d246610b088fb8",
+      "reason": "Stage 7B: current security results, release metadata and historical-context clarification"
+    },
+    "docs/SECURITY_REVIEW.md": {
+      "stage7a_sha256": "000d94fd6ada2708ebb34ae6a80eb5e7f632fa35b991f2ccc7d1f3e45b6a08f5",
+      "release_sha256": "52cfa9c5a37085255acc1f40754fbc4dd00f6b603231a0664e58c9a15e4a27d9",
+      "reason": "Stage 7B: current security results, release metadata and historical-context clarification"
+    },
+    "docs/THIRD_PARTY_NOTICES.md": {
+      "stage7a_sha256": "c4aa628c085f985be58f9155a041ba9f062e92b0d350656104a2d5f9ce489dbf",
+      "release_sha256": "7ffe4f9d5c01ccdd9b3a8d4101da2d023d508cc0d2570529a80feb179cf6b391",
+      "reason": "Stage 7B: current security results, release metadata and historical-context clarification"
+    },
+    "scripts/audit_stage6_labels.py": {
+      "stage7a_sha256": "b39eff9af5c33f31f98f811598bad62c2f39e69d3670a9e211c15fa7275eed0b",
+      "release_sha256": "9e073f4ecb69d58513f2951f951eb04d5c30c548303f9f4ee915b20a16b53f0b",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/benchmark_vector.py": {
+      "stage7a_sha256": "f28ce7d9facb4f1b125dea73fc2abf7af640651164c672696bd5c1ce57b255a5",
+      "release_sha256": "5746ae2f2464943d5616b1cd6de98073a3f641f944f433637624dcc437aa2e4a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/build_aligned.py": {
+      "stage7a_sha256": "74b5d8f986396b9f4af7203875f78f71a4684c90cb23de6cce46162a84bf8610",
+      "release_sha256": "63a9dfb0bdacf9df54a2e8b8b5b8b39cba6486c7aba6ee05f156cc45156ee485",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/build_stage6.py": {
+      "stage7a_sha256": "3f9cbd8ee1611ee29a58fa006799feb0d6776647fe26f1543282481c1be1cb85",
+      "release_sha256": "7b38ef4e0139943829b0a0d4fd6d937c7c84a82d9e6601640472411e04b48530",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/check_ci_results.py": {
+      "stage7a_sha256": "793d2267e17b1aea1a9748e81e054c547c9b6cc9b008b452f2d31f5ca985d12c",
+      "release_sha256": "c5dd5821fd736dee057342c37069a4b78840bb1e52bba5c4245e89a6744507f9",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/compare_stage4.py": {
+      "stage7a_sha256": "365ef3eebfa0fb6e857691fbd428ed47ed51295beaa7b59d8b83916f6dbbaf53",
+      "release_sha256": "b8c6338f437d786f8591ac7fcbec63a103fe5e166567adbe647872c6a56f675e",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/document_stage6.py": {
+      "stage7a_sha256": "e78329853ebb6a1026b86dc87a045a2eb372c6545d5c034064e69fc045244821",
+      "release_sha256": "7b8781f21f29b844bde1dce1c2851fb02b4d678446e6ba97119c01b505fdc7ea",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/evaluate_stage5.py": {
+      "stage7a_sha256": "2c0ed8319a363687ab16ec5fc916761c5cf05890773db5ae68c654a288deab60",
+      "release_sha256": "aa89f0efb179bf3da0cbb60835ff9f7b76ee76c7eabdff6bb3de2960eb4e9bc8",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/evaluate_stage6.py": {
+      "stage7a_sha256": "7a7587db0d3edc4fe479449ec3cdd36b0bb0ae45a80b98e18181ed7aae723b36",
+      "release_sha256": "0252b1e7548508dc8e09c0b3b6db888a72258483dc607fe5212e0adb4e309c72",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage3_tests.py": {
+      "stage7a_sha256": "23ac5cd6598b3515eeeba726d0c8622dd4c2f374cd2dcf9d3268a64997e8ccb7",
+      "release_sha256": "258d2e43921b1a9cbe0d693d38a9c9815fa9f3f6d2f86e2f815fcd19778cd9f3",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage4.py": {
+      "stage7a_sha256": "d6a8c4680a0c34ea1049ded520b1ef46c8b22c8ba8a24a27992b558ffd4fa2f0",
+      "release_sha256": "e8c6998fc7bdeebcc3845b8701cb98edf760e1c9de07622c6574890123dafa9c",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage5.py": {
+      "stage7a_sha256": "6d1eeca63c37df46dc9b6a324cde1b96eac92b568e8503e757d3fe5b2f52e76c",
+      "release_sha256": "d0f6012090f040fd92593951b2e176813269072e7a81c4a4401dbac93f31035e",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/record_stage6.py": {
+      "stage7a_sha256": "57b019331cb67445471a35319bea86f044bba0f2aa25cb49b794a70c39a15409",
+      "release_sha256": "3f8d632f38ac9aea752cc4c331a539e9daf1712b6929f8514ee88459ee78cafb",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/recovery_stage6.py": {
+      "stage7a_sha256": "daa4eaee7dd3dc14a0e2e79d2f5f6b45719e778b765ffe912867bced2045873b",
+      "release_sha256": "c98b6ade9e2b7389f7df763a514487ef6b726de57832429edea11b7a54a2e6b6",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/replay_stage6.py": {
+      "stage7a_sha256": "f0839d5327bb690c7ce62e3001a43b7cb92a4a507c4fd488fc66e3efe8cd57d1",
+      "release_sha256": "de0fd46df0fedf3ec41e48dcc61941b314d0f7bc6b3cb3257441f33c9cf9cc00",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage3_manifest.py": {
+      "stage7a_sha256": "366569d312dc306afca8a1506cb84320fa9840565a19970c11e3fd0e737a3c89",
+      "release_sha256": "6b72b8191482da4df8c4ab720f2f5b6ca62b9f862bc2fd0812bc697381fbbebf",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage4_support.py": {
+      "stage7a_sha256": "593894d5c003f646fa6bb5d8802960eeb430f62f935ae74c26e09061f9c8618d",
+      "release_sha256": "5b1b5f8590a5ec78ce4cece6df3bcb297882910fde55e813069b6b022ab197f1",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage5_support.py": {
+      "stage7a_sha256": "14d6840b512ed40345e318671fc0da5fb17c9604203bdfc934dd9c22fcd4ca66",
+      "release_sha256": "7f4774b9b2922844a0d32ce822619d6ed42d1780ff176e1e24f32d66f5d7e43a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage6_benchmark.py": {
+      "stage7a_sha256": "02c549f8bda739386e6e33169f7730f7fc2dd0fb5c839367824bc7965761e7d8",
+      "release_sha256": "951319d3fde498305e602101b3fee561001053beb6b99e16b22dc13902f1e6dd",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage6_dataset.py": {
+      "stage7a_sha256": "b1e8e053dae0734b482965be7531161d5f4152a6b1c6e3f34a49e1c2faa67b40",
+      "release_sha256": "13839dd14220e37da9a723406db3e57b5ed026a70102ac2911d25e48b02a732a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/stage6_support.py": {
+      "stage7a_sha256": "1cec36491895e5339b05ebf65b03b44f62ae7f76f083c0a7e2c1e6beee49849e",
+      "release_sha256": "8c0c399114299e1f8619337e14c0a77ee765da96f9d1c779e74a193cc922d6ba",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_aligned.py": {
+      "stage7a_sha256": "c59728e64d2fbc8b647737ae184b57e2327be8f36cd12b920fa3538295d2aee9",
+      "release_sha256": "b39343607e07a182986b516d466ddd567a3c30f6eb6dfea5333fd433428a7341",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_baseline_repeat.py": {
+      "stage7a_sha256": "8f4c4f91b14f884b6173fe17aacf5c80c80c1929a67e2e8f9067eedde1a95dc0",
+      "release_sha256": "e6e643a14ef3b540f5c5536eb7b3f2ee61fae62cbd974ed2dd22eaeb2ae44c46",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_graph.py": {
+      "stage7a_sha256": "e0d8222f0175ffe003bba65888dade418e662dbb6dd47406505a4239327b0fed",
+      "release_sha256": "28f088bc82de1e52075f662ab09095d358e3649152834eb8a019a95f1013512c",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_graph_runtime.py": {
+      "stage7a_sha256": "c3aaf86b856fd260fa4c8aa2bfe7cb6a067c0c4fa44ba6cb51d0116e4a24104a",
+      "release_sha256": "b24e7563ea5c17a8ad94f28c6bfad603fe09ff900e3fa7d068e92bc4feb0908c",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_runtime.py": {
+      "stage7a_sha256": "458158659c75cc713ccafb77d2e5ebd78ffdd05d7a6f068e0c02274dd14e44d2",
+      "release_sha256": "34851f4304838364e1ed228628fc7683c20cc7b860647347274232f0e0cc7b85",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_stage5_runtime.py": {
+      "stage7a_sha256": "29314ea13923757630c202a41ed62c159277e467bab8e590ff5a7b14322d5e52",
+      "release_sha256": "13f3de6e5e0cd3513cbdde5e26112c48e77b58add096fcb5ed3858d890de469e",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_vector_index.py": {
+      "stage7a_sha256": "7714373e1d109e6f2c12db00e889b8bcab763e74bae1d26be1ecd9c06f060b73",
+      "release_sha256": "04d0c4c1be9586a7ebcaed262f8d2b1db41ac09bba36189b248af2f5923a2514",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "scripts/verify_vector_runtime.py": {
+      "stage7a_sha256": "48736758d3feaa20608d89be169d83826a310397eca556907cd0eefaddf2f891",
+      "release_sha256": "5112fc7cbd521921ef09ab18f02339df0e21f18e89088aec5f96ff85c9eba35a",
+      "reason": "Stage 7B: explicit verification/preservation exceptions under -O; defusedxml for JUnit readers"
+    },
+    "tests/unit/test_graph_rag.py": {
+      "stage7a_sha256": "46014f01842d451b729cd3b722722a9716907a3d9b83645c9a5eaaead73eba09",
+      "release_sha256": "2759d1f80a959c90b5369ac173815d454c76441c5102ec9d9e2848b5d5a0bbe3",
+      "reason": "Stage 7B: exact named security-file allowlist; retain original/release hash and core checks"
+    }
+  },
+  "security_review": "docs/STAGE7B_SECURITY_REVIEW.md",
+  "security_gate": "CONDITIONAL GO; trusted local portfolio only",
+  "license": "MIT",
+  "copyright_holder": "Devendra Tapare",
+  "copyright_year": 2026,
+  "license_scope": "First-party code and original material the owner owns or may license; third-party terms remain separate",
+  "security_overrides_scope": "Historical Stage 7B.1 snapshot; current documentation differences are in license_overrides",
+  "license_overrides": {
+    "README.md": {
+      "stage7b_sha256": "b11d38d9401e2bfb09d43eed01c3182cff0cbc66f04ce407881ea601b94ed65c",
+      "release_sha256": "b0041144137a14de076f09595cb558d6a946bbcee2d4af5cf6b4f92ee0ce1a18",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/FINAL_PROJECT_SUMMARY.md": {
+      "stage7b_sha256": "d77e0ef05e3cca7e20d7bb6794f66c36106ed013011aa19a915cacbac13f4e1b",
+      "release_sha256": "db60517bae36fc95d6be4a8e3785e57ade0c369be472f4999dfd5ec377727126",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/PUBLICATION_MANIFEST.md": {
+      "stage7b_sha256": "89b0bbc2efa2423a0a2304daa4bf3decb473f050034e2b8166d246610b088fb8",
+      "release_sha256": "e23d6a7f95bce55fec232a3458f6a8f21c94ed9332f191580dabcf0501618882",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/SECURITY_REVIEW.md": {
+      "stage7b_sha256": "52cfa9c5a37085255acc1f40754fbc4dd00f6b603231a0664e58c9a15e4a27d9",
+      "release_sha256": "06a3ac3844ffc15caae949d4c6dd38a75d47f787a899e2b12bbb87c68c4cdd46",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    },
+    "docs/THIRD_PARTY_NOTICES.md": {
+      "stage7b_sha256": "7ffe4f9d5c01ccdd9b3a8d4101da2d023d508cc0d2570529a80feb179cf6b391",
+      "release_sha256": "e4df6b71b2257b3177b886de7d5022f09e3f588c9e8ae23af2ba3632dafed0f2",
+      "reason": "Stage 7B.2: approved MIT scope, third-party notices or final release documentation"
+    }
+  },
+  "precommit_review": "docs/STAGE7B_PRECOMMIT_REPORT.md",
+  "previous_release": "reports/stage7b2/previous-release.json",
+  "change_record": "reports/stage7b2/release-changes.json"
+}

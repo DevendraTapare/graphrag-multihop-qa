@@ -1,0 +1,50 @@
+{
+  "corpus_build": "vector-build:844933f2e03ad5f3ad8f1a7970d01c5bd342faf7",
+  "embedding_version": "embedding:d839a5883dc9e038153a627ffeac85de98ce1ad2",
+  "warm_batch_indexing": {
+    "documents": 92,
+    "chunks": 92,
+    "seconds": 5.668494799989276,
+    "chunks_per_second": 16.23005810998963,
+    "embedding_batch_size": 32,
+    "idempotent_repeat": true
+  },
+  "concurrency_1": {
+    "requests": 24,
+    "top_k": 5,
+    "seconds": 2.6720721000165213,
+    "latency_ms": {
+      "query_embedding": {
+        "p50": 29.871050006477162,
+        "p95": 164.2263800036743
+      },
+      "vector_retrieval": {
+        "p50": 50.473800001782365,
+        "p95": 115.87852501834276
+      },
+      "end_to_end": {
+        "p50": 83.27550000103656,
+        "p95": 232.13123499299397
+      }
+    }
+  },
+  "concurrency_4": {
+    "requests": 24,
+    "top_k": 5,
+    "seconds": 2.576754300011089,
+    "latency_ms": {
+      "query_embedding": {
+        "p50": 171.2145000055898,
+        "p95": 360.31207998748863
+      },
+      "vector_retrieval": {
+        "p50": 189.632449997589,
+        "p95": 414.43055001582246
+      },
+      "end_to_end": {
+        "p50": 416.52075000456534,
+        "p95": 644.4902999865005
+      }
+    }
+  }
+}

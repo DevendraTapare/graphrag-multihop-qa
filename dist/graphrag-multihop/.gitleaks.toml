@@ -1,0 +1,15 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Exact reviewed checksum values and fictional unit-test input"
+regexTarget = "secret"
+regexes = [
+  '''^2bd79da7077370266d5049d8246510fffa9e24185c5706a3a8d0e3ac3428817b$''',
+  '''^2ee1301e98faac2aece57b85785930e14349ad9f61fcc9a63d8ccc04542f421c$''',
+  '''^7c1c600c3c0f02289ea66ecf7cc9a6f21c86c4ff4160d0dd7c60a8a78235e096$''',
+  '''^d5fb8561c5acc7034b4bc21538144f63cf910ac360429c6e1b898a48231dbbe7$''',
+  '''^e6c29d06ee690473f79836234c25cb0f1f6237beafc60cd8bf94fefe7ca7b906$''',
+  '''^ebcdb7bf94f54ba294af7d65ea1a48d21d0419634d077e7402668429791a215a$''',
+  '''^environment\-secret\-123$''',
+]

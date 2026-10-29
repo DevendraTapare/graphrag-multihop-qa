@@ -1,0 +1,25 @@
+{
+  "frozen_at_utc": "2026-10-28T17:13:05.570183+00:00",
+  "policy": "Frozen before primary 122-question evaluation; no held-out tuning",
+  "files": {
+    "app/graph_rag/interpretation.py": "4c2d086f8877ba49008b179188f86d246f9f7687bed30f448a790c24a0603ff0",
+    "app/graph_rag/linking.py": "67afc660a7c044d1e0976a871de30c59e1aad6e4d98ef40efa20c7791fb87e14",
+    "app/graph_rag/models.py": "dcb7db12abf92ff0d397e38bb4d6897b9c1d31f1ba9576cddc88524e9252f419",
+    "app/graph_rag/provenance.py": "a0d7008173b46ff3c5e9c43846e843085c074a4c79d57411a25fb0a7c9df7fa2",
+    "app/graph_rag/repository.py": "bbe96af64c50e8a5fa924e867d0e0366ab3b34453b872fb546e00dc567b15fc4",
+    "app/graph_rag/service.py": "ca32e07084417438bcff37b6957e4846a1573b0b542f6dd4aa84e2bd55c0ebb3",
+    "app/graph_rag/__init__.py": "97b12edd5a8508a6aef44d98d994cb53aef9a6184c23c02ef438fc9cae123507",
+    "app/api/graph_rag.py": "12ea090fb177c92e306c3dd2ef756e35e38f5d7c9f09ec3704b190c6f6dd026d"
+  },
+  "baseline": {
+    "frozen_files": 143,
+    "allowed_integration_changes": [
+      ".env.example",
+      "app/core/config.py",
+      "app/main.py",
+      "tests/unit/test_api.py"
+    ],
+    "protected_files_unchanged": true,
+    "baseline_settings_unchanged": true
+  }
+}

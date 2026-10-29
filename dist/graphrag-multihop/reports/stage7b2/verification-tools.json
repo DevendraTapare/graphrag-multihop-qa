@@ -1,0 +1,31 @@
+[
+  {
+    "name": "pip-audit",
+    "version_output": "pip-audit 2.10.1",
+    "exit_code": 0,
+    "source": "https://pypi.org/pypi/pip-audit/2.10.1/json",
+    "license": "Apache-2.0",
+    "license_source": "https://github.com/pypa/pip-audit/blob/v2.10.1/LICENSE"
+  },
+  {
+    "name": "bandit",
+    "version_output": "bandit 1.9.4\n  python version = 3.12.13 (main, Jun 11 2026, 04:05:29) [MSC v.1944 64 bit (AMD64)]",
+    "exit_code": 0,
+    "source": "https://pypi.org/pypi/bandit/1.9.4/json",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "gitleaks",
+    "version_output": "8.30.1",
+    "exit_code": 0,
+    "source": "https://github.com/gitleaks/gitleaks/blob/v8.30.1/LICENSE",
+    "license": "MIT"
+  },
+  {
+    "name": "python",
+    "version_output": "Python 3.12.13",
+    "exit_code": 0,
+    "source": "https://github.com/python/cpython/blob/v3.12.13/LICENSE",
+    "license": "PSF license and listed component notices"
+  }
+]

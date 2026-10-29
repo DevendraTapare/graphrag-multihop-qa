@@ -1,0 +1,25 @@
+{
+  "audited_distributions": 60,
+  "vulnerabilities": 0,
+  "skips": 0,
+  "transformers": "5.17.0",
+  "dependency_changes": [],
+  "bandit_exit_code": 1,
+  "bandit_findings": 12,
+  "bandit_severity": "LOW",
+  "bandit_confidence": "HIGH",
+  "bandit_unchanged_from_reviewed_stage7b": true,
+  "bandit_rules": {
+    "B404": 3,
+    "B607": 3,
+    "B603": 5,
+    "B311": 1
+  },
+  "remaining_advisory_caveats": [
+    "PYSEC-2025-217 / CVE-2025-14929: no declared fixed release; unused converter absent from inspected wheel",
+    "PYSEC-2026-4174 / CVE-2026-80047: no advisory patched version; selected wheel has verified code correction"
+  ],
+  "unavailable_security_sources": [],
+  "suppression_changes": [],
+  "scope": "Release app/scripts; same 12 call sites and code as the prior reviewed scan"
+}

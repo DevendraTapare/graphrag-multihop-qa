@@ -1,0 +1,137 @@
+{
+  "as_of": "2026-10-29",
+  "original_service": "PyPI advisory service via pip-audit; reviewed GitHub advisories and CNA/ZDI verified separately",
+  "records": 9,
+  "unique_ids": 6,
+  "findings": [
+    {
+      "id": "PYSEC-2025-217",
+      "aliases": [
+        "CVE-2025-14929"
+      ],
+      "records": 1,
+      "source": "https://www.zerodayinitiative.com/advisories/ZDI-25-1144/",
+      "range_source": "https://github.com/pypa/advisory-database/blob/main/vulns/transformers/PYSEC-2025-217.yaml",
+      "vulnerable_range": "PyPA: introduced 0, last_affected 5.0.0rc0. CNA names affected commit d1c6310d6a02481d48d81607cba7840be04580d1 and otherwise unknown status; no complete CNA SemVer range.",
+      "fixed_version": null,
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "cvss_source": "ZDI/CNA CVSS 3.0",
+      "functionality": "X-CLIP checkpoint conversion and unsafe deserialization",
+      "reachable": "Not through this project: no checkpoint converter or untrusted checkpoint loading. Converter file is absent from both inspected installed wheels.",
+      "disposition": "No declared upstream fixed version; residual vendor-status uncertainty. Selected version is outside the PyPA listed range; scanner disappearance is not proof of a vendor fix.",
+      "mitigation": "Use only the fixed-revision reviewed cached MiniLM encoder. Do not add or execute X-CLIP conversion/checkpoint scripts. Retain this caveat and recheck vendor advisories.",
+      "package": "transformers",
+      "installed_before": "4.57.6",
+      "installed_after": "5.17.0",
+      "dependency": "Direct requirement and transitive requirement of sentence-transformers; its encoder backend is used, so removal is not compatible."
+    },
+    {
+      "id": "PYSEC-2026-2288",
+      "aliases": [
+        "CVE-2026-1839",
+        "GHSA-69w3-r845-3855"
+      ],
+      "records": 2,
+      "source": "https://github.com/advisories/GHSA-69w3-r845-3855",
+      "vulnerable_range": "<5.0.0rc3",
+      "fixed_version": "5.0.0rc3",
+      "severity": "MODERATE",
+      "cvss": 6.5,
+      "functionality": "Trainer._load_rng_state() checkpoint loading",
+      "reachable": "Not through this project: no Trainer/resume-training path; advisory additionally describes torch below 2.6, while installed torch is 2.14.1.",
+      "disposition": "Resolved by release upgrade to 5.17.0. Old duplicate audit records disagree on 5.0.0 vs 5.0.0rc3; GitHub reviewed affected/patched table used.",
+      "mitigation": "Keep the upgraded release lock; do not resume untrusted checkpoints.",
+      "package": "transformers",
+      "installed_before": "4.57.6",
+      "installed_after": "5.17.0",
+      "dependency": "Direct requirement and transitive requirement of sentence-transformers; its encoder backend is used, so removal is not compatible."
+    },
+    {
+      "id": "PYSEC-2026-2289",
+      "aliases": [
+        "CVE-2026-4372",
+        "GHSA-29pf-2h5f-8g72"
+      ],
+      "records": 2,
+      "source": "https://github.com/advisories/GHSA-29pf-2h5f-8g72",
+      "vulnerable_range": "<5.3.0",
+      "fixed_version": "5.3.0",
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "functionality": "Malicious attention implementation in a model configuration loads remote kernel code",
+      "reachable": "The encoder does load model config, but callers cannot supply config/model IDs. It uses one immutable MiniLM revision, local cache only and no remote code. No attacker-config path was found; this is source-review inference, not exploit testing.",
+      "disposition": "Resolved by release upgrade to 5.17.0.",
+      "mitigation": "Keep the upgraded lock and fixed-revision offline encoder. trust_remote_code=False alone was not a sufficient mitigation for the old flaw.",
+      "package": "transformers",
+      "installed_before": "4.57.6",
+      "installed_after": "5.17.0",
+      "dependency": "Direct requirement and transitive requirement of sentence-transformers; its encoder backend is used, so removal is not compatible."
+    },
+    {
+      "id": "PYSEC-2026-2290",
+      "aliases": [
+        "CVE-2026-5241",
+        "GHSA-fgcw-684q-jj6r"
+      ],
+      "records": 2,
+      "source": "https://github.com/advisories/GHSA-fgcw-684q-jj6r",
+      "vulnerable_range": "<5.5.0",
+      "fixed_version": "5.5.0",
+      "severity": "HIGH",
+      "cvss": 8.0,
+      "functionality": "LightGlue nested model configuration bypasses remote-code trust policy",
+      "reachable": "Not through this project: MiniLM BERT encoder only; no LightGlue or caller-provided nested model config.",
+      "disposition": "Resolved by release upgrade to 5.17.0; reviewed advisory supplies the missing fix from one old audit record.",
+      "mitigation": "Keep the upgraded lock and restrict models/configs to the reviewed encoder.",
+      "package": "transformers",
+      "installed_before": "4.57.6",
+      "installed_after": "5.17.0",
+      "dependency": "Direct requirement and transitive requirement of sentence-transformers; its encoder backend is used, so removal is not compatible."
+    },
+    {
+      "id": "PYSEC-2026-3929",
+      "aliases": [
+        "CVE-2026-9856",
+        "GHSA-xrqw-3rrv-vx5w"
+      ],
+      "records": 1,
+      "source": "https://github.com/advisories/GHSA-xrqw-3rrv-vx5w",
+      "vulnerable_range": "<5.10.0",
+      "fixed_version": "5.10.0",
+      "severity": "HIGH",
+      "cvss": 7.1,
+      "functionality": "save_pretrained() chat-template filename path traversal",
+      "reachable": "Not through this project: no tokenizer/processor save_pretrained or untrusted chat-template output path.",
+      "disposition": "Resolved by release upgrade to 5.17.0.",
+      "mitigation": "Keep upgraded lock; do not introduce untrusted model/tokenizer export paths.",
+      "package": "transformers",
+      "installed_before": "4.57.6",
+      "installed_after": "5.17.0",
+      "dependency": "Direct requirement and transitive requirement of sentence-transformers; its encoder backend is used, so removal is not compatible."
+    },
+    {
+      "id": "PYSEC-2026-4174",
+      "aliases": [
+        "CVE-2026-80047",
+        "GHSA-x9r9-c232-4q39"
+      ],
+      "records": 1,
+      "source": "https://github.com/advisories/GHSA-x9r9-c232-4q39",
+      "vulnerable_range": "Published advisory: >=4.49.0, <=5.8.1; source inspection also finds download-before-consent in the 5.10.0 through 5.16.0 minor release tags. Treat the published upper bound cautiously.",
+      "fixed_version": null,
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "functionality": "load_custom_generate() downloads Python before asking permission; execution is separately gated",
+      "reachable": "Not through this project: no custom generation or generative model; the MiniLM worker is offline.",
+      "disposition": "Advisory still lists no patched version. Upstream correcting commit cbc1651 and the selected 5.17.0 tag/installed wheel show trust validation before get_cached_module_file. This is verified code mitigation, not an invented advisory fixed-version declaration.",
+      "mitigation": "Selected 5.17.0 rather than 5.10.0 based on source verification. Continue avoiding custom generation; retain advisory-data uncertainty.",
+      "maintainer_fix": "https://github.com/huggingface/transformers/commit/cbc1651",
+      "selected_source": "https://github.com/huggingface/transformers/blob/v5.17.0/src/transformers/generation/utils.py",
+      "package": "transformers",
+      "installed_before": "4.57.6",
+      "installed_after": "5.17.0",
+      "dependency": "Direct requirement and transitive requirement of sentence-transformers; its encoder backend is used, so removal is not compatible."
+    }
+  ]
+}

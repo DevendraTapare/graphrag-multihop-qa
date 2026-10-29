@@ -1,0 +1,7 @@
+warning: `VIRTUAL_ENV=.venv` does not match the project environment path `C:\Users\Devendra\.cache\graphrag-stage7a-release-20261029` and will be ignored; use `--active` to target the active environment instead
+start
+verify-empty
+prepare
+responses
+verify-no-curated-facts
+stop

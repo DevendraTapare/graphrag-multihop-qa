@@ -1,0 +1,18 @@
+{
+  "actionlint_version": "1.7.12\ninstalled by downloading from release page\nbuilt with go1.26.1 compiler for windows/amd64",
+  "workflow_syntax_exit_code": 0,
+  "workflow": ".github/workflows/ci.yml",
+  "hosted_status": "UNVERIFIED",
+  "local_commands": "Full Ruff/unit/real integration commands verified in test_results.json; no hosted run or repository created",
+  "sources": [
+    "https://docs.astral.sh/uv/guides/integration/github/",
+    "https://docs.github.com/en/actions/tutorials/build-and-test-code/python"
+  ],
+  "local_pytest_final_exit_code": 0,
+  "passed": 423,
+  "unit": 294,
+  "integration": 129,
+  "skipped": 0,
+  "initial_timeout_retained": "reports/stage6/regression_attempt1.log",
+  "local_workflow_commands_validated": true
+}

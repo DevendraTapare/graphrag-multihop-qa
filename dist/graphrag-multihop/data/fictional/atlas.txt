@@ -1,0 +1,3 @@
+Priya manages Project Atlas.
+Atlas uses PostgreSQL.
+The PostgreSQL instance for Project Atlas is hosted on AWS.

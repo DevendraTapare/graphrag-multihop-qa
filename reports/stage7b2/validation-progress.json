@@ -1,0 +1,72 @@
+[
+  {
+    "step": "locked-sync",
+    "exit_code": 0,
+    "seconds": 0.17100000000209548
+  },
+  {
+    "step": "lock-check",
+    "exit_code": 0,
+    "seconds": 0.07899999999790452
+  },
+  {
+    "step": "lint",
+    "exit_code": 0,
+    "seconds": 0.6099999999860302
+  },
+  {
+    "step": "format",
+    "exit_code": 0,
+    "seconds": 0.25
+  },
+  {
+    "step": "units",
+    "exit_code": 0,
+    "seconds": 7.76500000001397
+  },
+  {
+    "step": "park-research",
+    "exit_code": 0,
+    "seconds": 0.125
+  },
+  {
+    "step": "start-db",
+    "exit_code": 0,
+    "seconds": 44.062000000005355
+  },
+  {
+    "step": "bolt-ready",
+    "exit_code": 0,
+    "seconds": 8.51600000000326
+  },
+  {
+    "step": "full-tests",
+    "exit_code": 0,
+    "seconds": 1154.546000000002
+  },
+  {
+    "step": "reject-skips",
+    "exit_code": 0,
+    "seconds": 0.3129999999946449
+  },
+  {
+    "step": "prepare-demo",
+    "exit_code": 0,
+    "seconds": 50.01600000000326
+  },
+  {
+    "step": "run-demo",
+    "exit_code": 0,
+    "seconds": 49.29700000002049
+  },
+  {
+    "step": "prepare-smoke",
+    "exit_code": 0,
+    "seconds": 46.514999999984866
+  },
+  {
+    "step": "run-smoke",
+    "exit_code": 0,
+    "seconds": 34.04700000002049
+  }
+]

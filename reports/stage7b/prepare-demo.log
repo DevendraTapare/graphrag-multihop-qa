@@ -1,0 +1,20 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 8872.73it/s]
+{
+  "kind": "demo",
+  "source_documents": 12,
+  "accepted_facts": 30,
+  "index": {
+    "build_id": "vector-build:c5e69c7d04a7a48323349a5b180474e2de6fed73",
+    "documents": 12,
+    "chunks": 12,
+    "status": "ready",
+    "cached": false,
+    "indexing_ms": 29991.43099997309
+  },
+  "repeat_index_cached": true,
+  "provenance": {
+    "facts_checked": 30,
+    "failures": 0
+  },
+  "source_only": true
+}

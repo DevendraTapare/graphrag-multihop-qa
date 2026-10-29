@@ -1,0 +1,136 @@
+{
+  "tests": 436,
+  "unit": 307,
+  "integration": 129,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "baseline_case_ids_preserved": 436,
+  "integration_modules": {
+    "test_aligned": 25,
+    "test_graph_rag": 44,
+    "test_ingestion": 21,
+    "test_neo4j": 18,
+    "test_stage6": 3,
+    "test_vector": 18
+  },
+  "steps": [
+    {
+      "step": "locked-sync",
+      "exit_code": 0,
+      "seconds": 0.17100000000209548
+    },
+    {
+      "step": "lock-check",
+      "exit_code": 0,
+      "seconds": 0.07899999999790452
+    },
+    {
+      "step": "lint",
+      "exit_code": 0,
+      "seconds": 0.6099999999860302
+    },
+    {
+      "step": "format",
+      "exit_code": 0,
+      "seconds": 0.25
+    },
+    {
+      "step": "units",
+      "exit_code": 0,
+      "seconds": 7.76500000001397
+    },
+    {
+      "step": "park-research",
+      "exit_code": 0,
+      "seconds": 0.125
+    },
+    {
+      "step": "start-db",
+      "exit_code": 0,
+      "seconds": 44.062000000005355
+    },
+    {
+      "step": "bolt-ready",
+      "exit_code": 0,
+      "seconds": 8.51600000000326
+    },
+    {
+      "step": "full-tests",
+      "exit_code": 0,
+      "seconds": 1154.546000000002
+    },
+    {
+      "step": "reject-skips",
+      "exit_code": 0,
+      "seconds": 0.3129999999946449
+    },
+    {
+      "step": "prepare-demo",
+      "exit_code": 0,
+      "seconds": 50.01600000000326
+    },
+    {
+      "step": "run-demo",
+      "exit_code": 0,
+      "seconds": 49.29700000002049
+    },
+    {
+      "step": "prepare-smoke",
+      "exit_code": 0,
+      "seconds": 46.514999999984866
+    },
+    {
+      "step": "run-smoke",
+      "exit_code": 0,
+      "seconds": 34.04700000002049
+    },
+    {
+      "step": "stop-db",
+      "exit_code": 0,
+      "seconds": 6.625
+    },
+    {
+      "step": "restore-research",
+      "exit_code": 0,
+      "seconds": 3.48499999998603
+    }
+  ],
+  "demo_checks": 24,
+  "demo_source_documents": 12,
+  "demo_facts": 30,
+  "demo_provenance": {
+    "facts_checked": 30,
+    "failures": 0
+  },
+  "repeat_index_cached": true,
+  "smoke_requests": 27,
+  "smoke": {
+    "graph_only": {
+      "positive_questions": 6,
+      "positive_correct": 4,
+      "negative_questions": 3,
+      "negative_correct": 3,
+      "unsupported_answers": 0
+    },
+    "hybrid_graph_vector": {
+      "positive_questions": 6,
+      "positive_correct": 4,
+      "negative_questions": 3,
+      "negative_correct": 3,
+      "unsupported_answers": 0
+    },
+    "vector_only": {
+      "positive_questions": 6,
+      "positive_correct": 0,
+      "negative_questions": 3,
+      "negative_correct": 3,
+      "unsupported_answers": 0
+    }
+  },
+  "hosted_ci": "UNVERIFIED",
+  "initial_attempt": "307 unit tests passed; Docker engine unavailable, so no integration tests ran. Docker Desktop started locally and real verification was rerun.",
+  "paid_llm_api_calls": false,
+  "source_or_dependency_changes": false,
+  "scope": "Executed directly in dist/graphrag-multihop with locked environment, trusted cached model and real isolated Neo4j"
+}

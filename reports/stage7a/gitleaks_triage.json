@@ -1,0 +1,66 @@
+{
+  "initial_findings": 10,
+  "exact_allowlisted_values": 7,
+  "triage": [
+    {
+      "file": "reports/stage4/baseline_freeze.json",
+      "line": 340,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage4/baseline_freeze.json",
+      "line": 350,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage5/history_freeze.json",
+      "line": 176,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage5/history_freeze.json",
+      "line": 184,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage5/history_freeze.json",
+      "line": 189,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage6/history_freeze.json",
+      "line": 229,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage6/history_freeze.json",
+      "line": 237,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage6/history_freeze.json",
+      "line": 240,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "reports/stage6/history_freeze.json",
+      "line": 243,
+      "rule": "generic-api-key",
+      "disposition": "SHA-256 research file checksum, not a credential"
+    },
+    {
+      "file": "tests/unit/test_config.py",
+      "line": 8,
+      "rule": "generic-api-key",
+      "disposition": "Fictional hardcoded unit-test input, not a live credential"
+    }
+  ]
+}

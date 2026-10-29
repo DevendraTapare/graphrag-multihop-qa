@@ -1,0 +1,671 @@
+{
+  "id": "fixture:corporate-v1",
+  "entities": [
+    {
+      "id": "org:lumen",
+      "label": "Organization",
+      "name": "Lumen Orchard",
+      "scope": "fictional_registry"
+    },
+    {
+      "id": "org:cedar",
+      "label": "Organization",
+      "name": "Cedar Kite",
+      "scope": "fictional_registry"
+    },
+    {
+      "id": "org:tidal",
+      "label": "Organization",
+      "name": "Tidal Lantern",
+      "scope": "fictional_registry"
+    },
+    {
+      "id": "person:priya",
+      "label": "Person",
+      "name": "Priya",
+      "scope": "lumen_employee_001"
+    },
+    {
+      "id": "person:morgan",
+      "label": "Person",
+      "name": "Morgan",
+      "scope": "cedar_employee_001"
+    },
+    {
+      "id": "person:sam",
+      "label": "Person",
+      "name": "Sam",
+      "scope": "lumen_employee_002"
+    },
+    {
+      "id": "person:lee-north",
+      "label": "Person",
+      "name": "Lee Chen",
+      "scope": "cedar_employee_002"
+    },
+    {
+      "id": "person:lee-south",
+      "label": "Person",
+      "name": "Lee Chen",
+      "scope": "tidal_employee_001"
+    },
+    {
+      "id": "person:noor",
+      "label": "Person",
+      "name": "Noor",
+      "scope": "tidal_employee_002"
+    },
+    {
+      "id": "person:ivo",
+      "label": "Person",
+      "name": "Ivo",
+      "scope": "directory_only_001"
+    },
+    {
+      "id": "person:una",
+      "label": "Person",
+      "name": "Una",
+      "scope": "directory_only_002"
+    },
+    {
+      "id": "project:atlas",
+      "label": "Project",
+      "name": "Atlas",
+      "scope": "lumen"
+    },
+    {
+      "id": "tech:postgres-atlas",
+      "label": "Technology",
+      "name": "PostgreSQL",
+      "scope": "atlas_deployment"
+    },
+    {
+      "id": "project:atlas-east",
+      "label": "Project",
+      "name": "Atlas East",
+      "scope": "cedar"
+    },
+    {
+      "id": "tech:postgres-east",
+      "label": "Technology",
+      "name": "PostgreSQL",
+      "scope": "atlas-east_deployment"
+    },
+    {
+      "id": "project:beacon",
+      "label": "Project",
+      "name": "Beacon",
+      "scope": "lumen"
+    },
+    {
+      "id": "tech:redis",
+      "label": "Technology",
+      "name": "Redis",
+      "scope": "beacon_deployment"
+    },
+    {
+      "id": "project:comet",
+      "label": "Project",
+      "name": "Comet",
+      "scope": "cedar"
+    },
+    {
+      "id": "tech:neo4j",
+      "label": "Technology",
+      "name": "Neo4j",
+      "scope": "comet_deployment"
+    },
+    {
+      "id": "project:delta",
+      "label": "Project",
+      "name": "Delta",
+      "scope": "tidal"
+    },
+    {
+      "id": "tech:kafka",
+      "label": "Technology",
+      "name": "Kafka",
+      "scope": "delta_deployment"
+    },
+    {
+      "id": "project:echo",
+      "label": "Project",
+      "name": "Echo",
+      "scope": "tidal"
+    },
+    {
+      "id": "tech:duckdb",
+      "label": "Technology",
+      "name": "DuckDB",
+      "scope": "echo_deployment"
+    },
+    {
+      "id": "platform:aws",
+      "label": "Platform",
+      "name": "AWS",
+      "scope": "cloud_vendor"
+    },
+    {
+      "id": "platform:azure",
+      "label": "Platform",
+      "name": "Azure",
+      "scope": "cloud_vendor"
+    },
+    {
+      "id": "platform:gcp",
+      "label": "Platform",
+      "name": "GCP",
+      "scope": "cloud_vendor"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc:01",
+      "title": "Lumen staffing",
+      "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard."
+    },
+    {
+      "id": "doc:02",
+      "title": "Atlas database decision",
+      "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard."
+    },
+    {
+      "id": "doc:03",
+      "title": "Atlas hosting inventory",
+      "text": "The PostgreSQL instance for Project Atlas is hosted on AWS."
+    },
+    {
+      "id": "doc:04",
+      "title": "Atlas East inventory",
+      "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure."
+    },
+    {
+      "id": "doc:05",
+      "title": "Beacon staffing",
+      "text": "Sam manages Project Beacon. Sam works for Lumen Orchard. Project Beacon belongs to Lumen Orchard."
+    },
+    {
+      "id": "doc:06",
+      "title": "Beacon technology inventory",
+      "text": "Project Beacon uses its Redis instance. The Redis instance for Project Beacon is hosted on GCP."
+    },
+    {
+      "id": "doc:07",
+      "title": "Comet staffing",
+      "text": "Lee Chen (Cedar employee 002) manages Project Comet. Lee Chen (Cedar employee 002) works for Cedar Kite. Project Comet belongs to Cedar Kite."
+    },
+    {
+      "id": "doc:08",
+      "title": "Comet technology inventory",
+      "text": "Project Comet uses its Neo4j instance. The Neo4j instance for Project Comet is hosted on Azure."
+    },
+    {
+      "id": "doc:09",
+      "title": "Delta staffing",
+      "text": "Lee Chen (Tidal employee 001) manages Project Delta. Lee Chen (Tidal employee 001) works for Tidal Lantern. Project Delta belongs to Tidal Lantern."
+    },
+    {
+      "id": "doc:10",
+      "title": "Delta technology inventory",
+      "text": "Project Delta uses its Kafka instance. The Kafka instance for Project Delta is hosted on AWS."
+    },
+    {
+      "id": "doc:11",
+      "title": "Echo staffing",
+      "text": "Noor manages Project Echo. Noor works for Tidal Lantern. Project Echo belongs to Tidal Lantern."
+    },
+    {
+      "id": "doc:12",
+      "title": "Echo technology inventory",
+      "text": "Project Echo uses its DuckDB instance. The DuckDB instance for Project Echo is hosted on GCP. Directory-only contacts: Ivo and Una; their roles are not recorded."
+    }
+  ],
+  "chunks": [
+    {
+      "id": "chunk:01",
+      "document_id": "doc:01",
+      "start": 0,
+      "end": 76,
+      "text": "Priya manages Project Atlas at Lumen Orchard. Priya works for Lumen Orchard."
+    },
+    {
+      "id": "chunk:02",
+      "document_id": "doc:02",
+      "start": 0,
+      "end": 92,
+      "text": "Project Atlas uses its PostgreSQL database instance. Project Atlas belongs to Lumen Orchard."
+    },
+    {
+      "id": "chunk:03",
+      "document_id": "doc:03",
+      "start": 0,
+      "end": 59,
+      "text": "The PostgreSQL instance for Project Atlas is hosted on AWS."
+    },
+    {
+      "id": "chunk:04",
+      "document_id": "doc:04",
+      "start": 0,
+      "end": 239,
+      "text": "Morgan manages Project Atlas East at Cedar Kite. Morgan works for Cedar Kite. Project Atlas East belongs to Cedar Kite. Project Atlas East uses its own PostgreSQL instance. The PostgreSQL instance for Project Atlas East is hosted on Azure."
+    },
+    {
+      "id": "chunk:05",
+      "document_id": "doc:05",
+      "start": 0,
+      "end": 97,
+      "text": "Sam manages Project Beacon. Sam works for Lumen Orchard. Project Beacon belongs to Lumen Orchard."
+    },
+    {
+      "id": "chunk:06",
+      "document_id": "doc:06",
+      "start": 0,
+      "end": 95,
+      "text": "Project Beacon uses its Redis instance. The Redis instance for Project Beacon is hosted on GCP."
+    },
+    {
+      "id": "chunk:07",
+      "document_id": "doc:07",
+      "start": 0,
+      "end": 141,
+      "text": "Lee Chen (Cedar employee 002) manages Project Comet. Lee Chen (Cedar employee 002) works for Cedar Kite. Project Comet belongs to Cedar Kite."
+    },
+    {
+      "id": "chunk:08",
+      "document_id": "doc:08",
+      "start": 0,
+      "end": 95,
+      "text": "Project Comet uses its Neo4j instance. The Neo4j instance for Project Comet is hosted on Azure."
+    },
+    {
+      "id": "chunk:09",
+      "document_id": "doc:09",
+      "start": 0,
+      "end": 147,
+      "text": "Lee Chen (Tidal employee 001) manages Project Delta. Lee Chen (Tidal employee 001) works for Tidal Lantern. Project Delta belongs to Tidal Lantern."
+    },
+    {
+      "id": "chunk:10",
+      "document_id": "doc:10",
+      "start": 0,
+      "end": 93,
+      "text": "Project Delta uses its Kafka instance. The Kafka instance for Project Delta is hosted on AWS."
+    },
+    {
+      "id": "chunk:11",
+      "document_id": "doc:11",
+      "start": 0,
+      "end": 95,
+      "text": "Noor manages Project Echo. Noor works for Tidal Lantern. Project Echo belongs to Tidal Lantern."
+    },
+    {
+      "id": "chunk:12",
+      "document_id": "doc:12",
+      "start": 0,
+      "end": 161,
+      "text": "Project Echo uses its DuckDB instance. The DuckDB instance for Project Echo is hosted on GCP. Directory-only contacts: Ivo and Una; their roles are not recorded."
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact:001",
+      "subject": "person:priya",
+      "predicate": "MANAGES",
+      "object": "project:atlas",
+      "source_document_id": "doc:01",
+      "source_chunk_id": "chunk:01",
+      "quote": "Priya manages Project Atlas at Lumen Orchard.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:002",
+      "subject": "person:priya",
+      "predicate": "WORKS_FOR",
+      "object": "org:lumen",
+      "source_document_id": "doc:01",
+      "source_chunk_id": "chunk:01",
+      "quote": "Priya works for Lumen Orchard.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:003",
+      "subject": "project:atlas",
+      "predicate": "USES",
+      "object": "tech:postgres-atlas",
+      "source_document_id": "doc:02",
+      "source_chunk_id": "chunk:02",
+      "quote": "Project Atlas uses its PostgreSQL database instance.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:004",
+      "subject": "project:atlas",
+      "predicate": "BELONGS_TO",
+      "object": "org:lumen",
+      "source_document_id": "doc:02",
+      "source_chunk_id": "chunk:02",
+      "quote": "Project Atlas belongs to Lumen Orchard.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:005",
+      "subject": "tech:postgres-atlas",
+      "predicate": "HOSTED_ON",
+      "object": "platform:aws",
+      "source_document_id": "doc:03",
+      "source_chunk_id": "chunk:03",
+      "quote": "The PostgreSQL instance for Project Atlas is hosted on AWS.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:006",
+      "subject": "person:morgan",
+      "predicate": "MANAGES",
+      "object": "project:atlas-east",
+      "source_document_id": "doc:04",
+      "source_chunk_id": "chunk:04",
+      "quote": "Morgan manages Project Atlas East at Cedar Kite.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:007",
+      "subject": "person:morgan",
+      "predicate": "WORKS_FOR",
+      "object": "org:cedar",
+      "source_document_id": "doc:04",
+      "source_chunk_id": "chunk:04",
+      "quote": "Morgan works for Cedar Kite.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:008",
+      "subject": "project:atlas-east",
+      "predicate": "BELONGS_TO",
+      "object": "org:cedar",
+      "source_document_id": "doc:04",
+      "source_chunk_id": "chunk:04",
+      "quote": "Project Atlas East belongs to Cedar Kite.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:009",
+      "subject": "project:atlas-east",
+      "predicate": "USES",
+      "object": "tech:postgres-east",
+      "source_document_id": "doc:04",
+      "source_chunk_id": "chunk:04",
+      "quote": "Project Atlas East uses its own PostgreSQL instance.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:010",
+      "subject": "tech:postgres-east",
+      "predicate": "HOSTED_ON",
+      "object": "platform:azure",
+      "source_document_id": "doc:04",
+      "source_chunk_id": "chunk:04",
+      "quote": "The PostgreSQL instance for Project Atlas East is hosted on Azure.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:011",
+      "subject": "person:sam",
+      "predicate": "MANAGES",
+      "object": "project:beacon",
+      "source_document_id": "doc:05",
+      "source_chunk_id": "chunk:05",
+      "quote": "Sam manages Project Beacon.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:012",
+      "subject": "person:sam",
+      "predicate": "WORKS_FOR",
+      "object": "org:lumen",
+      "source_document_id": "doc:05",
+      "source_chunk_id": "chunk:05",
+      "quote": "Sam works for Lumen Orchard.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:013",
+      "subject": "project:beacon",
+      "predicate": "BELONGS_TO",
+      "object": "org:lumen",
+      "source_document_id": "doc:05",
+      "source_chunk_id": "chunk:05",
+      "quote": "Project Beacon belongs to Lumen Orchard.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:014",
+      "subject": "project:beacon",
+      "predicate": "USES",
+      "object": "tech:redis",
+      "source_document_id": "doc:06",
+      "source_chunk_id": "chunk:06",
+      "quote": "Project Beacon uses its Redis instance.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:015",
+      "subject": "tech:redis",
+      "predicate": "HOSTED_ON",
+      "object": "platform:gcp",
+      "source_document_id": "doc:06",
+      "source_chunk_id": "chunk:06",
+      "quote": "The Redis instance for Project Beacon is hosted on GCP.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:016",
+      "subject": "person:lee-north",
+      "predicate": "MANAGES",
+      "object": "project:comet",
+      "source_document_id": "doc:07",
+      "source_chunk_id": "chunk:07",
+      "quote": "Lee Chen (Cedar employee 002) manages Project Comet.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:017",
+      "subject": "person:lee-north",
+      "predicate": "WORKS_FOR",
+      "object": "org:cedar",
+      "source_document_id": "doc:07",
+      "source_chunk_id": "chunk:07",
+      "quote": "Lee Chen (Cedar employee 002) works for Cedar Kite.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:018",
+      "subject": "project:comet",
+      "predicate": "BELONGS_TO",
+      "object": "org:cedar",
+      "source_document_id": "doc:07",
+      "source_chunk_id": "chunk:07",
+      "quote": "Project Comet belongs to Cedar Kite.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:019",
+      "subject": "project:comet",
+      "predicate": "USES",
+      "object": "tech:neo4j",
+      "source_document_id": "doc:08",
+      "source_chunk_id": "chunk:08",
+      "quote": "Project Comet uses its Neo4j instance.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:020",
+      "subject": "tech:neo4j",
+      "predicate": "HOSTED_ON",
+      "object": "platform:azure",
+      "source_document_id": "doc:08",
+      "source_chunk_id": "chunk:08",
+      "quote": "The Neo4j instance for Project Comet is hosted on Azure.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:021",
+      "subject": "person:lee-south",
+      "predicate": "MANAGES",
+      "object": "project:delta",
+      "source_document_id": "doc:09",
+      "source_chunk_id": "chunk:09",
+      "quote": "Lee Chen (Tidal employee 001) manages Project Delta.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:022",
+      "subject": "person:lee-south",
+      "predicate": "WORKS_FOR",
+      "object": "org:tidal",
+      "source_document_id": "doc:09",
+      "source_chunk_id": "chunk:09",
+      "quote": "Lee Chen (Tidal employee 001) works for Tidal Lantern.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:023",
+      "subject": "project:delta",
+      "predicate": "BELONGS_TO",
+      "object": "org:tidal",
+      "source_document_id": "doc:09",
+      "source_chunk_id": "chunk:09",
+      "quote": "Project Delta belongs to Tidal Lantern.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:024",
+      "subject": "project:delta",
+      "predicate": "USES",
+      "object": "tech:kafka",
+      "source_document_id": "doc:10",
+      "source_chunk_id": "chunk:10",
+      "quote": "Project Delta uses its Kafka instance.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:025",
+      "subject": "tech:kafka",
+      "predicate": "HOSTED_ON",
+      "object": "platform:aws",
+      "source_document_id": "doc:10",
+      "source_chunk_id": "chunk:10",
+      "quote": "The Kafka instance for Project Delta is hosted on AWS.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:026",
+      "subject": "person:noor",
+      "predicate": "MANAGES",
+      "object": "project:echo",
+      "source_document_id": "doc:11",
+      "source_chunk_id": "chunk:11",
+      "quote": "Noor manages Project Echo.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:027",
+      "subject": "person:noor",
+      "predicate": "WORKS_FOR",
+      "object": "org:tidal",
+      "source_document_id": "doc:11",
+      "source_chunk_id": "chunk:11",
+      "quote": "Noor works for Tidal Lantern.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:028",
+      "subject": "project:echo",
+      "predicate": "BELONGS_TO",
+      "object": "org:tidal",
+      "source_document_id": "doc:11",
+      "source_chunk_id": "chunk:11",
+      "quote": "Project Echo belongs to Tidal Lantern.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:029",
+      "subject": "project:echo",
+      "predicate": "USES",
+      "object": "tech:duckdb",
+      "source_document_id": "doc:12",
+      "source_chunk_id": "chunk:12",
+      "quote": "Project Echo uses its DuckDB instance.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fact:030",
+      "subject": "tech:duckdb",
+      "predicate": "HOSTED_ON",
+      "object": "platform:gcp",
+      "source_document_id": "doc:12",
+      "source_chunk_id": "chunk:12",
+      "quote": "The DuckDB instance for Project Echo is hosted on GCP.",
+      "extraction_method": "manual_fixture",
+      "confidence": 1.0,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

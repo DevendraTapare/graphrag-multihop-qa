@@ -1,0 +1,15 @@
+{
+  "setup_attempt_1": {
+    "result": "DatabaseUnavailable during first migration before Bolt warmed",
+    "cause": "ServiceUnavailable: four-byte Bolt handshake exceeded three-second connection deadline",
+    "scored": false
+  },
+  "setup_attempt_2": {
+    "result": "Source-only build/provenance/index validation succeeded",
+    "added_before_freeze": "Bounded readiness probes before migration"
+  },
+  "load_driver_diagnostics": [
+    "[#D960]  _: <CONNECTION> error: Failed to read from defunct connection IPv4Address(('127.0.0.1', 27689)) (ResolvedIPv4Address(('127.0.0.1', 27689))): SocketDeadlineExceededError('read timed out')"
+  ],
+  "note": "All scored runs are retained separately; no failed scored run was replaced"
+}

@@ -1,0 +1,33 @@
+{
+  "release_files": 328,
+  "release_bytes": 24727545,
+  "file_types": {
+    ".example": 1,
+    "<none>": 4,
+    ".yml": 1,
+    ".toml": 2,
+    ".py": 143,
+    ".yaml": 1,
+    ".json": 100,
+    ".txt": 2,
+    ".md": 65,
+    ".cypher": 4,
+    ".csv": 4,
+    ".lock": 1
+  },
+  "research_secret_locations": {
+    "private_env_present": true,
+    "shareable_evidence_matches": []
+  },
+  "release_actual_research_secret_matches": [],
+  "release_actual_fresh_secret_matches": [],
+  "forbidden_artifacts": [],
+  "workstation_path_files": [],
+  "documentation_local_links": 131,
+  "documentation_fragments": 1,
+  "missing_links": [],
+  "research_preservation": {
+    "original_files": 324,
+    "changed": []
+  }
+}

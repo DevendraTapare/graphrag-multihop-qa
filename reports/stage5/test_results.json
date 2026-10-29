@@ -1,0 +1,37 @@
+{
+  "total": 412,
+  "passed": 412,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "unit": 286,
+  "integration": 126,
+  "historical_cases_preserved": 354,
+  "history": {
+    "preserved_files": 187,
+    "allowed_integration_changes": [
+      ".env.example",
+      "README.md",
+      "app/core/config.py",
+      "app/main.py",
+      "docs/PROJECT_ROADMAP.md",
+      "reports/README.md",
+      "tests/unit/test_api.py"
+    ],
+    "historical_results_unchanged": true
+  },
+  "historical_snapshot": {
+    "sha256": "449ea1c1703fcecf7a75f2445102d9de19a5b7c8624fd41985675ce154a57a63",
+    "unchanged": true,
+    "counts": {
+      "nodes": 254,
+      "edges": 622,
+      "sources": 93,
+      "runs": 110,
+      "vectors": 92
+    }
+  },
+  "aligned_snapshot_sha256": "1ae350c885144b61ecedeea545113624f3b9397e16e374dcc6fdd1e8da27e573",
+  "junit": "reports/stage5-tests.xml",
+  "runtime_freeze_valid": true
+}

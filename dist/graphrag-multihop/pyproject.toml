@@ -1,0 +1,30 @@
+[project]
+name = "graphrag-multihop"
+version = "0.1.0"
+description = "Evidence-backed GraphRAG foundation for multi-hop question answering"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "pydantic>=2.10,<3",
+  "pydantic-settings>=2.7,<3",
+  "neo4j>=6,<7",
+  "sentence-transformers>=5.7,<6",
+  "transformers>=5.17,<6",
+  "psutil>=6,<8",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10", "httpx>=0.28,<1", "ruff>=0.11,<1", "defusedxml>=0.7.1,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["integration: requires explicit --run-integration and a real Neo4j database"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

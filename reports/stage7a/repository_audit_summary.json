@@ -1,0 +1,104 @@
+{
+  "research_file_count": 324,
+  "research_file_bytes": 55020369,
+  "largest_original_files": [
+    {
+      "file": "reports/stage6/challenge_run1.json",
+      "bytes": 6413138
+    },
+    {
+      "file": "reports/stage6/challenge_run2.json",
+      "bytes": 6413103
+    },
+    {
+      "file": "reports/stage6/challenge_results.json",
+      "bytes": 6412805
+    },
+    {
+      "file": "reports/stage6/challenge_snapshot.json",
+      "bytes": 4940678
+    },
+    {
+      "file": "reports/stage6/frozen_stage5.zip",
+      "bytes": 4720476
+    },
+    {
+      "file": "reports/stage5/hybrid_no_reranking_metrics.json",
+      "bytes": 3386654
+    },
+    {
+      "file": "reports/stage5/hybrid_metrics.json",
+      "bytes": 3386601
+    },
+    {
+      "file": "reports/stage5/aligned_snapshot.json",
+      "bytes": 2306410
+    },
+    {
+      "file": "reports/stage4/graph_snapshot.json",
+      "bytes": 2123139
+    },
+    {
+      "file": "reports/stage5/hybrid_no_expansion_metrics.json",
+      "bytes": 1572091
+    },
+    {
+      "file": "reports/stage5/frozen_stage4.zip",
+      "bytes": 1504534
+    },
+    {
+      "file": "reports/stage5/graph_aligned_metrics.json",
+      "bytes": 1398807
+    },
+    {
+      "file": "reports/stage5/vector_aligned_metrics.json",
+      "bytes": 1024020
+    },
+    {
+      "file": "reports/stage3/baseline_metrics.json",
+      "bytes": 892652
+    },
+    {
+      "file": "reports/stage6/query_plans.json",
+      "bytes": 755822
+    },
+    {
+      "file": "reports/stage6/load_results.json",
+      "bytes": 614014
+    },
+    {
+      "file": "reports/stage6/identity_audit.json",
+      "bytes": 469685
+    },
+    {
+      "file": "reports/stage4/frozen_stage3.zip",
+      "bytes": 422337
+    },
+    {
+      "file": "reports/stage6/build_manifest.json",
+      "bytes": 368131
+    },
+    {
+      "file": "reports/stage6/recovery_attempt.json",
+      "bytes": 354581
+    }
+  ],
+  "private_or_generated_locations_excluded": [
+    ".env",
+    ".venv",
+    ".pytest_cache",
+    ".ruff_cache",
+    "__pycache__",
+    "private logs and XML",
+    "Docker named volumes",
+    "external Hugging Face model cache"
+  ],
+  "repository_has_git_metadata": false,
+  "license_files": [],
+  "source_manifest_and_lock_present": true,
+  "datasets": "Controlled fictional fixtures, including all Stage 6 sources and offline labels; no external customer corpus",
+  "research": {
+    "original_files": 324,
+    "changed": []
+  }
+}

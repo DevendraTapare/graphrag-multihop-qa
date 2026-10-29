@@ -1,0 +1,81 @@
+{
+  "source": "https://api.github.com/advisories/GHSA-fgcw-684q-jj6r",
+  "retrieved": "2026-10-29",
+  "data": {
+    "ghsa_id": "GHSA-fgcw-684q-jj6r",
+    "cve_id": "CVE-2026-5241",
+    "url": "https://api.github.com/advisories/GHSA-fgcw-684q-jj6r",
+    "html_url": "https://github.com/advisories/GHSA-fgcw-684q-jj6r",
+    "summary": "huggingface/transformers: Arbitrary Code Execution During Model Initialization in the LightGlue Model Loading Path",
+    "description": "A vulnerability in the LightGlue model loading path of huggingface/transformers version 5.2.0 allows an attacker-controlled model repository to execute arbitrary code during model initialization. The issue arises because the `trust_remote_code` parameter, intended to prevent remote code execution, is overridden by untrusted serialized configuration data in a nested code path. Specifically, when loading a LightGlue model using `AutoModel.from_pretrained()` with `trust_remote_code=False`, the `LightGlueConfig` reads the `trust_remote_code` value from the untrusted `config.json` file and propagates it into nested `AutoConfig.from_pretrained()` calls. This results in the execution of attacker-provided Python modules, even when the victim explicitly disables remote code execution. The vulnerability poses a high risk for environments such as API inference servers, research notebooks, CI/CD pipelines, and model evaluation workers, potentially leading to credential theft, lateral movement, or persistence/backdoor deployment.",
+    "type": "reviewed",
+    "severity": "high",
+    "repository_advisory_url": null,
+    "source_code_location": "https://github.com/huggingface/transformers",
+    "identifiers": [
+      {
+        "value": "GHSA-fgcw-684q-jj6r",
+        "type": "GHSA"
+      },
+      {
+        "value": "CVE-2026-5241",
+        "type": "CVE"
+      }
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-5241",
+      "https://github.com/huggingface/transformers/commit/676559d5022b74aaa0cee1cee0842b7f27c5320e",
+      "https://huntr.com/bounties/ceb3ce1a-4c45-497a-b25e-cb9a7685e619",
+      "https://access.redhat.com/security/cve/CVE-2026-5241",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2484384",
+      "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-5241.json",
+      "https://access.redhat.com/errata/RHSA-2026:34456",
+      "https://access.redhat.com/errata/RHSA-2026:37275",
+      "https://github.com/pypa/advisory-database/tree/main/vulns/transformers/PYSEC-2026-2290.yaml",
+      "https://access.redhat.com/errata/RHSA-2026:42644",
+      "https://github.com/advisories/GHSA-fgcw-684q-jj6r"
+    ],
+    "published_at": "2026-06-03T15:30:43Z",
+    "updated_at": "2026-07-21T12:33:27Z",
+    "github_reviewed_at": "2026-07-13T17:25:18Z",
+    "nvd_published_at": "2026-06-03T14:16:46Z",
+    "withdrawn_at": null,
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "pip",
+          "name": "transformers"
+        },
+        "vulnerable_version_range": "< 5.5.0",
+        "first_patched_version": "5.5.0",
+        "vulnerable_functions": []
+      }
+    ],
+    "cvss_severities": {
+      "cvss_v3": {
+        "vector_string": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+        "score": 8.0
+      },
+      "cvss_v4": {
+        "vector_string": null,
+        "score": 0.0
+      }
+    },
+    "cwes": [
+      {
+        "cwe_id": "CWE-829",
+        "name": "Inclusion of Functionality from Untrusted Control Sphere"
+      }
+    ],
+    "credits": [],
+    "comments": 0,
+    "cvss": {
+      "vector_string": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "score": 8.0
+    },
+    "epss": {
+      "percentage": 0.00597,
+      "percentile": 0.48218
+    }
+  }
+}

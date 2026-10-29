@@ -1,0 +1,19 @@
+{
+  "kind": "demo",
+  "source_documents": 12,
+  "accepted_facts": 30,
+  "index": {
+    "build_id": "vector-build:8907fec189e6ad6beee1e2cdf879576dc4e1109e",
+    "documents": 12,
+    "chunks": 12,
+    "status": "ready",
+    "cached": false,
+    "indexing_ms": 43201.35579997441
+  },
+  "repeat_index_cached": true,
+  "provenance": {
+    "facts_checked": 30,
+    "failures": 0
+  },
+  "source_only": true
+}

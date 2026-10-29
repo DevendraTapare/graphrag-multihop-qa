@@ -1,0 +1,20 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<?, ?it/s]
+{
+  "kind": "smoke",
+  "source_documents": 27,
+  "accepted_facts": 33,
+  "index": {
+    "build_id": "vector-build:b92e1e609eb493deed7b2eae0a5f031f86d1e1d0",
+    "documents": 27,
+    "chunks": 27,
+    "status": "ready",
+    "cached": false,
+    "indexing_ms": 22792.46240001521
+  },
+  "repeat_index_cached": true,
+  "provenance": {
+    "facts_checked": 33,
+    "failures": 0
+  },
+  "source_only": true
+}

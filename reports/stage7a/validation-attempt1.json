@@ -1,0 +1,14 @@
+{
+  "steps": [
+    {
+      "step": "fresh-environment",
+      "exit_code": 4294967295,
+      "seconds": 447.4690000000119
+    }
+  ],
+  "research_files": {
+    "original_files": 324,
+    "changed": []
+  },
+  "environment": "New virtual environment and new dedicated Neo4j volume; existing cached image/model/packages reused"
+}

@@ -1,0 +1,595 @@
+id,mode,split,hops,answerable,expected_answer,exact_match,construction_complete,required_evidence_coverage,complete_chain,validated_graph_chain,citation_count,correct_citations,unsupported_answer,abstained,failure_cause,wall_ms
+s6-00-0,vector_only,document_held_out,1,True,VesperAF,False,True,0.0,False,,0,0,False,True,unsupported_grammar,110.99479999393225
+s6-00-1,vector_only,document_held_out,1,True,MarinerAF Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,107.96449999907054
+s6-00-2,vector_only,document_held_out,1,True,LucentDBAF,False,True,0.0,False,,0,0,False,True,unsupported_grammar,113.76600002404302
+s6-00-3,vector_only,document_held_out,2,True,LucentDBAF,False,True,0.5,False,,0,0,False,True,unsupported_grammar,118.51420000311919
+s6-00-4,vector_only,document_held_out,2,True,MarinerAF Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,329.56840001861565
+s6-00-5,vector_only,document_held_out,3,True,CumulusAF,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,220.70129998610355
+s6-00-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,177.27739998372272
+s6-00-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,159.1556000057608
+s6-00-8,vector_only,document_held_out,1,True,ShardDBAF,False,True,1.0,True,,0,0,False,True,unsupported_grammar,182.98699997831136
+s6-01-0,vector_only,document_held_out,1,True,VesperBX,False,True,1.0,True,,0,0,False,True,unsupported_grammar,110.56140001164749
+s6-01-1,vector_only,document_held_out,1,True,MarinerBX Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,89.29050000733696
+s6-01-2,vector_only,document_held_out,1,True,LucentDBBX,False,True,0.0,False,,0,0,False,True,unsupported_grammar,102.47810001601465
+s6-01-3,vector_only,document_held_out,2,True,LucentDBBX,False,True,0.5,False,,0,0,False,True,unsupported_grammar,96.79670000332408
+s6-01-4,vector_only,document_held_out,2,True,MarinerBX Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,94.52119999332353
+s6-01-5,vector_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,99.38520001014695
+s6-01-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,98.3286999980919
+s6-01-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,126.01670000003651
+s6-01-8,vector_only,document_held_out,1,True,ShardDBBX,False,True,1.0,True,,0,0,False,True,unsupported_grammar,129.60849999217317
+s6-02-0,vector_only,document_held_out,1,True,VesperCH; VesperCH Annex,False,True,1.0,True,,0,0,False,True,unsupported_grammar,90.13340002275072
+s6-02-1,vector_only,document_held_out,1,True,MarinerCH Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,105.40040000341833
+s6-02-2,vector_only,document_held_out,1,True,LucentDBCH,False,True,0.0,False,,0,0,False,True,unsupported_grammar,93.4823999996297
+s6-02-3,vector_only,document_held_out,2,True,GlintDBCH; LucentDBCH,False,True,0.5,False,,0,0,False,True,unsupported_grammar,252.91770001058467
+s6-02-4,vector_only,document_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,113.74220001744106
+s6-02-5,vector_only,document_held_out,3,True,CumulusCH,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,130.93339998158626
+s6-02-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,117.07330000353977
+s6-02-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,474.99400001834147
+s6-02-8,vector_only,document_held_out,1,True,ShardDBCH,False,True,1.0,True,,0,0,False,True,unsupported_grammar,169.54930001520552
+s6-03-0,vector_only,document_held_out,1,True,VesperDJ,False,True,1.0,True,,0,0,False,True,unsupported_grammar,175.3612000029534
+s6-03-1,vector_only,document_held_out,1,True,MarinerDJ Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,111.74069999833591
+s6-03-2,vector_only,document_held_out,1,True,LucentDBDJ,False,True,0.0,False,,0,0,False,True,unsupported_grammar,95.97649998613633
+s6-03-3,vector_only,document_held_out,2,True,LucentDBDJ,False,True,0.5,False,,0,0,False,True,unsupported_grammar,244.10800001351163
+s6-03-4,vector_only,document_held_out,2,True,MarinerDJ Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,230.23200000170618
+s6-03-5,vector_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,236.79749999428168
+s6-03-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,107.83040002570488
+s6-03-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,88.21630000602454
+s6-03-8,vector_only,document_held_out,1,True,ShardDBDJ,False,True,1.0,True,,0,0,False,True,unsupported_grammar,96.85990001889877
+s6-04-0,vector_only,document_held_out,1,True,VesperEU,False,False,1.0,True,,0,0,False,True,unsupported_grammar,95.99790000356734
+s6-04-1,vector_only,document_held_out,1,True,MarinerEU Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,99.2176000145264
+s6-04-2,vector_only,document_held_out,1,True,LucentDBEU,False,False,0.0,False,,0,0,False,True,unsupported_grammar,87.17980000074022
+s6-04-3,vector_only,document_held_out,2,True,LucentDBEU,False,False,0.5,False,,0,0,False,True,unsupported_grammar,93.29920000163838
+s6-04-4,vector_only,document_held_out,2,True,MarinerEU Cooperative,False,False,0.5,False,,0,0,False,True,unsupported_grammar,103.88939999393187
+s6-04-5,vector_only,document_held_out,3,True,CumulusEU,False,False,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,106.21779999928549
+s6-04-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,95.80899999127723
+s6-04-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,88.22229999350384
+s6-04-8,vector_only,document_held_out,1,True,ShardDBEU,False,True,1.0,True,,0,0,False,True,unsupported_grammar,96.79219999816269
+s6-05-0,vector_only,document_held_out,1,True,VesperFS,False,True,0.0,False,,0,0,False,True,unsupported_grammar,94.02650000993162
+s6-05-1,vector_only,document_held_out,1,True,MarinerFS Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,118.79619999672286
+s6-05-2,vector_only,document_held_out,1,True,LucentDBFS,False,True,0.0,False,,0,0,False,True,unsupported_grammar,101.15060000680387
+s6-05-3,vector_only,document_held_out,2,True,LucentDBFS,False,True,0.0,False,,0,0,False,True,unsupported_grammar,95.83320000092499
+s6-05-4,vector_only,document_held_out,2,True,MarinerFS Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,96.48949999245815
+s6-05-5,vector_only,document_held_out,3,True,CumulusFS,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,134.39110000035726
+s6-05-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,92.3694999946747
+s6-05-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,87.03130000503734
+s6-05-8,vector_only,document_held_out,1,True,ShardDBFS,False,True,1.0,True,,0,0,False,True,unsupported_grammar,224.79939999175258
+s6-06-0,vector_only,document_held_out,1,True,VesperGD,False,True,1.0,True,,0,0,False,True,unsupported_grammar,154.23360001295805
+s6-06-1,vector_only,document_held_out,1,True,MarinerGD Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,125.86679999367334
+s6-06-2,vector_only,document_held_out,1,True,LucentDBGD,False,True,0.0,False,,0,0,False,True,unsupported_grammar,89.20869999565184
+s6-06-3,vector_only,document_held_out,2,True,LucentDBGD,False,True,0.5,False,,0,0,False,True,unsupported_grammar,99.0557000041008
+s6-06-4,vector_only,document_held_out,2,True,MarinerGD Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,164.87410000991076
+s6-06-5,vector_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,103.24039999977686
+s6-06-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,92.273699992802
+s6-06-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,102.59570000926033
+s6-06-8,vector_only,document_held_out,1,True,ShardDBGD,False,True,1.0,True,,0,0,False,True,unsupported_grammar,115.15430000144988
+s6-07-0,vector_only,document_held_out,1,True,VesperHR; VesperHR Annex,False,True,1.0,True,,0,0,False,True,unsupported_grammar,88.01919998950325
+s6-07-1,vector_only,document_held_out,1,True,MarinerHR Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,258.34489997942
+s6-07-2,vector_only,document_held_out,1,True,LucentDBHR,False,True,0.0,False,,0,0,False,True,unsupported_grammar,155.15920001780614
+s6-07-3,vector_only,document_held_out,2,True,GlintDBHR; LucentDBHR,False,True,0.5,False,,0,0,False,True,unsupported_grammar,111.72800001804717
+s6-07-4,vector_only,document_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,194.6845999918878
+s6-07-5,vector_only,document_held_out,3,True,CumulusHR,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,114.07889999100007
+s6-07-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,105.00080001656897
+s6-07-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,241.03659999673255
+s6-07-8,vector_only,document_held_out,1,True,ShardDBHR,False,True,1.0,True,,0,0,False,True,unsupported_grammar,111.97810000157915
+s6-08-0,vector_only,document_held_out,1,True,VesperIX,False,True,1.0,True,,0,0,False,True,unsupported_grammar,106.97510000318289
+s6-08-1,vector_only,document_held_out,1,True,MarinerIX Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,94.69100000569597
+s6-08-2,vector_only,document_held_out,1,True,LucentDBIX,False,True,0.0,False,,0,0,False,True,unsupported_grammar,105.92690002522431
+s6-08-3,vector_only,document_held_out,2,True,LucentDBIX,False,True,0.5,False,,0,0,False,True,unsupported_grammar,102.08850001799874
+s6-08-4,vector_only,document_held_out,2,True,MarinerIX Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,115.67400000058115
+s6-08-5,vector_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,185.00830000266433
+s6-08-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,131.58740001381375
+s6-08-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,117.59940002229996
+s6-08-8,vector_only,document_held_out,1,True,ShardDBIX,False,True,1.0,True,,0,0,False,True,unsupported_grammar,87.16149997781031
+s6-09-0,vector_only,document_held_out,1,True,VesperJP,False,False,1.0,True,,0,0,False,True,unsupported_grammar,172.70019999705255
+s6-09-1,vector_only,document_held_out,1,True,MarinerJP Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,101.51460001361556
+s6-09-2,vector_only,document_held_out,1,True,LucentDBJP,False,False,0.0,False,,0,0,False,True,unsupported_grammar,97.36270000576042
+s6-09-3,vector_only,document_held_out,2,True,LucentDBJP,False,False,0.5,False,,0,0,False,True,unsupported_grammar,118.44310001470149
+s6-09-4,vector_only,document_held_out,2,True,MarinerJP Cooperative,False,False,0.5,False,,0,0,False,True,unsupported_grammar,108.1211999990046
+s6-09-5,vector_only,document_held_out,3,True,CumulusJP,False,False,0.0,False,,0,0,False,True,unsupported_grammar,110.26570000103675
+s6-09-6,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,155.6181999912951
+s6-09-7,vector_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,163.9636000036262
+s6-09-8,vector_only,document_held_out,1,True,ShardDBJP,False,True,1.0,True,,0,0,False,True,unsupported_grammar,116.23149999650195
+s6-10-0,vector_only,template_held_out,1,True,VesperKL,False,True,0.0,False,,0,0,False,True,unsupported_grammar,93.95740000763908
+s6-10-1,vector_only,template_held_out,1,True,MarinerKL Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,88.49649998592213
+s6-10-2,vector_only,template_held_out,1,True,LucentDBKL,False,True,1.0,True,,0,0,False,True,unsupported_grammar,110.26159999892116
+s6-10-3,vector_only,template_held_out,2,True,LucentDBKL,False,True,0.5,False,,0,0,False,True,unsupported_grammar,92.2015999967698
+s6-10-4,vector_only,template_held_out,2,True,MarinerKL Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,119.8154000157956
+s6-10-5,vector_only,template_held_out,3,True,CumulusKL,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,146.21150001767091
+s6-10-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,96.7720000189729
+s6-10-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,99.12850000546314
+s6-10-8,vector_only,template_held_out,1,True,ShardDBKL,False,True,1.0,True,,0,0,False,True,unsupported_grammar,92.54599999985658
+s6-11-0,vector_only,template_held_out,1,True,VesperLF,False,True,0.0,False,,0,0,False,True,unsupported_grammar,103.54130002087913
+s6-11-1,vector_only,template_held_out,1,True,MarinerLF Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,95.84419999737293
+s6-11-2,vector_only,template_held_out,1,True,LucentDBLF,False,True,0.0,False,,0,0,False,True,unsupported_grammar,92.23030001157895
+s6-11-3,vector_only,template_held_out,2,True,LucentDBLF,False,True,0.5,False,,0,0,False,True,unsupported_grammar,97.52710000611842
+s6-11-4,vector_only,template_held_out,2,True,MarinerLF Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,153.30000000540167
+s6-11-5,vector_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,94.90710002137348
+s6-11-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,103.82239997852594
+s6-11-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,92.34620002098382
+s6-11-8,vector_only,template_held_out,1,True,ShardDBLF,False,True,1.0,True,,0,0,False,True,unsupported_grammar,261.08260001637973
+s6-12-0,vector_only,template_held_out,1,True,VesperMZ; VesperMZ Annex,False,True,0.5,False,,0,0,False,True,unsupported_grammar,205.25860000634566
+s6-12-1,vector_only,template_held_out,1,True,MarinerMZ Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,108.65389998070896
+s6-12-2,vector_only,template_held_out,1,True,LucentDBMZ,False,True,1.0,True,,0,0,False,True,unsupported_grammar,96.54319999390282
+s6-12-3,vector_only,template_held_out,2,True,GlintDBMZ; LucentDBMZ,False,True,0.25,False,,0,0,False,True,unsupported_grammar,196.0397000075318
+s6-12-4,vector_only,template_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,193.09570000041276
+s6-12-5,vector_only,template_held_out,3,True,CumulusMZ,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,144.26249999087304
+s6-12-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,95.93789998325519
+s6-12-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,94.2706000059843
+s6-12-8,vector_only,template_held_out,1,True,ShardDBMZ,False,True,1.0,True,,0,0,False,True,unsupported_grammar,109.42719999002293
+s6-13-0,vector_only,template_held_out,1,True,VesperNC,False,True,0.0,False,,0,0,False,True,unsupported_grammar,107.5575000140816
+s6-13-1,vector_only,template_held_out,1,True,MarinerNC Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,105.91700000804849
+s6-13-2,vector_only,template_held_out,1,True,LucentDBNC,False,True,1.0,True,,0,0,False,True,unsupported_grammar,109.49649999383837
+s6-13-3,vector_only,template_held_out,2,True,LucentDBNC,False,True,0.5,False,,0,0,False,True,unsupported_grammar,105.07789999246597
+s6-13-4,vector_only,template_held_out,2,True,MarinerNC Cooperative,False,True,0.0,False,,0,0,False,True,unsupported_grammar,94.25300001748838
+s6-13-5,vector_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,104.13039999548346
+s6-13-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,96.17929998785257
+s6-13-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,152.5670999835711
+s6-13-8,vector_only,template_held_out,1,True,ShardDBNC,False,True,1.0,True,,0,0,False,True,unsupported_grammar,197.8501999983564
+s6-14-0,vector_only,template_held_out,1,True,VesperOR,False,False,1.0,True,,0,0,False,True,unsupported_grammar,133.12710000900552
+s6-14-1,vector_only,template_held_out,1,True,MarinerOR Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,98.63719998975284
+s6-14-2,vector_only,template_held_out,1,True,LucentDBOR,False,False,1.0,True,,0,0,False,True,unsupported_grammar,102.35249999095686
+s6-14-3,vector_only,template_held_out,2,True,LucentDBOR,False,False,0.0,False,,0,0,False,True,unsupported_grammar,99.0235999925062
+s6-14-4,vector_only,template_held_out,2,True,MarinerOR Cooperative,False,False,0.5,False,,0,0,False,True,unsupported_grammar,101.68819999671541
+s6-14-5,vector_only,template_held_out,3,True,CumulusOR,False,False,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,139.37609997810796
+s6-14-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,101.271599996835
+s6-14-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,97.15870002401061
+s6-14-8,vector_only,template_held_out,1,True,ShardDBOR,False,True,1.0,True,,0,0,False,True,unsupported_grammar,100.10229999898002
+s6-15-0,vector_only,template_held_out,1,True,VesperPM,False,True,0.0,False,,0,0,False,True,unsupported_grammar,206.20260000578128
+s6-15-1,vector_only,template_held_out,1,True,MarinerPM Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,101.65359999518842
+s6-15-2,vector_only,template_held_out,1,True,LucentDBPM,False,True,1.0,True,,0,0,False,True,unsupported_grammar,103.78199999104254
+s6-15-3,vector_only,template_held_out,2,True,LucentDBPM,False,True,0.5,False,,0,0,False,True,unsupported_grammar,95.30960000120103
+s6-15-4,vector_only,template_held_out,2,True,MarinerPM Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,95.0375999964308
+s6-15-5,vector_only,template_held_out,3,True,CumulusPM,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,116.91199999768287
+s6-15-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,120.05579998367466
+s6-15-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,155.01610000501387
+s6-15-8,vector_only,template_held_out,1,True,ShardDBPM,False,True,1.0,True,,0,0,False,True,unsupported_grammar,177.2730000084266
+s6-16-0,vector_only,template_held_out,1,True,VesperQA,False,True,0.0,False,,0,0,False,True,unsupported_grammar,196.95940002566203
+s6-16-1,vector_only,template_held_out,1,True,MarinerQA Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,178.3078000007663
+s6-16-2,vector_only,template_held_out,1,True,LucentDBQA,False,True,1.0,True,,0,0,False,True,unsupported_grammar,157.56490000057966
+s6-16-3,vector_only,template_held_out,2,True,LucentDBQA,False,True,0.5,False,,0,0,False,True,unsupported_grammar,109.98310000286438
+s6-16-4,vector_only,template_held_out,2,True,MarinerQA Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,110.12629998731427
+s6-16-5,vector_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,128.73639998724684
+s6-16-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,104.19189999811351
+s6-16-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,132.87489998037927
+s6-16-8,vector_only,template_held_out,1,True,ShardDBQA,False,True,1.0,True,,0,0,False,True,unsupported_grammar,116.53910001041368
+s6-17-0,vector_only,template_held_out,1,True,VesperRU; VesperRU Annex,False,True,0.5,False,,0,0,False,True,unsupported_grammar,99.98590001487173
+s6-17-1,vector_only,template_held_out,1,True,MarinerRU Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,113.95650001941249
+s6-17-2,vector_only,template_held_out,1,True,LucentDBRU,False,True,1.0,True,,0,0,False,True,unsupported_grammar,97.80339998542331
+s6-17-3,vector_only,template_held_out,2,True,GlintDBRU; LucentDBRU,False,True,0.25,False,,0,0,False,True,unsupported_grammar,95.7936999911908
+s6-17-4,vector_only,template_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,140.87450000806712
+s6-17-5,vector_only,template_held_out,3,True,CumulusRU,False,True,0.16666666666666666,False,,0,0,False,True,unsupported_grammar,94.59439999773167
+s6-17-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,159.43269999115728
+s6-17-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,166.78939998382702
+s6-17-8,vector_only,template_held_out,1,True,ShardDBRU,False,True,1.0,True,,0,0,False,True,unsupported_grammar,96.09189999173395
+s6-18-0,vector_only,template_held_out,1,True,VesperSP,False,True,0.0,False,,0,0,False,True,unsupported_grammar,92.25190000142902
+s6-18-1,vector_only,template_held_out,1,True,MarinerSP Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,124.83429998974316
+s6-18-2,vector_only,template_held_out,1,True,LucentDBSP,False,True,0.0,False,,0,0,False,True,unsupported_grammar,103.23700000299141
+s6-18-3,vector_only,template_held_out,2,True,LucentDBSP,False,True,0.5,False,,0,0,False,True,unsupported_grammar,128.60870000440627
+s6-18-4,vector_only,template_held_out,2,True,MarinerSP Cooperative,False,True,0.0,False,,0,0,False,True,unsupported_grammar,98.48129999591038
+s6-18-5,vector_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,94.65699997963384
+s6-18-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,94.76720000384375
+s6-18-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,101.17939999327064
+s6-18-8,vector_only,template_held_out,1,True,ShardDBSP,False,True,1.0,True,,0,0,False,True,unsupported_grammar,90.92020001844503
+s6-19-0,vector_only,template_held_out,1,True,VesperTB,False,False,1.0,True,,0,0,False,True,unsupported_grammar,99.81370001332834
+s6-19-1,vector_only,template_held_out,1,True,MarinerTB Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,96.95030000875704
+s6-19-2,vector_only,template_held_out,1,True,LucentDBTB,False,False,1.0,True,,0,0,False,True,unsupported_grammar,90.41699999943376
+s6-19-3,vector_only,template_held_out,2,True,LucentDBTB,False,False,0.0,False,,0,0,False,True,unsupported_grammar,98.03499997360632
+s6-19-4,vector_only,template_held_out,2,True,MarinerTB Cooperative,False,False,0.5,False,,0,0,False,True,unsupported_grammar,105.13909999281168
+s6-19-5,vector_only,template_held_out,3,True,CumulusTB,False,False,0.6666666666666666,False,,0,0,False,True,unsupported_grammar,98.37950000655837
+s6-19-6,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,97.26030001183972
+s6-19-7,vector_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,92.28019998408854
+s6-19-8,vector_only,template_held_out,1,True,ShardDBTB,False,True,1.0,True,,0,0,False,True,unsupported_grammar,107.76380001334473
+s6-20-0,vector_only,calibration,1,True,VesperUA,False,True,1.0,True,,0,0,False,True,unsupported_grammar,754.5570000074804
+s6-20-1,vector_only,calibration,1,True,MarinerUA Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,131.0947999882046
+s6-20-2,vector_only,calibration,1,True,LucentDBUA,False,True,0.0,False,,0,0,False,True,unsupported_grammar,122.29149998165667
+s6-20-3,vector_only,calibration,2,True,LucentDBUA,False,True,0.5,False,,0,0,False,True,unsupported_grammar,143.68730000569485
+s6-20-4,vector_only,calibration,2,True,MarinerUA Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,97.21120001631789
+s6-20-5,vector_only,calibration,3,True,CumulusUA,False,True,0.3333333333333333,False,,0,0,False,True,unsupported_grammar,164.27460001432337
+s6-20-6,vector_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,167.2264000226278
+s6-20-7,vector_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,179.06579998089
+s6-20-8,vector_only,calibration,1,True,ShardDBUA,False,True,1.0,True,,0,0,False,True,unsupported_grammar,91.12950001144782
+s6-21-0,vector_only,calibration,1,True,VesperVF,False,True,1.0,True,,0,0,False,True,unsupported_grammar,285.62260000035167
+s6-21-1,vector_only,calibration,1,True,MarinerVF Cooperative,False,True,1.0,True,,0,0,False,True,unsupported_grammar,145.97320000757463
+s6-21-2,vector_only,calibration,1,True,LucentDBVF,False,True,0.0,False,,0,0,False,True,unsupported_grammar,135.27060000342317
+s6-21-3,vector_only,calibration,2,True,LucentDBVF,False,True,0.5,False,,0,0,False,True,unsupported_grammar,111.2338999810163
+s6-21-4,vector_only,calibration,2,True,MarinerVF Cooperative,False,True,0.5,False,,0,0,False,True,unsupported_grammar,102.18139999778941
+s6-21-5,vector_only,calibration,3,False,,True,,,,,0,0,False,True,correct_abstention,210.03499999642372
+s6-21-6,vector_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,138.99090001359582
+s6-21-7,vector_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,98.76310001709498
+s6-21-8,vector_only,calibration,1,True,ShardDBVF,False,True,1.0,True,,0,0,False,True,unsupported_grammar,107.20990001573227
+s6-00-0,graph_only,document_held_out,1,True,VesperAF,True,True,1.0,True,True,1,1,False,False,correct_answer,261.48569997167215
+s6-00-1,graph_only,document_held_out,1,True,MarinerAF Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,244.92280001868494
+s6-00-2,graph_only,document_held_out,1,True,LucentDBAF,True,True,1.0,True,True,1,1,False,False,correct_answer,267.5257000082638
+s6-00-3,graph_only,document_held_out,2,True,LucentDBAF,True,True,1.0,True,True,2,2,False,False,correct_answer,397.99589998438023
+s6-00-4,graph_only,document_held_out,2,True,MarinerAF Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,756.0847999993712
+s6-00-5,graph_only,document_held_out,3,True,CumulusAF,True,True,1.0,True,True,3,3,False,False,correct_answer,508.97510000504553
+s6-00-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.1689000055193901
+s6-00-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.12499999138526618
+s6-00-8,graph_only,document_held_out,1,True,ShardDBAF,True,True,1.0,True,True,1,1,False,False,correct_answer,375.4971000016667
+s6-01-0,graph_only,document_held_out,1,True,VesperBX,True,True,1.0,True,True,1,1,False,False,correct_answer,358.1978000001982
+s6-01-1,graph_only,document_held_out,1,True,MarinerBX Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,4822.073899995303
+s6-01-2,graph_only,document_held_out,1,True,LucentDBBX,True,True,1.0,True,True,1,1,False,False,correct_answer,1178.9596999878995
+s6-01-3,graph_only,document_held_out,2,True,LucentDBBX,True,True,1.0,True,True,2,2,False,False,correct_answer,541.8850000132807
+s6-01-4,graph_only,document_held_out,2,True,MarinerBX Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,408.7007999769412
+s6-01-5,graph_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,327.2809999762103
+s6-01-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.3076000139117241
+s6-01-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.11599998106248677
+s6-01-8,graph_only,document_held_out,1,True,ShardDBBX,True,True,1.0,True,True,1,1,False,False,correct_answer,307.9299000091851
+s6-02-0,graph_only,document_held_out,1,True,VesperCH; VesperCH Annex,True,True,1.0,True,True,2,2,False,False,correct_answer,258.97059999988414
+s6-02-1,graph_only,document_held_out,1,True,MarinerCH Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,267.563200002769
+s6-02-2,graph_only,document_held_out,1,True,LucentDBCH,True,True,1.0,True,True,1,1,False,False,correct_answer,283.15659999498166
+s6-02-3,graph_only,document_held_out,2,True,GlintDBCH; LucentDBCH,True,True,1.0,True,True,4,4,False,False,correct_answer,335.4260000050999
+s6-02-4,graph_only,document_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,264.4010999938473
+s6-02-5,graph_only,document_held_out,3,True,CumulusCH,True,True,1.0,True,True,6,6,False,False,correct_answer,432.24650001502596
+s6-02-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.17630000365898013
+s6-02-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.10950001887977123
+s6-02-8,graph_only,document_held_out,1,True,ShardDBCH,True,True,1.0,True,True,1,1,False,False,correct_answer,2118.91900000046
+s6-03-0,graph_only,document_held_out,1,True,VesperDJ,True,True,1.0,True,True,1,1,False,False,correct_answer,488.92479998175986
+s6-03-1,graph_only,document_held_out,1,True,MarinerDJ Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,313.7402000138536
+s6-03-2,graph_only,document_held_out,1,True,LucentDBDJ,True,True,1.0,True,True,1,1,False,False,correct_answer,221.36730002239347
+s6-03-3,graph_only,document_held_out,2,True,LucentDBDJ,True,True,1.0,True,True,2,2,False,False,correct_answer,293.0277000123169
+s6-03-4,graph_only,document_held_out,2,True,MarinerDJ Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,252.9361999768298
+s6-03-5,graph_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,280.012600007467
+s6-03-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.1660000125411898
+s6-03-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.12320000678300858
+s6-03-8,graph_only,document_held_out,1,True,ShardDBDJ,True,True,1.0,True,True,1,1,False,False,correct_answer,240.58939999667928
+s6-04-0,graph_only,document_held_out,1,True,VesperEU,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,126.86339998617768
+s6-04-1,graph_only,document_held_out,1,True,MarinerEU Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,368.7514000048395
+s6-04-2,graph_only,document_held_out,1,True,LucentDBEU,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,199.27899999311194
+s6-04-3,graph_only,document_held_out,2,True,LucentDBEU,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,122.73500001174398
+s6-04-4,graph_only,document_held_out,2,True,MarinerEU Cooperative,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,264.945600007195
+s6-04-5,graph_only,document_held_out,3,True,CumulusEU,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,111.33379998500459
+s6-04-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.37620001239702106
+s6-04-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.11550000635907054
+s6-04-8,graph_only,document_held_out,1,True,ShardDBEU,True,True,1.0,True,True,1,1,False,False,correct_answer,302.1649000002071
+s6-05-0,graph_only,document_held_out,1,True,VesperFS,True,True,1.0,True,True,1,1,False,False,correct_answer,347.57109999191016
+s6-05-1,graph_only,document_held_out,1,True,MarinerFS Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,503.8083999825176
+s6-05-2,graph_only,document_held_out,1,True,LucentDBFS,True,True,1.0,True,True,1,1,False,False,correct_answer,432.6003000023775
+s6-05-3,graph_only,document_held_out,2,True,LucentDBFS,True,True,1.0,True,True,2,2,False,False,correct_answer,279.1863000020385
+s6-05-4,graph_only,document_held_out,2,True,MarinerFS Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,289.9729000055231
+s6-05-5,graph_only,document_held_out,3,True,CumulusFS,True,True,1.0,True,True,3,3,False,False,correct_answer,310.30769998324104
+s6-05-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.16839997260831296
+s6-05-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.10999999358318746
+s6-05-8,graph_only,document_held_out,1,True,ShardDBFS,True,True,1.0,True,True,1,1,False,False,correct_answer,246.12930000876077
+s6-06-0,graph_only,document_held_out,1,True,VesperGD,True,True,1.0,True,True,1,1,False,False,correct_answer,240.57530000573024
+s6-06-1,graph_only,document_held_out,1,True,MarinerGD Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,235.68359998171218
+s6-06-2,graph_only,document_held_out,1,True,LucentDBGD,True,True,1.0,True,True,1,1,False,False,correct_answer,314.16140001965687
+s6-06-3,graph_only,document_held_out,2,True,LucentDBGD,True,True,1.0,True,True,2,2,False,False,correct_answer,474.921799992444
+s6-06-4,graph_only,document_held_out,2,True,MarinerGD Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,268.92400000360794
+s6-06-5,graph_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,675.9786000184249
+s6-06-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.1984999980777502
+s6-06-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.11180000728927553
+s6-06-8,graph_only,document_held_out,1,True,ShardDBGD,True,True,1.0,True,True,1,1,False,False,correct_answer,401.7967999971006
+s6-07-0,graph_only,document_held_out,1,True,VesperHR; VesperHR Annex,True,True,1.0,True,True,2,2,False,False,correct_answer,294.8406000214163
+s6-07-1,graph_only,document_held_out,1,True,MarinerHR Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,370.8737999841105
+s6-07-2,graph_only,document_held_out,1,True,LucentDBHR,True,True,1.0,True,True,1,1,False,False,correct_answer,274.14159997715615
+s6-07-3,graph_only,document_held_out,2,True,GlintDBHR; LucentDBHR,True,True,1.0,True,True,4,4,False,False,correct_answer,345.88939999230206
+s6-07-4,graph_only,document_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,289.55100002349354
+s6-07-5,graph_only,document_held_out,3,True,CumulusHR,True,True,1.0,True,True,6,6,False,False,correct_answer,377.23769998410717
+s6-07-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.16690001939423382
+s6-07-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.10910001583397388
+s6-07-8,graph_only,document_held_out,1,True,ShardDBHR,True,True,1.0,True,True,1,1,False,False,correct_answer,405.95329998177476
+s6-08-0,graph_only,document_held_out,1,True,VesperIX,True,True,1.0,True,True,1,1,False,False,correct_answer,467.2121000185143
+s6-08-1,graph_only,document_held_out,1,True,MarinerIX Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,358.1423999858089
+s6-08-2,graph_only,document_held_out,1,True,LucentDBIX,True,True,1.0,True,True,1,1,False,False,correct_answer,250.12330000754446
+s6-08-3,graph_only,document_held_out,2,True,LucentDBIX,True,True,1.0,True,True,2,2,False,False,correct_answer,326.4093999750912
+s6-08-4,graph_only,document_held_out,2,True,MarinerIX Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,275.33689999836497
+s6-08-5,graph_only,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,291.6858999815304
+s6-08-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.18959998851642013
+s6-08-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.11059999815188348
+s6-08-8,graph_only,document_held_out,1,True,ShardDBIX,True,True,1.0,True,True,1,1,False,False,correct_answer,468.38979999301955
+s6-09-0,graph_only,document_held_out,1,True,VesperJP,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,120.0947999896016
+s6-09-1,graph_only,document_held_out,1,True,MarinerJP Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,390.7961999939289
+s6-09-2,graph_only,document_held_out,1,True,LucentDBJP,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,319.84229999943636
+s6-09-3,graph_only,document_held_out,2,True,LucentDBJP,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,338.03009998518974
+s6-09-4,graph_only,document_held_out,2,True,MarinerJP Cooperative,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,359.6929000050295
+s6-09-5,graph_only,document_held_out,3,True,CumulusJP,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,131.42960000550374
+s6-09-6,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.16910000704228878
+s6-09-7,graph_only,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.11210000957362354
+s6-09-8,graph_only,document_held_out,1,True,ShardDBJP,True,True,1.0,True,True,1,1,False,False,correct_answer,264.5870999840554
+s6-10-0,graph_only,template_held_out,1,True,VesperKL,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.6442000158131123
+s6-10-1,graph_only,template_held_out,1,True,MarinerKL Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.08420000085607171
+s6-10-2,graph_only,template_held_out,1,True,LucentDBKL,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.07300000288523734
+s6-10-3,graph_only,template_held_out,2,True,LucentDBKL,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.07189999450929463
+s6-10-4,graph_only,template_held_out,2,True,MarinerKL Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06940000457689166
+s6-10-5,graph_only,template_held_out,3,True,CumulusKL,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06880000000819564
+s6-10-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.16920000780373812
+s6-10-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.18060000729747117
+s6-10-8,graph_only,template_held_out,1,True,ShardDBKL,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.07670000195503235
+s6-11-0,graph_only,template_held_out,1,True,VesperLF,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06649998249486089
+s6-11-1,graph_only,template_held_out,1,True,MarinerLF Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06320001557469368
+s6-11-2,graph_only,template_held_out,1,True,LucentDBLF,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06469999789260328
+s6-11-3,graph_only,template_held_out,2,True,LucentDBLF,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06510000093840063
+s6-11-4,graph_only,template_held_out,2,True,MarinerLF Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.12700000661425292
+s6-11-5,graph_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,0.07789998198859394
+s6-11-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.0672000169288367
+s6-11-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06340001709759235
+s6-11-8,graph_only,template_held_out,1,True,ShardDBLF,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06210000719875097
+s6-12-0,graph_only,template_held_out,1,True,VesperMZ; VesperMZ Annex,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06299998494796455
+s6-12-1,graph_only,template_held_out,1,True,MarinerMZ Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06150000263005495
+s6-12-2,graph_only,template_held_out,1,True,LucentDBMZ,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06370001938194036
+s6-12-3,graph_only,template_held_out,2,True,GlintDBMZ; LucentDBMZ,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06479999865405262
+s6-12-4,graph_only,template_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,0.06569997640326619
+s6-12-5,graph_only,template_held_out,3,True,CumulusMZ,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06409999332390726
+s6-12-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06630001007579267
+s6-12-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06360001862049103
+s6-12-8,graph_only,template_held_out,1,True,ShardDBMZ,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.060999998822808266
+s6-13-0,graph_only,template_held_out,1,True,VesperNC,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06210000719875097
+s6-13-1,graph_only,template_held_out,1,True,MarinerNC Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06219997885636985
+s6-13-2,graph_only,template_held_out,1,True,LucentDBNC,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06330001633614302
+s6-13-3,graph_only,template_held_out,2,True,LucentDBNC,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06500000017695129
+s6-13-4,graph_only,template_held_out,2,True,MarinerNC Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06399999256245792
+s6-13-5,graph_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,0.0653000024612993
+s6-13-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06500000017695129
+s6-13-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06280001252889633
+s6-13-8,graph_only,template_held_out,1,True,ShardDBNC,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06059999577701092
+s6-14-0,graph_only,template_held_out,1,True,VesperOR,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.06279998342506588
+s6-14-1,graph_only,template_held_out,1,True,MarinerOR Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.060699996538460255
+s6-14-2,graph_only,template_held_out,1,True,LucentDBOR,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.0638000201433897
+s6-14-3,graph_only,template_held_out,2,True,LucentDBOR,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.06459999713115394
+s6-14-4,graph_only,template_held_out,2,True,MarinerOR Cooperative,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.06309998570941389
+s6-14-5,graph_only,template_held_out,3,True,CumulusOR,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.06429999484680593
+s6-14-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06459999713115394
+s6-14-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06479999865405262
+s6-14-8,graph_only,template_held_out,1,True,ShardDBOR,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06150000263005495
+s6-15-0,graph_only,template_held_out,1,True,VesperPM,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.062499981140717864
+s6-15-1,graph_only,template_held_out,1,True,MarinerPM Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06160000339150429
+s6-15-2,graph_only,template_held_out,1,True,LucentDBPM,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06399999256245792
+s6-15-3,graph_only,template_held_out,2,True,LucentDBPM,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.2793000021483749
+s6-15-4,graph_only,template_held_out,2,True,MarinerPM Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.07270000060088933
+s6-15-5,graph_only,template_held_out,3,True,CumulusPM,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06710001616738737
+s6-15-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.0653000024612993
+s6-15-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.0633999879937619
+s6-15-8,graph_only,template_held_out,1,True,ShardDBPM,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.0610999995842576
+s6-16-0,graph_only,template_held_out,1,True,VesperQA,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.14019999071024358
+s6-16-1,graph_only,template_held_out,1,True,MarinerQA Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.10959999053739011
+s6-16-2,graph_only,template_held_out,1,True,LucentDBQA,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06699998630210757
+s6-16-3,graph_only,template_held_out,2,True,LucentDBQA,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06769999163225293
+s6-16-4,graph_only,template_held_out,2,True,MarinerQA Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06459999713115394
+s6-16-5,graph_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,0.06550000398419797
+s6-16-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06409999332390726
+s6-16-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06379999103955925
+s6-16-8,graph_only,template_held_out,1,True,ShardDBQA,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.062499981140717864
+s6-17-0,graph_only,template_held_out,1,True,VesperRU; VesperRU Annex,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06310001481324434
+s6-17-1,graph_only,template_held_out,1,True,MarinerRU Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.07380000897683203
+s6-17-2,graph_only,template_held_out,1,True,LucentDBRU,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06489999941550195
+s6-17-3,graph_only,template_held_out,2,True,GlintDBRU; LucentDBRU,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06479999865405262
+s6-17-4,graph_only,template_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,0.27180000324733555
+s6-17-5,graph_only,template_held_out,3,True,CumulusRU,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.07089998689480126
+s6-17-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06769999163225293
+s6-17-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06739998934790492
+s6-17-8,graph_only,template_held_out,1,True,ShardDBRU,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.062499981140717864
+s6-18-0,graph_only,template_held_out,1,True,VesperSP,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.062700011767447
+s6-18-1,graph_only,template_held_out,1,True,MarinerSP Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06439999560825527
+s6-18-2,graph_only,template_held_out,1,True,LucentDBSP,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06409999332390726
+s6-18-3,graph_only,template_held_out,2,True,LucentDBSP,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06580000626854599
+s6-18-4,graph_only,template_held_out,2,True,MarinerSP Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06459999713115394
+s6-18-5,graph_only,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,0.06620000931434333
+s6-18-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06620000931434333
+s6-18-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06439999560825527
+s6-18-8,graph_only,template_held_out,1,True,ShardDBSP,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06160000339150429
+s6-19-0,graph_only,template_held_out,1,True,VesperTB,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.062000006437301636
+s6-19-1,graph_only,template_held_out,1,True,MarinerTB Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.06189997657202184
+s6-19-2,graph_only,template_held_out,1,True,LucentDBTB,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.06479999865405262
+s6-19-3,graph_only,template_held_out,2,True,LucentDBTB,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.07010000990703702
+s6-19-4,graph_only,template_held_out,2,True,MarinerTB Cooperative,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.0653000024612993
+s6-19-5,graph_only,template_held_out,3,True,CumulusTB,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,0.06809999467805028
+s6-19-6,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06669998401775956
+s6-19-7,graph_only,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,0.06579997716471553
+s6-19-8,graph_only,template_held_out,1,True,ShardDBTB,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,0.1990000018849969
+s6-20-0,graph_only,calibration,1,True,VesperUA,True,True,1.0,True,True,1,1,False,False,correct_answer,396.3461999956053
+s6-20-1,graph_only,calibration,1,True,MarinerUA Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,377.57059998693876
+s6-20-2,graph_only,calibration,1,True,LucentDBUA,True,True,1.0,True,True,1,1,False,False,correct_answer,285.9865000064019
+s6-20-3,graph_only,calibration,2,True,LucentDBUA,True,True,1.0,True,True,2,2,False,False,correct_answer,297.5647000130266
+s6-20-4,graph_only,calibration,2,True,MarinerUA Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,331.9310999941081
+s6-20-5,graph_only,calibration,3,True,CumulusUA,True,True,1.0,True,True,3,3,False,False,correct_answer,304.39050000859424
+s6-20-6,graph_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,0.17389998538419604
+s6-20-7,graph_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,0.11030002497136593
+s6-20-8,graph_only,calibration,1,True,ShardDBUA,True,True,1.0,True,True,1,1,False,False,correct_answer,296.1887000128627
+s6-21-0,graph_only,calibration,1,True,VesperVF,True,True,1.0,True,True,1,1,False,False,correct_answer,246.7383999901358
+s6-21-1,graph_only,calibration,1,True,MarinerVF Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,447.3130999831483
+s6-21-2,graph_only,calibration,1,True,LucentDBVF,True,True,1.0,True,True,1,1,False,False,correct_answer,476.07970001990907
+s6-21-3,graph_only,calibration,2,True,LucentDBVF,True,True,1.0,True,True,2,2,False,False,correct_answer,325.2269999939017
+s6-21-4,graph_only,calibration,2,True,MarinerVF Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,355.0671999983024
+s6-21-5,graph_only,calibration,3,False,,True,,,,,0,0,False,True,correct_abstention,398.124800005462
+s6-21-6,graph_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,0.16500000492669642
+s6-21-7,graph_only,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,0.10750000365078449
+s6-21-8,graph_only,calibration,1,True,ShardDBVF,True,True,1.0,True,True,1,1,False,False,correct_answer,265.9566999936942
+s6-00-0,hybrid_graph_vector,document_held_out,1,True,VesperAF,True,True,1.0,True,True,1,1,False,False,correct_answer,456.65519998874515
+s6-00-1,hybrid_graph_vector,document_held_out,1,True,MarinerAF Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,398.58280000044033
+s6-00-2,hybrid_graph_vector,document_held_out,1,True,LucentDBAF,True,True,1.0,True,True,1,1,False,False,correct_answer,347.3702999763191
+s6-00-3,hybrid_graph_vector,document_held_out,2,True,LucentDBAF,True,True,1.0,True,True,2,2,False,False,correct_answer,387.1701000025496
+s6-00-4,hybrid_graph_vector,document_held_out,2,True,MarinerAF Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,352.6156000152696
+s6-00-5,hybrid_graph_vector,document_held_out,3,True,CumulusAF,True,True,1.0,True,True,3,3,False,False,correct_answer,384.603500016965
+s6-00-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,100.09039999567904
+s6-00-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,189.7770999930799
+s6-00-8,hybrid_graph_vector,document_held_out,1,True,ShardDBAF,True,True,1.0,True,True,1,1,False,False,correct_answer,465.4058000014629
+s6-01-0,hybrid_graph_vector,document_held_out,1,True,VesperBX,True,True,1.0,True,True,1,1,False,False,correct_answer,408.4512999979779
+s6-01-1,hybrid_graph_vector,document_held_out,1,True,MarinerBX Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,362.64229999505915
+s6-01-2,hybrid_graph_vector,document_held_out,1,True,LucentDBBX,True,True,1.0,True,True,1,1,False,False,correct_answer,689.3646999960765
+s6-01-3,hybrid_graph_vector,document_held_out,2,True,LucentDBBX,True,True,1.0,True,True,2,2,False,False,correct_answer,553.8667000073474
+s6-01-4,hybrid_graph_vector,document_held_out,2,True,MarinerBX Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,384.1729999985546
+s6-01-5,hybrid_graph_vector,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,496.6592000273522
+s6-01-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,95.49130001687445
+s6-01-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,103.81660002167337
+s6-01-8,hybrid_graph_vector,document_held_out,1,True,ShardDBBX,True,True,1.0,True,True,1,1,False,False,correct_answer,405.0578999740537
+s6-02-0,hybrid_graph_vector,document_held_out,1,True,VesperCH; VesperCH Annex,True,True,1.0,True,True,2,2,False,False,correct_answer,461.11700002802536
+s6-02-1,hybrid_graph_vector,document_held_out,1,True,MarinerCH Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,1219.339500006754
+s6-02-2,hybrid_graph_vector,document_held_out,1,True,LucentDBCH,True,True,1.0,True,True,1,1,False,False,correct_answer,1459.6510000119451
+s6-02-3,hybrid_graph_vector,document_held_out,2,True,GlintDBCH; LucentDBCH,True,True,1.0,True,True,4,4,False,False,correct_answer,401.76459998474456
+s6-02-4,hybrid_graph_vector,document_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,364.6129999833647
+s6-02-5,hybrid_graph_vector,document_held_out,3,True,CumulusCH,True,True,1.0,True,True,6,6,False,False,correct_answer,501.34580000303686
+s6-02-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,106.4114999899175
+s6-02-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,103.88609999790788
+s6-02-8,hybrid_graph_vector,document_held_out,1,True,ShardDBCH,True,True,1.0,True,True,1,1,False,False,correct_answer,522.2510000166949
+s6-03-0,hybrid_graph_vector,document_held_out,1,True,VesperDJ,True,True,1.0,True,True,1,1,False,False,correct_answer,401.9335000193678
+s6-03-1,hybrid_graph_vector,document_held_out,1,True,MarinerDJ Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,354.6873000159394
+s6-03-2,hybrid_graph_vector,document_held_out,1,True,LucentDBDJ,True,True,1.0,True,True,1,1,False,False,correct_answer,6931.959699984873
+s6-03-3,hybrid_graph_vector,document_held_out,2,True,LucentDBDJ,True,True,1.0,True,True,2,2,False,False,correct_answer,432.90350001188926
+s6-03-4,hybrid_graph_vector,document_held_out,2,True,MarinerDJ Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,381.35050001437776
+s6-03-5,hybrid_graph_vector,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,432.0012000098359
+s6-03-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,116.33750001783483
+s6-03-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,104.45149999577552
+s6-03-8,hybrid_graph_vector,document_held_out,1,True,ShardDBDJ,True,True,1.0,True,True,1,1,False,False,correct_answer,440.2262000076007
+s6-04-0,hybrid_graph_vector,document_held_out,1,True,VesperEU,False,False,1.0,True,False,0,0,False,True,unsupported_extraction_pattern,343.800700007705
+s6-04-1,hybrid_graph_vector,document_held_out,1,True,MarinerEU Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,383.8926999887917
+s6-04-2,hybrid_graph_vector,document_held_out,1,True,LucentDBEU,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,209.6945999946911
+s6-04-3,hybrid_graph_vector,document_held_out,2,True,LucentDBEU,False,False,0.5,False,False,0,0,False,True,unsupported_extraction_pattern,258.63279998884536
+s6-04-4,hybrid_graph_vector,document_held_out,2,True,MarinerEU Cooperative,False,False,0.5,False,False,0,0,False,True,unsupported_extraction_pattern,233.1760000088252
+s6-04-5,hybrid_graph_vector,document_held_out,3,True,CumulusEU,False,False,0.3333333333333333,False,False,0,0,False,True,unsupported_extraction_pattern,260.8747000049334
+s6-04-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,108.11250002007
+s6-04-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,540.5245000147261
+s6-04-8,hybrid_graph_vector,document_held_out,1,True,ShardDBEU,True,True,1.0,True,True,1,1,False,False,correct_answer,984.2866999970283
+s6-05-0,hybrid_graph_vector,document_held_out,1,True,VesperFS,True,True,1.0,True,True,1,1,False,False,correct_answer,336.52040001470596
+s6-05-1,hybrid_graph_vector,document_held_out,1,True,MarinerFS Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,344.56080000381917
+s6-05-2,hybrid_graph_vector,document_held_out,1,True,LucentDBFS,True,True,1.0,True,True,1,1,False,False,correct_answer,323.98539999849163
+s6-05-3,hybrid_graph_vector,document_held_out,2,True,LucentDBFS,True,True,1.0,True,True,2,2,False,False,correct_answer,493.97979999776
+s6-05-4,hybrid_graph_vector,document_held_out,2,True,MarinerFS Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,382.3800000245683
+s6-05-5,hybrid_graph_vector,document_held_out,3,True,CumulusFS,True,True,1.0,True,True,3,3,False,False,correct_answer,409.6334000059869
+s6-05-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,113.17999998573214
+s6-05-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,107.94009998789988
+s6-05-8,hybrid_graph_vector,document_held_out,1,True,ShardDBFS,True,True,1.0,True,True,1,1,False,False,correct_answer,353.05869998410344
+s6-06-0,hybrid_graph_vector,document_held_out,1,True,VesperGD,True,True,1.0,True,True,1,1,False,False,correct_answer,344.2479000077583
+s6-06-1,hybrid_graph_vector,document_held_out,1,True,MarinerGD Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,677.0317999762483
+s6-06-2,hybrid_graph_vector,document_held_out,1,True,LucentDBGD,True,True,1.0,True,True,1,1,False,False,correct_answer,402.454300026875
+s6-06-3,hybrid_graph_vector,document_held_out,2,True,LucentDBGD,True,True,1.0,True,True,2,2,False,False,correct_answer,829.7892999835312
+s6-06-4,hybrid_graph_vector,document_held_out,2,True,MarinerGD Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,399.051899992628
+s6-06-5,hybrid_graph_vector,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,629.5066000020597
+s6-06-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,121.52350001269951
+s6-06-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,130.78700000187382
+s6-06-8,hybrid_graph_vector,document_held_out,1,True,ShardDBGD,True,True,1.0,True,True,1,1,False,False,correct_answer,383.59489999129437
+s6-07-0,hybrid_graph_vector,document_held_out,1,True,VesperHR; VesperHR Annex,True,True,1.0,True,True,2,2,False,False,correct_answer,412.1386999904644
+s6-07-1,hybrid_graph_vector,document_held_out,1,True,MarinerHR Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,385.4775999789126
+s6-07-2,hybrid_graph_vector,document_held_out,1,True,LucentDBHR,True,True,1.0,True,True,1,1,False,False,correct_answer,354.0909000148531
+s6-07-3,hybrid_graph_vector,document_held_out,2,True,GlintDBHR; LucentDBHR,True,True,1.0,True,True,4,4,False,False,correct_answer,1199.6993999928236
+s6-07-4,hybrid_graph_vector,document_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,730.6591999949887
+s6-07-5,hybrid_graph_vector,document_held_out,3,True,CumulusHR,True,True,1.0,True,True,6,6,False,False,correct_answer,1763.4029000182636
+s6-07-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,90.62709999852814
+s6-07-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,97.7671000000555
+s6-07-8,hybrid_graph_vector,document_held_out,1,True,ShardDBHR,True,True,1.0,True,True,1,1,False,False,correct_answer,370.47379999421537
+s6-08-0,hybrid_graph_vector,document_held_out,1,True,VesperIX,True,True,1.0,True,True,1,1,False,False,correct_answer,340.25649999966845
+s6-08-1,hybrid_graph_vector,document_held_out,1,True,MarinerIX Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,323.66080000065267
+s6-08-2,hybrid_graph_vector,document_held_out,1,True,LucentDBIX,True,True,1.0,True,True,1,1,False,False,correct_answer,449.9789999972563
+s6-08-3,hybrid_graph_vector,document_held_out,2,True,LucentDBIX,True,True,1.0,True,True,2,2,False,False,correct_answer,602.400099975057
+s6-08-4,hybrid_graph_vector,document_held_out,2,True,MarinerIX Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,392.69809998222627
+s6-08-5,hybrid_graph_vector,document_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,642.4504999886267
+s6-08-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,466.54129997477867
+s6-08-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,124.89909998839721
+s6-08-8,hybrid_graph_vector,document_held_out,1,True,ShardDBIX,True,True,1.0,True,True,1,1,False,False,correct_answer,431.9385999988299
+s6-09-0,hybrid_graph_vector,document_held_out,1,True,VesperJP,False,False,1.0,True,False,0,0,False,True,unsupported_extraction_pattern,218.14149999408983
+s6-09-1,hybrid_graph_vector,document_held_out,1,True,MarinerJP Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,337.8421000088565
+s6-09-2,hybrid_graph_vector,document_held_out,1,True,LucentDBJP,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,319.6200000238605
+s6-09-3,hybrid_graph_vector,document_held_out,2,True,LucentDBJP,False,False,0.5,False,False,0,0,False,True,unsupported_extraction_pattern,226.78359999554232
+s6-09-4,hybrid_graph_vector,document_held_out,2,True,MarinerJP Cooperative,False,False,0.5,False,False,0,0,False,True,unsupported_extraction_pattern,206.43120000022464
+s6-09-5,hybrid_graph_vector,document_held_out,3,True,CumulusJP,False,False,0.0,False,False,0,0,False,True,unsupported_extraction_pattern,302.98959999345243
+s6-09-6,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,186.7476000043098
+s6-09-7,hybrid_graph_vector,document_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,96.26799999387003
+s6-09-8,hybrid_graph_vector,document_held_out,1,True,ShardDBJP,True,True,1.0,True,True,1,1,False,False,correct_answer,341.3222999952268
+s6-10-0,hybrid_graph_vector,template_held_out,1,True,VesperKL,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,99.19860001537018
+s6-10-1,hybrid_graph_vector,template_held_out,1,True,MarinerKL Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,107.23670001607388
+s6-10-2,hybrid_graph_vector,template_held_out,1,True,LucentDBKL,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,107.32619999907911
+s6-10-3,hybrid_graph_vector,template_held_out,2,True,LucentDBKL,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,97.42109998478554
+s6-10-4,hybrid_graph_vector,template_held_out,2,True,MarinerKL Cooperative,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,99.62179997819476
+s6-10-5,hybrid_graph_vector,template_held_out,3,True,CumulusKL,False,True,0.3333333333333333,False,False,0,0,False,True,unsupported_grammar,115.80440000398085
+s6-10-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,114.09389998880215
+s6-10-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,142.6210999779869
+s6-10-8,hybrid_graph_vector,template_held_out,1,True,ShardDBKL,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,116.22749999514781
+s6-11-0,hybrid_graph_vector,template_held_out,1,True,VesperLF,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,131.94209997891448
+s6-11-1,hybrid_graph_vector,template_held_out,1,True,MarinerLF Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,113.83329998352565
+s6-11-2,hybrid_graph_vector,template_held_out,1,True,LucentDBLF,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,107.84740000963211
+s6-11-3,hybrid_graph_vector,template_held_out,2,True,LucentDBLF,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,172.1368000144139
+s6-11-4,hybrid_graph_vector,template_held_out,2,True,MarinerLF Cooperative,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,186.74520001513883
+s6-11-5,hybrid_graph_vector,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,117.57860000943765
+s6-11-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,104.26389999338426
+s6-11-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,114.95479999575764
+s6-11-8,hybrid_graph_vector,template_held_out,1,True,ShardDBLF,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,110.94660000526346
+s6-12-0,hybrid_graph_vector,template_held_out,1,True,VesperMZ; VesperMZ Annex,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,102.10429999278858
+s6-12-1,hybrid_graph_vector,template_held_out,1,True,MarinerMZ Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,95.46739998040721
+s6-12-2,hybrid_graph_vector,template_held_out,1,True,LucentDBMZ,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,92.36300000338815
+s6-12-3,hybrid_graph_vector,template_held_out,2,True,GlintDBMZ; LucentDBMZ,False,True,0.25,False,False,0,0,False,True,unsupported_grammar,98.30589999910444
+s6-12-4,hybrid_graph_vector,template_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,100.98220000509173
+s6-12-5,hybrid_graph_vector,template_held_out,3,True,CumulusMZ,False,True,0.3333333333333333,False,False,0,0,False,True,unsupported_grammar,100.0814999861177
+s6-12-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,108.8597999769263
+s6-12-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,101.50989997782744
+s6-12-8,hybrid_graph_vector,template_held_out,1,True,ShardDBMZ,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,103.74849999789149
+s6-13-0,hybrid_graph_vector,template_held_out,1,True,VesperNC,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,106.61010001786053
+s6-13-1,hybrid_graph_vector,template_held_out,1,True,MarinerNC Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,97.26889999001287
+s6-13-2,hybrid_graph_vector,template_held_out,1,True,LucentDBNC,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,95.35720001440495
+s6-13-3,hybrid_graph_vector,template_held_out,2,True,LucentDBNC,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,96.98699999717064
+s6-13-4,hybrid_graph_vector,template_held_out,2,True,MarinerNC Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,97.06169998389669
+s6-13-5,hybrid_graph_vector,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,142.07689999602735
+s6-13-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,202.79799998388626
+s6-13-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,102.03700000420213
+s6-13-8,hybrid_graph_vector,template_held_out,1,True,ShardDBNC,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,100.82140000304207
+s6-14-0,hybrid_graph_vector,template_held_out,1,True,VesperOR,False,False,1.0,True,False,0,0,False,True,unsupported_grammar,105.05579999880865
+s6-14-1,hybrid_graph_vector,template_held_out,1,True,MarinerOR Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,96.87509998911992
+s6-14-2,hybrid_graph_vector,template_held_out,1,True,LucentDBOR,False,False,1.0,True,False,0,0,False,True,unsupported_grammar,96.66209999704733
+s6-14-3,hybrid_graph_vector,template_held_out,2,True,LucentDBOR,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,101.35370001080446
+s6-14-4,hybrid_graph_vector,template_held_out,2,True,MarinerOR Cooperative,False,False,0.5,False,False,0,0,False,True,unsupported_grammar,136.28330000210553
+s6-14-5,hybrid_graph_vector,template_held_out,3,True,CumulusOR,False,False,0.3333333333333333,False,False,0,0,False,True,unsupported_grammar,4662.789000023622
+s6-14-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,334.8618999880273
+s6-14-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,102.4411000253167
+s6-14-8,hybrid_graph_vector,template_held_out,1,True,ShardDBOR,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,136.8291999970097
+s6-15-0,hybrid_graph_vector,template_held_out,1,True,VesperPM,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,97.94420000980608
+s6-15-1,hybrid_graph_vector,template_held_out,1,True,MarinerPM Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,93.4764000121504
+s6-15-2,hybrid_graph_vector,template_held_out,1,True,LucentDBPM,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,106.44950001733378
+s6-15-3,hybrid_graph_vector,template_held_out,2,True,LucentDBPM,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,101.05220001423731
+s6-15-4,hybrid_graph_vector,template_held_out,2,True,MarinerPM Cooperative,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,120.91110000619665
+s6-15-5,hybrid_graph_vector,template_held_out,3,True,CumulusPM,False,True,0.3333333333333333,False,False,0,0,False,True,unsupported_grammar,108.27230001450516
+s6-15-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,115.90309999883175
+s6-15-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,97.91839998797514
+s6-15-8,hybrid_graph_vector,template_held_out,1,True,ShardDBPM,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,93.7551999813877
+s6-16-0,hybrid_graph_vector,template_held_out,1,True,VesperQA,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,96.2201000074856
+s6-16-1,hybrid_graph_vector,template_held_out,1,True,MarinerQA Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,95.37600001203828
+s6-16-2,hybrid_graph_vector,template_held_out,1,True,LucentDBQA,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,96.50899999542162
+s6-16-3,hybrid_graph_vector,template_held_out,2,True,LucentDBQA,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,116.29639999591745
+s6-16-4,hybrid_graph_vector,template_held_out,2,True,MarinerQA Cooperative,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,109.72789998049848
+s6-16-5,hybrid_graph_vector,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,164.2060999874957
+s6-16-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,145.30579998972826
+s6-16-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,226.61390001303516
+s6-16-8,hybrid_graph_vector,template_held_out,1,True,ShardDBQA,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,107.02530000708066
+s6-17-0,hybrid_graph_vector,template_held_out,1,True,VesperRU; VesperRU Annex,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,98.09330001007766
+s6-17-1,hybrid_graph_vector,template_held_out,1,True,MarinerRU Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,105.29880001558922
+s6-17-2,hybrid_graph_vector,template_held_out,1,True,LucentDBRU,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,95.32769999350421
+s6-17-3,hybrid_graph_vector,template_held_out,2,True,GlintDBRU; LucentDBRU,False,True,0.25,False,False,0,0,False,True,unsupported_grammar,126.52109999908134
+s6-17-4,hybrid_graph_vector,template_held_out,2,False,,True,,,,,0,0,False,True,correct_abstention,95.22170000127517
+s6-17-5,hybrid_graph_vector,template_held_out,3,True,CumulusRU,False,True,0.16666666666666666,False,False,0,0,False,True,unsupported_grammar,103.02929999306798
+s6-17-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,100.13100001378916
+s6-17-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,130.49680000403896
+s6-17-8,hybrid_graph_vector,template_held_out,1,True,ShardDBRU,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,155.44259999296628
+s6-18-0,hybrid_graph_vector,template_held_out,1,True,VesperSP,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,110.46409999835305
+s6-18-1,hybrid_graph_vector,template_held_out,1,True,MarinerSP Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,119.15690000751056
+s6-18-2,hybrid_graph_vector,template_held_out,1,True,LucentDBSP,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,112.03399999067187
+s6-18-3,hybrid_graph_vector,template_held_out,2,True,LucentDBSP,False,True,0.5,False,False,0,0,False,True,unsupported_grammar,99.15589998126961
+s6-18-4,hybrid_graph_vector,template_held_out,2,True,MarinerSP Cooperative,False,True,0.0,False,False,0,0,False,True,unsupported_grammar,116.89520001527853
+s6-18-5,hybrid_graph_vector,template_held_out,3,False,,True,,,,,0,0,False,True,correct_abstention,100.23260000161827
+s6-18-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,151.00349998101592
+s6-18-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,418.6778999865055
+s6-18-8,hybrid_graph_vector,template_held_out,1,True,ShardDBSP,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,118.51470000692643
+s6-19-0,hybrid_graph_vector,template_held_out,1,True,VesperTB,False,False,1.0,True,False,0,0,False,True,unsupported_grammar,96.84730001026765
+s6-19-1,hybrid_graph_vector,template_held_out,1,True,MarinerTB Cooperative,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,95.9222000092268
+s6-19-2,hybrid_graph_vector,template_held_out,1,True,LucentDBTB,False,False,1.0,True,False,0,0,False,True,unsupported_grammar,99.80789999826811
+s6-19-3,hybrid_graph_vector,template_held_out,2,True,LucentDBTB,False,False,0.0,False,False,0,0,False,True,unsupported_grammar,99.10920000402257
+s6-19-4,hybrid_graph_vector,template_held_out,2,True,MarinerTB Cooperative,False,False,0.5,False,False,0,0,False,True,unsupported_grammar,102.41719998884946
+s6-19-5,hybrid_graph_vector,template_held_out,3,True,CumulusTB,False,False,0.6666666666666666,False,False,0,0,False,True,unsupported_grammar,108.80090002319776
+s6-19-6,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,108.43560000648722
+s6-19-7,hybrid_graph_vector,template_held_out,0,False,,True,,,,,0,0,False,True,correct_abstention,119.60989999352023
+s6-19-8,hybrid_graph_vector,template_held_out,1,True,ShardDBTB,False,True,1.0,True,False,0,0,False,True,unsupported_grammar,102.63999999733642
+s6-20-0,hybrid_graph_vector,calibration,1,True,VesperUA,True,True,1.0,True,True,1,1,False,False,correct_answer,334.40689998678863
+s6-20-1,hybrid_graph_vector,calibration,1,True,MarinerUA Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,359.02030000579543
+s6-20-2,hybrid_graph_vector,calibration,1,True,LucentDBUA,True,True,1.0,True,True,1,1,False,False,correct_answer,468.6325999791734
+s6-20-3,hybrid_graph_vector,calibration,2,True,LucentDBUA,True,True,1.0,True,True,2,2,False,False,correct_answer,502.8918999887537
+s6-20-4,hybrid_graph_vector,calibration,2,True,MarinerUA Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,685.5254000111017
+s6-20-5,hybrid_graph_vector,calibration,3,True,CumulusUA,True,True,1.0,True,True,3,3,False,False,correct_answer,581.7029000027105
+s6-20-6,hybrid_graph_vector,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,1936.4870999997947
+s6-20-7,hybrid_graph_vector,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,1026.334099995438
+s6-20-8,hybrid_graph_vector,calibration,1,True,ShardDBUA,True,True,1.0,True,True,1,1,False,False,correct_answer,451.72670000465587
+s6-21-0,hybrid_graph_vector,calibration,1,True,VesperVF,True,True,1.0,True,True,1,1,False,False,correct_answer,488.50629999651574
+s6-21-1,hybrid_graph_vector,calibration,1,True,MarinerVF Cooperative,True,True,1.0,True,True,1,1,False,False,correct_answer,350.00969999236986
+s6-21-2,hybrid_graph_vector,calibration,1,True,LucentDBVF,True,True,1.0,True,True,1,1,False,False,correct_answer,329.770299984375
+s6-21-3,hybrid_graph_vector,calibration,2,True,LucentDBVF,True,True,1.0,True,True,2,2,False,False,correct_answer,367.4897000018973
+s6-21-4,hybrid_graph_vector,calibration,2,True,MarinerVF Cooperative,True,True,1.0,True,True,2,2,False,False,correct_answer,430.52439999883063
+s6-21-5,hybrid_graph_vector,calibration,3,False,,True,,,,,0,0,False,True,correct_abstention,399.08550001564436
+s6-21-6,hybrid_graph_vector,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,98.7641999963671
+s6-21-7,hybrid_graph_vector,calibration,0,False,,True,,,,,0,0,False,True,correct_abstention,245.21290001575835
+s6-21-8,hybrid_graph_vector,calibration,1,True,ShardDBVF,True,True,1.0,True,True,1,1,False,False,correct_answer,343.16709998529404

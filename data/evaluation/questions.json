@@ -1,0 +1,157 @@
+[
+  {
+    "id": "eval:one-hop",
+    "question": "Which project does Priya manage?",
+    "answerable": true,
+    "expected_answer": "Atlas",
+    "expected_path": [
+      "person:priya",
+      "project:atlas"
+    ],
+    "source_document_ids": [
+      "doc:01"
+    ],
+    "supporting_fact_ids": [
+      "fact:001"
+    ],
+    "reason": null
+  },
+  {
+    "id": "eval:two-hop",
+    "question": "Which database does the project managed by Priya use?",
+    "answerable": true,
+    "expected_answer": "PostgreSQL",
+    "expected_path": [
+      "person:priya",
+      "project:atlas",
+      "tech:postgres-atlas"
+    ],
+    "source_document_ids": [
+      "doc:01",
+      "doc:02"
+    ],
+    "supporting_fact_ids": [
+      "fact:001",
+      "fact:003"
+    ],
+    "reason": null
+  },
+  {
+    "id": "eval:three-hop",
+    "question": "Which cloud platform hosts the database used by the project managed by Priya?",
+    "answerable": true,
+    "expected_answer": "AWS",
+    "expected_path": [
+      "person:priya",
+      "project:atlas",
+      "tech:postgres-atlas",
+      "platform:aws"
+    ],
+    "source_document_ids": [
+      "doc:01",
+      "doc:02",
+      "doc:03"
+    ],
+    "supporting_fact_ids": [
+      "fact:001",
+      "fact:003",
+      "fact:005"
+    ],
+    "reason": null
+  },
+  {
+    "id": "eval:atlas-east",
+    "question": "Which cloud platform hosts the database used by Morgan's project?",
+    "answerable": true,
+    "expected_answer": "Azure",
+    "expected_path": [
+      "person:morgan",
+      "project:atlas-east",
+      "tech:postgres-east",
+      "platform:azure"
+    ],
+    "source_document_ids": [
+      "doc:04"
+    ],
+    "supporting_fact_ids": [
+      "fact:006",
+      "fact:009",
+      "fact:010"
+    ],
+    "reason": null
+  },
+  {
+    "id": "eval:lee-cedar",
+    "question": "Where is the database of the project managed by Cedar employee 002 Lee Chen hosted?",
+    "answerable": true,
+    "expected_answer": "Azure",
+    "expected_path": [
+      "person:lee-north",
+      "project:comet",
+      "tech:neo4j",
+      "platform:azure"
+    ],
+    "source_document_ids": [
+      "doc:07",
+      "doc:08"
+    ],
+    "supporting_fact_ids": [
+      "fact:016",
+      "fact:019",
+      "fact:020"
+    ],
+    "reason": null
+  },
+  {
+    "id": "eval:lee-tidal",
+    "question": "Where is the database of the project managed by Tidal employee 001 Lee Chen hosted?",
+    "answerable": true,
+    "expected_answer": "AWS",
+    "expected_path": [
+      "person:lee-south",
+      "project:delta",
+      "tech:kafka",
+      "platform:aws"
+    ],
+    "source_document_ids": [
+      "doc:09",
+      "doc:10"
+    ],
+    "supporting_fact_ids": [
+      "fact:021",
+      "fact:024",
+      "fact:025"
+    ],
+    "reason": null
+  },
+  {
+    "id": "eval:unknown-manager",
+    "question": "Which project does Ivo manage?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_path": [],
+    "source_document_ids": [],
+    "supporting_fact_ids": [],
+    "reason": "No management evidence for Ivo."
+  },
+  {
+    "id": "eval:unknown-region",
+    "question": "Which AWS region hosts Atlas?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_path": [],
+    "source_document_ids": [],
+    "supporting_fact_ids": [],
+    "reason": "Hosting platform is recorded; region is absent."
+  },
+  {
+    "id": "eval:ambiguous-lee",
+    "question": "Which project does Lee Chen manage?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_path": [],
+    "source_document_ids": [],
+    "supporting_fact_ids": [],
+    "reason": "Two distinct people share this name; clarification is required."
+  }
+]
